@@ -1,0 +1,507 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     19534,        497]
+NotebookOptionsPosition[     15389,        413]
+NotebookOutlinePosition[     17255,        458]
+CellTagsIndexPosition[     17212,        455]
+WindowTitle->Start Here Wolfram Challenge Functions
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ LITTLE CHILD PACLET GUIDE", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "466d0ef9-de76-4bee-9b3d-05753527260b"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "43ec39d9-56e2-4f24-9f82-bf26cf269b8b"],
+        Background->RGBColor[0.85098, 0.396078, 0],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Functions",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "cbda1e04-c38e-4304-8942-093cf03f4849"]
+         }],ExpressionUUID->"cc5d118e-4efc-4484-8b12-63ee48fa5295"],
+         StripOnInput->False],{
+        "\"ButterflyString\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/ButterflyString"], 
+         "\"FizzBuzz\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/FizzBuzz"], 
+         "\"MaxRomanLength\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/MaxRomanLength"], 
+         "\"MaxRomanNumeralValue\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/MaxRomanNumeralValue"], 
+         "\"NumberTriangle\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/NumberTriangle"], 
+         "\"OddBeforeEven\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/OddBeforeEven"], 
+         "\"PairsAddToHundred\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/PairsAddToHundred"], 
+         "\"SameStartEndWords\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/SameStartEndWords"], 
+         "\"SquareSum\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/SquareSum"], 
+         "\"ThreeFive\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/ThreeFive"], 
+         "\"ToMorseCode\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/ToMorseCode"], 
+         "\"TwoAndThreePointers\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/TwoAndThreePointers"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"GuideFunction"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "c70a26de-9e6f-456d-a48a-63833f2e8dea"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "ebe93ee6-6be5-43d2-96ea-43bb8d08c85a"]
+         }],ExpressionUUID->"a5e1d7be-009a-485e-8328-25b2672bfe35"],
+         StripOnInput->False],{
+        "\"PeterBurbery/LittleChildPaclet/guide/\
+StartHereWolframChallengeFunctions\"" :> None, 
+         "\"Copy Wolfram Documentation Center URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell["PeterBurbery/LittleChildPaclet/guide/\
+StartHereWolframChallengeFunctions"]}, Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
+         "\"Copy web URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell[BoxData[
+                 MakeBoxes[
+                  Hyperlink[
+                   "http://reference.wolfram.com/language/PeterBurbery/\
+LittleChildPaclet/guide/StartHereWolframChallengeFunctions.html"], 
+                   StandardForm]], "Input", TextClipboardType -> 
+                 "PlainText"]}, Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+         "\"Go to web URL\"" :> 
+         FrontEndExecute[{
+           NotebookLocate[{
+             URL[If[TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$74388], 
+                 "http://reference.wolfram.com/system-modeler/", 
+                 "http://reference.wolfram.com/language/"] <> 
+               "PeterBurbery/LittleChildPaclet/guide/\
+StartHereWolframChallengeFunctions" <> ".html"], None}]}]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "9df37920-462f-4cbd-a3a1-ab2321149ebd"]
+    }], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "4b46f3ce-85b7-443b-b4b4-8a137096210e"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"ec575878-dca7-499b-b5d3-5bdc6f8b3eb6"],
+
+Cell[CellGroupData[{
+
+Cell["Start Here Wolfram Challenge Functions", "GuideTitle",
+ CellID->423686262,ExpressionUUID->"3805379a-39ab-4823-8efb-8585f17a8a66"],
+
+Cell["\<\
+I looked to the Wolfram Challenge Track Start Here for ideas for functions \
+that weren't trivial but also weren't too hard either.\
+\>", "GuideAbstract",
+ CellID->365786263,ExpressionUUID->"ae7488e9-b3ff-4bb9-8591-aaabdb7c57a6"],
+
+Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"b1ed21bd-79a3-4bc3-bc12-607ca0382665"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["ButterflyString"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/ButterflyString", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"c40ac8e4-27e1-4161-a8df-4d4f38357a23",ExpressionUUID->
+  "5bc6234b-4c44-4792-97fd-984f9971b818"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Join a string with its reversal."
+}], "GuideText",
+ CellID->88231282,ExpressionUUID->"c1144d94-a18f-49e9-92cf-f100027b2e8b"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["MaxRomanLength"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/MaxRomanLength", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"c5c6736a-1ff4-4e4e-8fcf-2d9846cbae62",ExpressionUUID->
+  "9d160700-94d6-45bf-ac5f-68b966ada35b"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " A function that finds the maximum length of any Roman numeral up to n."
+}], "GuideText",
+ CellID->304536665,ExpressionUUID->"6f901539-0be3-48a8-8d14-ded13c59851b"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["NumberTriangle"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/NumberTriangle", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"4d5a999f-3a7a-4935-8f88-6bd1af70a77e",ExpressionUUID->
+  "f50b7a4c-485e-4694-9522-21e39c5a4d2b"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " A function that stacks successively longer lists of integers on top of \
+each other."
+}], "GuideText",
+ CellID->230809888,ExpressionUUID->"d7d479f8-92af-4c27-ab91-b44447567e3b"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["FizzBuzz"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/FizzBuzz", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"4d5a999f-3a7a-4935-8f88-6bd1af70a77e",ExpressionUUID->
+  "a67f2974-4666-48d9-b50a-7cf819ab8bab"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " A function that replaces multiples of 3 with \"fizz\", multiples of 5 with \
+\"buzz\", multiples of both 3 and 5 with \"fizzbuzz\" and leaves other \
+numbers fixed."
+}], "GuideText",
+ CellID->136311941,ExpressionUUID->"2dd2e547-91b7-4e61-b3b9-7f27252fd054"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["ThreeFive"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/ThreeFive", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"4d5a999f-3a7a-4935-8f88-6bd1af70a77e",ExpressionUUID->
+  "5cf89fa6-29e6-43e3-a358-a717a3f6862e"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " A function that takes a positive integer n and returns the number of \
+multiples of both 3 and 5 up to n."
+}], "GuideText",
+ CellID->171141159,ExpressionUUID->"fc7591bc-c999-452d-a1ef-14455d99c7c6"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["SameStartEndWords"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/SameStartEndWords", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"4d5a999f-3a7a-4935-8f88-6bd1af70a77e",ExpressionUUID->
+  "834d0e34-e129-4d83-8fd1-c121a7879d6a"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Finds all words that begin and end with a given letter."
+}], "GuideText",
+ CellID->458285521,ExpressionUUID->"62d090c2-fef4-45cb-b7f3-caf225e752d0"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["ToMorseCode"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/ToMorseCode", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"4d5a999f-3a7a-4935-8f88-6bd1af70a77e",ExpressionUUID->
+  "bf4b8273-96a9-4bf1-a75d-d5deb9687491"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Takes an English text and outputs the corresponding Morse code."
+}], "GuideText",
+ CellID->5908997,ExpressionUUID->"2bfb8ad1-73ce-4bb9-84bf-8baa0e6e8fa7"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["SquareSum"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/SquareSum", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"4d5a999f-3a7a-4935-8f88-6bd1af70a77e",ExpressionUUID->
+  "53a59d0a-287f-4f3f-abbf-3626a3fdf36c"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " A function that takes a positive integer n and outputs the result of \
+iteratively summing and squaring the integers from 1 to n."
+}], "GuideText",
+ CellID->12663465,ExpressionUUID->"8b3f26a3-b49e-432e-982e-ed2dc37a50e6"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["TwoAndThreePointers"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/TwoAndThreePointers", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"db2d2a87-34a0-4807-a617-64e2a1254a82",ExpressionUUID->
+  "1fd6dc8c-de35-4513-aab8-49a189952c56"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " A function that takes an integer n and outputs all the possible ways to \
+represent n as sums of 2s and 3s."
+}], "GuideText",
+ CellID->577676824,ExpressionUUID->"728b704e-0d84-42b8-b3cd-dd74f6480236"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["OddBeforeEven"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/OddBeforeEven", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"4d5a999f-3a7a-4935-8f88-6bd1af70a77e",ExpressionUUID->
+  "cdf01dc5-9cdb-440c-8b46-7bb9dd728d58"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Given a list of integers, this function rearranges them so that all of the \
+odd integers appear before all of the even integers, without otherwise \
+changing the order."
+}], "GuideText",
+ CellID->234250622,ExpressionUUID->"a6bc1edc-2b36-403e-a095-91cb76594e95"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["PairsAddToHundred"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/PairsAddToHundred", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"4d5a999f-3a7a-4935-8f88-6bd1af70a77e",ExpressionUUID->
+  "65fc21f0-5d89-4ef8-a839-a6480d6ea8c0"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Given a list of integers, find all pairs that sum to 100."
+}], "GuideText",
+ CellID->162956411,ExpressionUUID->"62ff7152-861d-40a7-adc3-43fef14dd9f3"],
+
+Cell[CellGroupData[{
+
+Cell["Extra Functions", "GuideFunctionsSubsection",
+ CellID->723918225,ExpressionUUID->"81350b82-f092-4053-82a7-f92466fda3ae"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["MaxRomanNumeralValue"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/MaxRomanNumeralValue", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"db2d2a87-34a0-4807-a617-64e2a1254a82",ExpressionUUID->
+  "0c49c333-62e5-498a-b325-84644610056f"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " gives the value that has the longest roman numeral in Range[n]"
+}], "GuideText",
+ CellID->24911182,ExpressionUUID->"48f5838f-133f-4c4a-9089-d19767326a26"],
+
+Cell["\t", "GuideDelimiter",
+ CellID->139160467,ExpressionUUID->"ec931db5-58ab-4f19-8521-8817d4d5111d"],
+
+Cell[TextData[Cell["\<\
+
+FrameBox[\"\\\"XXXX\\\"\"]\
+\>", "FunctionPlaceholder", \
+"InlineFunctionSansUnlinked",ExpressionUUID->"409b9283-a82f-4330-86b7-\
+b5e2cf50cf40"]], "InlineGuideFunctionListing",
+ CellID->58902699,ExpressionUUID->"6325c40e-4207-4c36-9faa-73c48ab4a7ed"],
+
+Cell[BoxData["Open"], "Input",ExpressionUUID->"d62df88d-042e-4abb-966f-01cbe74f36e2"]
+}, Open  ]]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900, 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Start Here Wolfram Challenge Functions",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
+  "NewStyles" -> True, "CitationPopupData" -> {$Failed, ""}, "ShowCitation" -> 
+  False, "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2023, 6, 4, 21, 25, 39.0716507}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "PeterBurbery`LittleChildPaclet`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Little Child Paclet Guide", "language" -> 
+    "en", "paclet" -> "PeterBurbery/LittleChildPaclet", "status" -> "None", 
+    "summary" -> 
+    "I looked to the Wolfram Challenge Track Start Here for ideas for \
+functions that weren't trivial but also weren't too hard either.", 
+    "synonyms" -> {}, "tabletags" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$74348, "title" -> 
+    "Start Here Wolfram Challenge Functions", "titlemodifier" -> "", 
+    "metadescription" -> "", "windowtitle" -> 
+    "Start Here Wolfram Challenge Functions", "type" -> "Guide", "uri" -> 
+    "PeterBurbery/LittleChildPaclet/guide/StartHereWolframChallengeFunctions"}\
+},
+CacheGraphics->False,
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"90b34759-e1eb-463e-a9fd-bd231bb98a90"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[610, 21, 6206, 145, 70, "AnchorBarGrid",ExpressionUUID->"ec575878-dca7-499b-b5d3-5bdc6f8b3eb6",
+ CellID->1],
+Cell[CellGroupData[{
+Cell[6841, 170, 135, 1, 70, "GuideTitle",ExpressionUUID->"3805379a-39ab-4823-8efb-8585f17a8a66",
+ CellID->423686262],
+Cell[6979, 173, 239, 4, 70, "GuideAbstract",ExpressionUUID->"ae7488e9-b3ff-4bb9-8591-aaabdb7c57a6",
+ CellID->365786263],
+Cell[7221, 179, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"b1ed21bd-79a3-4bc3-bc12-607ca0382665"],
+Cell[7317, 181, 558, 15, 70, "GuideText",ExpressionUUID->"c1144d94-a18f-49e9-92cf-f100027b2e8b",
+ CellID->88231282],
+Cell[7878, 198, 595, 15, 70, "GuideText",ExpressionUUID->"6f901539-0be3-48a8-8d14-ded13c59851b",
+ CellID->304536665],
+Cell[8476, 215, 609, 16, 70, "GuideText",ExpressionUUID->"d7d479f8-92af-4c27-ab91-b44447567e3b",
+ CellID->230809888],
+Cell[9088, 233, 677, 17, 70, "GuideText",ExpressionUUID->"2dd2e547-91b7-4e61-b3b9-7f27252fd054",
+ CellID->136311941],
+Cell[9768, 252, 620, 16, 70, "GuideText",ExpressionUUID->"fc7591bc-c999-452d-a1ef-14455d99c7c6",
+ CellID->171141159],
+Cell[10391, 270, 586, 15, 70, "GuideText",ExpressionUUID->"62d090c2-fef4-45cb-b7f3-caf225e752d0",
+ CellID->458285521],
+Cell[10980, 287, 580, 15, 70, "GuideText",ExpressionUUID->"2bfb8ad1-73ce-4bb9-84bf-8baa0e6e8fa7",
+ CellID->5908997],
+Cell[11563, 304, 643, 16, 70, "GuideText",ExpressionUUID->"8b3f26a3-b49e-432e-982e-ed2dc37a50e6",
+ CellID->12663465],
+Cell[12209, 322, 642, 16, 70, "GuideText",ExpressionUUID->"728b704e-0d84-42b8-b3cd-dd74f6480236",
+ CellID->577676824],
+Cell[12854, 340, 692, 17, 70, "GuideText",ExpressionUUID->"a6bc1edc-2b36-403e-a095-91cb76594e95",
+ CellID->234250622],
+Cell[13549, 359, 588, 15, 70, "GuideText",ExpressionUUID->"62ff7152-861d-40a7-adc3-43fef14dd9f3",
+ CellID->162956411],
+Cell[CellGroupData[{
+Cell[14162, 378, 126, 1, 70, "GuideFunctionsSubsection",ExpressionUUID->"81350b82-f092-4053-82a7-f92466fda3ae",
+ CellID->723918225],
+Cell[14291, 381, 598, 15, 70, "GuideText",ExpressionUUID->"48f5838f-133f-4c4a-9089-d19767326a26",
+ CellID->24911182],
+Cell[14892, 398, 103, 1, 70, "GuideDelimiter",ExpressionUUID->"ec931db5-58ab-4f19-8521-8817d4d5111d",
+ CellID->139160467],
+Cell[14998, 401, 275, 6, 70, InheritFromParent,ExpressionUUID->"6325c40e-4207-4c36-9faa-73c48ab4a7ed",
+ CellID->58902699],
+Cell[15276, 409, 85, 0, 70, "Input",ExpressionUUID->"d62df88d-042e-4abb-966f-01cbe74f36e2"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

@@ -1,0 +1,242 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9210,        232]
+NotebookOptionsPosition[      6697,        177]
+NotebookOutlinePosition[      8399,        219]
+CellTagsIndexPosition[      8356,        216]
+WindowTitle->Linguistic Data
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ LITTLE CHILD PACLET GUIDE", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "a1f8b3c9-178e-4a2e-b768-c81b40106ee0"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "87847f60-69bc-4854-a8e8-06015ee4af6f"],
+        Background->RGBColor[0.85098, 0.396078, 0],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Functions",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "d9c34fd8-03f5-4ab0-9c7d-b9af76ee9cf2"]
+         }],ExpressionUUID->"91edbdd1-b710-44d7-bf2a-de410f2b83b3"],
+         StripOnInput->False],{
+        "\"WordListLookup\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/WordListLookup"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"GuideFunction"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "0d03a96c-b9f1-4670-aa5e-7233896adcd7"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "106f45d6-04ef-4b27-a468-b9c977642645"]
+         }],ExpressionUUID->"429717e1-b7d2-4f92-8d83-011bfcbad52c"],
+         StripOnInput->False],{
+        "\"PeterBurbery/LittleChildPaclet/guide/LinguisticData\"" :> None, 
+         "\"Copy Wolfram Documentation Center URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell["PeterBurbery/LittleChildPaclet/guide/LinguisticData"]}, 
+               Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
+         "\"Copy web URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell[BoxData[
+                 MakeBoxes[
+                  Hyperlink[
+                   "http://reference.wolfram.com/language/PeterBurbery/\
+LittleChildPaclet/guide/LinguisticData.html"], StandardForm]], "Input", 
+                 TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+         "\"Go to web URL\"" :> 
+         FrontEndExecute[{
+           NotebookLocate[{
+             URL[If[TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$74032], 
+                 "http://reference.wolfram.com/system-modeler/", 
+                 "http://reference.wolfram.com/language/"] <> 
+               "PeterBurbery/LittleChildPaclet/guide/LinguisticData" <> 
+               ".html"], None}]}]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "13182831-3ef6-4d52-b6a8-414c61b92771"]
+    }], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "3d07a5a9-2b33-48c6-b9c6-13d783cc4507"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"06f547bf-2b29-4b2c-a6ad-678bf6cefbb3"],
+
+Cell[CellGroupData[{
+
+Cell["Linguistic Data", "GuideTitle",
+ CellID->258453448,ExpressionUUID->"973c4b60-3453-487d-b634-8ac12f3a3ea5"],
+
+Cell["\<\
+The Wolfram Language contains functions to get linguistic data.\
+\>", "GuideAbstract",
+ CellID->222047890,ExpressionUUID->"0d926f31-ebb6-43df-abe2-d492ffa3ca01"],
+
+Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"e585efc7-9b76-4a3f-88dc-fc950a045c7d"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["WordListLookup"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/WordListLookup", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"c40ac8e4-27e1-4161-a8df-4d4f38357a23",ExpressionUUID->
+  "6fa432c0-af6d-4142-85fa-0a5b7f37db20"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " equivalent to DictionaryLookup, but with WordList[] instead of \
+DictionaryLookup[] as the dictionary"
+}], "GuideText",
+ CellID->563146458,ExpressionUUID->"68f39a66-0aed-4257-91f0-97a3668ae339"],
+
+Cell["\t", "GuideDelimiter",
+ CellID->228330291,ExpressionUUID->"ac652452-045c-475d-bde5-4a3392f78fc2"],
+
+Cell[TextData[Cell["\<\
+
+FrameBox[\"\\\"XXXX\\\"\"]\
+\>", "FunctionPlaceholder", \
+"InlineFunctionSansUnlinked",ExpressionUUID->"71a5569a-be8c-4758-b444-\
+e5b35204fd2a"]], "InlineGuideFunctionListing",
+ CellID->854877850,ExpressionUUID->"a3188aa0-51ed-4120-af8f-44721a00539a"],
+
+Cell[BoxData["Open"], "Input",ExpressionUUID->"d7dbe742-6728-4743-90b7-545ebf631d30"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900, 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Linguistic Data",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
+  "NewStyles" -> True, "CitationPopupData" -> {$Failed, ""}, "ShowCitation" -> 
+  False, "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2023, 6, 4, 21, 25, 37.4545424}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "PeterBurbery`LittleChildPaclet`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Little Child Paclet Guide", "language" -> 
+    "en", "paclet" -> "PeterBurbery/LittleChildPaclet", "status" -> "None", 
+    "summary" -> 
+    "The Wolfram Language contains functions to get linguistic data.", 
+    "synonyms" -> {}, "tabletags" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$74002, "title" -> 
+    "Linguistic Data", "titlemodifier" -> "", "metadescription" -> "", 
+    "windowtitle" -> "Linguistic Data", "type" -> "Guide", "uri" -> 
+    "PeterBurbery/LittleChildPaclet/guide/LinguisticData"}},
+CacheGraphics->False,
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"ad490757-506b-4af8-8dd1-5cf0acc59731"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[587, 21, 4585, 110, 70, "AnchorBarGrid",ExpressionUUID->"06f547bf-2b29-4b2c-a6ad-678bf6cefbb3",
+ CellID->1],
+Cell[CellGroupData[{
+Cell[5197, 135, 112, 1, 70, "GuideTitle",ExpressionUUID->"973c4b60-3453-487d-b634-8ac12f3a3ea5",
+ CellID->258453448],
+Cell[5312, 138, 171, 3, 70, "GuideAbstract",ExpressionUUID->"0d926f31-ebb6-43df-abe2-d492ffa3ca01",
+ CellID->222047890],
+Cell[5486, 143, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"e585efc7-9b76-4a3f-88dc-fc950a045c7d"],
+Cell[5582, 145, 626, 16, 70, "GuideText",ExpressionUUID->"68f39a66-0aed-4257-91f0-97a3668ae339",
+ CellID->563146458],
+Cell[6211, 163, 103, 1, 70, "GuideDelimiter",ExpressionUUID->"ac652452-045c-475d-bde5-4a3392f78fc2",
+ CellID->228330291],
+Cell[6317, 166, 276, 6, 70, InheritFromParent,ExpressionUUID->"a3188aa0-51ed-4120-af8f-44721a00539a",
+ CellID->854877850],
+Cell[6596, 174, 85, 0, 70, "Input",ExpressionUUID->"d7dbe742-6728-4743-90b7-545ebf631d30"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

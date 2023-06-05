@@ -1,0 +1,874 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     31330,        866]
+NotebookOptionsPosition[     22102,        666]
+NotebookOutlinePosition[     22917,        692]
+CellTagsIndexPosition[     22838,        687]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Coins", "ObjectName",
+ CellID->51166203,ExpressionUUID->"d5183a63-3027-4a74-a86e-3b402c885ba5"],
+
+Cell[TextData[{
+ Cell["   ", "ModInfo",ExpressionUUID->"cca724a9-5d56-488d-92e3-83849da9b780"],
+ Cell[BoxData[
+  RowBox[{
+   ButtonBox["Coins",
+    BaseStyle->"Link",
+    ButtonData->"paclet:PeterBurberyLittleChildPaclet/ref/Coins"], "[", 
+   RowBox[{
+    StyleBox["values", "TI"], ",", 
+    StyleBox["target", "TI"]}], "]"}]], "InlineFormula",ExpressionUUID->
+  "214a9968-b24f-45d9-bd6a-1ed9381b1146"],
+ "\[LineSeparator]finds the fewest number of coins from the list ",
+ Cell[BoxData[
+  StyleBox["values", "TI"]], "InlineFormula",ExpressionUUID->
+  "efe59c57-4dd0-49fb-811e-ed6777e8403e"],
+ " needed to add up to a certain value ",
+ Cell[BoxData[
+  StyleBox["target", "TI"]], "InlineFormula",ExpressionUUID->
+  "b910cc4a-6e91-4aa6-892f-90f503dafda4"],
+ "."
+}], "Usage",
+ CellChangeTimes->{
+  3.8949178394169345`*^9, {3.8949195476132317`*^9, 3.894919590835651*^9}},
+ CellID->515014934,ExpressionUUID->"77e38c23-cd2e-4e49-bd71-d0c050430d5d"],
+
+Cell["\<\
+Given a list of values for coins, the function finds the fewest number of \
+coins needed to add up to a certain value.\
+\>", "Notes",
+ CellChangeTimes->{{3.8949194507246466`*^9, 3.8949194579649487`*^9}},
+ CellID->748221218,ExpressionUUID->"59c22cd1-c0f2-42ef-a66c-88949e124f88"],
+
+Cell["\<\
+To make $0.67 with American coins, 67 pennies work. But the fewest number of \
+coins needed to make this change is 2 pennies, 1 nickel, 1 dime, 0 quarters \
+and 1 fifty-cent piece. The answer would be {2, 1, 1, 0, 1}.\
+\>", "Notes",
+ CellID->279106150,ExpressionUUID->"cbfdc01e-6393-4cae-a11e-4923b4906a91"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "See Also",
+ Cell[BoxData[
+  TemplateBox[{"SeeAlso", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+       "Insert links to any related reference (function) pages.", 
+        "MoreInfoText"], BaseStyle -> "IFrameBox"]], "MoreInfoTextOuter"]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "1ccd3c97-e0b4-4d3e-abd0-6b0d5445dd72"]
+}], "SeeAlsoSection",
+ CellID->187287424,ExpressionUUID->"15d0f53e-d313-4ec5-b1a7-cac0d02786d3"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TagBox[
+   FrameBox["\<\"XXXX\"\>"],
+   "FunctionPlaceholder"]], "InlineSeeAlsoFunction",
+  TaggingRules->{"PageType" -> "Function"},ExpressionUUID->
+  "8322461d-32b2-4b99-a437-4093dd0a3e91"],
+ Cell[BoxData[
+  RowBox[{
+  Cell[TextData[StyleBox[
+   " \[FilledVerySmallSquare] ", "InlineSeparator"]],ExpressionUUID->
+    "8b9ff44b-71f3-404e-a68e-50c5e6cccd63"], 
+   DynamicModuleBox[{$CellContext`nbobj$$ = NotebookObject[
+    "33e8f913-3d65-4f13-973d-9cd710c4f3aa", 
+     "a1b4f256-b26b-4703-9cc5-d0d0dc09d937"], $CellContext`cellobj$$ = 
+    CellObject[
+    "57b5dcab-f07e-44e2-848f-b3d48f1cc4f9", 
+     "eeef940e-be6f-432c-a483-d3904bd21222"]}, 
+    TemplateBox[{
+      GraphicsBox[{{
+         Thickness[0.06], 
+         StrokeForm[
+          Hue[0.4167, 0.406, 0.502]], 
+         CircleBox[{0, 0}]}, {
+         Thickness[0.06], 
+         StrokeForm[
+          Hue[0.4167, 0.406, 0.502]], 
+         LineBox[{{0, 0.62}, {0, -0.62}}]}, {
+         Thickness[0.06], 
+         StrokeForm[
+          Hue[0.4167, 0.406, 0.502]], 
+         LineBox[{{-0.62, 0}, {0.62, 0}}]}}, 
+       ImagePadding -> {{1., 1.}, {2.4, 1.}}, ImageSize -> 16, 
+       PlotRange -> {{-1.06, 1.06}, {-1.06, 1.06}}, 
+       BaselinePosition -> (Center -> 
+        Center)], $CellContext`nbobj$$, $CellContext`cellobj$$},
+     "InlineListingAddButton"],
+    Initialization:>($CellContext`nbobj$$ = 
+      EvaluationNotebook[]; $CellContext`cellobj$$ = EvaluationCell[])]}]], 
+  "InlineListingAddButton",ExpressionUUID->
+  "57b5dcab-f07e-44e2-848f-b3d48f1cc4f9"]
+}], "SeeAlso",
+ CellID->706251174,ExpressionUUID->"2458963b-c139-4b9f-ad82-4831ea404d5d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Tech Notes",
+ Cell[BoxData[
+  TemplateBox[{"TechNotes", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell["Insert links to related tech notes.", "MoreInfoText"], BaseStyle -> 
+       "IFrameBox"]], "MoreInfoTextOuter"]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "5054cc25-441d-4e94-9263-ca3555d57945"]
+}], "TechNotesSection",
+ CellID->279592209,ExpressionUUID->"c49424c7-5b25-4c82-ad20-4dbecea0aae5"],
+
+Cell["XXXX", "Tutorials",
+ CellID->141658027,ExpressionUUID->"7c533b7f-2b57-41de-aa5e-93082868a601"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Related Guides", "MoreAboutSection",
+ CellID->100886095,ExpressionUUID->"9e6204f1-dbed-4293-a4af-04d1d804bb35"],
+
+Cell["XXXX", "MoreAbout",
+ CellID->23083116,ExpressionUUID->"532a305c-1673-418d-8ef4-36ffa6abb742"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Related Links",
+ Cell[BoxData[
+  TemplateBox[{"RelatedLinks", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+       "Insert links to any related page, including web pages.", 
+        "MoreInfoText"], BaseStyle -> "IFrameBox"]], "MoreInfoTextOuter"]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "70732818-072e-4628-bc67-92b83c375474"]
+}], "RelatedLinksSection",
+ CellID->167676688,ExpressionUUID->"a03d2429-fb14-4a11-a6d8-cfcb653e04d3"],
+
+Cell[TextData[ButtonBox["Fewest Number of Coins \[RightGuillemet]",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://challenges.wolframcloud.com/challenge/fewest-number-of-coins"]\
+, None},
+ ButtonNote->
+  "https://challenges.wolframcloud.com/challenge/fewest-number-of-coins"]], \
+"RelatedLinks",
+ CellChangeTimes->{{3.8949194352334046`*^9, 3.8949194436715155`*^9}},
+ CellID->396212500,ExpressionUUID->"814f1464-588f-4e78-b7c9-f1ce90389ffb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Examples Initialization",
+ Cell[BoxData[
+  TemplateBox[{"ExamplesInitialization", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+       "Input that is to be evaluated before any examples are run, e.g. \
+Needs[\[Ellipsis]].", "MoreInfoText"], BaseStyle -> "IFrameBox"]], 
+     "MoreInfoTextOuter"]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "d92796a0-bd84-4813-a7c9-60e2758dc726"]
+}], "ExamplesInitializationSection",
+ CellID->186892556,ExpressionUUID->"05263c5f-0e0a-45a1-94db-234596222548"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PeterBurbery`LittleChildPaclet`\>\"", 
+  "]"}]], "ExampleInitialization",
+ CellID->173075739,ExpressionUUID->"03b42f29-4073-4720-982b-e434c206d7ac"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[GridBox[{
+    {
+     StyleBox[
+      RowBox[{"Basic", " ", "Examples"}], "PrimaryExamplesSection"], 
+     ButtonBox[
+      RowBox[{
+       RowBox[{"More", " ", "Examples"}], " ", "\[RightTriangle]"}],
+      BaseStyle->"ExtendedExamplesLink",
+      ButtonData:>"ExtendedExamples"]}
+   }],
+  $Line = 0; Null]], "PrimaryExamplesSection",
+ CellID->107494178,ExpressionUUID->"6ed167fe-9699-4f17-9760-78af8275eb76"],
+
+Cell[TextData[{
+ "The function Coins that takes a list called values of positive integers and \
+a positive integer target. The function should return all lists of the number \
+of coins to make the target with the fewest number of coins possible, all of \
+whose denominations are in values. The function returns the list of ways in ",
+ ButtonBox["Sort",
+  BaseStyle->"Link",
+  ButtonData->"paclet:ref/Sort"],
+ " order."
+}], "ExampleText",
+ CellChangeTimes->{{3.894919475898864*^9, 3.894919504474275*^9}, {
+  3.894919599413698*^9, 3.8949196039752927`*^9}},
+ CellID->200496085,ExpressionUUID->"34441a0a-db11-4eea-8e7f-e58c446753e8"],
+
+Cell["\<\
+In the following example, the fewest number of coins to make 35 is 4. There \
+is only one such case:\
+\>", "ExampleText",
+ CellChangeTimes->{3.8949195106688128`*^9},
+ CellID->28667172,ExpressionUUID->"e0f8bf6e-2be5-4ba8-81e3-07eb18e70eb2"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Coins", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"1", ",", "2", ",", "4", ",", "8", ",", "16"}], "}"}], ",", 
+   "35"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8949195135578256`*^9, 3.8949195135598125`*^9}},
+ CellLabel->"In[1]:=",
+ CellID->265846756,ExpressionUUID->"fb699965-9c36-402a-be19-e97188591660"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "1", ",", "0", ",", "0", ",", "2"}], "}"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.894919514221816*^9, 3.894919900368846*^9},
+ CellLabel->"Out[1]=",
+ CellID->358852018,ExpressionUUID->"f8f68aa9-62ca-4267-b429-9d2ea8716b21"]
+}, Open  ]],
+
+Cell["Verify these sum to 35:", "ExampleText",
+ CellChangeTimes->{3.894919518938408*^9},
+ CellID->169887574,ExpressionUUID->"8278d21a-5e09-4bdb-834f-4a24593bd858"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"1", " ", "1"}], "+", 
+  RowBox[{"1", " ", "2"}], "+", 
+  RowBox[{"0", " ", "4"}], "+", 
+  RowBox[{"0", " ", "8"}], "+", 
+  RowBox[{"2", " ", "16"}]}]], "Input",
+ CellChangeTimes->{{3.8949195219634013`*^9, 3.894919521964401*^9}},
+ CellLabel->"In[2]:=",
+ CellID->171005825,ExpressionUUID->"52707bf4-7eb2-4bfb-b108-ee86b4784b2f"],
+
+Cell[BoxData["35"], "Output",
+ CellChangeTimes->{3.8949195226080227`*^9, 3.8949199010963545`*^9},
+ CellLabel->"Out[2]=",
+ CellID->49325243,ExpressionUUID->"7dbcfa08-f7e1-4978-a07d-d11dc559d04a"]
+}, Open  ]],
+
+Cell["Alternatively, verify with a dot product:", "ExampleText",
+ CellChangeTimes->{{3.894919528105632*^9, 3.8949195294561443`*^9}},
+ CellID->733370519,ExpressionUUID->"e51c4bbe-9c60-47b9-b9e5-cb174b8ee0cf"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Coins", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"1", ",", "2", ",", "4", ",", "8", ",", "16"}], "}"}], ",", 
+    "35"}], "]"}], ".", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "2", ",", "4", ",", "8", ",", "16"}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.8949195321087017`*^9, 3.894919532109703*^9}},
+ CellLabel->"In[3]:=",
+ CellID->111421629,ExpressionUUID->"5ac0597c-7ae4-4db7-9ef3-9ce45eaefdb0"],
+
+Cell[BoxData[
+ RowBox[{"{", "35", "}"}]], "Output",
+ CellChangeTimes->{3.8949195327597027`*^9, 3.894919901835474*^9},
+ CellLabel->"Out[3]=",
+ CellID->472314401,ExpressionUUID->"9e119185-2c53-4cd4-8e44-cf356455ce99"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "More Examples",
+ Cell[BoxData[
+  TemplateBox[{"MoreExamples", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell["Extended examples in standardized sections.", "MoreInfoText"], 
+       BaseStyle -> "IFrameBox"]], "MoreInfoTextOuter"]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "883ccb25-4366-4631-80f0-1628f7b398d9"]
+}], "ExtendedExamplesSection",
+ CellTags->"ExtendedExamples",
+ CellID->608379775,ExpressionUUID->"46d450ff-d338-4451-b1a4-7e1790ec342e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Scope", "ExampleSection",ExpressionUUID->
+   "6fc73592-f00d-4ae9-9e24-1390b7fba9db"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->84548134,ExpressionUUID->"b6fb146a-7e60-4d41-a4f8-b6f58d7a15a2"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Coins", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"1", ",", "5", ",", "10", ",", "25", ",", "50"}], "}"}], ",", 
+   "67"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8949196119341917`*^9, 3.894919611935192*^9}},
+ CellLabel->"In[1]:=",
+ CellID->320983762,ExpressionUUID->"074fec32-c73b-46be-9620-7d83c76da056"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"2", ",", "1", ",", "1", ",", "0", ",", "1"}], "}"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.8949196159219537`*^9, 3.894919905235105*^9},
+ CellLabel->"Out[1]=",
+ CellID->489712864,ExpressionUUID->"40fc8c7a-7926-4e54-8314-85d88c1c9b4e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Coins", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"1", ",", "2", ",", "3", ",", "8", ",", "5"}], "}"}], ",", "9"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.894919614291953*^9, 3.894919614293954*^9}},
+ CellLabel->"In[2]:=",
+ CellID->567521201,ExpressionUUID->"9eb2a2a7-3584-4880-9568-02117f702389"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "0", ",", "0", ",", "1", ",", "0"}], "}"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.894919616440984*^9, 3.8949199059061017`*^9},
+ CellLabel->"Out[2]=",
+ CellID->173907469,ExpressionUUID->"a54be266-5046-46dd-9656-a3bfb129ef4a"]
+}, Open  ]],
+
+Cell["\<\
+There may be multiple ways to use the fewest number of coins possible:\
+\>", "ExampleText",
+ CellChangeTimes->{{3.894919620456087*^9, 3.894919621731284*^9}},
+ CellID->999377590,ExpressionUUID->"7c7994ad-1ce2-4285-b9a8-63d0cb8e4e83"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Coins", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2", ",", "3", ",", "8", ",", "5", ",", "11"}], "}"}], ",", "9"}],
+   "]"}]], "Input",
+ CellChangeTimes->{{3.894919624534339*^9, 3.8949196245373373`*^9}},
+ CellLabel->"In[3]:=",
+ CellID->3048378,ExpressionUUID->"56fe55d4-32c7-4e6c-9d29-29373ffca4f9"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"0", ",", "3", ",", "0", ",", "0", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2", ",", "0", ",", "0", ",", "1", ",", "0"}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.8949196252773414`*^9, 3.894919906635101*^9},
+ CellLabel->"Out[3]=",
+ CellID->360052247,ExpressionUUID->"66e3635d-e8ca-438a-bce0-979d53c8ea0c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Coins", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"11", ",", "13", ",", "17", ",", "19", ",", "23"}], "}"}], ",", 
+   "100"}], "]"}]], "Input",
+ CellChangeTimes->{{3.89491962890585*^9, 3.8949196289078503`*^9}},
+ CellLabel->"In[4]:=",
+ CellID->286512578,ExpressionUUID->"27312cc5-ba66-42c4-8c27-cfbbc3ff36d7"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"0", ",", "1", ",", "4", ",", "1", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "2", ",", "1", ",", "3", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "2", ",", "3", ",", "0", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0", ",", "3", ",", "0", ",", "2", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "0", ",", "3", ",", "2", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1", ",", "0", ",", "4", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "1", ",", "2", ",", "1", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "2", ",", "1", ",", "0", ",", "2"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2", ",", "0", ",", "1", ",", "2", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"2", ",", "1", ",", "0", ",", "1", ",", "2"}], "}"}]}], 
+  "}"}]], "Output",
+ CellChangeTimes->{3.8949196295863557`*^9, 3.8949199073361015`*^9},
+ CellLabel->"Out[4]=",
+ CellID->40040581,ExpressionUUID->"c32ccb9f-c78e-490d-8863-c4312c02c3ed"]
+}, Open  ]],
+
+Cell["The list is returned in Sort order:", "ExampleText",
+ CellChangeTimes->{{3.894919634785415*^9, 3.8949196358844843`*^9}},
+ CellID->972203768,ExpressionUUID->"ed48e3f9-2425-4660-8ac9-e3f37fc28131"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Coins", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"11", ",", "13", ",", "17", ",", "19", ",", "23"}], "}"}], ",", 
+    "100"}], "]"}], "===", 
+  RowBox[{"Sort", "[", 
+   RowBox[{"Coins", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"11", ",", "13", ",", "17", ",", "19", ",", "23"}], "}"}], ",", 
+     "100"}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.894919639087*^9, 3.8949196390880003`*^9}},
+ CellLabel->"In[5]:=",
+ CellID->331585323,ExpressionUUID->"bfd9d32c-1957-4528-843c-4fdc70e27995"],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{
+  3.8949196397660823`*^9, {3.8949198902802377`*^9, 3.89491990820271*^9}},
+ CellLabel->"Out[5]=",
+ CellID->280046926,ExpressionUUID->"0b3e9c20-f38e-4c2c-ab30-bfb1bc798388"]
+}, Open  ]],
+
+Cell["If no such solution exists, the empty list {} is returned:", \
+"ExampleText",
+ CellChangeTimes->{3.8949199105917673`*^9},
+ CellID->195636820,ExpressionUUID->"92ad82d8-7dc4-4fc7-ad56-f2bb3cd44c26"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Coins", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2", ",", "4", ",", "6", ",", "8", ",", "10"}], "}"}], ",", 
+   "17"}], "]"}]], "Input",
+ CellChangeTimes->{{3.89491991394677*^9, 3.8949199139487696`*^9}},
+ CellLabel->"In[6]:=",
+ CellID->705524822,ExpressionUUID->"52460500-43bc-491e-8501-326a7e683f70"],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Output",
+ CellChangeTimes->{3.8949199146102905`*^9},
+ CellLabel->"Out[6]=",
+ CellID->181303540,ExpressionUUID->"9af5318a-a9c2-4b1a-8c48-55e7d4613107"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Generalizations & Extensions", "ExampleSection",ExpressionUUID->
+   "eb0998f4-673c-4501-a96e-3426fd3230c8"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->272924045,ExpressionUUID->"a126e69c-1d1a-4288-b73f-b6ed6f7fd6d7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Options", "ExampleSection",ExpressionUUID->
+   "4fdd7d14-8d42-4692-b2bd-8ccfc1a4e2e5"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->692766834,ExpressionUUID->"883008fe-fd55-40d9-8834-4a600c6804b4"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "XXXX", "ExampleSubsection",ExpressionUUID->
+   "8ba3f07f-2225-436d-9df5-6054df8350c6"],
+  $Line = 0; Null]], "ExampleSubsection",
+ CellID->668001100,ExpressionUUID->"a7636db3-87e0-4b75-932d-8867f03d2fe7"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "XXXX", "ExampleSubsection",ExpressionUUID->
+   "7ec49859-22e7-42be-b4e7-8d77ff066ed5"],
+  $Line = 0; Null]], "ExampleSubsection",
+ CellID->459580007,ExpressionUUID->"51606014-c24c-4dcf-88ac-becc160fe2e7"]
+}, Open  ]],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Applications", "ExampleSection",ExpressionUUID->
+   "f331472d-fe03-49a6-884c-0c5f787e1711"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->9537592,ExpressionUUID->"bfa60ef4-c84e-441f-b1b4-b348051780ae"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Properties & Relations", "ExampleSection",ExpressionUUID->
+   "5e369265-b364-4e6b-b4f6-3e12d3538049"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->758435870,ExpressionUUID->"65e09f3e-801a-4bfd-a715-1e5a1a5809bd"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Possible Issues", "ExampleSection",ExpressionUUID->
+   "9770b590-f9cb-4896-a1a7-adcfeb3bc565"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->145671241,ExpressionUUID->"c7fcddf3-4237-4e61-8303-8efe6994ccd9"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Interactive Examples", "ExampleSection",ExpressionUUID->
+   "62ec80ad-2477-43f8-8f5e-01b275cbfb4e"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->120963033,ExpressionUUID->"8b754a5e-e679-4ed2-9d3f-c81c10a61f08"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Neat Examples", "ExampleSection",ExpressionUUID->
+   "ebda2a27-65c3-4967-915b-c4ccbf28b096"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->39586490,ExpressionUUID->"c6a2f479-8c74-40e1-8656-7d39ce2bd665"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Metadata", "MetadataSection",
+ CellID->11174019,ExpressionUUID->"9238c3cf-cbae-42da-8c39-8ddbd1f4440e"],
+
+Cell[TextData[{
+ "New in: ",
+ Cell["XX", "HistoryData",
+  CellTags->"New",ExpressionUUID->"ee54e79e-8c24-4021-be90-5a027698f6af"],
+ " | Modified in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Modified",ExpressionUUID->"7761e778-78b7-4089-b558-f56b5756ad68"],
+ " | Obsolete in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Obsolete",ExpressionUUID->"9cdb749e-781a-47c5-9d78-3ce0466d0112"]
+}], "History",
+ CellID->38792406,ExpressionUUID->"02eed5bc-03dc-4c51-a98a-dcbd4b8fc7d8"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Categorization",
+ Cell[BoxData[
+  TemplateBox[{"Metadata", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+       "Metadata such as page URI, context, and type of documentation page.", 
+        "MoreInfoText"], BaseStyle -> "IFrameBox"]], "MoreInfoTextOuter"]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "c77a0e0b-3f16-4de7-9bbf-01b69a4a5547"]
+}], "CategorizationSection",
+ CellID->565974138,ExpressionUUID->"b1968fd5-8b25-41f8-9846-70b4d67f3c87"],
+
+Cell["Symbol", "Categorization",
+ CellLabel->"Entity Type",
+ CellID->378508735,ExpressionUUID->"00049ae6-bafa-455d-b28b-bfe5dded84de"],
+
+Cell["PeterBurbery/LittleChildPaclet", "Categorization",
+ CellLabel->"Paclet Name",
+ CellID->92583139,ExpressionUUID->"efd0f32f-5c04-472b-8466-a66334a20f18"],
+
+Cell["PeterBurbery`LittleChildPaclet`", "Categorization",
+ CellLabel->"Context",
+ CellID->143120455,ExpressionUUID->"031329a7-0e70-42f5-b488-ff6e011ddeb3"],
+
+Cell["PeterBurbery/LittleChildPaclet/ref/Coins", "Categorization",
+ CellLabel->"URI",
+ CellID->140561555,ExpressionUUID->"7f842c60-7689-43a9-a2f2-4f1c5c2eae0c"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Keywords", "KeywordsSection",
+ CellID->4178512,ExpressionUUID->"d76ef4dd-6303-4450-817b-dd28fa1157db"],
+
+Cell["XXXX", "Keywords",
+ CellID->54491183,ExpressionUUID->"c1fe6974-6d16-470e-bb1d-d82aba2a8db8"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Syntax Templates", "TemplatesSection",
+ CellID->855624688,ExpressionUUID->"1e7bff11-46e6-4854-bbdd-0f65455d1212"],
+
+Cell[BoxData[""], "Template",
+ CellLabel->"Additional Function Template",
+ CellID->161314596,ExpressionUUID->"ddb2fb17-1bef-4f25-a70a-4f4b2c5ca5f7"],
+
+Cell[BoxData[""], "Template",
+ CellLabel->"Arguments Pattern",
+ CellID->315543948,ExpressionUUID->"d3cb9557-8ff3-4de7-b579-e2cbdd2d4546"],
+
+Cell[BoxData[""], "Template",
+ CellLabel->"Local Variables",
+ CellID->94119800,ExpressionUUID->"664e0dba-0d0a-461e-82d4-cc288e0a6818"],
+
+Cell[BoxData[""], "Template",
+ CellLabel->"Color Equal Signs",
+ CellID->381752512,ExpressionUUID->"440e9a4f-774e-4133-bdc2-18514ae80581"]
+}, Closed]]
+}, Open  ]]
+},
+WindowSize->{574.8, 574.8},
+WindowMargins->{{Automatic, 33.600000000000136`}, {Automatic, 0}},
+TaggingRules-><|"Paclet" -> "PeterBurbery/LittleChildPaclet"|>,
+CellContext->"Global`",
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "FunctionPageStylesExt.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"33e8f913-3d65-4f13-973d-9cd710c4f3aa"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "ExtendedExamples"->{
+  Cell[10668, 320, 487, 13, 57, "ExtendedExamplesSection",ExpressionUUID->"46d450ff-d338-4451-b1a4-7e1790ec342e",
+   CellTags->"ExtendedExamples",
+   CellID->608379775]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"ExtendedExamples", 22644, 680}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 101, 1, 74, "ObjectName",ExpressionUUID->"d5183a63-3027-4a74-a86e-3b402c885ba5",
+ CellID->51166203],
+Cell[684, 25, 941, 23, 78, "Usage",ExpressionUUID->"77e38c23-cd2e-4e49-bd71-d0c050430d5d",
+ CellID->515014934],
+Cell[1628, 50, 288, 5, 45, "Notes",ExpressionUUID->"59c22cd1-c0f2-42ef-a66c-88949e124f88",
+ CellID->748221218],
+Cell[1919, 57, 317, 5, 45, "Notes",ExpressionUUID->"cbfdc01e-6393-4cae-a11e-4923b4906a91",
+ CellID->279106150]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2273, 67, 458, 13, 39, "SeeAlsoSection",ExpressionUUID->"15d0f53e-d313-4ec5-b1a7-cac0d02786d3",
+ CellID->187287424],
+Cell[2734, 82, 1653, 42, 24, "SeeAlso",ExpressionUUID->"2458963b-c139-4b9f-ad82-4831ea404d5d",
+ CellID->706251174]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4424, 129, 435, 12, 40, "TechNotesSection",ExpressionUUID->"c49424c7-5b25-4c82-ad20-4dbecea0aae5",
+ CellID->279592209],
+Cell[4862, 143, 100, 1, 19, "Tutorials",ExpressionUUID->"7c533b7f-2b57-41de-aa5e-93082868a601",
+ CellID->141658027]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4999, 149, 117, 1, 39, "MoreAboutSection",ExpressionUUID->"9e6204f1-dbed-4293-a4af-04d1d804bb35",
+ CellID->100886095],
+Cell[5119, 152, 99, 1, 19, "MoreAbout",ExpressionUUID->"532a305c-1673-418d-8ef4-36ffa6abb742",
+ CellID->23083116]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5255, 158, 472, 13, 39, "RelatedLinksSection",ExpressionUUID->"a03d2429-fb14-4a11-a6d8-cfcb653e04d3",
+ CellID->167676688],
+Cell[5730, 173, 449, 9, 19, "RelatedLinks",ExpressionUUID->"814f1464-588f-4e78-b7c9-f1ce90389ffb",
+ CellID->396212500]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6216, 187, 530, 14, 69, "ExamplesInitializationSection",ExpressionUUID->"05263c5f-0e0a-45a1-94db-234596222548",
+ CellID->186892556],
+Cell[6749, 203, 190, 3, 45, "ExampleInitialization",ExpressionUUID->"03b42f29-4073-4720-982b-e434c206d7ac",
+ CellID->173075739]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6976, 211, 442, 12, 71, "PrimaryExamplesSection",ExpressionUUID->"6ed167fe-9699-4f17-9760-78af8275eb76",
+ CellID->107494178],
+Cell[7421, 225, 629, 12, 58, "ExampleText",ExpressionUUID->"34441a0a-db11-4eea-8e7f-e58c446753e8",
+ CellID->200496085],
+Cell[8053, 239, 249, 5, 24, "ExampleText",ExpressionUUID->"e0f8bf6e-2be5-4ba8-81e3-07eb18e70eb2",
+ CellID->28667172],
+Cell[CellGroupData[{
+Cell[8327, 248, 334, 8, 25, "Input",ExpressionUUID->"fb699965-9c36-402a-be19-e97188591660",
+ CellID->265846756],
+Cell[8664, 258, 292, 7, 24, "Output",ExpressionUUID->"f8f68aa9-62ca-4267-b429-9d2ea8716b21",
+ CellID->358852018]
+}, Open  ]],
+Cell[8971, 268, 163, 2, 24, "ExampleText",ExpressionUUID->"8278d21a-5e09-4bdb-834f-4a24593bd858",
+ CellID->169887574],
+Cell[CellGroupData[{
+Cell[9159, 274, 361, 9, 25, "Input",ExpressionUUID->"52707bf4-7eb2-4bfb-b108-ee86b4784b2f",
+ CellID->171005825],
+Cell[9523, 285, 194, 3, 24, "Output",ExpressionUUID->"7dbcfa08-f7e1-4978-a07d-d11dc559d04a",
+ CellID->49325243]
+}, Open  ]],
+Cell[9732, 291, 207, 2, 24, "ExampleText",ExpressionUUID->"e51c4bbe-9c60-47b9-b9e5-cb174b8ee0cf",
+ CellID->733370519],
+Cell[CellGroupData[{
+Cell[9964, 297, 437, 11, 25, "Input",ExpressionUUID->"5ac0597c-7ae4-4db7-9ef3-9ce45eaefdb0",
+ CellID->111421629],
+Cell[10404, 310, 215, 4, 24, "Output",ExpressionUUID->"9e119185-2c53-4cd4-8e44-cf356455ce99",
+ CellID->472314401]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[10668, 320, 487, 13, 57, "ExtendedExamplesSection",ExpressionUUID->"46d450ff-d338-4451-b1a4-7e1790ec342e",
+ CellTags->"ExtendedExamples",
+ CellID->608379775],
+Cell[CellGroupData[{
+Cell[11180, 337, 240, 5, 35, "ExampleSection",ExpressionUUID->"b6fb146a-7e60-4d41-a4f8-b6f58d7a15a2",
+ CellID->84548134],
+Cell[CellGroupData[{
+Cell[11445, 346, 334, 8, 25, "Input",ExpressionUUID->"074fec32-c73b-46be-9620-7d83c76da056",
+ CellID->320983762],
+Cell[11782, 356, 294, 7, 24, "Output",ExpressionUUID->"40fc8c7a-7926-4e54-8314-85d88c1c9b4e",
+ CellID->489712864]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12113, 368, 327, 8, 25, "Input",ExpressionUUID->"9eb2a2a7-3584-4880-9568-02117f702389",
+ CellID->567521201],
+Cell[12443, 378, 294, 7, 24, "Output",ExpressionUUID->"a54be266-5046-46dd-9656-a3bfb129ef4a",
+ CellID->173907469]
+}, Open  ]],
+Cell[12752, 388, 242, 4, 24, "ExampleText",ExpressionUUID->"7c7994ad-1ce2-4285-b9a8-63d0cb8e4e83",
+ CellID->999377590],
+Cell[CellGroupData[{
+Cell[13019, 396, 328, 8, 25, "Input",ExpressionUUID->"56fe55d4-32c7-4e6c-9d29-29373ffca4f9",
+ CellID->3048378],
+Cell[13350, 406, 398, 10, 24, "Output",ExpressionUUID->"66e3635d-e8ca-438a-bce0-979d53c8ea0c",
+ CellID->360052247]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13785, 421, 336, 8, 25, "Input",ExpressionUUID->"27312cc5-ba66-42c4-8c27-cfbbc3ff36d7",
+ CellID->286512578],
+Cell[14124, 431, 1111, 26, 42, "Output",ExpressionUUID->"c32ccb9f-c78e-490d-8863-c4312c02c3ed",
+ CellID->40040581]
+}, Open  ]],
+Cell[15250, 460, 201, 2, 24, "ExampleText",ExpressionUUID->"ed48e3f9-2425-4660-8ac9-e3f37fc28131",
+ CellID->972203768],
+Cell[CellGroupData[{
+Cell[15476, 466, 548, 15, 25, "Input",ExpressionUUID->"bfd9d32c-1957-4528-843c-4fdc70e27995",
+ CellID->331585323],
+Cell[16027, 483, 223, 4, 24, "Output",ExpressionUUID->"0b3e9c20-f38e-4c2c-ab30-bfb1bc798388",
+ CellID->280046926]
+}, Open  ]],
+Cell[16265, 490, 202, 3, 24, "ExampleText",ExpressionUUID->"92ad82d8-7dc4-4fc7-ad56-f2bb3cd44c26",
+ CellID->195636820],
+Cell[CellGroupData[{
+Cell[16492, 497, 331, 8, 25, "Input",ExpressionUUID->"52460500-43bc-491e-8501-326a7e683f70",
+ CellID->705524822],
+Cell[16826, 507, 187, 4, 24, "Output",ExpressionUUID->"9af5318a-a9c2-4b1a-8c48-55e7d4613107",
+ CellID->181303540]
+}, Open  ]]
+}, Open  ]],
+Cell[17040, 515, 264, 5, 35, "ExampleSection",ExpressionUUID->"a126e69c-1d1a-4288-b73f-b6ed6f7fd6d7",
+ CellID->272924045],
+Cell[CellGroupData[{
+Cell[17329, 524, 243, 5, 23, "ExampleSection",ExpressionUUID->"883008fe-fd55-40d9-8834-4a600c6804b4",
+ CellID->692766834],
+Cell[17575, 531, 246, 5, 26, "ExampleSubsection",ExpressionUUID->"a7636db3-87e0-4b75-932d-8867f03d2fe7",
+ CellID->668001100],
+Cell[17824, 538, 246, 5, 22, "ExampleSubsection",ExpressionUUID->"51606014-c24c-4dcf-88ac-becc160fe2e7",
+ CellID->459580007]
+}, Open  ]],
+Cell[18085, 546, 246, 5, 35, "ExampleSection",ExpressionUUID->"bfa60ef4-c84e-441f-b1b4-b348051780ae",
+ CellID->9537592],
+Cell[18334, 553, 258, 5, 23, "ExampleSection",ExpressionUUID->"65e09f3e-801a-4bfd-a715-1e5a1a5809bd",
+ CellID->758435870],
+Cell[18595, 560, 251, 5, 23, "ExampleSection",ExpressionUUID->"c7fcddf3-4237-4e61-8303-8efe6994ccd9",
+ CellID->145671241],
+Cell[18849, 567, 256, 5, 23, "ExampleSection",ExpressionUUID->"8b754a5e-e679-4ed2-9d3f-c81c10a61f08",
+ CellID->120963033],
+Cell[19108, 574, 248, 5, 23, "ExampleSection",ExpressionUUID->"c6a2f479-8c74-40e1-8656-7d39ce2bd665",
+ CellID->39586490]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[19393, 584, 109, 1, 72, "MetadataSection",ExpressionUUID->"9238c3cf-cbae-42da-8c39-8ddbd1f4440e",
+ CellID->11174019],
+Cell[19505, 587, 472, 11, 26, "History",ExpressionUUID->"02eed5bc-03dc-4c51-a98a-dcbd4b8fc7d8",
+ CellID->38792406],
+Cell[CellGroupData[{
+Cell[20002, 602, 484, 13, 21, "CategorizationSection",ExpressionUUID->"b1968fd5-8b25-41f8-9846-70b4d67f3c87",
+ CellID->565974138],
+Cell[20489, 617, 134, 2, 35, "Categorization",ExpressionUUID->"00049ae6-bafa-455d-b28b-bfe5dded84de",
+ CellID->378508735],
+Cell[20626, 621, 157, 2, 35, "Categorization",ExpressionUUID->"efd0f32f-5c04-472b-8466-a66334a20f18",
+ CellID->92583139],
+Cell[20786, 625, 155, 2, 35, "Categorization",ExpressionUUID->"031329a7-0e70-42f5-b488-ff6e011ddeb3",
+ CellID->143120455],
+Cell[20944, 629, 160, 2, 35, "Categorization",ExpressionUUID->"7f842c60-7689-43a9-a2f2-4f1c5c2eae0c",
+ CellID->140561555]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[21141, 636, 108, 1, 21, "KeywordsSection",ExpressionUUID->"d76ef4dd-6303-4450-817b-dd28fa1157db",
+ CellID->4178512],
+Cell[21252, 639, 98, 1, 70, "Keywords",ExpressionUUID->"c1fe6974-6d16-470e-bb1d-d82aba2a8db8",
+ CellID->54491183]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[21387, 645, 119, 1, 21, "TemplatesSection",ExpressionUUID->"1e7bff11-46e6-4854-bbdd-0f65455d1212",
+ CellID->855624688],
+Cell[21509, 648, 148, 2, 70, "Template",ExpressionUUID->"ddb2fb17-1bef-4f25-a70a-4f4b2c5ca5f7",
+ CellID->161314596],
+Cell[21660, 652, 137, 2, 70, "Template",ExpressionUUID->"d3cb9557-8ff3-4de7-b579-e2cbdd2d4546",
+ CellID->315543948],
+Cell[21800, 656, 134, 2, 70, "Template",ExpressionUUID->"664e0dba-0d0a-461e-82d4-cc288e0a6818",
+ CellID->94119800],
+Cell[21937, 660, 137, 2, 70, "Template",ExpressionUUID->"440e9a4f-774e-4133-bdc2-18514ae80581",
+ CellID->381752512]
+}, Closed]]
+}, Open  ]]
+}
+]
+*)
+
