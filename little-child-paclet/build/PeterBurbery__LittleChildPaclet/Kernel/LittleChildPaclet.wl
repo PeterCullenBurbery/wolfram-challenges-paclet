@@ -23,10 +23,19 @@
 <<PeterBurbery`LittleChildPaclet`TwoAndThreePointers`;
 <<PeterBurbery`LittleChildPaclet`WordListLookup`;
 <<PeterBurbery`LittleChildPaclet`Coins`;
-(*<<PeterBurbery`LittleChildPaclet`AliquotSequence`;
+<<PeterBurbery`LittleChildPaclet`AliquotSequence`;
 <<PeterBurbery`LittleChildPaclet`CatalanUnrank`;
 
 <<PeterBurbery`LittleChildPaclet`BalancedParentheses`;
 <<PeterBurbery`LittleChildPaclet`AlmostPalindrome`;
-<<PeterBurbery`LittleChildPaclet`RepeatandEndingPrimes`;*)
+<<PeterBurbery`LittleChildPaclet`RepeatandEndingPrimes`;
+<<PeterBurbery`LittleChildPaclet`CompleteDictionary`;
+<<PeterBurbery`LittleChildPaclet`Anagrams`;
+<<PeterBurbery`LittleChildPaclet`AntipodalCity`;
+<<PeterBurbery`LittleChildPaclet`AntipodeAboveSeaLevelQ`;
+<<PeterBurbery`LittleChildPaclet`AscendingSublists`;
+<<PeterBurbery`LittleChildPaclet`BabbageSquares`;
+<<PeterBurbery`LittleChildPaclet`BalancedParentheses`;
+<<PeterBurbery`LittleChildPaclet`BalancedTernary`;
+<<PeterBurbery`LittleChildPaclet`CaesarDecrypt`;
 

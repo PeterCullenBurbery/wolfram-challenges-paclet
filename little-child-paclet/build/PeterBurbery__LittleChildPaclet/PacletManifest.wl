@@ -19,6 +19,84 @@
             "File"
             ->
             File[
+                "Kernel\\Anagrams.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "b4513b1cd46fb5daa1097aad47f2f52bccb68c4f404ec5492e8358639e203b4c"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\AntipodalCity.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "c11b4be841c673927dd6875da2e24cb42db9f4024079fa1d585a73369c98023e"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\AntipodeAboveSeaLevelQ.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "c49a9f04074700b1f3d06a9ee29c9e38db3fedb0b6ab8d3e37ba71f2585b64a9"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\AscendingSublists.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "b4513b1cd46fb5daa1097aad47f2f52bccb68c4f404ec5492e8358639e203b4c"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\AverageElevation.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "5852b4804842757af7d8924db60a598c7960d12ff6af28d20145e7a4dfc39a31"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\BabbageSquares.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "bd2006429600965b5ab1ca57860029db8e13bd1d0d5cabb52f9934ff857f9d96"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Kernel\\BalancedParentheses.wl"
             ]
             ,
@@ -32,12 +110,38 @@
             "File"
             ->
             File[
+                "Kernel\\BalancedTernary.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "dcd53edf163aabf312eaded49196d7e03e51b0051d4dc8260a1d35173246399c"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Kernel\\ButterflyString.wl"
             ]
             ,
             "Hash"
             ->
             "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\CaesarDecrypt.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "29f2ef6bf31f76c91471a5ecb669e5c8edf913be5835b82a9573733fcb1806b9"
                 
         |>
         ,
@@ -64,6 +168,19 @@
             "Hash"
             ->
             "23e7aa4cba03d84558f0226b3600e415824bb6d5a91c922906bfd5b62b463efb"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\CompleteDictionary.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "71efb0674cecaf50288f1848c487609991622146266e7495a5d3284ed12e40cb"
                 
         |>
         ,
@@ -115,7 +232,7 @@
             ,
             "Hash"
             ->
-            "156bc9db2ca4e0e96fbbd2638c261bdd8955f16cd46b6f571f3d5c11d7dad179"
+            "0a3b8666485a4a3d1a9f41e948d148d7717ee54679c05095d2e3fdcb39c8a8cc"
                 
         |>
         ,
@@ -259,6 +376,19 @@
             "Hash"
             ->
             "b1b81230cd7a028988989e6ed9a58609d8de5e245f59acb985d63797e5cd0d71"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\ThreeAngles.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
                 
         |>
         ,
@@ -482,6 +612,62 @@
             "File"
             ->
             File[
+                "Documentation\\English\\ReferencePages\\Symbols\\Anagrams.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "21f83c5f0706c485d67071697e14450512224f0fddfc597a3d713fd430781b3c"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\AntipodalCity.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "2906eb0115ed1774b8d772d07a53a0f5414adc707860d6bce42f5e33d85d9600"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\AntipodeAboveSeaLevelQ.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "5a3bc4ccfc0fa4af6e98e43e05cc4a9b6637eb4c31c26bbbe52425a7b4f0131f"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\BabbageSquares.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "38c9af57d7e1bb6c62e49529411031aa4fea1a3d364b4ffa4b944a1ae09ae219"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Documentation\\English\\ReferencePages\\Symbols\\BalancedParentheses.nb"
                     
             ]
@@ -496,6 +682,20 @@
             "File"
             ->
             File[
+                "Documentation\\English\\ReferencePages\\Symbols\\BalancedTernary.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "226373a0f5c91456133dac0e4236dc273dc3cfbb144c3cbe8bce6ddf84240fb4"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Documentation\\English\\ReferencePages\\Symbols\\ButterflyString.nb"
                     
             ]
@@ -503,6 +703,20 @@
             "Hash"
             ->
             "36ab5aedeeb28e160277c7f0336cb06ab18aee04893599ae31f58ad89de69adf"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\CaesarDecrypt.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "7e76e4c9ec39b4201e7c0f8541b15e5fefa4adccd60af802eb717207fc5ba556"
                 
         |>
         ,
@@ -531,6 +745,20 @@
             "Hash"
             ->
             "4709eb43c03dc043b21bba7de75c6fc979aa8f349a84a2d397ee99edd387e1f8"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\CompleteDictionary.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "b78fef44d918fb8c972aeeb3044ac7b696d036dd8797892f84bf6f2eb8d1be5d"
                 
         |>
         ,

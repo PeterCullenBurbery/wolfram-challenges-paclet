@@ -185,4 +185,32 @@ With2PointsAndThreePoints.nb" ->
  "English\\ReferencePages\\Symbols\\RepeatandEndingPrimes.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
       "Time" -> Quantity[2.0156336, "Seconds"]|>], 
-   "FileHash" -> "PPsaleYpvM4a+C7AJyns7stc/PKb1/bQOL+TOiNPhP4="|>|>
+   "FileHash" -> "PPsaleYpvM4a+C7AJyns7stc/PKb1/bQOL+TOiNPhP4="|>, 
+ "English\\ReferencePages\\Symbols\\Anagrams.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[1.5242283, "Seconds"]|>], 
+   "FileHash" -> "OqoRSw5devw0kY8KJMte3jRt19n1tqnwtgJqlB/H3z4="|>, 
+ "English\\ReferencePages\\Symbols\\AntipodalCity.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[1.086168, "Seconds"]|>], 
+   "FileHash" -> "anovSrkFpEhuO+VNHaTdbv/VU+WB4C4rIOJ/aZo+KQo="|>, 
+ "English\\ReferencePages\\Symbols\\AntipodeAboveSeaLevelQ.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[1.0865013, "Seconds"]|>], 
+   "FileHash" -> "HKHZmtsPVK5LBkH7OUy2zcXks5Vfjp5MLlUUXc/y2lA="|>, 
+ "English\\ReferencePages\\Symbols\\BabbageSquares.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[1.0741134, "Seconds"]|>], 
+   "FileHash" -> "DTTl5oHAjJT3ZUwrrZur1NW0v/MHxjEOzXG/hk2aPEc="|>, 
+ "English\\ReferencePages\\Symbols\\BalancedTernary.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[1.2479232, "Seconds"]|>], 
+   "FileHash" -> "bdE2/u7jBPMRq+LLdaWfamDgJIE5crfX9qXigRsZwnU="|>, 
+ "English\\ReferencePages\\Symbols\\CaesarDecrypt.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[1.1559031, "Seconds"]|>], 
+   "FileHash" -> "gvoSsSh3D+APEfoGalxLrrE6A+UJIrLuN2Omh9WQYQg="|>, 
+ "English\\ReferencePages\\Symbols\\CompleteDictionary.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[1.772559, "Seconds"]|>], 
+   "FileHash" -> "B2vHZgMjKnAAk35rQMgdRm4Z/fkDXXFVHxvm5R4RU64="|>|>
