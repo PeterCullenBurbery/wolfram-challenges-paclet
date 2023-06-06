@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     17672,        492]
-NotebookOptionsPosition[     11828,        366]
-NotebookOutlinePosition[     12638,        392]
-CellTagsIndexPosition[     12559,        387]
+NotebookDataLength[     55164,       1365]
+NotebookOptionsPosition[     46556,       1180]
+NotebookOutlinePosition[     47390,       1207]
+CellTagsIndexPosition[     47310,       1202]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -30,15 +30,154 @@ Cell[TextData[{
    ButtonBox["BabbageSquares",
     BaseStyle->"Link",
     ButtonData->"paclet:PeterBurberyLittleChildPaclet/ref/BabbageSquares"], 
-   "[", "]"}]], "InlineFormula",ExpressionUUID->
+   "[", 
+   StyleBox["word", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
   "6e24f947-287a-4ea4-a5a1-b424a08b2d4d"],
- "\[LineSeparator]XXXX"
+ "\[LineSeparator]makes word squares with the four letter word ",
+ Cell[BoxData[
+  StyleBox["word", "TI"]], "InlineFormula",ExpressionUUID->
+  "d24b3c7f-851c-456d-b3fa-098aa66251a9"]
 }], "Usage",
- CellChangeTimes->{3.8950793295966735`*^9},
+ CellChangeTimes->{
+  3.8950793295966735`*^9, {3.8950807950289025`*^9, 3.8950807955992303`*^9}, {
+   3.895080834588608*^9, 3.8950808472519326`*^9}},
  CellID->142326538,ExpressionUUID->"2912b810-8e5b-46ee-b5aa-58ef832e05cc"],
 
-Cell["XXXX", "Notes",
- CellID->499682016,ExpressionUUID->"b19b1e31-92c2-414d-8306-26a24d7c7061"]
+Cell["\<\
+A Babbage square is a grid of letters that reads the same across as it does \
+down. Given a four-letter word, the function will find all Babbage squares \
+starting with that word.\
+\>", "Notes",
+ CellChangeTimes->{{3.8950806168358526`*^9, 3.895080623634508*^9}},
+ CellID->499682016,ExpressionUUID->"b19b1e31-92c2-414d-8306-26a24d7c7061"],
+
+Cell["\<\
+In the nineteenth century, Charles Babbage popularized this word puzzle: \
+start with a word and write its letters both across and down so that the \
+first letter is shared. This outlines a square grid:\
+\>", "Notes",
+ CellID->377134596,ExpressionUUID->"04f5cd2a-e4cb-4585-b5a3-fb0af7cafaf1"],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[RasterBox[CompressedData["
+1:eJzt3T9IY2sax/Hh7iILY2ElFjYraQQbG9luWBtdsLpxK6srd3K5KLM4d/Gy
+aSy0sQyk0z6dIHYbUgVSbCDYpArYjIVNGguxO+vvhSec8ebEaPKeP57vB84M
+jsf45n2fPHnOezLv+9fdf/1Y+uHDhw+//eXpjx9/+v3vX7/+9J/i3NMX//zy
+26+/fPn88z++/PvzL5+//m33T0//+L+n479Px5+fjgDIkePj40Bhv7GxkXRT
+/qDf7wefPn0KPn78GOzu7ibdnFileVyyKM39WavVXNvs+PbtW9JNik2axyWL
+0tyfd3d3wdramsvnOzs7STcnVmkelyyiP9OJcZku68/Nzc2km4IQxmW66M90
+Ylymy/pza2vLfa1rP/Xt3Nycq4uXl5fdOff3917bcXBw8N015/ND8y5xarfb
+bo6nUCi4ftCxtLQUlEqloNVqef/9Ni7FYtF9fXt76/pIbVBb5ufn3fc6nY73
+tojmvtSm1dXVYHZ2dhAbatPNzY3332/9cXZ25r6+uLj4Q5weHR1Fxqn9vOJo
+fX09Ms70OOprX/b391MT55VKZWRbLC/47A8bF11/a0w1nsPaoTG+vr721g5p
+NpvBwsJCZF+oDefn517bYP2hPPOWOLWft0OPoxzx+Pjozj89PQ1mZma+yy1x
+Ojk5cb9bzy0Oes72fNUX3W7X9YUO5a1qter6UnHnc57TxmVxcdH9vbKyElxe
+Xrp8pTYqrpRXw+/FPvR6vcHv0fO2Njw8PLj4D8ecvufLpHFqP69xazQaQ3+H
+xtYeP473qDC1P858rj6w56qxjKLx9yk8rhq3YW2xc5RPfVFtoN+h+i2qJtDr
+TOeoplLc+TBpnI4zf6W2qy91nu/3p+csn8cV56pDVftafCmfJ8HGRXk8KnZ0
+DWHjqnsN06bHtByp2imK3tesHfV6fertkEnjdNx5WvW3ziuXy1Np97jizuei
+90O9R9vY6dpLz1vv077y1XPjjIver33eK766uhrrvU0sPpSXfJg0Tsf9eavD
+dH0dp7jr8zDNPek92XKEvW9qHsZ3nk9DnNvnLvScX+I7PiaN03F/3vKbr9dr
+lCTy+XPK4aoJDw8PB9eFOlQP+jLOuKiu8HndpOtKe/yX3scsj6rdPkwap+Pc
+jwjXX1HXAL7EXZ+/ROO9t7fn2qTaVfW8D2nI5+HHHzWXEj4vyfp8VJxaHClP
+RfWVrsfsnLjqUxN3Pldtrj4Z9TzD/emrfklDPhebb1G+jppv2d7e9h4f1h+a
+94m65h7VjvD8leowxZXGUefpet6epw7Va3GLuz7XNaf1lfpCca+crf7Q38pX
+es3FNa5J5nPR69jmz8Nz+DZ/rvZZG0bNyUwqHKeaD9O9vHCc2txmVJyG7/uP
+uucVd11u4s7nih3dg4zqh3BO8Hn/Py35XFQD2FzrsEP1m92P98X6Q/X3qLZE
+xan9vF4D9hkGPZbabp+hiOPzHFGSqs+VxzQ3pfyuflB/KLb1eXj1kY/56rDX
+5nPf9+8UG/r8SPjzLaoh9HkN3/fMJPx5H2tLmuIUmAY+v4k8IM6RB/z/KuQB
+cY48IM6RB8Q5AAAAAAAAAAAAAIwvz/ulID/yvF8K8iPP+6UAAAAASUrbfimA
+D2naLwWIW9rW7wR8SMN6zIBv5HPkAfkceUA+Rx6Qz5EH5HPkAfkceUA+Rx6Q
+z5EH5HMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMQ7vddnviFgoFt5+ijqWl
+paBUKgWtVivp5gETq1QqI/du0bG1tRXc3t4m3VTgTRS7MzMzLpaVu7vdbvD4
++OiOm5uboFqtBsvLy8Hc3Bz7QiOzGo3GIGc/PDxEntfr9WJsFTBd/X4/mJ+f
+d3FeLBZdPgfeo06n42oTy+urq6tBuVwOms2mq1+A96RWq7nrTc21WMyrLtc8
+DHke741yuOr2w8PDYHFxcRDzuiYF3iPF/N7enotzzcuongeyRrW51jofVYdr
+PtFyOvULskjXnIpf1Sfaw0Jxr5ytuNff9XrdrfVv53BdiizSfaKdnZ0X74fq
+epT7/8g61SOaS1R+13y6anHF9traWnB8fBzc3d0l3UQAAAAAAAAAAAAAAAAA
+AAAAAACv9H8o9P+FNjY2km4K4A1xjjwgzpEHxDnywOJ8c3Mz6aYA3hDnyAOL
+c60JLVrP5eDgwO3ZorUttMaFvqf1i4CssjjXWkUXFxduzZZh6xRpDd3r6+uk
+mwu8icW5rYu7srISXF5eBvf39y63n52dBbOzs4M9ioAssji32mXY3i12jnI6
+kEUWw1pvLmqNUO25aK8F1p9DFo0zf676xeKcPeeQRePEuXK4xbn2WgSyhnyO
+PCCfIw/I58gD8jny4LVxTj5HFr22biGfAwAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAA4DX6/b5b40LrQ2tdf611vry87PZwYS0LvAfNZjNYWFgYul+Lre9/fn6e
+dDOBN+v1eoN9WZS/bc8W7Wuh+F9fXx/Eu74HZJH2U1QMFwoFF9/DaF8inaM9
+6KL2vADSSusmau9ExbD2mouiNRUtp9fr9RhbCEzu6upqEL/D9t8K0z50Ou/k
+5CSm1gHTUavVXOxqz9CXWJ2u+RcgS3Rdafn8pbrb8rnmHoEsCa/3PGouJXwe
+9TmyyOZblK+j5lu2t7cHe0Yz34Is6na7g/nz8J7nNn+u9f8tl4+akwHSrtFo
+BPPz85H3QzX3eHZ2lnQzgYnp8y1HR0fffb5F94729/fdPVMAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAADgNbReotZosfVZtBaR1ujS2qK2d4vWu4haqwvIAovz
+Uqn03d4Vzw+t5aL10oEssji3Q/He6XTcOopaP/T09HSwF0CxWEy6ucCbWJyr
+TtH6c8NUq9XB64C955BFFudaLzSKcrtqdZ3HvnPIonHiXGyd/3K5HFPLgOkZ
+N87ZtwVZNm6ca36RfbiQVePEOfsqIusszkfNj7NvC7IuPH+uPS0qlYrL34rn
+drs92Atah/ZhBLLI4lz196i9W6jLkWUW57rXaXu3KOZ1D1Rxr39vtVpJNxOY
+iMW5PrsFvFfEOfJg3PlzIMuIc+QBcY48IM4BINv+DxTmUig=
+    "], {{0, 121.19999999999999`}, {111.6, 0}}, {0, 255},
+    ColorFunction->RGBColor,
+    ImageResolution->{120., 120.},
+    SmoothingQuality->"High"],
+   BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
+   Selectable->False],
+  DefaultBaseStyle->"ImageGraphics",
+  ImageSize->Automatic,
+  ImageSizeRaw->{111.6, 121.19999999999999`},
+  PlotRange->{{0, 111.6}, {0, 121.19999999999999`}}]], "Notes",
+ CellChangeTimes->{3.895080632342163*^9},
+ CellID->17521892,ExpressionUUID->"4933ea7a-37bb-4f3b-b84b-16aab0805c37"],
+
+Cell["\<\
+The goal is to fill in the grid with letters to form the same set of words \
+reading across or down. (The words should also appear in the same order.)\
+\>", "Notes",
+ CellID->43465984,ExpressionUUID->"4c971f84-6365-49f5-add2-1ca77989a0e1"],
+
+Cell["\<\
+Here is an example of a Babbage square that is formed from the difficult \
+starting word \"bishop\":\
+\>", "Notes",
+ CellID->86936369,ExpressionUUID->"7c8af497-747f-462b-8b80-3b99bc9c0a3b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Grid", "[", 
+  RowBox[{"Characters", " ", "/@", " ", 
+   RowBox[{"{", 
+    RowBox[{
+    "\"\<bishop\>\"", ",", " ", "\"\<impose\>\"", ",", " ", "\"\<sports\>\"", 
+     ",", " ", "\"\<hornet\>\"", ",", " ", "\"\<osteal\>\"", ",", "     ", 
+     "\"\<pestle\>\""}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8950806446691217`*^9, 3.8950806446731215`*^9}},
+ CellLabel->"In[10]:=",
+ CellID->415059453,ExpressionUUID->"8d3a1698-3878-4806-82d2-5d126267ebf3"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"b\"\>", "\<\"i\"\>", "\<\"s\"\>", "\<\"h\"\>", "\<\"o\"\>", \
+"\<\"p\"\>"},
+    {"\<\"i\"\>", "\<\"m\"\>", "\<\"p\"\>", "\<\"o\"\>", "\<\"s\"\>", \
+"\<\"e\"\>"},
+    {"\<\"s\"\>", "\<\"p\"\>", "\<\"o\"\>", "\<\"r\"\>", "\<\"t\"\>", \
+"\<\"s\"\>"},
+    {"\<\"h\"\>", "\<\"o\"\>", "\<\"r\"\>", "\<\"n\"\>", "\<\"e\"\>", \
+"\<\"t\"\>"},
+    {"\<\"o\"\>", "\<\"s\"\>", "\<\"t\"\>", "\<\"e\"\>", "\<\"a\"\>", \
+"\<\"l\"\>"},
+    {"\<\"p\"\>", "\<\"e\"\>", "\<\"s\"\>", "\<\"t\"\>", "\<\"l\"\>", \
+"\<\"e\"\>"}
+   },
+   AutoDelete->False,
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{3.895080645222349*^9},
+ CellLabel->"Out[10]=",
+ CellID->42631991,ExpressionUUID->"4bf02da0-4537-41be-97cf-89b2e0a8ad07"]
+}, Open  ]],
+
+Cell["I found the code for this on Wolfram Community.", "Notes",
+ CellChangeTimes->{{3.89508077750152*^9, 3.895080788386453*^9}},
+ CellID->221975422,ExpressionUUID->"875a4265-8e7e-469a-ab0c-59f04e166b9e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -59,21 +198,25 @@ Cell[TextData[{
  CellID->283006970,ExpressionUUID->"55215e09-10e4-4df8-ba4b-e445160ead5f"],
 
 Cell[TextData[{
- Cell[BoxData[
-  TagBox[
-   FrameBox["\<\"XXXX\"\>"],
-   "FunctionPlaceholder"]], "InlineSeeAlsoFunction",
+ Cell[BoxData["Grid"], "InlineSeeAlsoFunction",
   TaggingRules->{"PageType" -> "Function"},ExpressionUUID->
   "6f7f4e41-7c0c-420b-a456-65f016741d99"],
+ StyleBox[" \[FilledVerySmallSquare] ", "InlineSeparator"],
+ Cell[BoxData["WordList"], "InlineSeeAlsoFunction",
+  TaggingRules->{"PageType" -> "Function"},
+  CellTags->"c7771e49-e06e-4db8-9c97-ac8ff3f8d968",ExpressionUUID->
+  "089df4fd-d112-4805-a393-31d2e57f8416"],
  Cell[BoxData[
   RowBox[{
   Cell[TextData[StyleBox[
    " \[FilledVerySmallSquare] ", "InlineSeparator"]],ExpressionUUID->
     "91682106-0e56-45f1-9b7b-6f556b7f67c9"], 
    DynamicModuleBox[{$CellContext`nbobj$$ = NotebookObject[
-     FrontEndObject[
-      LinkObject["i7bzb_shm", 209, 9]], 22], $CellContext`cellobj$$ = 
-    CellObject[6753]}, 
+    "bb5d5642-318d-48d6-9bf6-ede1ce069335", 
+     "e5016714-0b7a-4766-b3b4-9a6f716b5580"], $CellContext`cellobj$$ = 
+    CellObject[
+    "fe473b66-de10-4cb6-b947-827afd40cbfa", 
+     "bdfeab56-13a2-42c2-93a8-dbbbf9181d73"]}, 
     TemplateBox[{
       GraphicsBox[{{
          Thickness[0.06], 
@@ -98,6 +241,7 @@ Cell[TextData[{
   "InlineListingAddButton",ExpressionUUID->
   "fe473b66-de10-4cb6-b947-827afd40cbfa"]
 }], "SeeAlso",
+ CellChangeTimes->{{3.89508065344755*^9, 3.8950806600840874`*^9}},
  CellID->124240747,ExpressionUUID->"bb31e6fb-9815-4081-860e-f7118344f24c"]
 }, Open  ]],
 
@@ -147,8 +291,33 @@ Cell[TextData[{
 }], "RelatedLinksSection",
  CellID->363994807,ExpressionUUID->"f62e501c-5a38-4086-9a83-0edb2ba810ad"],
 
-Cell["XXXX", "RelatedLinks",
- CellID->15281549,ExpressionUUID->"771418ad-6b4b-4ac1-b2f5-94f6f9f38743"]
+Cell[TextData[ButtonBox["Babbage Squares \[RightGuillemet]",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://challenges.wolframcloud.com/challenge/babbage-squares"], None},
+ ButtonNote->
+  "https://challenges.wolframcloud.com/challenge/babbage-squares"]], \
+"RelatedLinks",
+ CellChangeTimes->{{3.895080515890131*^9, 3.8950805240862346`*^9}},
+ CellID->15281549,ExpressionUUID->"771418ad-6b4b-4ac1-b2f5-94f6f9f38743"],
+
+Cell[TextData[ButtonBox["Squaring Words with the Wolfram Language",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://community.wolfram.com/groups/-/m/t/755144"], None},
+ ButtonNote->
+  "https://community.wolfram.com/groups/-/m/t/755144"]], "RelatedLinks",
+ CellChangeTimes->{{3.895080551489991*^9, 3.8950805564866943`*^9}},
+ CellID->25716395,ExpressionUUID->"025c07a2-e22e-410f-8607-ce727f06f4e8"],
+
+Cell[TextData[ButtonBox["Word Squares",
+ BaseStyle->"Hyperlink",
+ ButtonData->{
+   URL["https://demonstrations.wolfram.com/WordSquares/"], None},
+ ButtonNote->
+  "https://demonstrations.wolfram.com/WordSquares/"]], "RelatedLinks",
+ CellChangeTimes->{{3.8950805968655653`*^9, 3.8950805968665657`*^9}},
+ CellID->384068151,ExpressionUUID->"60815213-2f6b-40d6-868a-a4d135e31f27"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -175,6 +344,8 @@ Cell[BoxData[
  CellID->88755931,ExpressionUUID->"29133240-ec89-474e-86d3-a61e0ae94264"]
 }, Open  ]],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  InterpretationBox[GridBox[{
     {
@@ -188,6 +359,355 @@ Cell[BoxData[
    }],
   $Line = 0; Null]], "PrimaryExamplesSection",
  CellID->463958466,ExpressionUUID->"e48ea6b9-9f41-4869-95b1-dc2810169ffe"],
+
+Cell["\<\
+The function BabbageSquares takes a four-letter word and finds all possible \
+Babbage squares that complete it. The Babbage squares will be presented as \
+sorted grids of letters. The function will use only common English words\
+\[LongDash]that is, ones that are in WordList[].\
+\>", "ExampleText",
+ CellChangeTimes->{{3.8950806677146063`*^9, 3.8950807102939243`*^9}},
+ CellID->307801982,ExpressionUUID->"9fd6ef83-4443-4f70-a9ea-1040c93057f4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BabbageSquares", "[", "\"\<hair\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.8950807160227966`*^9, 3.8950807160247974`*^9}},
+ CellLabel->"In[11]:=",
+ CellID->22150801,ExpressionUUID->"925c2c8e-03df-445b-bf0a-b351a1072cc7"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"b\"\>", "\<\"b\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"b\"\>", "\<\"i\"\>", "\<\"s\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"s\"\>", "\<\"t\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"c\"\>", "\<\"r\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"r\"\>", "\<\"i\"\>", "\<\"s\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"s\"\>", "\<\"t\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"c\"\>", "\<\"r\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"r\"\>", "\<\"o\"\>", "\<\"n\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"n\"\>", "\<\"d\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"c\"\>", "\<\"r\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"r\"\>", "\<\"o\"\>", "\<\"n\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"n\"\>", "\<\"t\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>", "\<\"a\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"a\"\>", "\<\"d\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>", "\<\"a\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"a\"\>", "\<\"l\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>", "\<\"a\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"a\"\>", "\<\"m\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>", "\<\"a\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"a\"\>", "\<\"p\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>", "\<\"a\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"a\"\>", "\<\"r\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>", "\<\"s\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"s\"\>", "\<\"t\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"d\"\>", "\<\"l\"\>", "\<\"e\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"d\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"d\"\>", "\<\"l\"\>", "\<\"e\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"f\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"d\"\>", "\<\"l\"\>", "\<\"e\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"k\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"d\"\>", "\<\"l\"\>", "\<\"e\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"l\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"i\"\>", "\<\"d\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"d\"\>", "\<\"o\"\>", "\<\"l\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"l\"\>", "\<\"y\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"l\"\>", "\<\"o\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"o\"\>", "\<\"t\"\>", "\<\"a\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"a\"\>", "\<\"d\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"l\"\>", "\<\"o\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"o\"\>", "\<\"t\"\>", "\<\"a\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"a\"\>", "\<\"l\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"l\"\>", "\<\"o\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"o\"\>", "\<\"t\"\>", "\<\"a\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"a\"\>", "\<\"m\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"l\"\>", "\<\"o\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"o\"\>", "\<\"t\"\>", "\<\"a\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"a\"\>", "\<\"p\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"l\"\>", "\<\"o\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"o\"\>", "\<\"t\"\>", "\<\"a\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"a\"\>", "\<\"r\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"l\"\>", "\<\"t\"\>", "\<\"o\"\>"},
+      {"\<\"i\"\>", "\<\"t\"\>", "\<\"e\"\>", "\<\"m\"\>"},
+      {"\<\"r\"\>", "\<\"o\"\>", "\<\"m\"\>", "\<\"p\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"m\"\>", "\<\"m\"\>", "\<\"o\"\>"},
+      {"\<\"i\"\>", "\<\"m\"\>", "\<\"a\"\>", "\<\"m\"\>"},
+      {"\<\"r\"\>", "\<\"o\"\>", "\<\"m\"\>", "\<\"p\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"n\"\>", "\<\"t\"\>", "\<\"i\"\>"},
+      {"\<\"i\"\>", "\<\"t\"\>", "\<\"e\"\>", "\<\"m\"\>"},
+      {"\<\"r\"\>", "\<\"i\"\>", "\<\"m\"\>", "\<\"e\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"p\"\>", "\<\"s\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"s\"\>", "\<\"l\"\>", "\<\"e\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"d\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"p\"\>", "\<\"s\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"s\"\>", "\<\"l\"\>", "\<\"e\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"f\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"p\"\>", "\<\"s\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"s\"\>", "\<\"l\"\>", "\<\"e\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"k\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"p\"\>", "\<\"s\"\>", "\<\"e\"\>"},
+      {"\<\"i\"\>", "\<\"s\"\>", "\<\"l\"\>", "\<\"e\"\>"},
+      {"\<\"r\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"l\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"u\"\>", "\<\"r\"\>", "\<\"a\"\>"},
+      {"\<\"i\"\>", "\<\"r\"\>", "\<\"i\"\>", "\<\"s\"\>"},
+      {"\<\"r\"\>", "\<\"a\"\>", "\<\"s\"\>", "\<\"h\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"u\"\>", "\<\"r\"\>", "\<\"a\"\>"},
+      {"\<\"i\"\>", "\<\"r\"\>", "\<\"i\"\>", "\<\"s\"\>"},
+      {"\<\"r\"\>", "\<\"a\"\>", "\<\"s\"\>", "\<\"p\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"u\"\>", "\<\"r\"\>", "\<\"a\"\>"},
+      {"\<\"i\"\>", "\<\"r\"\>", "\<\"o\"\>", "\<\"n\"\>"},
+      {"\<\"r\"\>", "\<\"a\"\>", "\<\"n\"\>", "\<\"d\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"u\"\>", "\<\"r\"\>", "\<\"a\"\>"},
+      {"\<\"i\"\>", "\<\"r\"\>", "\<\"o\"\>", "\<\"n\"\>"},
+      {"\<\"r\"\>", "\<\"a\"\>", "\<\"n\"\>", "\<\"k\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"u\"\>", "\<\"r\"\>", "\<\"a\"\>"},
+      {"\<\"i\"\>", "\<\"r\"\>", "\<\"o\"\>", "\<\"n\"\>"},
+      {"\<\"r\"\>", "\<\"a\"\>", "\<\"n\"\>", "\<\"t\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"h\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"r\"\>"},
+      {"\<\"a\"\>", "\<\"u\"\>", "\<\"t\"\>", "\<\"o\"\>"},
+      {"\<\"i\"\>", "\<\"t\"\>", "\<\"e\"\>", "\<\"m\"\>"},
+      {"\<\"r\"\>", "\<\"o\"\>", "\<\"m\"\>", "\<\"p\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"]}], "}"}]], "Output",
+ CellChangeTimes->{3.8950807229298506`*^9},
+ CellLabel->"Out[11]=",
+ CellID->45846867,ExpressionUUID->"9c42c937-3241-4cd0-b561-45b66147c654"]
+}, Open  ]],
+
+Cell["\<\
+Each square will be a nested list of characters wrapped in Grid:\
+\>", "ExampleText",
+ CellChangeTimes->{{3.895080731813381*^9, 3.8950807370242386`*^9}},
+ CellID->540340159,ExpressionUUID->"60a9fd69-0fe8-4a1f-a049-fa3fb7b4b5a3"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"First", "[", 
+   RowBox[{"BabbageSquares", "[", "\"\<hair\>\"", "]"}], "]"}], "//", 
+  "InputForm"}]], "Input",
+ CellChangeTimes->{{3.8950807160227966`*^9, 3.895080744980692*^9}},
+ CellLabel->"In[12]:=",
+ CellID->118894540,ExpressionUUID->"c0ab07d2-aa8f-4e48-a794-87bcdfd29f20"],
+
+Cell["\<\
+Grid[{{\"h\", \"a\", \"i\", \"r\"}, {\"a\", \"b\", \"b\", \"e\"}, 
+  {\"i\", \"b\", \"i\", \"s\"}, {\"r\", \"e\", \"s\", \"t\"}}]\
+\>", "Output",
+ CellChangeTimes->{3.895080745444046*^9},
+ CellLabel->"Out[12]//InputForm=",
+ CellID->10586662,ExpressionUUID->"b51f34a1-5992-432c-b1a0-bed182c2bb0c"]
+}, Open  ]]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -206,12 +726,306 @@ Cell[TextData[{
  CellTags->"ExtendedExamples",
  CellID->832211741,ExpressionUUID->"51ecb734-d354-402d-a4d0-e2c3301a20b1"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  InterpretationBox[Cell[
   "Scope", "ExampleSection",ExpressionUUID->
    "a76cee5c-8ae9-4b74-b925-7791208d15a0"],
   $Line = 0; Null]], "ExampleSection",
  CellID->383286456,ExpressionUUID->"674fd91b-088f-4b9d-a19e-48ae112d797b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BabbageSquares", "[", "\"\<zoos\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.895080751595539*^9, 3.8950807515965385`*^9}},
+ CellLabel->"In[13]:=",
+ CellID->328032446,ExpressionUUID->"e6f99567-f380-453b-b6b0-f4e8bed7bbbd"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TagBox[GridBox[{
+      {"\<\"z\"\>", "\<\"o\"\>", "\<\"o\"\>", "\<\"s\"\>"},
+      {"\<\"o\"\>", "\<\"b\"\>", "\<\"o\"\>", "\<\"e\"\>"},
+      {"\<\"o\"\>", "\<\"o\"\>", "\<\"z\"\>", "\<\"e\"\>"},
+      {"\<\"s\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"d\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"z\"\>", "\<\"o\"\>", "\<\"o\"\>", "\<\"s\"\>"},
+      {"\<\"o\"\>", "\<\"b\"\>", "\<\"o\"\>", "\<\"e\"\>"},
+      {"\<\"o\"\>", "\<\"o\"\>", "\<\"z\"\>", "\<\"e\"\>"},
+      {"\<\"s\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"k\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"z\"\>", "\<\"o\"\>", "\<\"o\"\>", "\<\"s\"\>"},
+      {"\<\"o\"\>", "\<\"b\"\>", "\<\"o\"\>", "\<\"e\"\>"},
+      {"\<\"o\"\>", "\<\"o\"\>", "\<\"z\"\>", "\<\"e\"\>"},
+      {"\<\"s\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"m\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"z\"\>", "\<\"o\"\>", "\<\"o\"\>", "\<\"s\"\>"},
+      {"\<\"o\"\>", "\<\"b\"\>", "\<\"o\"\>", "\<\"e\"\>"},
+      {"\<\"o\"\>", "\<\"o\"\>", "\<\"z\"\>", "\<\"e\"\>"},
+      {"\<\"s\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"p\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"z\"\>", "\<\"o\"\>", "\<\"o\"\>", "\<\"s\"\>"},
+      {"\<\"o\"\>", "\<\"b\"\>", "\<\"o\"\>", "\<\"e\"\>"},
+      {"\<\"o\"\>", "\<\"o\"\>", "\<\"z\"\>", "\<\"e\"\>"},
+      {"\<\"s\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"r\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"z\"\>", "\<\"o\"\>", "\<\"o\"\>", "\<\"s\"\>"},
+      {"\<\"o\"\>", "\<\"g\"\>", "\<\"r\"\>", "\<\"e\"\>"},
+      {"\<\"o\"\>", "\<\"r\"\>", "\<\"a\"\>", "\<\"l\"\>"},
+      {"\<\"s\"\>", "\<\"e\"\>", "\<\"l\"\>", "\<\"f\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"z\"\>", "\<\"o\"\>", "\<\"o\"\>", "\<\"s\"\>"},
+      {"\<\"o\"\>", "\<\"g\"\>", "\<\"r\"\>", "\<\"e\"\>"},
+      {"\<\"o\"\>", "\<\"r\"\>", "\<\"a\"\>", "\<\"l\"\>"},
+      {"\<\"s\"\>", "\<\"e\"\>", "\<\"l\"\>", "\<\"l\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"z\"\>", "\<\"o\"\>", "\<\"o\"\>", "\<\"s\"\>"},
+      {"\<\"o\"\>", "\<\"i\"\>", "\<\"n\"\>", "\<\"k\"\>"},
+      {"\<\"o\"\>", "\<\"n\"\>", "\<\"c\"\>", "\<\"e\"\>"},
+      {"\<\"s\"\>", "\<\"k\"\>", "\<\"e\"\>", "\<\"w\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"z\"\>", "\<\"o\"\>", "\<\"o\"\>", "\<\"s\"\>"},
+      {"\<\"o\"\>", "\<\"k\"\>", "\<\"r\"\>", "\<\"a\"\>"},
+      {"\<\"o\"\>", "\<\"r\"\>", "\<\"a\"\>", "\<\"l\"\>"},
+      {"\<\"s\"\>", "\<\"a\"\>", "\<\"l\"\>", "\<\"e\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"z\"\>", "\<\"o\"\>", "\<\"o\"\>", "\<\"s\"\>"},
+      {"\<\"o\"\>", "\<\"k\"\>", "\<\"r\"\>", "\<\"a\"\>"},
+      {"\<\"o\"\>", "\<\"r\"\>", "\<\"a\"\>", "\<\"l\"\>"},
+      {"\<\"s\"\>", "\<\"a\"\>", "\<\"l\"\>", "\<\"t\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"z\"\>", "\<\"o\"\>", "\<\"o\"\>", "\<\"s\"\>"},
+      {"\<\"o\"\>", "\<\"v\"\>", "\<\"u\"\>", "\<\"m\"\>"},
+      {"\<\"o\"\>", "\<\"u\"\>", "\<\"z\"\>", "\<\"o\"\>"},
+      {"\<\"s\"\>", "\<\"m\"\>", "\<\"o\"\>", "\<\"g\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"]}], "}"}]], "Output",
+ CellChangeTimes->{3.89508075250235*^9},
+ CellLabel->"Out[13]=",
+ CellID->403805025,ExpressionUUID->"f30cc965-94c6-46ec-938f-22059dd2d727"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BabbageSquares", "[", "\"\<quad\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.8950807562999897`*^9, 3.8950807563019905`*^9}},
+ CellLabel->"In[14]:=",
+ CellID->31991739,ExpressionUUID->"8e3fca3c-75b3-4b9b-a58b-787ee4201521"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"g\"\>", "\<\"l\"\>", "\<\"y\"\>"},
+      {"\<\"a\"\>", "\<\"l\"\>", "\<\"g\"\>", "\<\"a\"\>"},
+      {"\<\"d\"\>", "\<\"y\"\>", "\<\"a\"\>", "\<\"d\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"g\"\>", "\<\"l\"\>", "\<\"y\"\>"},
+      {"\<\"a\"\>", "\<\"l\"\>", "\<\"o\"\>", "\<\"e\"\>"},
+      {"\<\"d\"\>", "\<\"y\"\>", "\<\"e\"\>", "\<\"d\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"g\"\>", "\<\"l\"\>", "\<\"y\"\>"},
+      {"\<\"a\"\>", "\<\"l\"\>", "\<\"o\"\>", "\<\"e\"\>"},
+      {"\<\"d\"\>", "\<\"y\"\>", "\<\"e\"\>", "\<\"r\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"l\"\>", "\<\"n\"\>", "\<\"a\"\>"},
+      {"\<\"a\"\>", "\<\"n\"\>", "\<\"a\"\>", "\<\"l\"\>"},
+      {"\<\"d\"\>", "\<\"a\"\>", "\<\"l\"\>", "\<\"e\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"l\"\>", "\<\"n\"\>", "\<\"a\"\>"},
+      {"\<\"a\"\>", "\<\"n\"\>", "\<\"e\"\>", "\<\"w\"\>"},
+      {"\<\"d\"\>", "\<\"a\"\>", "\<\"w\"\>", "\<\"n\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"l\"\>", "\<\"n\"\>", "\<\"a\"\>"},
+      {"\<\"a\"\>", "\<\"n\"\>", "\<\"o\"\>", "\<\"n\"\>"},
+      {"\<\"d\"\>", "\<\"a\"\>", "\<\"n\"\>", "\<\"g\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"l\"\>", "\<\"n\"\>", "\<\"a\"\>"},
+      {"\<\"a\"\>", "\<\"n\"\>", "\<\"o\"\>", "\<\"n\"\>"},
+      {"\<\"d\"\>", "\<\"a\"\>", "\<\"n\"\>", "\<\"k\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"l\"\>", "\<\"n\"\>", "\<\"a\"\>"},
+      {"\<\"a\"\>", "\<\"n\"\>", "\<\"t\"\>", "\<\"i\"\>"},
+      {"\<\"d\"\>", "\<\"a\"\>", "\<\"i\"\>", "\<\"s\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"l\"\>", "\<\"n\"\>", "\<\"a\"\>"},
+      {"\<\"a\"\>", "\<\"n\"\>", "\<\"u\"\>", "\<\"s\"\>"},
+      {"\<\"d\"\>", "\<\"a\"\>", "\<\"s\"\>", "\<\"h\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"n\"\>", "\<\"t\"\>", "\<\"o\"\>"},
+      {"\<\"a\"\>", "\<\"t\"\>", "\<\"o\"\>", "\<\"m\"\>"},
+      {"\<\"d\"\>", "\<\"o\"\>", "\<\"m\"\>", "\<\"e\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"n\"\>", "\<\"t\"\>", "\<\"o\"\>"},
+      {"\<\"a\"\>", "\<\"t\"\>", "\<\"o\"\>", "\<\"p\"\>"},
+      {"\<\"d\"\>", "\<\"o\"\>", "\<\"p\"\>", "\<\"a\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"n\"\>", "\<\"t\"\>", "\<\"o\"\>"},
+      {"\<\"a\"\>", "\<\"t\"\>", "\<\"o\"\>", "\<\"p\"\>"},
+      {"\<\"d\"\>", "\<\"o\"\>", "\<\"p\"\>", "\<\"e\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"r\"\>", "\<\"g\"\>", "\<\"e\"\>"},
+      {"\<\"a\"\>", "\<\"g\"\>", "\<\"u\"\>", "\<\"e\"\>"},
+      {"\<\"d\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"d\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"r\"\>", "\<\"g\"\>", "\<\"e\"\>"},
+      {"\<\"a\"\>", "\<\"g\"\>", "\<\"u\"\>", "\<\"e\"\>"},
+      {"\<\"d\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"m\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"r\"\>", "\<\"g\"\>", "\<\"e\"\>"},
+      {"\<\"a\"\>", "\<\"g\"\>", "\<\"u\"\>", "\<\"e\"\>"},
+      {"\<\"d\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"p\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"], ",", 
+   TagBox[GridBox[{
+      {"\<\"q\"\>", "\<\"u\"\>", "\<\"a\"\>", "\<\"d\"\>"},
+      {"\<\"u\"\>", "\<\"r\"\>", "\<\"g\"\>", "\<\"e\"\>"},
+      {"\<\"a\"\>", "\<\"g\"\>", "\<\"u\"\>", "\<\"e\"\>"},
+      {"\<\"d\"\>", "\<\"e\"\>", "\<\"e\"\>", "\<\"r\"\>"}
+     },
+     AutoDelete->False,
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Grid"]}], "}"}]], "Output",
+ CellChangeTimes->{3.895080757174384*^9},
+ CellLabel->"Out[14]=",
+ CellID->84895028,ExpressionUUID->"e9cbfa64-d462-4a03-8973-845f57bd169f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"BabbageSquares", "[", "\"\<dogs\>\"", "]"}], "//", 
+  "Length"}]], "Input",
+ CellChangeTimes->{{3.8950807610872884`*^9, 3.8950807610892887`*^9}},
+ CellLabel->"In[15]:=",
+ CellID->97930261,ExpressionUUID->"1d8fe29a-c6da-44b0-a329-78d5c46bfa0c"],
+
+Cell[BoxData["157"], "Output",
+ CellChangeTimes->{3.895080761933544*^9},
+ CellLabel->"Out[15]=",
+ CellID->119286772,ExpressionUUID->"586f18af-11a3-48c2-a6f1-cd027b0107c2"]
+}, Open  ]]
+}, Open  ]],
 
 Cell[BoxData[
  InterpretationBox[Cell[
@@ -364,8 +1178,9 @@ Cell[BoxData[""], "Template",
 }, Closed]]
 }, Open  ]]
 },
-WindowSize->{700.1999999999999, 604.8},
-WindowMargins->{{4.8, Automatic}, {Automatic, 0}},
+ScreenStyleEnvironment->"Working",
+WindowSize->{571.8, 579.6},
+WindowMargins->{{Automatic, -3}, {Automatic, 0}},
 TaggingRules-><|"Paclet" -> "PeterBurbery/LittleChildPaclet"|>,
 CellContext->"Global`",
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
@@ -379,14 +1194,14 @@ ExpressionUUID->"bb5d5642-318d-48d6-9bf6-ede1ce069335"
 (*CellTagsOutline
 CellTagsIndex->{
  "ExtendedExamples"->{
-  Cell[6019, 193, 487, 13, 57, "ExtendedExamplesSection",ExpressionUUID->"51ecb734-d354-402d-a4d0-e2c3301a20b1",
+  Cell[28791, 713, 487, 13, 57, "ExtendedExamplesSection",ExpressionUUID->"51ecb734-d354-402d-a4d0-e2c3301a20b1",
    CellTags->"ExtendedExamples",
    CellID->832211741]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ExtendedExamples", 12366, 380}
+ {"ExtendedExamples", 47116, 1195}
  }
 *)
 (*NotebookFileOutline
@@ -394,109 +1209,165 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 109, 1, 74, "ObjectName",ExpressionUUID->"42e8ffc1-c702-44c8-88d3-24b2e222d346",
  CellID->2902953],
-Cell[692, 25, 500, 12, 78, "Usage",ExpressionUUID->"2912b810-8e5b-46ee-b5aa-58ef832e05cc",
+Cell[692, 25, 792, 18, 78, "Usage",ExpressionUUID->"2912b810-8e5b-46ee-b5aa-58ef832e05cc",
  CellID->142326538],
-Cell[1195, 39, 96, 1, 27, "Notes",ExpressionUUID->"b19b1e31-92c2-414d-8306-26a24d7c7061",
- CellID->499682016]
+Cell[1487, 45, 347, 6, 45, "Notes",ExpressionUUID->"b19b1e31-92c2-414d-8306-26a24d7c7061",
+ CellID->499682016],
+Cell[1837, 53, 302, 5, 45, "Notes",ExpressionUUID->"04f5cd2a-e4cb-4585-b5a3-fb0af7cafaf1",
+ CellID->377134596],
+Cell[2142, 60, 3760, 66, 131, "Notes",ExpressionUUID->"4933ea7a-37bb-4f3b-b84b-16aab0805c37",
+ CellID->17521892],
+Cell[5905, 128, 249, 4, 45, "Notes",ExpressionUUID->"4c971f84-6365-49f5-add2-1ca77989a0e1",
+ CellID->43465984],
+Cell[6157, 134, 199, 4, 27, "Notes",ExpressionUUID->"7c8af497-747f-462b-8b80-3b99bc9c0a3b",
+ CellID->86936369],
+Cell[CellGroupData[{
+Cell[6381, 142, 482, 10, 43, "Input",ExpressionUUID->"8d3a1698-3878-4806-82d2-5d126267ebf3",
+ CellID->415059453],
+Cell[6866, 154, 812, 20, 100, "Output",ExpressionUUID->"4bf02da0-4537-41be-97cf-89b2e0a8ad07",
+ CellID->42631991]
+}, Open  ]],
+Cell[7693, 177, 204, 2, 27, "Notes",ExpressionUUID->"875a4265-8e7e-469a-ab0c-59f04e166b9e",
+ CellID->221975422]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1328, 45, 458, 13, 39, "SeeAlsoSection",ExpressionUUID->"55215e09-10e4-4df8-ba4b-e445160ead5f",
+Cell[7934, 184, 458, 13, 39, "SeeAlsoSection",ExpressionUUID->"55215e09-10e4-4df8-ba4b-e445160ead5f",
  CellID->283006970],
-Cell[1789, 60, 1543, 40, 24, "SeeAlso",ExpressionUUID->"bb31e6fb-9815-4081-860e-f7118344f24c",
+Cell[8395, 199, 1928, 45, 24, "SeeAlso",ExpressionUUID->"bb31e6fb-9815-4081-860e-f7118344f24c",
  CellID->124240747]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3369, 105, 435, 12, 40, "TechNotesSection",ExpressionUUID->"f3e13e2d-0f5f-4532-8274-2f15e18f46ff",
+Cell[10360, 249, 435, 12, 40, "TechNotesSection",ExpressionUUID->"f3e13e2d-0f5f-4532-8274-2f15e18f46ff",
  CellID->319499630],
-Cell[3807, 119, 100, 1, 19, "Tutorials",ExpressionUUID->"a99b49c0-c576-4991-8724-600a363b0594",
+Cell[10798, 263, 100, 1, 19, "Tutorials",ExpressionUUID->"a99b49c0-c576-4991-8724-600a363b0594",
  CellID->210231100]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3944, 125, 117, 1, 39, "MoreAboutSection",ExpressionUUID->"2f66c9a5-64c5-4f4a-a2bd-04a75c2b03fd",
+Cell[10935, 269, 117, 1, 39, "MoreAboutSection",ExpressionUUID->"2f66c9a5-64c5-4f4a-a2bd-04a75c2b03fd",
  CellID->113995773],
-Cell[4064, 128, 100, 1, 19, "MoreAbout",ExpressionUUID->"2fc67f6c-b501-4b8c-ae92-df4fdea969a3",
+Cell[11055, 272, 100, 1, 19, "MoreAbout",ExpressionUUID->"2fc67f6c-b501-4b8c-ae92-df4fdea969a3",
  CellID->428722785]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4201, 134, 472, 13, 39, "RelatedLinksSection",ExpressionUUID->"f62e501c-5a38-4086-9a83-0edb2ba810ad",
+Cell[11192, 278, 472, 13, 39, "RelatedLinksSection",ExpressionUUID->"f62e501c-5a38-4086-9a83-0edb2ba810ad",
  CellID->363994807],
-Cell[4676, 149, 102, 1, 19, "RelatedLinks",ExpressionUUID->"771418ad-6b4b-4ac1-b2f5-94f6f9f38743",
- CellID->15281549]
+Cell[11667, 293, 423, 8, 19, "RelatedLinks",ExpressionUUID->"771418ad-6b4b-4ac1-b2f5-94f6f9f38743",
+ CellID->15281549],
+Cell[12093, 303, 404, 7, 19, "RelatedLinks",ExpressionUUID->"025c07a2-e22e-410f-8607-ce727f06f4e8",
+ CellID->25716395],
+Cell[12500, 312, 375, 7, 19, "RelatedLinks",ExpressionUUID->"60815213-2f6b-40d6-868a-a4d135e31f27",
+ CellID->384068151]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4815, 155, 530, 14, 69, "ExamplesInitializationSection",ExpressionUUID->"b62f19f4-860d-4964-9a3d-4a78febe918a",
+Cell[12912, 324, 530, 14, 69, "ExamplesInitializationSection",ExpressionUUID->"b62f19f4-860d-4964-9a3d-4a78febe918a",
  CellID->470173826],
-Cell[5348, 171, 189, 3, 45, "ExampleInitialization",ExpressionUUID->"29133240-ec89-474e-86d3-a61e0ae94264",
+Cell[13445, 340, 189, 3, 45, "ExampleInitialization",ExpressionUUID->"29133240-ec89-474e-86d3-a61e0ae94264",
  CellID->88755931]
 }, Open  ]],
-Cell[5552, 177, 442, 12, 71, "PrimaryExamplesSection",ExpressionUUID->"e48ea6b9-9f41-4869-95b1-dc2810169ffe",
- CellID->463958466],
 Cell[CellGroupData[{
-Cell[6019, 193, 487, 13, 57, "ExtendedExamplesSection",ExpressionUUID->"51ecb734-d354-402d-a4d0-e2c3301a20b1",
+Cell[13671, 348, 442, 12, 71, "PrimaryExamplesSection",ExpressionUUID->"e48ea6b9-9f41-4869-95b1-dc2810169ffe",
+ CellID->463958466],
+Cell[14116, 362, 453, 7, 58, "ExampleText",ExpressionUUID->"9fd6ef83-4443-4f70-a9ea-1040c93057f4",
+ CellID->307801982],
+Cell[CellGroupData[{
+Cell[14594, 373, 246, 4, 25, "Input",ExpressionUUID->"925c2c8e-03df-445b-bf0a-b351a1072cc7",
+ CellID->22150801],
+Cell[14843, 379, 12999, 302, 285, "Output",ExpressionUUID->"9c42c937-3241-4cd0-b561-45b66147c654",
+ CellID->45846867]
+}, Open  ]],
+Cell[27857, 684, 238, 4, 24, "ExampleText",ExpressionUUID->"60a9fd69-0fe8-4a1f-a049-fa3fb7b4b5a3",
+ CellID->540340159],
+Cell[CellGroupData[{
+Cell[28120, 692, 313, 7, 25, "Input",ExpressionUUID->"c0ab07d2-aa8f-4e48-a794-87bcdfd29f20",
+ CellID->118894540],
+Cell[28436, 701, 306, 6, 43, "Output",ExpressionUUID->"b51f34a1-5992-432c-b1a0-bed182c2bb0c",
+ CellID->10586662]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28791, 713, 487, 13, 57, "ExtendedExamplesSection",ExpressionUUID->"51ecb734-d354-402d-a4d0-e2c3301a20b1",
  CellTags->"ExtendedExamples",
  CellID->832211741],
-Cell[6509, 208, 241, 5, 35, "ExampleSection",ExpressionUUID->"674fd91b-088f-4b9d-a19e-48ae112d797b",
+Cell[CellGroupData[{
+Cell[29303, 730, 241, 5, 35, "ExampleSection",ExpressionUUID->"674fd91b-088f-4b9d-a19e-48ae112d797b",
  CellID->383286456],
-Cell[6753, 215, 263, 5, 23, "ExampleSection",ExpressionUUID->"d2d492d6-97c7-43e4-97f8-369616676d9a",
+Cell[CellGroupData[{
+Cell[29569, 739, 245, 4, 25, "Input",ExpressionUUID->"e6f99567-f380-453b-b6b0-f4e8bed7bbbd",
+ CellID->328032446],
+Cell[29817, 745, 4461, 104, 140, "Output",ExpressionUUID->"f30cc965-94c6-46ec-938f-22059dd2d727",
+ CellID->403805025]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[34315, 854, 246, 4, 25, "Input",ExpressionUUID->"8e3fca3c-75b3-4b9b-a58b-787ee4201521",
+ CellID->31991739],
+Cell[34564, 860, 6401, 149, 141, "Output",ExpressionUUID->"e9cbfa64-d462-4a03-8973-845f57bd169f",
+ CellID->84895028]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41002, 1014, 278, 6, 25, "Input",ExpressionUUID->"1d8fe29a-c6da-44b0-a329-78d5c46bfa0c",
+ CellID->97930261],
+Cell[41283, 1022, 171, 3, 24, "Output",ExpressionUUID->"586f18af-11a3-48c2-a6f1-cd027b0107c2",
+ CellID->119286772]
+}, Open  ]]
+}, Open  ]],
+Cell[41481, 1029, 263, 5, 35, "ExampleSection",ExpressionUUID->"d2d492d6-97c7-43e4-97f8-369616676d9a",
  CellID->19767597],
 Cell[CellGroupData[{
-Cell[7041, 224, 243, 5, 23, "ExampleSection",ExpressionUUID->"229dc78a-ae12-457f-8997-58cec3ddcea3",
+Cell[41769, 1038, 243, 5, 23, "ExampleSection",ExpressionUUID->"229dc78a-ae12-457f-8997-58cec3ddcea3",
  CellID->125643948],
-Cell[7287, 231, 246, 5, 26, "ExampleSubsection",ExpressionUUID->"b53e68d2-0b67-4c2e-b7c7-3d4db0a23500",
+Cell[42015, 1045, 246, 5, 26, "ExampleSubsection",ExpressionUUID->"b53e68d2-0b67-4c2e-b7c7-3d4db0a23500",
  CellID->693447454],
-Cell[7536, 238, 245, 5, 22, "ExampleSubsection",ExpressionUUID->"4f2001ff-e3d5-4cdc-bd33-17bf57aa91bf",
+Cell[42264, 1052, 245, 5, 22, "ExampleSubsection",ExpressionUUID->"4f2001ff-e3d5-4cdc-bd33-17bf57aa91bf",
  CellID->16183117]
 }, Open  ]],
-Cell[7796, 246, 248, 5, 35, "ExampleSection",ExpressionUUID->"f664c67d-fff9-4763-93de-4ffda0d452c9",
+Cell[42524, 1060, 248, 5, 35, "ExampleSection",ExpressionUUID->"f664c67d-fff9-4763-93de-4ffda0d452c9",
  CellID->350487016],
-Cell[8047, 253, 258, 5, 23, "ExampleSection",ExpressionUUID->"d5dc16b3-33eb-4887-a5b1-3f557dada5e6",
+Cell[42775, 1067, 258, 5, 23, "ExampleSection",ExpressionUUID->"d5dc16b3-33eb-4887-a5b1-3f557dada5e6",
  CellID->359272955],
-Cell[8308, 260, 249, 5, 23, "ExampleSection",ExpressionUUID->"c410e929-b74e-4a36-a575-852659f7ff61",
+Cell[43036, 1074, 249, 5, 23, "ExampleSection",ExpressionUUID->"c410e929-b74e-4a36-a575-852659f7ff61",
  CellID->1192162],
-Cell[8560, 267, 256, 5, 23, "ExampleSection",ExpressionUUID->"6b96a012-435a-49cd-9f76-a42e6356cba1",
+Cell[43288, 1081, 256, 5, 23, "ExampleSection",ExpressionUUID->"6b96a012-435a-49cd-9f76-a42e6356cba1",
  CellID->282232579],
-Cell[8819, 274, 249, 5, 23, "ExampleSection",ExpressionUUID->"812ccfe6-88c0-4903-b994-9869019ad6bd",
+Cell[43547, 1088, 249, 5, 23, "ExampleSection",ExpressionUUID->"812ccfe6-88c0-4903-b994-9869019ad6bd",
  CellID->713467849]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9105, 284, 110, 1, 72, "MetadataSection",ExpressionUUID->"0d2457c4-8fbd-460e-99ae-fa1cefec0f37",
+Cell[43833, 1098, 110, 1, 72, "MetadataSection",ExpressionUUID->"0d2457c4-8fbd-460e-99ae-fa1cefec0f37",
  CellID->328157959],
-Cell[9218, 287, 473, 11, 26, "History",ExpressionUUID->"f7af813d-18b4-425c-8e9e-684e9491ee9c",
+Cell[43946, 1101, 473, 11, 26, "History",ExpressionUUID->"f7af813d-18b4-425c-8e9e-684e9491ee9c",
  CellID->563163921],
 Cell[CellGroupData[{
-Cell[9716, 302, 484, 13, 21, "CategorizationSection",ExpressionUUID->"11104eaa-15cd-4567-aa00-59d81dc6ffae",
+Cell[44444, 1116, 484, 13, 21, "CategorizationSection",ExpressionUUID->"11104eaa-15cd-4567-aa00-59d81dc6ffae",
  CellID->677090629],
-Cell[10203, 317, 133, 2, 35, "Categorization",ExpressionUUID->"c38023fc-6b87-44ae-b829-361bef1b79de",
+Cell[44931, 1131, 133, 2, 35, "Categorization",ExpressionUUID->"c38023fc-6b87-44ae-b829-361bef1b79de",
  CellID->85861110],
-Cell[10339, 321, 158, 2, 35, "Categorization",ExpressionUUID->"ef598076-1914-4c5c-ab75-c4a0aec00d68",
+Cell[45067, 1135, 158, 2, 35, "Categorization",ExpressionUUID->"ef598076-1914-4c5c-ab75-c4a0aec00d68",
  CellID->492248743],
-Cell[10500, 325, 155, 2, 35, "Categorization",ExpressionUUID->"d23d003a-fc2e-46d9-85aa-4351b3dfa02f",
+Cell[45228, 1139, 155, 2, 35, "Categorization",ExpressionUUID->"d23d003a-fc2e-46d9-85aa-4351b3dfa02f",
  CellID->198951593],
-Cell[10658, 329, 169, 2, 35, "Categorization",ExpressionUUID->"0cd7297a-4a26-414a-bab5-c8225e655abe",
+Cell[45386, 1143, 169, 2, 35, "Categorization",ExpressionUUID->"0cd7297a-4a26-414a-bab5-c8225e655abe",
  CellID->197367467]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[10864, 336, 110, 1, 21, "KeywordsSection",ExpressionUUID->"56ee2163-8622-4ee6-9c66-4548c49045b4",
+Cell[45592, 1150, 110, 1, 21, "KeywordsSection",ExpressionUUID->"56ee2163-8622-4ee6-9c66-4548c49045b4",
  CellID->244991487],
-Cell[10977, 339, 99, 1, 70, "Keywords",ExpressionUUID->"19c78f6a-4c16-41a9-8950-e20339cf8b7d",
+Cell[45705, 1153, 99, 1, 70, "Keywords",ExpressionUUID->"19c78f6a-4c16-41a9-8950-e20339cf8b7d",
  CellID->155551483]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[11113, 345, 118, 1, 21, "TemplatesSection",ExpressionUUID->"e451e341-0e07-4306-b7eb-313769800a5e",
+Cell[45841, 1159, 118, 1, 21, "TemplatesSection",ExpressionUUID->"e451e341-0e07-4306-b7eb-313769800a5e",
  CellID->83483286],
-Cell[11234, 348, 148, 2, 70, "Template",ExpressionUUID->"318399e5-0bfe-414f-a325-5dcb3d40a12e",
+Cell[45962, 1162, 148, 2, 70, "Template",ExpressionUUID->"318399e5-0bfe-414f-a325-5dcb3d40a12e",
  CellID->217643915],
-Cell[11385, 352, 137, 2, 70, "Template",ExpressionUUID->"32f40b28-58f3-45d3-be61-498d2890f761",
+Cell[46113, 1166, 137, 2, 70, "Template",ExpressionUUID->"32f40b28-58f3-45d3-be61-498d2890f761",
  CellID->577957487],
-Cell[11525, 356, 135, 2, 70, "Template",ExpressionUUID->"1d86fa14-d7c5-4f72-8ff4-0b4d26055c7b",
+Cell[46253, 1170, 135, 2, 70, "Template",ExpressionUUID->"1d86fa14-d7c5-4f72-8ff4-0b4d26055c7b",
  CellID->204957882],
-Cell[11663, 360, 137, 2, 70, "Template",ExpressionUUID->"50f50e8f-c8a8-4953-9566-1e4af854a2bf",
+Cell[46391, 1174, 137, 2, 70, "Template",ExpressionUUID->"50f50e8f-c8a8-4953-9566-1e4af854a2bf",
  CellID->417427020]
 }, Closed]]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
