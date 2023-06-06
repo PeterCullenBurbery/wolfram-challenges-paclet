@@ -1,0 +1,1300 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     58079,       1292]
+NotebookOptionsPosition[     50447,       1125]
+NotebookOutlinePosition[     51281,       1152]
+CellTagsIndexPosition[     51201,       1147]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["CompleteDictionary", "ObjectName",
+ CellID->933738538,ExpressionUUID->"34f2d74b-8631-4a49-a97f-0d0e0af35aef"],
+
+Cell[TextData[{
+ Cell["   ", "ModInfo",ExpressionUUID->"991ffdb4-e245-43e4-8bd2-997e05a95ca1"],
+ Cell[BoxData[
+  RowBox[{
+   ButtonBox["CompleteDictionary",
+    BaseStyle->"Link",
+    ButtonData->
+     "paclet:PeterBurberyLittleChildPaclet/ref/CompleteDictionary"], "[", 
+   "]"}]], "InlineFormula",ExpressionUUID->
+  "564cb062-084f-4a66-8fa3-f69de8170497"],
+ "\[LineSeparator]gives all words that the Wolfram Language has\n",
+ Cell["   ", "ModInfo",ExpressionUUID->"e340a011-d2f3-49e7-91dd-96c81d996b8d"],
+ Cell[BoxData[
+  RowBox[{"CompleteDictionary", "[", 
+   StyleBox["s", "TI"], "]"}]], "InlineFormula",ExpressionUUID->
+  "fb2b842d-9649-41df-828b-3995d55f4d02"],
+ "\[LineSeparator]looks up words based on string pattern ",
+ Cell[BoxData[
+  StyleBox["s", "TI"]], "InlineFormula",ExpressionUUID->
+  "0caa3bc6-9409-4959-9a5e-a95fe43d981a"]
+}], "Usage",
+ CellChangeTimes->{{3.895076964784586*^9, 3.895077010057295*^9}},
+ CellID->101216395,ExpressionUUID->"5a95148f-b6c9-4d46-845e-5dd1556ac953"],
+
+Cell["XXXX", "Notes",
+ CellID->250689818,ExpressionUUID->"80fd892a-5b53-4b10-8a96-d6b00d07b8fb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "See Also",
+ Cell[BoxData[
+  TemplateBox[{"SeeAlso", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+       "Insert links to any related reference (function) pages.", 
+        "MoreInfoText"], BaseStyle -> "IFrameBox"]], "MoreInfoTextOuter"]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "c64fb1ad-d09e-474a-ac42-84ba5ac54210"]
+}], "SeeAlsoSection",
+ CellID->59355890,ExpressionUUID->"5761d6c1-0a78-4217-bc81-80aa2f556231"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TagBox[
+   FrameBox["\<\"XXXX\"\>"],
+   "FunctionPlaceholder"]], "InlineSeeAlsoFunction",
+  TaggingRules->{"PageType" -> "Function"},ExpressionUUID->
+  "3ab70d73-8bae-440a-acb8-bbef6ade6c44"],
+ Cell[BoxData[
+  RowBox[{
+  Cell[TextData[StyleBox[
+   " \[FilledVerySmallSquare] ", "InlineSeparator"]],ExpressionUUID->
+    "a3f91f1c-32ee-4b16-b717-5e495a8890a7"], 
+   DynamicModuleBox[{$CellContext`nbobj$$ = NotebookObject[
+    "bf7c7253-4e6c-4ead-98a8-a6986ba225f5", 
+     "f88af14c-2ce5-4637-9b7d-3ff9c73587c7"], $CellContext`cellobj$$ = 
+    CellObject[
+    "3d073f1f-2413-4eac-ab86-577e3ab912d9", 
+     "84d4a86d-d529-4341-868d-78674c718529"]}, 
+    TemplateBox[{
+      GraphicsBox[{{
+         Thickness[0.06], 
+         StrokeForm[
+          Hue[0.4167, 0.406, 0.502]], 
+         CircleBox[{0, 0}]}, {
+         Thickness[0.06], 
+         StrokeForm[
+          Hue[0.4167, 0.406, 0.502]], 
+         LineBox[{{0, 0.62}, {0, -0.62}}]}, {
+         Thickness[0.06], 
+         StrokeForm[
+          Hue[0.4167, 0.406, 0.502]], 
+         LineBox[{{-0.62, 0}, {0.62, 0}}]}}, 
+       ImagePadding -> {{1., 1.}, {2.4, 1.}}, ImageSize -> 16, 
+       PlotRange -> {{-1.06, 1.06}, {-1.06, 1.06}}, 
+       BaselinePosition -> (Center -> 
+        Center)], $CellContext`nbobj$$, $CellContext`cellobj$$},
+     "InlineListingAddButton"],
+    Initialization:>($CellContext`nbobj$$ = 
+      EvaluationNotebook[]; $CellContext`cellobj$$ = EvaluationCell[])]}]], 
+  "InlineListingAddButton",ExpressionUUID->
+  "3d073f1f-2413-4eac-ab86-577e3ab912d9"]
+}], "SeeAlso",
+ CellID->149764300,ExpressionUUID->"f8611fdd-476b-4b05-bcb1-75394d17e229"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Tech Notes",
+ Cell[BoxData[
+  TemplateBox[{"TechNotes", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell["Insert links to related tech notes.", "MoreInfoText"], BaseStyle -> 
+       "IFrameBox"]], "MoreInfoTextOuter"]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "1f63d1cc-b8fb-459d-bed6-9ef0d5064525"]
+}], "TechNotesSection",
+ CellID->126974545,ExpressionUUID->"1ddbf93f-2557-4797-8b28-3851cc182fe0"],
+
+Cell["XXXX", "Tutorials",
+ CellID->439037805,ExpressionUUID->"9052b505-28bf-405e-8570-3dc6eb50a4e1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Related Guides", "MoreAboutSection",
+ CellID->210171844,ExpressionUUID->"442e7a09-9a44-4d17-8bef-359d480cb417"],
+
+Cell["XXXX", "MoreAbout",
+ CellID->220926114,ExpressionUUID->"6d98dad1-e566-4c69-832a-bbbe497fe6af"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Related Links",
+ Cell[BoxData[
+  TemplateBox[{"RelatedLinks", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+       "Insert links to any related page, including web pages.", 
+        "MoreInfoText"], BaseStyle -> "IFrameBox"]], "MoreInfoTextOuter"]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "02f2e8a2-a2f7-44b0-8ca5-47e7d842b39a"]
+}], "RelatedLinksSection",
+ CellID->440231613,ExpressionUUID->"1bac17d6-b85b-412f-b527-3b6d05ea7d70"],
+
+Cell["XXXX", "RelatedLinks",
+ CellID->133902831,ExpressionUUID->"5f472384-8efd-4cfe-ba74-f9619434bf28"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Examples Initialization",
+ Cell[BoxData[
+  TemplateBox[{"ExamplesInitialization", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+       "Input that is to be evaluated before any examples are run, e.g. \
+Needs[\[Ellipsis]].", "MoreInfoText"], BaseStyle -> "IFrameBox"]], 
+     "MoreInfoTextOuter"]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "3b19ed56-dd0c-46f5-bc08-48134106159f"]
+}], "ExamplesInitializationSection",
+ CellID->109642171,ExpressionUUID->"5b92e50c-8832-4436-a1b9-bfd6cbd18be3"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PeterBurbery`LittleChildPaclet`\>\"", 
+  "]"}]], "ExampleInitialization",
+ CellID->328147511,ExpressionUUID->"2279b63b-6c76-4381-81e9-44428193cb52"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[GridBox[{
+    {
+     StyleBox[
+      RowBox[{"Basic", " ", "Examples"}], "PrimaryExamplesSection"], 
+     ButtonBox[
+      RowBox[{
+       RowBox[{"More", " ", "Examples"}], " ", "\[RightTriangle]"}],
+      BaseStyle->"ExtendedExamplesLink",
+      ButtonData:>"ExtendedExamples"]}
+   }],
+  $Line = 0; Null]], "PrimaryExamplesSection",
+ CellID->672018101,ExpressionUUID->"72d45cfb-c5a0-4215-becb-7a6004b7c8e6"],
+
+Cell["\<\
+Find all words that have a c and an s but not a c in position 1 and also no s \
+in position 5 with five letters and also no a and also no e and also no r:\
+\>", "ExampleText",
+ CellChangeTimes->{{3.8950770136910076`*^9, 3.895077069902333*^9}},
+ CellID->268525131,ExpressionUUID->"0a4cde2e-9c53-481a-95e9-0e2e12607c6a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "Except"}]], "Input",
+ CellChangeTimes->{{3.8950770866916847`*^9, 3.895077088002417*^9}},
+ CellLabel->"In[288]:=",
+ CellID->128878864,ExpressionUUID->"c40f33ba-9db9-42b6-a36b-43a5d137be4e"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = False, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"]], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"]]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Except",
+              ButtonNote->"paclet:ref/Except"],
+             "\"paclet:ref/Except\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Except\\\", \\\"[\\\", \
+StyleBox[\\\"c\\\", \\\"TI\\\"], \\\"]\\\"}]\\) is a pattern object which \
+represents any expression except one that matches \
+\\!\\(\\*StyleBox[\\\"c\\\", \\\"TI\\\"]\\). \\n\\!\\(\\*RowBox[{\\\"Except\\\
+\", \\\"[\\\", RowBox[{StyleBox[\\\"c\\\", \\\"TI\\\"], \\\",\\\", \
+StyleBox[\\\"p\\\", \\\"TI\\\"]}], \\\"]\\\"}]\\) represents any expression \
+that matches \\!\\(\\*StyleBox[\\\"p\\\", \\\"TI\\\"]\\) but not \
+\\!\\(\\*StyleBox[\\\"c\\\", \\\"TI\\\"]\\). \"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Documentation\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Documentation\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Documentation", "Tooltip"]& ], 
+                   TemplateBox[{
+                    
+                    TemplateBox[{
+                    "\"Local \[RightGuillemet]\"", "paclet:ref/Except", 
+                    "paclet:ref/Except", "Link", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"], "\"  \"", 
+                    StyleBox[
+                    "\"|\"", "InformationRowLabel", StripOnInput -> False], 
+                    "\"  \"", 
+                    TemplateBox[{"\"Web \[RightGuillemet]\"", {
+                    URL[
+                    "http://reference.wolfram.com/language/ref/Except.html"], 
+                    None}, "http://reference.wolfram.com/language/ref/Except.\
+html", "Hyperlink", {
+                    RGBColor[0.9686274509803922, 0.4666666666666667, 0.]}, 
+                    BaseStyle -> {
+                    RGBColor[0.0784313725490196, 0.1568627450980392, 0.6]}}, 
+                    "HyperlinkTemplate"]},
+                    "RowDefault"]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Attributes\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"Attributes\"",
+                    TooltipStyle->"TextStyling"],
+                    Annotation[#, "Attributes", "Tooltip"]& ], 
+                   RowBox[{"{", "Protected", "}"}]},
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"System`Except\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox[
+           PaneBox[
+            TooltipBox[
+             ButtonBox[
+              PaneSelectorBox[{False->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIcon"],
+                ImageSizeCache->{13., {4., 9.}}], True->
+               
+               DynamicBox[FEPrivate`FrontEndResource[
+                "FEBitmaps", "InformationHelpIconHot"],
+                ImageSizeCache->{13., {4., 9.}}]}, Dynamic[
+                CurrentValue["MouseOver"]]],
+              Appearance->None,
+              BaseStyle->"Link",
+              ButtonData->"paclet:ref/Except",
+              ButtonNote->"paclet:ref/Except"],
+             "\"paclet:ref/Except\""],
+            FrameMargins->{{0, 4}, {0, 2}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Except\\\", \\\"[\\\", \
+StyleBox[\\\"c\\\", \\\"TI\\\"], \\\"]\\\"}]\\) is a pattern object which \
+represents any expression except one that matches \
+\\!\\(\\*StyleBox[\\\"c\\\", \\\"TI\\\"]\\). \\n\\!\\(\\*RowBox[{\\\"Except\\\
+\", \\\"[\\\", RowBox[{StyleBox[\\\"c\\\", \\\"TI\\\"], \\\",\\\", \
+StyleBox[\\\"p\\\", \\\"TI\\\"]}], \\\"]\\\"}]\\) represents any expression \
+that matches \\!\\(\\*StyleBox[\\\"p\\\", \\\"TI\\\"]\\) but not \
+\\!\\(\\*StyleBox[\\\"c\\\", \\\"TI\\\"]\\). \"\>", "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"],
+               ImageSizeCache->{10., {3., 7.}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"],
+               ImageSizeCache->{10., {3., 7.}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "ObjectType" -> "Symbol", "Usage" -> 
+    "\!\(\*RowBox[{\"Except\", \"[\", StyleBox[\"c\", \"TI\"], \"]\"}]\) is a \
+pattern object which represents any expression except one that matches \
+\!\(\*StyleBox[\"c\", \"TI\"]\). \n\!\(\*RowBox[{\"Except\", \"[\", \
+RowBox[{StyleBox[\"c\", \"TI\"], \",\", StyleBox[\"p\", \"TI\"]}], \"]\"}]\) \
+represents any expression that matches \!\(\*StyleBox[\"p\", \"TI\"]\) but \
+not \!\(\*StyleBox[\"c\", \"TI\"]\). ", 
+    "Documentation" -> <|
+     "Local" -> "paclet:ref/Except", "Web" -> 
+      "http://reference.wolfram.com/language/ref/Except.html"|>, "OwnValues" -> 
+    None, "UpValues" -> None, "DownValues" -> None, "SubValues" -> None, 
+    "DefaultValues" -> None, "NValues" -> None, "FormatValues" -> None, 
+    "Options" -> None, "Attributes" -> {Protected}, "FullName" -> 
+    "System`Except"|>, False]]], "Output",
+ CellChangeTimes->{3.895077088518976*^9},
+ CellLabel->"Out[288]=",
+ CellID->406071968,ExpressionUUID->"c98234d7-e714-4859-8f81-b5d4dc0dcc09"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Alternatives", "@@", 
+  RowBox[{"Alphabet", "[", "]"}]}]], "Input",
+ CellChangeTimes->{{3.895077099814983*^9, 3.895077110411146*^9}},
+ CellLabel->"In[290]:=",
+ CellID->265659728,ExpressionUUID->"513784f5-4727-4e26-900c-942429994add"],
+
+Cell[BoxData[
+ RowBox[{"\<\"a\"\>", "|", "\<\"b\"\>", "|", "\<\"c\"\>", "|", "\<\"d\"\>", 
+  "|", "\<\"e\"\>", "|", "\<\"f\"\>", "|", "\<\"g\"\>", "|", "\<\"h\"\>", 
+  "|", "\<\"i\"\>", "|", "\<\"j\"\>", "|", "\<\"k\"\>", "|", "\<\"l\"\>", 
+  "|", "\<\"m\"\>", "|", "\<\"n\"\>", "|", "\<\"o\"\>", "|", "\<\"p\"\>", 
+  "|", "\<\"q\"\>", "|", "\<\"r\"\>", "|", "\<\"s\"\>", "|", "\<\"t\"\>", 
+  "|", "\<\"u\"\>", "|", "\<\"v\"\>", "|", "\<\"w\"\>", "|", "\<\"x\"\>", 
+  "|", "\<\"y\"\>", "|", "\<\"z\"\>"}]], "Output",
+ CellChangeTimes->{{3.8950771047813883`*^9, 3.895077110810441*^9}},
+ CellLabel->"Out[290]=",
+ CellID->63568819,ExpressionUUID->"b7016126-55de-479f-a701-b15dcb6eabd3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Alternatives", "@@", 
+  RowBox[{"Complement", "[", 
+   RowBox[{
+    RowBox[{"Alphabet", "[", "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"\"\<a\>\"", ",", "\"\<e\>\"", ",", "\"\<r\>\""}], "}"}]}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.895077099814983*^9, 3.895077128839069*^9}},
+ CellLabel->"In[291]:=",
+ CellID->544961918,ExpressionUUID->"1aaa2703-1d71-49ce-8af3-1089a2384fc1"],
+
+Cell[BoxData[
+ RowBox[{"\<\"b\"\>", "|", "\<\"c\"\>", "|", "\<\"d\"\>", "|", "\<\"f\"\>", 
+  "|", "\<\"g\"\>", "|", "\<\"h\"\>", "|", "\<\"i\"\>", "|", "\<\"j\"\>", 
+  "|", "\<\"k\"\>", "|", "\<\"l\"\>", "|", "\<\"m\"\>", "|", "\<\"n\"\>", 
+  "|", "\<\"o\"\>", "|", "\<\"p\"\>", "|", "\<\"q\"\>", "|", "\<\"s\"\>", 
+  "|", "\<\"t\"\>", "|", "\<\"u\"\>", "|", "\<\"v\"\>", "|", "\<\"w\"\>", 
+  "|", "\<\"x\"\>", "|", "\<\"y\"\>", "|", "\<\"z\"\>"}]], "Output",
+ CellChangeTimes->{3.8950771291737566`*^9},
+ CellLabel->"Out[291]=",
+ CellID->454913836,ExpressionUUID->"2106c328-955c-4b93-8101-36fe503c05c3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Alternatives", "@@", 
+  RowBox[{"Complement", "[", 
+   RowBox[{
+    RowBox[{"Alphabet", "[", "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<a\>\"", ",", "\"\<e\>\"", ",", "\"\<r\>\"", ",", "\"\<c\>\""}], 
+     "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.895077099814983*^9, 3.8950771340667133`*^9}},
+ CellLabel->"In[292]:=",
+ CellID->35407025,ExpressionUUID->"d2c7a2bb-a8a6-44a6-9b60-c65469818e00"],
+
+Cell[BoxData[
+ RowBox[{"\<\"b\"\>", "|", "\<\"d\"\>", "|", "\<\"f\"\>", "|", "\<\"g\"\>", 
+  "|", "\<\"h\"\>", "|", "\<\"i\"\>", "|", "\<\"j\"\>", "|", "\<\"k\"\>", 
+  "|", "\<\"l\"\>", "|", "\<\"m\"\>", "|", "\<\"n\"\>", "|", "\<\"o\"\>", 
+  "|", "\<\"p\"\>", "|", "\<\"q\"\>", "|", "\<\"s\"\>", "|", "\<\"t\"\>", 
+  "|", "\<\"u\"\>", "|", "\<\"v\"\>", "|", "\<\"w\"\>", "|", "\<\"x\"\>", 
+  "|", "\<\"y\"\>", "|", "\<\"z\"\>"}]], "Output",
+ CellChangeTimes->{3.895077134387402*^9},
+ CellLabel->"Out[292]=",
+ CellID->144646484,ExpressionUUID->"cbefbf4f-9249-4302-a567-77b80780595a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Alternatives", "@@", 
+  RowBox[{"Complement", "[", 
+   RowBox[{
+    RowBox[{"Alphabet", "[", "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{
+     "\"\<a\>\"", ",", "\"\<e\>\"", ",", "\"\<r\>\"", ",", "\"\<s\>\""}], 
+     "}"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.895077099814983*^9, 3.895077137501322*^9}},
+ CellLabel->"In[293]:=",
+ CellID->135242847,ExpressionUUID->"5f7fc310-e68a-454c-9112-1c20e10475d1"],
+
+Cell[BoxData[
+ RowBox[{"\<\"b\"\>", "|", "\<\"c\"\>", "|", "\<\"d\"\>", "|", "\<\"f\"\>", 
+  "|", "\<\"g\"\>", "|", "\<\"h\"\>", "|", "\<\"i\"\>", "|", "\<\"j\"\>", 
+  "|", "\<\"k\"\>", "|", "\<\"l\"\>", "|", "\<\"m\"\>", "|", "\<\"n\"\>", 
+  "|", "\<\"o\"\>", "|", "\<\"p\"\>", "|", "\<\"q\"\>", "|", "\<\"t\"\>", 
+  "|", "\<\"u\"\>", "|", "\<\"v\"\>", "|", "\<\"w\"\>", "|", "\<\"x\"\>", 
+  "|", "\<\"y\"\>", "|", "\<\"z\"\>"}]], "Output",
+ CellChangeTimes->{3.8950771379248967`*^9},
+ CellLabel->"Out[293]=",
+ CellID->123582564,ExpressionUUID->"c3410f9e-e637-43b4-b1a9-a342aad0340b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CompleteDictionary", "[", 
+  RowBox[{
+   RowBox[{"Alternatives", "@@", 
+    RowBox[{"Complement", "[", 
+     RowBox[{
+      RowBox[{"Alphabet", "[", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<a\>\"", ",", "\"\<e\>\"", ",", "\"\<r\>\"", ",", "\"\<c\>\""}], 
+       "}"}]}], "]"}]}], "~~", 
+   RowBox[{"Alternatives", "@@", 
+    RowBox[{"Complement", "[", 
+     RowBox[{
+      RowBox[{"Alphabet", "[", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<a\>\"", ",", "\"\<e\>\"", ",", "\"\<r\>\""}], "}"}]}], 
+     "]"}]}], "~~", 
+   RowBox[{"Alternatives", "@@", 
+    RowBox[{"Complement", "[", 
+     RowBox[{
+      RowBox[{"Alphabet", "[", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<a\>\"", ",", "\"\<e\>\"", ",", "\"\<r\>\""}], "}"}]}], 
+     "]"}]}], "~~", 
+   RowBox[{"Alternatives", "@@", 
+    RowBox[{"Complement", "[", 
+     RowBox[{
+      RowBox[{"Alphabet", "[", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"\"\<a\>\"", ",", "\"\<e\>\"", ",", "\"\<r\>\""}], "}"}]}], 
+     "]"}]}], "~~", 
+   RowBox[{"Alternatives", "@@", 
+    RowBox[{"Complement", "[", 
+     RowBox[{
+      RowBox[{"Alphabet", "[", "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+       "\"\<a\>\"", ",", "\"\<e\>\"", ",", "\"\<r\>\"", ",", "\"\<s\>\""}], 
+       "}"}]}], "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8950770712736564`*^9, 3.8950770843419533`*^9}, {
+  3.8950771433379636`*^9, 3.8950771666501036`*^9}},
+ CellLabel->"In[294]:=",
+ CellID->12705794,ExpressionUUID->"1f8a0a19-81fc-4e05-9991-c26d897eeb5d"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"biddy\"\>", ",", "\<\"bifid\"\>", ",", "\<\"bight\"\>", 
+   ",", "\<\"bigot\"\>", ",", "\<\"bijou\"\>", ",", "\<\"bilby\"\>", 
+   ",", "\<\"bilgy\"\>", ",", "\<\"billy\"\>", ",", "\<\"bimbo\"\>", 
+   ",", "\<\"bimli\"\>", ",", "\<\"bingo\"\>", ",", "\<\"biont\"\>", 
+   ",", "\<\"bison\"\>", ",", "\<\"bitch\"\>", ",", "\<\"bitok\"\>", 
+   ",", "\<\"bitty\"\>", ",", "\<\"blimp\"\>", ",", "\<\"blimy\"\>", 
+   ",", "\<\"blind\"\>", ",", "\<\"bling\"\>", ",", "\<\"blini\"\>", 
+   ",", "\<\"blink\"\>", ",", "\<\"bliny\"\>", ",", "\<\"blitz\"\>", 
+   ",", "\<\"block\"\>", ",", "\<\"blond\"\>", ",", "\<\"blood\"\>", 
+   ",", "\<\"bloom\"\>", ",", "\<\"bloop\"\>", ",", "\<\"blown\"\>", 
+   ",", "\<\"blowy\"\>", ",", "\<\"bluff\"\>", ",", "\<\"blunt\"\>", 
+   ",", "\<\"blush\"\>", ",", "\<\"bobby\"\>", ",", "\<\"bocci\"\>", 
+   ",", "\<\"boffo\"\>", ",", "\<\"boggy\"\>", ",", "\<\"bolti\"\>", 
+   ",", "\<\"bongo\"\>", ",", "\<\"bonny\"\>", ",", "\<\"booby\"\>", 
+   ",", "\<\"boost\"\>", ",", "\<\"booth\"\>", ",", "\<\"booty\"\>", 
+   ",", "\<\"boozy\"\>", ",", "\<\"bosky\"\>", ",", "\<\"bosom\"\>", 
+   ",", "\<\"boson\"\>", ",", "\<\"bossy\"\>", ",", "\<\"bosun\"\>", 
+   ",", "\<\"botch\"\>", ",", "\<\"bothy\"\>", ",", "\<\"bough\"\>", 
+   ",", "\<\"bound\"\>", ",", "\<\"bovid\"\>", ",", "\<\"buddy\"\>", 
+   ",", "\<\"buggy\"\>", ",", "\<\"build\"\>", ",", "\<\"built\"\>", 
+   ",", "\<\"bulgy\"\>", ",", "\<\"bulky\"\>", ",", "\<\"bully\"\>", 
+   ",", "\<\"bumph\"\>", ",", "\<\"bumpy\"\>", ",", "\<\"bunch\"\>", 
+   ",", "\<\"bunco\"\>", ",", "\<\"bunko\"\>", ",", "\<\"bunny\"\>", 
+   ",", "\<\"busby\"\>", ",", "\<\"bushy\"\>", ",", "\<\"busty\"\>", 
+   ",", "\<\"butch\"\>", ",", "\<\"butty\"\>", ",", "\<\"butut\"\>", 
+   ",", "\<\"butyl\"\>", ",", "\<\"buxom\"\>", ",", "\<\"dhoti\"\>", 
+   ",", "\<\"dicky\"\>", ",", "\<\"dicot\"\>", ",", "\<\"didst\"\>", 
+   ",", "\<\"digit\"\>", ",", "\<\"dildo\"\>", ",", "\<\"dilly\"\>", 
+   ",", "\<\"dimly\"\>", ",", "\<\"dingo\"\>", ",", "\<\"dingy\"\>", 
+   ",", "\<\"dinky\"\>", ",", "\<\"dioon\"\>", ",", "\<\"dippy\"\>", 
+   ",", "\<\"dipso\"\>", ",", "\<\"disco\"\>", ",", "\<\"dishy\"\>", 
+   ",", "\<\"ditch\"\>", ",", "\<\"ditsy\"\>", ",", "\<\"ditto\"\>", 
+   ",", "\<\"ditty\"\>", ",", "\<\"divot\"\>", ",", "\<\"divvy\"\>", 
+   ",", "\<\"dizzy\"\>", ",", "\<\"djinn\"\>", ",", "\<\"dodgy\"\>", 
+   ",", "\<\"doggo\"\>", ",", "\<\"doggy\"\>", ",", "\<\"doily\"\>", 
+   ",", "\<\"doing\"\>", ",", "\<\"dolly\"\>", ",", "\<\"donut\"\>", 
+   ",", "\<\"dotty\"\>", ",", "\<\"doubt\"\>", ",", "\<\"dough\"\>", 
+   ",", "\<\"dowdy\"\>", ",", "\<\"downy\"\>", ",", "\<\"doyly\"\>", 
+   ",", "\<\"duchy\"\>", ",", "\<\"ducky\"\>", ",", "\<\"dully\"\>", 
+   ",", "\<\"dumbo\"\>", ",", "\<\"dummy\"\>", ",", "\<\"dumpy\"\>", 
+   ",", "\<\"dunno\"\>", ",", "\<\"duomo\"\>", ",", "\<\"dusky\"\>", 
+   ",", "\<\"dusty\"\>", ",", "\<\"dutch\"\>", ",", "\<\"dying\"\>", 
+   ",", "\<\"fichu\"\>", ",", "\<\"fifth\"\>", ",", "\<\"fifty\"\>", 
+   ",", "\<\"fight\"\>", ",", "\<\"filch\"\>", ",", "\<\"filly\"\>", 
+   ",", "\<\"filmy\"\>", ",", "\<\"filth\"\>", ",", "\<\"filum\"\>", 
+   ",", "\<\"finch\"\>", ",", "\<\"finny\"\>", ",", "\<\"fishy\"\>", 
+   ",", "\<\"fitch\"\>", ",", "\<\"fitly\"\>", ",", "\<\"fizzy\"\>", 
+   ",", "\<\"flick\"\>", ",", "\<\"fling\"\>", ",", "\<\"flint\"\>", 
+   ",", "\<\"flock\"\>", ",", "\<\"flood\"\>", ",", "\<\"flout\"\>", 
+   ",", "\<\"flown\"\>", ",", "\<\"fluff\"\>", ",", "\<\"fluid\"\>", 
+   ",", "\<\"fluky\"\>", ",", "\<\"flump\"\>", ",", "\<\"flung\"\>", 
+   ",", "\<\"flunk\"\>", ",", "\<\"flush\"\>", ",", "\<\"flyby\"\>", 
+   ",", "\<\"foggy\"\>", ",", "\<\"foist\"\>", ",", "\<\"folio\"\>", 
+   ",", "\<\"folly\"\>", ",", "\<\"fondu\"\>", ",", "\<\"footy\"\>", 
+   ",", "\<\"found\"\>", ",", "\<\"fount\"\>", ",", "\<\"fuggy\"\>", 
+   ",", "\<\"fugly\"\>", ",", "\<\"fully\"\>", ",", "\<\"fungi\"\>", 
+   ",", "\<\"funky\"\>", ",", "\<\"funny\"\>", ",", "\<\"fusil\"\>", 
+   ",", "\<\"fussy\"\>", ",", "\<\"fusty\"\>", ",", "\<\"futon\"\>", 
+   ",", "\<\"fuzzy\"\>", ",", "\<\"ghost\"\>", ",", "\<\"ghoul\"\>", 
+   ",", "\<\"giddy\"\>", ",", "\<\"gigot\"\>", ",", "\<\"gimpy\"\>", 
+   ",", "\<\"ginzo\"\>", ",", "\<\"gipsy\"\>", ",", "\<\"gismo\"\>", 
+   ",", "\<\"gizmo\"\>", ",", "\<\"glint\"\>", ",", "\<\"glitz\"\>", 
+   ",", "\<\"glogg\"\>", ",", "\<\"gloom\"\>", ",", "\<\"gluon\"\>", 
+   ",", "\<\"glyph\"\>", ",", "\<\"godly\"\>", ",", "\<\"going\"\>", 
+   ",", "\<\"golly\"\>", ",", "\<\"gonif\"\>", ",", "\<\"gonzo\"\>", 
+   ",", "\<\"goody\"\>", ",", "\<\"goofy\"\>", ",", "\<\"goony\"\>", 
+   ",", "\<\"goosy\"\>", ",", "\<\"gouty\"\>", ",", "\<\"guild\"\>", 
+   ",", "\<\"guilt\"\>", ",", "\<\"gulch\"\>", ",", "\<\"gully\"\>", 
+   ",", "\<\"gumbo\"\>", ",", "\<\"gummy\"\>", ",", "\<\"gungy\"\>", 
+   ",", "\<\"gunky\"\>", ",", "\<\"gunny\"\>", ",", "\<\"guppy\"\>", 
+   ",", "\<\"gushy\"\>", ",", "\<\"gussy\"\>", ",", "\<\"gusto\"\>", 
+   ",", "\<\"gusty\"\>", ",", "\<\"gutsy\"\>", ",", "\<\"gutty\"\>", 
+   ",", "\<\"guyot\"\>", ",", "\<\"gypsy\"\>", ",", "\<\"hilly\"\>", 
+   ",", "\<\"hilum\"\>", ",", "\<\"hinny\"\>", ",", "\<\"hippo\"\>", 
+   ",", "\<\"hippy\"\>", ",", "\<\"hitch\"\>", ",", "\<\"hobby\"\>", 
+   ",", "\<\"hoick\"\>", ",", "\<\"hoist\"\>", ",", "\<\"hokum\"\>", 
+   ",", "\<\"hollo\"\>", ",", "\<\"holly\"\>", ",", "\<\"honky\"\>", 
+   ",", "\<\"hooch\"\>", ",", "\<\"hooky\"\>", ",", "\<\"hotly\"\>", 
+   ",", "\<\"hound\"\>", ",", "\<\"howdy\"\>", ",", "\<\"hubby\"\>", 
+   ",", "\<\"hudud\"\>", ",", "\<\"huffy\"\>", ",", "\<\"hulky\"\>", 
+   ",", "\<\"hullo\"\>", ",", "\<\"humic\"\>", ",", "\<\"humid\"\>", 
+   ",", "\<\"humin\"\>", ",", "\<\"humph\"\>", ",", "\<\"hunch\"\>", 
+   ",", "\<\"hunky\"\>", ",", "\<\"husky\"\>", ",", "\<\"hussy\"\>", 
+   ",", "\<\"hutch\"\>", ",", "\<\"hying\"\>", ",", "\<\"hyoid\"\>", 
+   ",", "\<\"hyson\"\>", ",", "\<\"icily\"\>", ",", "\<\"icing\"\>", 
+   ",", "\<\"ictic\"\>", ",", "\<\"idiom\"\>", ",", "\<\"idiot\"\>", 
+   ",", "\<\"idyll\"\>", ",", "\<\"igloo\"\>", ",", "\<\"ilium\"\>", 
+   ",", "\<\"ilxxx\"\>", ",", "\<\"immix\"\>", ",", "\<\"imply\"\>", 
+   ",", "\<\"infix\"\>", ",", "\<\"ingot\"\>", ",", "\<\"inion\"\>", 
+   ",", "\<\"innit\"\>", ",", "\<\"input\"\>", ",", "\<\"iodin\"\>", 
+   ",", "\<\"ionic\"\>", ",", "\<\"itchy\"\>", ",", "\<\"jiffy\"\>", 
+   ",", "\<\"jimmy\"\>", ",", "\<\"jingo\"\>", ",", "\<\"jinni\"\>", 
+   ",", "\<\"jiqui\"\>", ",", "\<\"joint\"\>", ",", "\<\"joist\"\>", 
+   ",", "\<\"jolly\"\>", ",", "\<\"jolty\"\>", ",", "\<\"joust\"\>", 
+   ",", "\<\"jowly\"\>", ",", "\<\"juicy\"\>", ",", "\<\"jumbo\"\>", 
+   ",", "\<\"jumpy\"\>", ",", "\<\"junco\"\>", ",", "\<\"junky\"\>", 
+   ",", "\<\"junto\"\>", ",", "\<\"khoum\"\>", ",", "\<\"kibit\"\>", 
+   ",", "\<\"kicky\"\>", ",", "\<\"kiddo\"\>", ",", "\<\"kiddy\"\>", 
+   ",", "\<\"kinin\"\>", ",", "\<\"kinky\"\>", ",", "\<\"kiosk\"\>", 
+   ",", "\<\"kitty\"\>", ",", "\<\"kitul\"\>", ",", "\<\"klick\"\>", 
+   ",", "\<\"klutz\"\>", ",", "\<\"knish\"\>", ",", "\<\"knock\"\>", 
+   ",", "\<\"knoll\"\>", ",", "\<\"knout\"\>", ",", "\<\"known\"\>", 
+   ",", "\<\"kooky\"\>", ",", "\<\"kotow\"\>", ",", "\<\"kudzu\"\>", 
+   ",", "\<\"kutch\"\>", ",", "\<\"kylix\"\>", ",", "\<\"lichi\"\>", 
+   ",", "\<\"licit\"\>", ",", "\<\"light\"\>", ",", "\<\"limbo\"\>", 
+   ",", "\<\"limit\"\>", ",", "\<\"lindy\"\>", ",", "\<\"lingo\"\>", 
+   ",", "\<\"linin\"\>", ",", "\<\"linty\"\>", ",", "\<\"lipid\"\>", 
+   ",", "\<\"lippy\"\>", ",", "\<\"livid\"\>", ",", "\<\"lobby\"\>", 
+   ",", "\<\"locum\"\>", ",", "\<\"lofty\"\>", ",", "\<\"logic\"\>", 
+   ",", "\<\"lolly\"\>", ",", "\<\"looky\"\>", ",", "\<\"loony\"\>", 
+   ",", "\<\"loopy\"\>", ",", "\<\"lossy\"\>", ",", "\<\"lotic\"\>", 
+   ",", "\<\"lotto\"\>", ",", "\<\"lough\"\>", ",", "\<\"lousy\"\>", 
+   ",", "\<\"lowly\"\>", ",", "\<\"lucid\"\>", ",", "\<\"lucky\"\>", 
+   ",", "\<\"lumpy\"\>", ",", "\<\"lunch\"\>", ",", "\<\"lungi\"\>", 
+   ",", "\<\"lupin\"\>", ",", "\<\"lusty\"\>", ",", "\<\"lviii\"\>", 
+   ",", "\<\"lxiii\"\>", ",", "\<\"lxvii\"\>", ",", "\<\"lxxii\"\>", 
+   ",", "\<\"lxxiv\"\>", ",", "\<\"lxxvi\"\>", ",", "\<\"lxxxi\"\>", 
+   ",", "\<\"lxxxv\"\>", ",", "\<\"lying\"\>", ",", "\<\"lymph\"\>", 
+   ",", "\<\"lynch\"\>", ",", "\<\"lysin\"\>", ",", "\<\"middy\"\>", 
+   ",", "\<\"midst\"\>", ",", "\<\"might\"\>", ",", "\<\"milch\"\>", 
+   ",", "\<\"milky\"\>", ",", "\<\"mimic\"\>", ",", "\<\"mingy\"\>", 
+   ",", "\<\"minim\"\>", ",", "\<\"minty\"\>", ",", "\<\"misdo\"\>", 
+   ",", "\<\"missy\"\>", ",", "\<\"misty\"\>", ",", "\<\"moggy\"\>", 
+   ",", "\<\"mogul\"\>", ",", "\<\"moist\"\>", ",", "\<\"moldy\"\>", 
+   ",", "\<\"molly\"\>", ",", "\<\"molto\"\>", ",", "\<\"mommy\"\>", 
+   ",", "\<\"momot\"\>", ",", "\<\"mongo\"\>", ",", "\<\"month\"\>", 
+   ",", "\<\"mooch\"\>", ",", "\<\"moody\"\>", ",", "\<\"moony\"\>", 
+   ",", "\<\"mossy\"\>", ",", "\<\"mothy\"\>", ",", "\<\"motif\"\>", 
+   ",", "\<\"motto\"\>", ",", "\<\"mould\"\>", ",", "\<\"moult\"\>", 
+   ",", "\<\"mound\"\>", ",", "\<\"mount\"\>", ",", "\<\"mousy\"\>", 
+   ",", "\<\"mouth\"\>", ",", "\<\"mucin\"\>", ",", "\<\"mucky\"\>", 
+   ",", "\<\"muddy\"\>", ",", "\<\"mufti\"\>", ",", "\<\"muggy\"\>", 
+   ",", "\<\"mujik\"\>", ",", "\<\"mulch\"\>", ",", "\<\"mulct\"\>", 
+   ",", "\<\"mummy\"\>", ",", "\<\"munch\"\>", ",", "\<\"mushy\"\>", 
+   ",", "\<\"music\"\>", ",", "\<\"musky\"\>", ",", "\<\"mussy\"\>", 
+   ",", "\<\"musth\"\>", ",", "\<\"musty\"\>", ",", "\<\"muton\"\>", 
+   ",", "\<\"muzzy\"\>", ",", "\<\"myoid\"\>", ",", "\<\"niffy\"\>", 
+   ",", "\<\"nifty\"\>", ",", "\<\"night\"\>", ",", "\<\"nihil\"\>", 
+   ",", "\<\"nimbi\"\>", ",", "\<\"nimby\"\>", ",", "\<\"ninny\"\>", 
+   ",", "\<\"ninon\"\>", ",", "\<\"ninth\"\>", ",", "\<\"nippy\"\>", 
+   ",", "\<\"nitid\"\>", ",", "\<\"nobly\"\>", ",", "\<\"noddy\"\>", 
+   ",", "\<\"nohow\"\>", ",", "\<\"noisy\"\>", ",", "\<\"nooky\"\>", 
+   ",", "\<\"notch\"\>", ",", "\<\"nubby\"\>", ",", "\<\"nutty\"\>", 
+   ",", "\<\"nylon\"\>", ",", "\<\"nymph\"\>", ",", "\<\"oddly\"\>", 
+   ",", "\<\"odist\"\>", ",", "\<\"odium\"\>", ",", "\<\"ohmic\"\>", 
+   ",", "\<\"ology\"\>", ",", "\<\"onion\"\>", ",", "\<\"oomph\"\>", 
+   ",", "\<\"ootid\"\>", ",", "\<\"oping\"\>", ",", "\<\"opium\"\>", 
+   ",", "\<\"opsin\"\>", ",", "\<\"optic\"\>", ",", "\<\"ought\"\>", 
+   ",", "\<\"outdo\"\>", ",", "\<\"outgo\"\>", ",", "\<\"ovoid\"\>", 
+   ",", "\<\"ovolo\"\>", ",", "\<\"owing\"\>", ",", "\<\"oxbow\"\>", 
+   ",", "\<\"oxlip\"\>", ",", "\<\"phlox\"\>", ",", "\<\"phony\"\>", 
+   ",", "\<\"photo\"\>", ",", "\<\"pichi\"\>", ",", "\<\"picky\"\>", 
+   ",", "\<\"picot\"\>", ",", "\<\"picul\"\>", ",", "\<\"piggy\"\>", 
+   ",", "\<\"pigmy\"\>", ",", "\<\"piing\"\>", ",", "\<\"pilot\"\>", 
+   ",", "\<\"pinch\"\>", ",", "\<\"pinko\"\>", ",", "\<\"pinky\"\>", 
+   ",", "\<\"pinny\"\>", ",", "\<\"pinon\"\>", ",", "\<\"pinto\"\>", 
+   ",", "\<\"pinup\"\>", ",", "\<\"pipit\"\>", ",", "\<\"pipul\"\>", 
+   ",", "\<\"pitch\"\>", ",", "\<\"pithy\"\>", ",", "\<\"piton\"\>", 
+   ",", "\<\"pivot\"\>", ",", "\<\"plonk\"\>", ",", "\<\"pluck\"\>", 
+   ",", "\<\"plumb\"\>", ",", "\<\"plump\"\>", ",", "\<\"plumy\"\>", 
+   ",", "\<\"plunk\"\>", ",", "\<\"plush\"\>", ",", "\<\"podgy\"\>", 
+   ",", "\<\"poilu\"\>", ",", "\<\"point\"\>", ",", "\<\"polio\"\>", 
+   ",", "\<\"polyp\"\>", ",", "\<\"pommy\"\>", ",", "\<\"poncy\"\>", 
+   ",", "\<\"pooch\"\>", ",", "\<\"poppy\"\>", ",", "\<\"posit\"\>", 
+   ",", "\<\"potto\"\>", ",", "\<\"potty\"\>", ",", "\<\"pouch\"\>", 
+   ",", "\<\"pound\"\>", ",", "\<\"poyou\"\>", ",", "\<\"psych\"\>", 
+   ",", "\<\"psyop\"\>", ",", "\<\"pubic\"\>", ",", "\<\"pudgy\"\>", 
+   ",", "\<\"puffy\"\>", ",", "\<\"pulpy\"\>", ",", "\<\"punch\"\>", 
+   ",", "\<\"punic\"\>", ",", "\<\"punky\"\>", ",", "\<\"pupil\"\>", 
+   ",", "\<\"puppy\"\>", ",", "\<\"pushy\"\>", ",", "\<\"pussy\"\>", 
+   ",", "\<\"putty\"\>", ",", "\<\"pygmy\"\>", ",", "\<\"pylon\"\>", 
+   ",", "\<\"quick\"\>", ",", "\<\"quiff\"\>", ",", "\<\"quill\"\>", 
+   ",", "\<\"quilt\"\>", ",", "\<\"quint\"\>", ",", "\<\"quipu\"\>", 
+   ",", "\<\"quoin\"\>", ",", "\<\"quoit\"\>", ",", "\<\"quoth\"\>", 
+   ",", "\<\"schmo\"\>", ",", "\<\"scion\"\>", ",", "\<\"scoff\"\>", 
+   ",", "\<\"scold\"\>", ",", "\<\"scoop\"\>", ",", "\<\"scoot\"\>", 
+   ",", "\<\"scout\"\>", ",", "\<\"scowl\"\>", ",", "\<\"scuff\"\>", 
+   ",", "\<\"scull\"\>", ",", "\<\"shift\"\>", ",", "\<\"shill\"\>", 
+   ",", "\<\"shiny\"\>", ",", "\<\"shock\"\>", ",", "\<\"shogi\"\>", 
+   ",", "\<\"shoji\"\>", ",", "\<\"shook\"\>", ",", "\<\"shoot\"\>", 
+   ",", "\<\"shout\"\>", ",", "\<\"shown\"\>", ",", "\<\"showy\"\>", 
+   ",", "\<\"shtik\"\>", ",", "\<\"shtup\"\>", ",", "\<\"shuck\"\>", 
+   ",", "\<\"shunt\"\>", ",", "\<\"shush\"\>", ",", "\<\"shyly\"\>", 
+   ",", "\<\"sibyl\"\>", ",", "\<\"sicko\"\>", ",", "\<\"sight\"\>", 
+   ",", "\<\"silky\"\>", ",", "\<\"silly\"\>", ",", "\<\"silty\"\>", 
+   ",", "\<\"sissu\"\>", ",", "\<\"sissy\"\>", ",", "\<\"sixth\"\>", 
+   ",", "\<\"sixty\"\>", ",", "\<\"skiff\"\>", ",", "\<\"skill\"\>", 
+   ",", "\<\"skimp\"\>", ",", "\<\"skink\"\>", ",", "\<\"skint\"\>", 
+   ",", "\<\"skulk\"\>", ",", "\<\"skull\"\>", ",", "\<\"skunk\"\>", 
+   ",", "\<\"slick\"\>", ",", "\<\"slimy\"\>", ",", "\<\"sling\"\>", 
+   ",", "\<\"slink\"\>", ",", "\<\"sloop\"\>", ",", "\<\"slosh\"\>", 
+   ",", "\<\"sloth\"\>", ",", "\<\"slump\"\>", ",", "\<\"slung\"\>", 
+   ",", "\<\"slunk\"\>", ",", "\<\"slush\"\>", ",", "\<\"slyly\"\>", 
+   ",", "\<\"smilo\"\>", ",", "\<\"smith\"\>", ",", "\<\"smock\"\>", 
+   ",", "\<\"smoky\"\>", ",", "\<\"snick\"\>", ",", "\<\"sniff\"\>", 
+   ",", "\<\"snood\"\>", ",", "\<\"snook\"\>", ",", "\<\"snoop\"\>", 
+   ",", "\<\"snoot\"\>", ",", "\<\"snout\"\>", ",", "\<\"snowy\"\>", 
+   ",", "\<\"snuff\"\>", ",", "\<\"soddy\"\>", ",", "\<\"sodom\"\>", 
+   ",", "\<\"softy\"\>", ",", "\<\"soggy\"\>", ",", "\<\"solid\"\>", 
+   ",", "\<\"solon\"\>", ",", "\<\"sonic\"\>", ",", "\<\"sonny\"\>", 
+   ",", "\<\"sonsy\"\>", ",", "\<\"sooth\"\>", ",", "\<\"sooty\"\>", 
+   ",", "\<\"soppy\"\>", ",", "\<\"sough\"\>", ",", "\<\"sound\"\>", 
+   ",", "\<\"soupy\"\>", ",", "\<\"south\"\>", ",", "\<\"spick\"\>", 
+   ",", "\<\"spicy\"\>", ",", "\<\"spiff\"\>", ",", "\<\"spiky\"\>", 
+   ",", "\<\"spill\"\>", ",", "\<\"spiny\"\>", ",", "\<\"spitz\"\>", 
+   ",", "\<\"split\"\>", ",", "\<\"spoil\"\>", ",", "\<\"spoof\"\>", 
+   ",", "\<\"spook\"\>", ",", "\<\"spool\"\>", ",", "\<\"spoon\"\>", 
+   ",", "\<\"spout\"\>", ",", "\<\"spumy\"\>", ",", "\<\"spunk\"\>", 
+   ",", "\<\"squib\"\>", ",", "\<\"squid\"\>", ",", "\<\"stick\"\>", 
+   ",", "\<\"stiff\"\>", ",", "\<\"still\"\>", ",", "\<\"stilt\"\>", 
+   ",", "\<\"sting\"\>", ",", "\<\"stink\"\>", ",", "\<\"stint\"\>", 
+   ",", "\<\"stock\"\>", ",", "\<\"stogy\"\>", ",", "\<\"stoic\"\>", 
+   ",", "\<\"stomp\"\>", ",", "\<\"stony\"\>", ",", "\<\"stood\"\>", 
+   ",", "\<\"stool\"\>", ",", "\<\"stoop\"\>", ",", "\<\"stoup\"\>", 
+   ",", "\<\"stout\"\>", ",", "\<\"stuck\"\>", ",", "\<\"study\"\>", 
+   ",", "\<\"stuff\"\>", ",", "\<\"stump\"\>", ",", "\<\"stung\"\>", 
+   ",", "\<\"stunk\"\>", ",", "\<\"stunt\"\>", ",", "\<\"styli\"\>", 
+   ",", "\<\"stymy\"\>", ",", "\<\"sudsy\"\>", ",", "\<\"suing\"\>", 
+   ",", "\<\"sulky\"\>", ",", "\<\"sully\"\>", ",", "\<\"sunny\"\>", 
+   ",", "\<\"sunup\"\>", ",", "\<\"sushi\"\>", ",", "\<\"swift\"\>", 
+   ",", "\<\"swill\"\>", ",", "\<\"swing\"\>", ",", "\<\"swish\"\>", 
+   ",", "\<\"swizz\"\>", ",", "\<\"swoon\"\>", ",", "\<\"swoop\"\>", 
+   ",", "\<\"swosh\"\>", ",", "\<\"swung\"\>", ",", "\<\"sylph\"\>", 
+   ",", "\<\"synod\"\>", ",", "\<\"thick\"\>", ",", "\<\"thigh\"\>", 
+   ",", "\<\"thill\"\>", ",", "\<\"thing\"\>", ",", "\<\"think\"\>", 
+   ",", "\<\"thong\"\>", ",", "\<\"thumb\"\>", ",", "\<\"thump\"\>", 
+   ",", "\<\"thunk\"\>", ",", "\<\"tight\"\>", ",", "\<\"tigon\"\>", 
+   ",", "\<\"tilth\"\>", ",", "\<\"timid\"\>", ",", "\<\"tinct\"\>", 
+   ",", "\<\"tinny\"\>", ",", "\<\"tippy\"\>", ",", "\<\"tipsy\"\>", 
+   ",", "\<\"titch\"\>", ",", "\<\"titty\"\>", ",", "\<\"tiyin\"\>", 
+   ",", "\<\"tizzy\"\>", ",", "\<\"toddy\"\>", ",", "\<\"toffy\"\>", 
+   ",", "\<\"tonic\"\>", ",", "\<\"tooth\"\>", ",", "\<\"topic\"\>", 
+   ",", "\<\"touch\"\>", ",", "\<\"tough\"\>", ",", "\<\"towny\"\>", 
+   ",", "\<\"toxic\"\>", ",", "\<\"toxin\"\>", ",", "\<\"toyon\"\>", 
+   ",", "\<\"tubby\"\>", ",", "\<\"tulip\"\>", ",", "\<\"tumid\"\>", 
+   ",", "\<\"tummy\"\>", ",", "\<\"tunic\"\>", ",", "\<\"tunny\"\>", 
+   ",", "\<\"tupik\"\>", ",", "\<\"tutti\"\>", ",", "\<\"twill\"\>", 
+   ",", "\<\"twist\"\>", ",", "\<\"twixt\"\>", ",", "\<\"tying\"\>", 
+   ",", "\<\"tyiyn\"\>", ",", "\<\"typic\"\>", ",", "\<\"unbid\"\>", 
+   ",", "\<\"unbox\"\>", ",", "\<\"uncut\"\>", ",", "\<\"undid\"\>", 
+   ",", "\<\"unfit\"\>", ",", "\<\"unfix\"\>", ",", "\<\"unify\"\>", 
+   ",", "\<\"union\"\>", ",", "\<\"unity\"\>", ",", "\<\"unlit\"\>", 
+   ",", "\<\"unpin\"\>", ",", "\<\"until\"\>", ",", "\<\"unzip\"\>", 
+   ",", "\<\"using\"\>", ",", "\<\"vigil\"\>", ",", "\<\"villi\"\>", 
+   ",", "\<\"vinyl\"\>", ",", "\<\"visit\"\>", ",", "\<\"vivid\"\>", 
+   ",", "\<\"vomit\"\>", ",", "\<\"vouch\"\>", ",", "\<\"vying\"\>", 
+   ",", "\<\"which\"\>", ",", "\<\"whiff\"\>", ",", "\<\"whiny\"\>", 
+   ",", "\<\"whish\"\>", ",", "\<\"whisk\"\>", ",", "\<\"whist\"\>", 
+   ",", "\<\"whizz\"\>", ",", "\<\"whomp\"\>", ",", "\<\"whoop\"\>", 
+   ",", "\<\"whoso\"\>", ",", "\<\"widow\"\>", ",", "\<\"width\"\>", 
+   ",", "\<\"wight\"\>", ",", "\<\"wilco\"\>", ",", "\<\"willy\"\>", 
+   ",", "\<\"wimpy\"\>", ",", "\<\"winch\"\>", ",", "\<\"windy\"\>", 
+   ",", "\<\"wispy\"\>", ",", "\<\"witch\"\>", ",", "\<\"withy\"\>", 
+   ",", "\<\"witty\"\>", ",", "\<\"wonky\"\>", ",", "\<\"woody\"\>", 
+   ",", "\<\"wooly\"\>", ",", "\<\"woosh\"\>", ",", "\<\"woozy\"\>", 
+   ",", "\<\"would\"\>", ",", "\<\"wound\"\>", ",", "\<\"wussy\"\>", 
+   ",", "\<\"xciii\"\>", ",", "\<\"xcvii\"\>", ",", "\<\"xliii\"\>", 
+   ",", "\<\"xlvii\"\>", ",", "\<\"xviii\"\>", ",", "\<\"xxiii\"\>", 
+   ",", "\<\"xxvii\"\>", ",", "\<\"xxxii\"\>", ",", "\<\"xxxiv\"\>", 
+   ",", "\<\"xxxvi\"\>", ",", "\<\"xylol\"\>", ",", "\<\"yobbo\"\>", 
+   ",", "\<\"yogic\"\>", ",", "\<\"young\"\>", ",", "\<\"youth\"\>", 
+   ",", "\<\"yucky\"\>", ",", "\<\"yukky\"\>", ",", "\<\"yummy\"\>", 
+   ",", "\<\"zilch\"\>", ",", "\<\"zingy\"\>", ",", "\<\"zippo\"\>", 
+   ",", "\<\"zippy\"\>", ",", "\<\"zloty\"\>", ",", "\<\"zombi\"\>", 
+   ",", "\<\"zooid\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.8950771688520317`*^9},
+ CellLabel->"Out[294]=",
+ CellID->504781691,ExpressionUUID->"f6dc6cd2-02b1-4655-a35b-83e9fe22ee06"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "More Examples",
+ Cell[BoxData[
+  TemplateBox[{"MoreExamples", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell["Extended examples in standardized sections.", "MoreInfoText"], 
+       BaseStyle -> "IFrameBox"]], "MoreInfoTextOuter"]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "570e2815-3811-4950-9e58-61abeb69b808"]
+}], "ExtendedExamplesSection",
+ CellTags->"ExtendedExamples",
+ CellID->322290149,ExpressionUUID->"96d5a4ed-30ed-4aaf-8b6f-5553f81891fe"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Scope", "ExampleSection",ExpressionUUID->
+   "b7e78ca0-a58f-4ed1-a758-6a56ee7161d3"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->461647990,ExpressionUUID->"342626a1-0a2a-4d9e-ab5c-f60e8f2d5a03"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Generalizations & Extensions", "ExampleSection",ExpressionUUID->
+   "fb9c62e2-73ab-4879-87e2-6ea078999ab2"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->71494196,ExpressionUUID->"3effe865-b6df-4e06-84f6-e92484b84240"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Options", "ExampleSection",ExpressionUUID->
+   "0fd9d9e4-0109-4b51-90df-7c5a2c7904d9"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->31606427,ExpressionUUID->"3fdad87c-5b3d-41a7-a363-ee958079f170"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "XXXX", "ExampleSubsection",ExpressionUUID->
+   "8b2575ff-d72d-4c0f-94be-9b10506993e7"],
+  $Line = 0; Null]], "ExampleSubsection",
+ CellID->139872057,ExpressionUUID->"c806fe26-3d1c-4f5f-9e9a-3b139c16ccbe"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "XXXX", "ExampleSubsection",ExpressionUUID->
+   "f1ccb41f-80b2-443a-a540-c68bc410a13b"],
+  $Line = 0; Null]], "ExampleSubsection",
+ CellID->226806370,ExpressionUUID->"ec6fe0bd-2ec8-4eda-8cbe-f67d5eb854e7"]
+}, Open  ]],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Applications", "ExampleSection",ExpressionUUID->
+   "09e45fc6-44a8-4a48-9b46-4f0ad6c5afec"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->82879764,ExpressionUUID->"fb6c1df9-505b-444d-913a-d1bc10e3ab4b"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Properties & Relations", "ExampleSection",ExpressionUUID->
+   "8034846d-5ce8-4e25-bb27-b54799734a5c"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->81848064,ExpressionUUID->"ec3e3a5e-d5e6-40a2-9fe6-7f0b7542c68a"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Possible Issues", "ExampleSection",ExpressionUUID->
+   "26a7e1c1-5dfa-42f7-8045-36aa020dc3f4"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->29246054,ExpressionUUID->"e4ac916c-5736-4bd2-8df8-6c4816059112"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Interactive Examples", "ExampleSection",ExpressionUUID->
+   "4d19f718-0946-439e-8c7d-a44b396975ad"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->322923248,ExpressionUUID->"2665c8bd-afdf-40b8-9dd0-7078d2184691"],
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "Neat Examples", "ExampleSection",ExpressionUUID->
+   "107f9da8-3ca2-4101-853d-bca9ae35454a"],
+  $Line = 0; Null]], "ExampleSection",
+ CellID->5753786,ExpressionUUID->"1d1b1fbc-b034-4e66-9463-242526538dd4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Metadata", "MetadataSection",
+ CellID->39432215,ExpressionUUID->"4ceaee67-dab0-48c6-a672-fe81b262fd37"],
+
+Cell[TextData[{
+ "New in: ",
+ Cell["XX", "HistoryData",
+  CellTags->"New",ExpressionUUID->"72ffae11-0dff-4e3c-8de3-acf5bda1fce0"],
+ " | Modified in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Modified",ExpressionUUID->"24ae5322-959f-41e0-abfa-109193055cdb"],
+ " | Obsolete in: ",
+ Cell[" ", "HistoryData",
+  CellTags->"Obsolete",ExpressionUUID->"e15544ca-981a-49f4-b626-9e58f03a99a2"]
+}], "History",
+ CellID->48442134,ExpressionUUID->"8a58695f-9d57-498e-ba97-bc77c9858fc5"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ "Categorization",
+ Cell[BoxData[
+  TemplateBox[{"Metadata", 
+    Cell[
+     BoxData[
+      FrameBox[
+       Cell[
+       "Metadata such as page URI, context, and type of documentation page.", 
+        "MoreInfoText"], BaseStyle -> "IFrameBox"]], "MoreInfoTextOuter"]},
+   "MoreInfoOpenerButtonTemplate"]],ExpressionUUID->
+  "309b57c6-f29c-402d-bab1-ac809232ae99"]
+}], "CategorizationSection",
+ CellID->72343980,ExpressionUUID->"bb304ba8-cb36-425e-a748-72d4ccdd9736"],
+
+Cell["Symbol", "Categorization",
+ CellLabel->"Entity Type",
+ CellID->104822756,ExpressionUUID->"d1377d6e-9c32-46de-a6e9-e295afc9267c"],
+
+Cell["PeterBurbery/LittleChildPaclet", "Categorization",
+ CellLabel->"Paclet Name",
+ CellID->2033041,ExpressionUUID->"0d34b716-0751-4e43-a16b-5f01fbf44187"],
+
+Cell["PeterBurbery`LittleChildPaclet`", "Categorization",
+ CellLabel->"Context",
+ CellID->96370584,ExpressionUUID->"ef741d2d-47f9-45ad-a70e-5d2792449e7b"],
+
+Cell["PeterBurbery/LittleChildPaclet/ref/CompleteDictionary", "Categorization",
+ CellLabel->"URI",
+ CellID->221773851,ExpressionUUID->"56287674-8cd9-4d3d-8d9a-cbe3975b71b2"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Keywords", "KeywordsSection",
+ CellID->22857994,ExpressionUUID->"0021fe1d-3f53-4681-8dbb-99cae1792417"],
+
+Cell["XXXX", "Keywords",
+ CellID->552281014,ExpressionUUID->"8a2e01e7-0296-4411-a6c5-6506d336ba26"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["Syntax Templates", "TemplatesSection",
+ CellID->117171598,ExpressionUUID->"52c8ecaf-7b8a-43f4-b553-395875d7192a"],
+
+Cell[BoxData[""], "Template",
+ CellLabel->"Additional Function Template",
+ CellID->19775530,ExpressionUUID->"6c6639e0-1ca8-458c-9bd8-05f6b522318d"],
+
+Cell[BoxData[""], "Template",
+ CellLabel->"Arguments Pattern",
+ CellID->300403377,ExpressionUUID->"31fb3336-1aec-423d-8fd9-b50533391729"],
+
+Cell[BoxData[""], "Template",
+ CellLabel->"Local Variables",
+ CellID->501316954,ExpressionUUID->"82fdc0eb-e198-4d8e-84fe-59de7dcb5d45"],
+
+Cell[BoxData[""], "Template",
+ CellLabel->"Color Equal Signs",
+ CellID->634697724,ExpressionUUID->"66e3eece-7d1a-4699-97da-e625350273cd"]
+}, Closed]]
+}, Open  ]]
+},
+WindowSize->{1152, 585.6},
+WindowMargins->{{
+  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+TaggingRules-><|"Paclet" -> "PeterBurbery/LittleChildPaclet"|>,
+CellContext->"Global`",
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "FunctionPageStylesExt.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"bf7c7253-4e6c-4ead-98a8-a6986ba225f5"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "ExtendedExamples"->{
+  Cell[44643, 952, 487, 13, 57, "ExtendedExamplesSection",ExpressionUUID->"96d5a4ed-30ed-4aaf-8b6f-5553f81891fe",
+   CellTags->"ExtendedExamples",
+   CellID->322290149]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"ExtendedExamples", 51007, 1140}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 115, 1, 74, "ObjectName",ExpressionUUID->"34f2d74b-8631-4a49-a97f-0d0e0af35aef",
+ CellID->933738538],
+Cell[698, 25, 995, 22, 121, "Usage",ExpressionUUID->"5a95148f-b6c9-4d46-845e-5dd1556ac953",
+ CellID->101216395],
+Cell[1696, 49, 96, 1, 27, "Notes",ExpressionUUID->"80fd892a-5b53-4b10-8a96-d6b00d07b8fb",
+ CellID->250689818]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1829, 55, 457, 13, 39, "SeeAlsoSection",ExpressionUUID->"5761d6c1-0a78-4217-bc81-80aa2f556231",
+ CellID->59355890],
+Cell[2289, 70, 1653, 42, 24, "SeeAlso",ExpressionUUID->"f8611fdd-476b-4b05-bcb1-75394d17e229",
+ CellID->149764300]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3979, 117, 435, 12, 40, "TechNotesSection",ExpressionUUID->"1ddbf93f-2557-4797-8b28-3851cc182fe0",
+ CellID->126974545],
+Cell[4417, 131, 100, 1, 19, "Tutorials",ExpressionUUID->"9052b505-28bf-405e-8570-3dc6eb50a4e1",
+ CellID->439037805]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4554, 137, 117, 1, 39, "MoreAboutSection",ExpressionUUID->"442e7a09-9a44-4d17-8bef-359d480cb417",
+ CellID->210171844],
+Cell[4674, 140, 100, 1, 19, "MoreAbout",ExpressionUUID->"6d98dad1-e566-4c69-832a-bbbe497fe6af",
+ CellID->220926114]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4811, 146, 472, 13, 39, "RelatedLinksSection",ExpressionUUID->"1bac17d6-b85b-412f-b527-3b6d05ea7d70",
+ CellID->440231613],
+Cell[5286, 161, 103, 1, 19, "RelatedLinks",ExpressionUUID->"5f472384-8efd-4cfe-ba74-f9619434bf28",
+ CellID->133902831]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5426, 167, 530, 14, 69, "ExamplesInitializationSection",ExpressionUUID->"5b92e50c-8832-4436-a1b9-bfd6cbd18be3",
+ CellID->109642171],
+Cell[5959, 183, 190, 3, 45, "ExampleInitialization",ExpressionUUID->"2279b63b-6c76-4381-81e9-44428193cb52",
+ CellID->328147511]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6186, 191, 442, 12, 71, "PrimaryExamplesSection",ExpressionUUID->"72d45cfb-c5a0-4215-becb-7a6004b7c8e6",
+ CellID->672018101],
+Cell[6631, 205, 328, 5, 41, "ExampleText",ExpressionUUID->"0a4cde2e-9c53-481a-95e9-0e2e12607c6a",
+ CellID->268525131],
+Cell[CellGroupData[{
+Cell[6984, 214, 217, 4, 25, "Input",ExpressionUUID->"c40f33ba-9db9-42b6-a36b-43a5d137be4e",
+ CellID->128878864],
+Cell[7204, 220, 12944, 305, 111, "Output",ExpressionUUID->"c98234d7-e714-4859-8f81-b5d4dc0dcc09",
+ CellID->406071968]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20185, 530, 257, 5, 25, "Input",ExpressionUUID->"513784f5-4727-4e26-900c-942429994add",
+ CellID->265659728],
+Cell[20445, 537, 683, 10, 25, "Output",ExpressionUUID->"b7016126-55de-479f-a701-b15dcb6eabd3",
+ CellID->63568819]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21165, 552, 409, 10, 25, "Input",ExpressionUUID->"1aaa2703-1d71-49ce-8af3-1089a2384fc1",
+ CellID->544961918],
+Cell[21577, 564, 603, 9, 25, "Output",ExpressionUUID->"2106c328-955c-4b93-8101-36fe503c05c3",
+ CellID->454913836]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22217, 578, 436, 11, 25, "Input",ExpressionUUID->"d2c7a2bb-a8a6-44a6-9b60-c65469818e00",
+ CellID->35407025],
+Cell[22656, 591, 583, 9, 25, "Output",ExpressionUUID->"cbefbf4f-9249-4302-a567-77b80780595a",
+ CellID->144646484]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23276, 605, 435, 11, 25, "Input",ExpressionUUID->"5f7fc310-e68a-454c-9112-1c20e10475d1",
+ CellID->135242847],
+Cell[23714, 618, 585, 9, 25, "Output",ExpressionUUID->"c3410f9e-e637-43b4-b1a9-a342aad0340b",
+ CellID->123582564]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24336, 632, 1556, 43, 96, "Input",ExpressionUUID->"1f8a0a19-81fc-4e05-9991-c26d897eeb5d",
+ CellID->12705794],
+Cell[25895, 677, 18699, 269, 1272, "Output",ExpressionUUID->"f6dc6cd2-02b1-4655-a35b-83e9fe22ee06",
+ CellID->504781691]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[44643, 952, 487, 13, 57, "ExtendedExamplesSection",ExpressionUUID->"96d5a4ed-30ed-4aaf-8b6f-5553f81891fe",
+ CellTags->"ExtendedExamples",
+ CellID->322290149],
+Cell[45133, 967, 241, 5, 35, "ExampleSection",ExpressionUUID->"342626a1-0a2a-4d9e-ab5c-f60e8f2d5a03",
+ CellID->461647990],
+Cell[45377, 974, 263, 5, 23, "ExampleSection",ExpressionUUID->"3effe865-b6df-4e06-84f6-e92484b84240",
+ CellID->71494196],
+Cell[CellGroupData[{
+Cell[45665, 983, 242, 5, 23, "ExampleSection",ExpressionUUID->"3fdad87c-5b3d-41a7-a363-ee958079f170",
+ CellID->31606427],
+Cell[45910, 990, 246, 5, 26, "ExampleSubsection",ExpressionUUID->"c806fe26-3d1c-4f5f-9e9a-3b139c16ccbe",
+ CellID->139872057],
+Cell[46159, 997, 246, 5, 22, "ExampleSubsection",ExpressionUUID->"ec6fe0bd-2ec8-4eda-8cbe-f67d5eb854e7",
+ CellID->226806370]
+}, Open  ]],
+Cell[46420, 1005, 247, 5, 35, "ExampleSection",ExpressionUUID->"fb6c1df9-505b-444d-913a-d1bc10e3ab4b",
+ CellID->82879764],
+Cell[46670, 1012, 257, 5, 23, "ExampleSection",ExpressionUUID->"ec3e3a5e-d5e6-40a2-9fe6-7f0b7542c68a",
+ CellID->81848064],
+Cell[46930, 1019, 250, 5, 23, "ExampleSection",ExpressionUUID->"e4ac916c-5736-4bd2-8df8-6c4816059112",
+ CellID->29246054],
+Cell[47183, 1026, 256, 5, 23, "ExampleSection",ExpressionUUID->"2665c8bd-afdf-40b8-9dd0-7078d2184691",
+ CellID->322923248],
+Cell[47442, 1033, 247, 5, 23, "ExampleSection",ExpressionUUID->"1d1b1fbc-b034-4e66-9463-242526538dd4",
+ CellID->5753786]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47726, 1043, 109, 1, 72, "MetadataSection",ExpressionUUID->"4ceaee67-dab0-48c6-a672-fe81b262fd37",
+ CellID->39432215],
+Cell[47838, 1046, 472, 11, 26, "History",ExpressionUUID->"8a58695f-9d57-498e-ba97-bc77c9858fc5",
+ CellID->48442134],
+Cell[CellGroupData[{
+Cell[48335, 1061, 483, 13, 21, "CategorizationSection",ExpressionUUID->"bb304ba8-cb36-425e-a748-72d4ccdd9736",
+ CellID->72343980],
+Cell[48821, 1076, 134, 2, 35, "Categorization",ExpressionUUID->"d1377d6e-9c32-46de-a6e9-e295afc9267c",
+ CellID->104822756],
+Cell[48958, 1080, 156, 2, 35, "Categorization",ExpressionUUID->"0d34b716-0751-4e43-a16b-5f01fbf44187",
+ CellID->2033041],
+Cell[49117, 1084, 154, 2, 35, "Categorization",ExpressionUUID->"ef741d2d-47f9-45ad-a70e-5d2792449e7b",
+ CellID->96370584],
+Cell[49274, 1088, 173, 2, 35, "Categorization",ExpressionUUID->"56287674-8cd9-4d3d-8d9a-cbe3975b71b2",
+ CellID->221773851]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[49484, 1095, 109, 1, 21, "KeywordsSection",ExpressionUUID->"0021fe1d-3f53-4681-8dbb-99cae1792417",
+ CellID->22857994],
+Cell[49596, 1098, 99, 1, 70, "Keywords",ExpressionUUID->"8a2e01e7-0296-4411-a6c5-6506d336ba26",
+ CellID->552281014]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[49732, 1104, 119, 1, 21, "TemplatesSection",ExpressionUUID->"52c8ecaf-7b8a-43f4-b553-395875d7192a",
+ CellID->117171598],
+Cell[49854, 1107, 147, 2, 70, "Template",ExpressionUUID->"6c6639e0-1ca8-458c-9bd8-05f6b522318d",
+ CellID->19775530],
+Cell[50004, 1111, 137, 2, 70, "Template",ExpressionUUID->"31fb3336-1aec-423d-8fd9-b50533391729",
+ CellID->300403377],
+Cell[50144, 1115, 135, 2, 70, "Template",ExpressionUUID->"82fdc0eb-e198-4d8e-84fe-59de7dcb5d45",
+ CellID->501316954],
+Cell[50282, 1119, 137, 2, 70, "Template",ExpressionUUID->"66e3eece-7d1a-4699-97da-e625350273cd",
+ CellID->634697724]
+}, Closed]]
+}, Open  ]]
+}
+]
+*)
+
