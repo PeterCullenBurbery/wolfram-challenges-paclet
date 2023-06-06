@@ -1,4 +1,5 @@
-
+I changed PacletInfo.wl to include the following:
+Anagrams, AntipodalCity,
      (* ::Package:: *)
 
 BeginPackage["PeterBurbery`LittleChildPaclet`"];
