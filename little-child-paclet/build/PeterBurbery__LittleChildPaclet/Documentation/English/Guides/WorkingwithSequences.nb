@@ -1,0 +1,243 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9305,        233]
+NotebookOptionsPosition[      6756,        178]
+NotebookOutlinePosition[      8498,        220]
+CellTagsIndexPosition[      8455,        217]
+WindowTitle->Working with Sequences
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ LITTLE CHILD PACLET GUIDE", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "73fd4d69-67d9-40a1-97a6-ef7f4bfdb5b7"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "7e7f3db1-dc58-4cb9-ab5c-f9d9cde08284"],
+        Background->RGBColor[0.85098, 0.396078, 0],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Functions",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "539f36bc-b806-4272-8984-947a1317aaad"]
+         }],ExpressionUUID->"ca4b0f78-34e2-4df6-8ee0-43bb33a71841"],
+         StripOnInput->False],{
+        "\"RepeatandEndingPrimes\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/RepeatandEndingPrimes"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"GuideFunction"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "5472b202-d8bd-4301-b124-8f40378cf160"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "e21e9de5-d052-442e-bcf0-4b682f15b851"]
+         }],ExpressionUUID->"2e0e06de-ee61-465e-b6fa-db0a19a7b905"],
+         StripOnInput->False],{
+        "\"PeterBurbery/LittleChildPaclet/guide/WorkingwithSequences\"" :> 
+         None, "\"Copy Wolfram Documentation Center URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell["PeterBurbery/LittleChildPaclet/guide/\
+WorkingwithSequences"]}, Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
+         "\"Copy web URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell[BoxData[
+                 MakeBoxes[
+                  Hyperlink[
+                   "http://reference.wolfram.com/language/PeterBurbery/\
+LittleChildPaclet/guide/WorkingwithSequences.html"], StandardForm]], "Input", 
+                 TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+         "\"Go to web URL\"" :> 
+         FrontEndExecute[{
+           NotebookLocate[{
+             URL[If[TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$75442], 
+                 "http://reference.wolfram.com/system-modeler/", 
+                 "http://reference.wolfram.com/language/"] <> 
+               "PeterBurbery/LittleChildPaclet/guide/WorkingwithSequences" <> 
+               ".html"], None}]}]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "633600cb-8750-4a76-982c-c945e8a4d0eb"]
+    }], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "a308ef32-0fc7-4704-a537-1a42175eb3e9"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"61322d0c-d086-4c23-94e8-98acfbb77925"],
+
+Cell[CellGroupData[{
+
+Cell["Working with Sequences", "GuideTitle",
+ CellID->735256643,ExpressionUUID->"c905f721-d156-485b-aed4-40733c1dee74"],
+
+Cell["\<\
+This paclet contains functions for Wolfram Challenges in the Sequence \
+category.\
+\>", "GuideAbstract",
+ CellID->81856625,ExpressionUUID->"4abedf8b-019b-4e1f-a43e-52436cfa517d"],
+
+Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"634ef665-8ee6-4fb6-afd8-11d4ecdf2e73"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["RepeatandEndingPrimes"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/RepeatandEndingPrimes", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"c40ac8e4-27e1-4161-a8df-4d4f38357a23",ExpressionUUID->
+  "71ad873f-d30c-45ac-ac2b-3241292adc74"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Find primes that start with a repeated base-10 digit, followed by a single \
+digit at the end."
+}], "GuideText",
+ CellID->169048158,ExpressionUUID->"b8cc581e-a9ee-48bc-9081-da1ee26ec4b7"],
+
+Cell["\t", "GuideDelimiter",
+ CellID->2266305,ExpressionUUID->"29c4aff7-49b8-4f4a-bccc-f1278d17df79"],
+
+Cell[TextData[Cell["\<\
+
+FrameBox[\"\\\"XXXX\\\"\"]\
+\>", "FunctionPlaceholder", \
+"InlineFunctionSansUnlinked",ExpressionUUID->"24336913-a4a9-44bf-9992-\
+fd0a2e1100af"]], "InlineGuideFunctionListing",
+ CellID->17452915,ExpressionUUID->"e72227dd-0baa-42c4-b935-d32e8cef5c1d"],
+
+Cell[BoxData["Open"], "Input",ExpressionUUID->"821d38d8-8e3a-493e-9f29-d317d33d0a70"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900, 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Working with Sequences",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
+  "NewStyles" -> True, "CitationPopupData" -> {$Failed, ""}, "ShowCitation" -> 
+  False, "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2023, 6, 6, 17, 42, 31.4862472}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "PeterBurbery`LittleChildPaclet`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Little Child Paclet Guide", "language" -> 
+    "en", "paclet" -> "PeterBurbery/LittleChildPaclet", "status" -> "None", 
+    "summary" -> 
+    "This paclet contains functions for Wolfram Challenges in the Sequence \
+category.", "synonyms" -> {}, "tabletags" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$75413, "title" -> 
+    "Working with Sequences", "titlemodifier" -> "", "metadescription" -> "", 
+    "windowtitle" -> "Working with Sequences", "type" -> "Guide", "uri" -> 
+    "PeterBurbery/LittleChildPaclet/guide/WorkingwithSequences"}},
+CacheGraphics->False,
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"90717975-b0ac-48a1-8ed9-f9edfa0f6214"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[594, 21, 4609, 110, 70, "AnchorBarGrid",ExpressionUUID->"61322d0c-d086-4c23-94e8-98acfbb77925",
+ CellID->1],
+Cell[CellGroupData[{
+Cell[5228, 135, 119, 1, 70, "GuideTitle",ExpressionUUID->"c905f721-d156-485b-aed4-40733c1dee74",
+ CellID->735256643],
+Cell[5350, 138, 188, 4, 70, "GuideAbstract",ExpressionUUID->"4abedf8b-019b-4e1f-a43e-52436cfa517d",
+ CellID->81856625],
+Cell[5541, 144, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"634ef665-8ee6-4fb6-afd8-11d4ecdf2e73"],
+Cell[5637, 146, 633, 16, 70, "GuideText",ExpressionUUID->"b8cc581e-a9ee-48bc-9081-da1ee26ec4b7",
+ CellID->169048158],
+Cell[6273, 164, 101, 1, 70, "GuideDelimiter",ExpressionUUID->"29c4aff7-49b8-4f4a-bccc-f1278d17df79",
+ CellID->2266305],
+Cell[6377, 167, 275, 6, 70, InheritFromParent,ExpressionUUID->"e72227dd-0baa-42c4-b935-d32e8cef5c1d",
+ CellID->17452915],
+Cell[6655, 175, 85, 0, 70, "Input",ExpressionUUID->"821d38d8-8e3a-493e-9f29-d317d33d0a70"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

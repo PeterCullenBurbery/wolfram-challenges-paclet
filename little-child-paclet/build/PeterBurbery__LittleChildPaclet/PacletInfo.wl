@@ -33,6 +33,7 @@ PacletObject[
           "PeterBurbery`LittleChildPaclet`OddBeforeEven",
           "PeterBurbery`LittleChildPaclet`PairsAddToHundred",
           "PeterBurbery`LittleChildPaclet`PositiveIntegerQ",
+          "PeterBurbery`LittleChildPaclet`RepeatandEndingPrimes",
           "PeterBurbery`LittleChildPaclet`SameStartEndWords",
           "PeterBurbery`LittleChildPaclet`SayHello",
           "PeterBurbery`LittleChildPaclet`SquareSum",

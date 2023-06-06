@@ -23,8 +23,10 @@
 <<PeterBurbery`LittleChildPaclet`TwoAndThreePointers`;
 <<PeterBurbery`LittleChildPaclet`WordListLookup`;
 <<PeterBurbery`LittleChildPaclet`Coins`;
-<<PeterBurbery`LittleChildPaclet`AliquotSequence`;<<PeterBurbery`LittleChildPaclet`CatalanUnrank`;
+(*<<PeterBurbery`LittleChildPaclet`AliquotSequence`;
+<<PeterBurbery`LittleChildPaclet`CatalanUnrank`;
 
 <<PeterBurbery`LittleChildPaclet`BalancedParentheses`;
 <<PeterBurbery`LittleChildPaclet`AlmostPalindrome`;
-<<PeterBurbery`LittleChildPaclet`RepeatandEndingPrimes`;
+<<PeterBurbery`LittleChildPaclet`RepeatandEndingPrimes`;*)
+

@@ -173,4 +173,16 @@ With2PointsAndThreePoints.nb" ->
  "English\\ReferencePages\\Symbols\\AlmostPalindrome.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
       "Time" -> Quantity[1.6463198, "Seconds"]|>], 
-   "FileHash" -> "4Rfl1RUc6b8qFgN0rwy84hB8vu233+7jmw0M+YvO5A8="|>|>
+   "FileHash" -> "4Rfl1RUc6b8qFgN0rwy84hB8vu233+7jmw0M+YvO5A8="|>, 
+ "English\\Guides\\PrimeNumbers.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[1.1899778, "Seconds"]|>], 
+   "FileHash" -> "lYvCblsvw0q4vU9f98XXm35InXjXpt6eD9J5Ldgqhig="|>, 
+ "English\\Guides\\WorkingwithSequences.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[1.1191164, "Seconds"]|>], 
+   "FileHash" -> "o/ya2E41v9s5xE9cKOiT8iiKCukKdjbOsmAGcbSlN1A="|>, 
+ "English\\ReferencePages\\Symbols\\RepeatandEndingPrimes.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[2.0156336, "Seconds"]|>], 
+   "FileHash" -> "PPsaleYpvM4a+C7AJyns7stc/PKb1/bQOL+TOiNPhP4="|>|>

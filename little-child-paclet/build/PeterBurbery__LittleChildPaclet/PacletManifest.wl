@@ -115,7 +115,7 @@
             ,
             "Hash"
             ->
-            "bd4418497c4b95411a4894c213b6156957ecea47aa1019d38098e97101b7093e"
+            "156bc9db2ca4e0e96fbbd2638c261bdd8955f16cd46b6f571f3d5c11d7dad179"
                 
         |>
         ,
@@ -219,7 +219,7 @@
             ,
             "Hash"
             ->
-            "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            "ff86c20bd1cfd156a9a82d3da48ffa237186e6ad44bbb51e3f5046d65e106a8a"
                 
         |>
         ,
@@ -358,6 +358,19 @@
             "File"
             ->
             File[
+                "Documentation\\English\\Guides\\PrimeNumbers.nb"
+            ]
+            ,
+            "Hash"
+            ->
+            "257999266e0bbbfbb4192dd30756f9dd8f2550dd39211e92e63a6f5c02f095b4"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Documentation\\English\\Guides\\StartHereWolframChallengeFunctions.nb"
                     
             ]
@@ -420,6 +433,20 @@
             "Hash"
             ->
             "01bc7fea488f6db35d32312aeb08a56ce548633c3352e07a8946a7739fd7f03b"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\Guides\\WorkingwithSequences.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "2352178abc78609b20f7a764c391fee12ddfe508f0f2ffd161e359b81e95b833"
                 
         |>
         ,
@@ -644,6 +671,20 @@
             "Hash"
             ->
             "40e851bba5903bf7a42c9047b9936abeb0dc4c4e5a6d72fab7152e7a3511e113"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\RepeatandEndingPrimes.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "85c0db6d7e538b53cb33a3176da7d760e57682880502fd331436bdb99418b33e"
                 
         |>
         ,

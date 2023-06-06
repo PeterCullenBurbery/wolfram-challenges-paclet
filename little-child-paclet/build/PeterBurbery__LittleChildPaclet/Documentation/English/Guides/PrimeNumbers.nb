@@ -1,0 +1,273 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10566,        263]
+NotebookOptionsPosition[      7637,        202]
+NotebookOutlinePosition[      9637,        248]
+CellTagsIndexPosition[      9594,        245]
+WindowTitle->Prime Numbers
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ LITTLE CHILD PACLET GUIDE", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "3a4725f5-627e-4f9d-9007-2339a10d77e2"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "dc134329-1613-4c01-ba9b-73278c31c10d"],
+        Background->RGBColor[0.85098, 0.396078, 0],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Functions",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "3910fc64-ff3d-42fb-9d1e-915f22a1a1f3"]
+         }],ExpressionUUID->"2fb7e6e9-d586-4840-ba10-df5441a9f996"],
+         StripOnInput->False],{
+        "\"RepeatandEndingPrimes\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/RepeatandEndingPrimes"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"GuideFunction"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "8e99c424-8cbe-4203-8525-ed1a9d0cd6fc"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "a787b73e-87d1-412a-a637-e32caf7e1497"]
+         }],ExpressionUUID->"ce4ac172-76d2-411e-aaa9-91d66f0106f9"],
+         StripOnInput->False],{
+        "\"PeterBurbery/LittleChildPaclet/guide/PrimeNumbers\"" :> None, 
+         "\"Copy Wolfram Documentation Center URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell["PeterBurbery/LittleChildPaclet/guide/PrimeNumbers"]}, 
+               Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
+         "\"Copy web URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell[BoxData[
+                 MakeBoxes[
+                  Hyperlink[
+                   "http://reference.wolfram.com/language/PeterBurbery/\
+LittleChildPaclet/guide/PrimeNumbers.html"], StandardForm]], "Input", 
+                 TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+         "\"Go to web URL\"" :> 
+         FrontEndExecute[{
+           NotebookLocate[{
+             URL[If[TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$58953], 
+                 "http://reference.wolfram.com/system-modeler/", 
+                 "http://reference.wolfram.com/language/"] <> 
+               "PeterBurbery/LittleChildPaclet/guide/PrimeNumbers" <> 
+               ".html"], None}]}]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "40d69521-654a-4109-8c0a-7590b015e52a"]
+    }], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "912f298f-11f6-4c3d-b0d5-f730d892fecd"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"951eedf3-5fb8-4873-9e25-6f2467c813c5"],
+
+Cell[CellGroupData[{
+
+Cell["Prime Numbers", "GuideTitle",
+ CellID->16147248,ExpressionUUID->"79750985-9c86-4767-b076-1610666f3991"],
+
+Cell[TextData[{
+ "The primes have been a focal point for investigations of numbers for more \
+than two millennia. The Wolfram Language implements state-of-the-art \
+algorithms for handling both primes and the advanced mathematics that has \
+grown up around their study. Use ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["Prime"]], "paclet:ref/Prime"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "e0ab2a72-1900-4130-a104-82d3569af838"],
+ " to quickly find the billionth prime, or ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["Zeta"]], "paclet:ref/Zeta"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "b238e4b6-247c-4248-bdcf-4da8b7149a36"],
+ " to get empirical evidence related to the Riemann hypothesis."
+}], "GuideAbstract",
+ CellID->833558098,ExpressionUUID->"d851fec8-f473-4f07-8228-43357129c891"],
+
+Cell["\<\
+The Wolfram Challenge site includes challenges for prime numbers.\
+\>", "GuideAbstract",
+ CellID->28762319,ExpressionUUID->"f021e18b-3fce-45ac-bfd5-59121586c528"],
+
+Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"431407a6-6881-4d71-b2e5-c7b352a33ad8"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["RepeatandEndingPrimes"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/RepeatandEndingPrimes", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"c40ac8e4-27e1-4161-a8df-4d4f38357a23",ExpressionUUID->
+  "ec23411d-4eb8-4658-adf6-b49953af3060"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ "Find primes that start with a repeated base-10 digit, followed by a single \
+digit at the end."
+}], "GuideText",
+ CellID->343558952,ExpressionUUID->"510288d9-0166-4828-81ea-ea9601cd6589"],
+
+Cell["\t", "GuideDelimiter",
+ CellID->43888474,ExpressionUUID->"f3f05d18-8c6f-4f3d-88c2-ff4dcd39a4af"],
+
+Cell[TextData[Cell["\<\
+
+FrameBox[\"\\\"XXXX\\\"\"]\
+\>", "FunctionPlaceholder", \
+"InlineFunctionSansUnlinked",ExpressionUUID->"dbf89af8-a506-4524-9741-\
+15b87305fc55"]], "InlineGuideFunctionListing",
+ CellID->28648799,ExpressionUUID->"f9ffd4dd-9948-448a-811f-dc715e7a27b0"],
+
+Cell[BoxData["Open"], "Input",ExpressionUUID->"dbf08bdc-b2b1-4591-9056-7baf33e91cbf"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900, 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Prime Numbers",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
+  "NewStyles" -> True, "CitationPopupData" -> {$Failed, ""}, "ShowCitation" -> 
+  False, "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2023, 6, 6, 17, 41, 37.6306518}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "PeterBurbery`LittleChildPaclet`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Little Child Paclet Guide", "language" -> 
+    "en", "paclet" -> "PeterBurbery/LittleChildPaclet", "status" -> "None", 
+    "summary" -> 
+    "The primes have been a focal point for investigations of numbers for \
+more than two millennia. The Wolfram Language implements state-of-the-art \
+algorithms for handling both primes and the advanced mathematics that has \
+grown up around their study. Use Prime to quickly find the billionth prime, \
+or Zeta to get empirical evidence related to the Riemann hypothesis.", 
+    "synonyms" -> {}, "tabletags" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$58922, "title" -> 
+    "Prime Numbers", "titlemodifier" -> "", "metadescription" -> "", 
+    "windowtitle" -> "Prime Numbers", "type" -> "Guide", "uri" -> 
+    "PeterBurbery/LittleChildPaclet/guide/PrimeNumbers"}},
+CacheGraphics->False,
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"8bdd900d-1ff3-4de2-aab8-cf8ade5f3273"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[585, 21, 4591, 110, 70, "AnchorBarGrid",ExpressionUUID->"951eedf3-5fb8-4873-9e25-6f2467c813c5",
+ CellID->1],
+Cell[CellGroupData[{
+Cell[5201, 135, 109, 1, 70, "GuideTitle",ExpressionUUID->"79750985-9c86-4767-b076-1610666f3991",
+ CellID->16147248],
+Cell[5313, 138, 925, 22, 70, "GuideAbstract",ExpressionUUID->"d851fec8-f473-4f07-8228-43357129c891",
+ CellID->833558098],
+Cell[6241, 162, 172, 3, 70, "GuideAbstract",ExpressionUUID->"f021e18b-3fce-45ac-bfd5-59121586c528",
+ CellID->28762319],
+Cell[6416, 167, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"431407a6-6881-4d71-b2e5-c7b352a33ad8"],
+Cell[6512, 169, 638, 17, 70, "GuideText",ExpressionUUID->"510288d9-0166-4828-81ea-ea9601cd6589",
+ CellID->343558952],
+Cell[7153, 188, 102, 1, 70, "GuideDelimiter",ExpressionUUID->"f3f05d18-8c6f-4f3d-88c2-ff4dcd39a4af",
+ CellID->43888474],
+Cell[7258, 191, 275, 6, 70, InheritFromParent,ExpressionUUID->"f9ffd4dd-9948-448a-811f-dc715e7a27b0",
+ CellID->28648799],
+Cell[7536, 199, 85, 0, 70, "Input",ExpressionUUID->"dbf08bdc-b2b1-4591-9056-7baf33e91cbf"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
