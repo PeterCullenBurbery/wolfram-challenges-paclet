@@ -1,11 +1,14 @@
 BeginPackage["PeterBurbery`LittleChildPaclet`"];
 
 (* Declare your packages public symbols here. *)
-PeterBurbery`LittleChildPaclet`PositiveIntegerQ
+PeterBurbery`LittleChildPaclet`RepeatandEndingPrimes
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
-PositiveIntegerQ[n_]:=TrueQ[n\[Element]PositiveIntegers]
+RepeatandEndingPrimes//ClearAll
+RepeatandEndingPrimes[r_, e_] := 
+ Select[PrimeQ]@
+  Table[FromDigits[Join[ConstantArray[r, i], {e}]], {i, 30}]
 
 
 End[]; (* End `Private` *)
