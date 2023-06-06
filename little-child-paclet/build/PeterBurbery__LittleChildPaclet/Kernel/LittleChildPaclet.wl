@@ -26,3 +26,4 @@
 <<PeterBurbery`LittleChildPaclet`AliquotSequence`;<<PeterBurbery`LittleChildPaclet`CatalanUnrank`;
 
 <<PeterBurbery`LittleChildPaclet`BalancedParentheses`;
+<<PeterBurbery`LittleChildPaclet`AlmostPalindrome`;

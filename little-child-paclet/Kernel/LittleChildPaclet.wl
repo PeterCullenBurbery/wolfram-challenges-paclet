@@ -27,3 +27,4 @@
 
 <<PeterBurbery`LittleChildPaclet`BalancedParentheses`;
 <<PeterBurbery`LittleChildPaclet`AlmostPalindrome`;
+<<PeterBurbery`LittleChildPaclet`RepeatandEndingPrimes`;

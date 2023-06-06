@@ -1,0 +1,205 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8011,        195]
+NotebookOptionsPosition[      5471,        140]
+NotebookOutlinePosition[      7204,        182]
+CellTagsIndexPosition[      7161,        179]
+WindowTitle->Wolfram Challenges Words and Linguistics
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ LITTLE CHILD PACLET GUIDE", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "82b86c84-23b0-45a8-bc6e-77efb869df72"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "3e91c6dc-d5ab-4839-b642-582a6c43154d"],
+        Background->RGBColor[0.85098, 0.396078, 0],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[Cell[BoxData[
+     TagBox[
+      ActionMenuBox[
+       FrameBox[Cell[TextData[{
+         "URL",
+         " ",
+         Cell[BoxData[
+          GraphicsBox[
+           {GrayLevel[0.66667], Thickness[0.13], 
+            LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+           AspectRatio->1,
+           ImageSize->20,
+           PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+          "3c9ddd69-4d75-4705-992d-aa124e321221"]
+        }],ExpressionUUID->"2628688d-1832-42b1-9a04-31cbe61cdb12"],
+        StripOnInput->False],{
+       "\"PeterBurbery/LittleChildPaclet/guide/\
+WolframChallengesWordsandLinguistics\"" :> None, 
+        "\"Copy Wolfram Documentation Center URL\"" :> 
+        Module[{DocumentationSearch`Private`nb$}, 
+          DocumentationSearch`Private`nb$ = 
+           NotebookPut[
+            Notebook[{
+              Cell["PeterBurbery/LittleChildPaclet/guide/\
+WolframChallengesWordsandLinguistics"]}, Visible -> False]]; 
+          SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+          FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+          NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
+        "\"Copy web URL\"" :> 
+        Module[{DocumentationSearch`Private`nb$}, 
+          DocumentationSearch`Private`nb$ = 
+           NotebookPut[
+            Notebook[{
+              Cell[BoxData[
+                MakeBoxes[
+                 Hyperlink[
+                  "http://reference.wolfram.com/language/PeterBurbery/\
+LittleChildPaclet/guide/WolframChallengesWordsandLinguistics.html"], 
+                  StandardForm]], "Input", TextClipboardType -> "PlainText"]},
+               Visible -> False]]; 
+          SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+          FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+          NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+        "\"Go to web URL\"" :> 
+        FrontEndExecute[{
+          NotebookLocate[{
+            URL[If[TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$36355], 
+                "http://reference.wolfram.com/system-modeler/", 
+                "http://reference.wolfram.com/language/"] <> 
+              "PeterBurbery/LittleChildPaclet/guide/\
+WolframChallengesWordsandLinguistics" <> ".html"], None}]}]},
+       Appearance->None,
+       MenuAppearance->Automatic,
+       MenuStyle->"URLMenu"],
+      MouseAppearanceTag["LinkHand"]]],
+     LineSpacing->{1.4, 0},ExpressionUUID->
+     "793870ef-645b-4dcf-9712-fe43af1dc6ed"]], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "8f358dab-a14e-4855-bc6c-02582efcfc92"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"136ad6bf-c457-450c-9457-f9e9bc4b0fc1"],
+
+Cell[CellGroupData[{
+
+Cell["Wolfram Challenges Words and Linguistics", "GuideTitle",
+ CellID->476600325,ExpressionUUID->"bdd5c31f-d8f9-4312-b2fb-2cbbd2a858c1"],
+
+Cell["\[NonBreakingSpace]", "GuideAbstract",
+ CellID->40668660,ExpressionUUID->"9b5d2d32-c505-4af8-b53c-6b3772a27d51"],
+
+Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"306e3d57-5124-4632-80ff-3cbd728e43bd"],
+
+Cell[TextData[{
+ Cell["AlmostPalindrome", "InlineFunctionSansUnlinked",
+  CellTags->"c40ac8e4-27e1-4161-a8df-4d4f38357a23",ExpressionUUID->
+  "b03dcf97-acd6-4764-9b9d-e9e34d3e8502"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " finds words that would be palindromes if one of their letters was removed."
+}], "GuideText",
+ CellID->238739369,ExpressionUUID->"96667223-0009-41fb-9e4d-9c19485b8ead"],
+
+Cell["\t", "GuideDelimiter",
+ CellID->249527570,ExpressionUUID->"0d20230b-531d-42a9-af80-a4f106046326"],
+
+Cell[TextData[Cell["\<\
+
+FrameBox[\"\\\"XXXX\\\"\"]\
+\>", "FunctionPlaceholder", \
+"InlineFunctionSansUnlinked",ExpressionUUID->"c411b676-db38-473d-a20d-\
+5bbfa32ced67"]], "InlineGuideFunctionListing",
+ CellID->37449048,ExpressionUUID->"30c8eea2-d3cd-4c2b-b2bc-aec7b5e50a9a"],
+
+Cell[BoxData["Open"], "Input",ExpressionUUID->"8be211a2-4073-4c73-be01-0867c78338d6"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900, 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Wolfram Challenges Words and Linguistics",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
+  "NewStyles" -> True, "CitationPopupData" -> {$Failed, ""}, "ShowCitation" -> 
+  False, "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2023, 6, 6, 11, 14, 54.9660113}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "PeterBurbery`LittleChildPaclet`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Little Child Paclet Guide", "language" -> 
+    "en", "paclet" -> "PeterBurbery/LittleChildPaclet", "status" -> "None", 
+    "summary" -> "", "synonyms" -> {}, "tabletags" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$36326, "title" -> 
+    "Wolfram Challenges Words and Linguistics", "titlemodifier" -> "", 
+    "metadescription" -> "", "windowtitle" -> 
+    "Wolfram Challenges Words and Linguistics", "type" -> "Guide", "uri" -> 
+    "PeterBurbery/LittleChildPaclet/guide/\
+WolframChallengesWordsandLinguistics"}},
+CacheGraphics->False,
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"0cb20271-9b76-43a1-ab8d-f6f527352871"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[612, 21, 3589, 83, 70, "AnchorBarGrid",ExpressionUUID->"136ad6bf-c457-450c-9457-f9e9bc4b0fc1",
+ CellID->1],
+Cell[CellGroupData[{
+Cell[4226, 108, 137, 1, 70, "GuideTitle",ExpressionUUID->"bdd5c31f-d8f9-4312-b2fb-2cbbd2a858c1",
+ CellID->476600325],
+Cell[4366, 111, 118, 1, 70, "GuideAbstract",ExpressionUUID->"9b5d2d32-c505-4af8-b53c-6b3772a27d51",
+ CellID->40668660],
+Cell[4487, 114, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"306e3d57-5124-4632-80ff-3cbd728e43bd"],
+Cell[4583, 116, 400, 8, 70, "GuideText",ExpressionUUID->"96667223-0009-41fb-9e4d-9c19485b8ead",
+ CellID->238739369],
+Cell[4986, 126, 103, 1, 70, "GuideDelimiter",ExpressionUUID->"0d20230b-531d-42a9-af80-a4f106046326",
+ CellID->249527570],
+Cell[5092, 129, 275, 6, 70, InheritFromParent,ExpressionUUID->"30c8eea2-d3cd-4c2b-b2bc-aec7b5e50a9a",
+ CellID->37449048],
+Cell[5370, 137, 85, 0, 70, "Input",ExpressionUUID->"8be211a2-4073-4c73-be01-0867c78338d6"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

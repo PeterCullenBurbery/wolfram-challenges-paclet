@@ -6,12 +6,12 @@
             "File"
             ->
             File[
-                "Kernel\\AliquotSequence.wl"
+                "Kernel\\AlmostPalindrome.wl"
             ]
             ,
             "Hash"
             ->
-            "96c2c9d5847c132de37659867080bb989196e5c1aa64771b24d8c274c45fec4a"
+            "064a564fe33ae82864aa74da85715da1f471a5d4e99c34b1e2702cb7fd09a42b"
                 
         |>
         ,
@@ -115,7 +115,7 @@
             ,
             "Hash"
             ->
-            "b907ba77246f864a0519546122705492cb5361ca799a50bff270d7f347620eb2"
+            "bd4418497c4b95411a4894c213b6156957ecea47aa1019d38098e97101b7093e"
                 
         |>
         ,
@@ -214,6 +214,19 @@
             "File"
             ->
             File[
+                "Kernel\\RepeatAndEndingPrimes.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Kernel\\SameStartEndWords.wl"
             ]
             ,
@@ -246,19 +259,6 @@
             "Hash"
             ->
             "b1b81230cd7a028988989e6ed9a58609d8de5e245f59acb985d63797e5cd0d71"
-                
-        |>
-        ,
-        <|
-            "File"
-            ->
-            File[
-                "Kernel\\StringPatternQ.wl"
-            ]
-            ,
-            "Hash"
-            ->
-            "9ac363aa46377418eb34ec678b0789b4450a5b1daa6c059a0fa30bc7b931c414"
                 
         |>
         ,
@@ -399,13 +399,55 @@
             "File"
             ->
             File[
+                "Documentation\\English\\Guides\\WolframChallengesComputationalKnowledge.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "a34708d6100c420cfabf789263b9ab532767eea24a84186ba9f764716d34c43b"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\Guides\\WolframChallengesWordsandLinguistics.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "01bc7fea488f6db35d32312aeb08a56ce548633c3352e07a8946a7739fd7f03b"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Documentation\\English\\ReferencePages\\Symbols\\AliquotSequence.nb"
                     
             ]
             ,
             "Hash"
             ->
-            "369a2715d0dd5d417f33650c0c0bc58ca0d020488547c3c4d7d00239a4efb11b"
+            "e93a280ad82420e2649d34018041f22a505ff0ca483297a80467e9cd715fcda7"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\AlmostPalindrome.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "997d240d6a0e61a4bca1d715416aaad67f5ea424f045e662fd46dd432503e204"
                 
         |>
         ,

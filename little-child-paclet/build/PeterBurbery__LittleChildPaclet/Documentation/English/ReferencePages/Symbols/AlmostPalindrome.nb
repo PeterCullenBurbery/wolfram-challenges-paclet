@@ -1,0 +1,780 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     34769,        770]
+NotebookOptionsPosition[     29109,        653]
+NotebookOutlinePosition[     31523,        712]
+CellTagsIndexPosition[     31438,        707]
+WindowTitle->AlmostPalindrome
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ LITTLE CHILD PACLET SYMBOL", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "f1e86e20-af74-43f3-95fd-fc736043699e"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "cf61d713-923b-44a7-ade6-fc96c5f6e956"],
+        Background->RGBColor[0.490196, 0.576471, 0.690196],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[Cell[BoxData[
+     TagBox[
+      ActionMenuBox[
+       FrameBox[Cell[TextData[{
+         "URL",
+         " ",
+         Cell[BoxData[
+          GraphicsBox[
+           {GrayLevel[0.66667], Thickness[0.13], 
+            LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+           AspectRatio->1,
+           ImageSize->20,
+           PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+          "fb2e6d9f-42da-4c65-87a2-877396f2c9ae"]
+        }],ExpressionUUID->"984a77e8-304f-41ec-98d0-fad6a1e07555"],
+        StripOnInput->False],{
+       "\"PeterBurbery/LittleChildPaclet/ref/AlmostPalindrome\"" :> None, 
+        "\"Copy Wolfram Documentation Center URL\"" :> 
+        Module[{DocumentationSearch`Private`nb$}, 
+          DocumentationSearch`Private`nb$ = 
+           NotebookPut[
+            Notebook[{
+              Cell["PeterBurbery/LittleChildPaclet/ref/AlmostPalindrome"]}, 
+              Visible -> False]]; 
+          SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+          FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+          NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
+        "\"Copy web URL\"" :> 
+        Module[{DocumentationSearch`Private`nb$}, 
+          DocumentationSearch`Private`nb$ = 
+           NotebookPut[
+            Notebook[{
+              Cell[BoxData[
+                MakeBoxes[
+                 Hyperlink[
+                  "http://reference.wolfram.com/language/PeterBurbery/\
+LittleChildPaclet/ref/AlmostPalindrome.html"], StandardForm]], "Input", 
+                TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+          SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+          FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+          NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+        "\"Go to web URL\"" :> 
+        FrontEndExecute[{
+          NotebookLocate[{
+            URL[If[TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$37175], 
+                "http://reference.wolfram.com/system-modeler/", 
+                "http://reference.wolfram.com/language/"] <> 
+              "PeterBurbery/LittleChildPaclet/ref/AlmostPalindrome" <> 
+              ".html"], None}]}]},
+       Appearance->None,
+       MenuAppearance->Automatic,
+       MenuStyle->"URLMenu"],
+      MouseAppearanceTag["LinkHand"]]],
+     LineSpacing->{1.4, 0},ExpressionUUID->
+     "fe3d36c9-2195-47fc-b091-01f67b95a34e"]], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "e1db6c7c-7b5d-457e-b308-640b17211b0d"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"7c843da6-7bfe-411f-b77d-37a1d2bade99"],
+
+Cell["PeterBurbery`LittleChildPaclet`", "ContextNameCell",ExpressionUUID->"e273be8f-8f6e-4dab-a5c9-c101e1f59557"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[GridBox[{
+   {Cell[TextData[{
+     Cell[
+     "AlmostPalindrome", "ObjectName",ExpressionUUID->
+      "18635ab1-5b5b-4da5-ad56-b00a5acdd75e"],
+     Cell[BoxData[
+      TemplateBox[{8},
+       "Spacer1"]],ExpressionUUID->"2f1642b5-9c73-420d-b3c0-3b07e8fb55ad"],
+     Cell[BoxData[
+     ""], "ObjectNameTranslation",ExpressionUUID->
+      "6e82b981-cde2-4458-8c9d-ea68528fabec"]
+    }],ExpressionUUID->"896e2d19-3a77-41b7-a83f-0f62a7f58545"], 
+    "\[SpanFromLeft]"}
+  }]], "ObjectNameGrid",ExpressionUUID->"06a29ba6-a3bb-4b1b-aec3-\
+2505cab8fcb0"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{
+       TemplateBox[{
+         Cell[
+          TextData["AlmostPalindrome"]], 
+         "paclet:PeterBurberyLittleChildPaclet/ref/AlmostPalindrome", 
+         "PeterBurberyLittleChildPaclet Package Symbol"},
+        "PackageLink",
+        BaseStyle->"InlineFormula"], "[", 
+       StyleBox["n", "TI"], "]"}]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "020b06ca-c297-4030-96c9-ab47cbb97567"],
+     "\[LineSeparator]takes a positive integer ",
+     Cell[BoxData[
+      StyleBox["n", "TI"]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "61a06a17-a634-4767-8152-5a23c792b78e"],
+     " and returns a list of all words in DictionaryLookup[] of length ",
+     Cell[BoxData[
+      StyleBox["n", "TI"]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "7c0682ec-3404-4e1f-8cb2-b11410d82ac4"],
+     " that are not palindromes but would be palindromes if exactly one \
+letter was removed arranged in alphabetical order"
+    }],ExpressionUUID->"f025f48c-8046-469c-8694-d831cb7e327b"]}
+  }]], "Usage",
+ CellID->188762743,ExpressionUUID->"2a202d91-9981-4e53-90f1-73edc8a99c12"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[Cell[BoxData[
+ ButtonBox[Cell[TextData[{
+   Cell[BoxData[
+    DynamicBox[ToBoxes[
+      If[
+       MatchQ[
+        CurrentValue[
+         EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, 
+         Closed], 
+        Alternatives[Open, True]], 
+       Style[
+        Graphics[{
+          Thickness[0.18], 
+          RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+          Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+         PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+        0.68 Inherited], 
+       Rotate[
+        Style[
+         Graphics[{
+           Thickness[0.18], 
+           RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+           Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+          PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+         0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+     ImageSizeCache->{
+      13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+    ExpressionUUID->"7305a1e6-4034-4709-bc1d-223a38841aa1"],
+   Cell[BoxData[
+    TemplateBox[{1},
+     "Spacer1"]],ExpressionUUID->"a6e21f79-5489-4395-af4a-66bb95460092"],
+   "Details and Options"
+  }], "NotesFrameText",ExpressionUUID->"caf4d478-40bd-4903-8882-6c35feb9f72e"],
+  Appearance->{Automatic, None, "Normal", Automatic},
+  BaseStyle->None,
+  ButtonFunction:>(FrontEndExecute[{
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], All, ButtonCell], 
+     FrontEndToken["OpenCloseGroup"], 
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], After, CellContents]}]& ),
+  Evaluator->None,
+  Method->
+   "Preemptive"]],ExpressionUUID->"3a36f4ac-f5ed-409d-9987-03e08f449b35"]], \
+"NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CacheGraphics->False,
+ CellID->5696973,ExpressionUUID->"d823325e-18af-4451-9608-827541af81e0"],
+
+Cell["\<\
+The function finds words that would be palindromes if one of their letters \
+was removed.\
+\>", "Notes",
+ CellID->184851728,ExpressionUUID->"0ba3ae5e-8ca8-428f-ba0e-1aae8652ad22"],
+
+Cell["\<\
+A palindrome is a word, like \"racecar,\" that is spelled the same backwards \
+as it is forwards. The word \"engage\" is not a palindrome, but if we remove \
+the letter \"n\" then the remaining string of letters - \"egage\" - uses the \
+same sequence of characters whether it is read from left to right or right to \
+left. We might say that \"engage\" is an \"almost palindrome.\"\
+\>", "Notes",
+ CellID->19410624,ExpressionUUID->"2ef49cf7-030b-4766-8fe9-ded5753a7066"]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {
+       TaggingRules, "Openers", "PrimaryExamplesSection"}, Open], 
+      Alternatives[True, Open]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"ef1c701c-b885-4ee7-ae18-c9c91f0c7754"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"9b78934f-b812-40fc-a2ed-d9780211dcfb"],
+ "Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(2)", "ExampleCount",ExpressionUUID->
+  "08cf0546-ee46-4a21-a179-3849f2babebb"]
+}], "PrimaryExamplesSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellTags->"PrimaryExamplesSection",
+ CellID->44840584,ExpressionUUID->"c4e9766d-1b06-4f8c-a759-bebcd5fa0df4"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PeterBurbery`LittleChildPaclet`\>\"", 
+  "]"}]], "Input", "ExampleInitialization",
+ CellLabel->"In[1]:=",
+ CellID->275879891,ExpressionUUID->"09bd93ec-26f7-4cc6-a7d5-bf94137e0982"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"5dcfc202-d694-4bde-8a5f-8fe959db19b1"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"12699f7c-6047-4bad-a082-f75e67f411a1"],
+ "Basic Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "534b1e28-4524-4996-a65f-e705d51c0278"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->612466180,ExpressionUUID->"ec3eaa5a-3045-4632-a7c5-a286301b99f7"],
+
+Cell["\<\
+The function AlmostPalindrome takes a positive integer n and returns a list \
+of all words in DictionaryLookup[] of length n that are not palindromes but \
+would be palindromes if exactly one letter was removed. The list of words \
+that the function outputs will be arranged in alphabetical order.\
+\>", "ExampleText",
+ CellID->403085698,ExpressionUUID->"8f7a1c41-bba5-4107-9000-d7470355bc45"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AlmostPalindrome", "[", "5", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->489560414,ExpressionUUID->"dfe8a0b1-7aa2-42b5-93f4-fb4f23f02153"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"allay\"\>", ",", "\<\"annal\"\>", ",", "\<\"arras\"\>", 
+   ",", "\<\"array\"\>", ",", "\<\"assay\"\>", ",", "\<\"attar\"\>", 
+   ",", "\<\"belle\"\>", ",", "\<\"Bette\"\>", ",", "\<\"boffo\"\>", 
+   ",", "\<\"boobs\"\>", ",", "\<\"booby\"\>", ",", "\<\"calla\"\>", 
+   ",", "\<\"cirri\"\>", ",", "\<\"deeds\"\>", ",", "\<\"ebbed\"\>", 
+   ",", "\<\"effed\"\>", ",", "\<\"egged\"\>", ",", "\<\"erred\"\>", 
+   ",", "\<\"freer\"\>", ",", "\<\"gamma\"\>", ",", "\<\"Greer\"\>", 
+   ",", "\<\"Hakka\"\>", ",", "\<\"Hanna\"\>", ",", "\<\"Hesse\"\>", 
+   ",", "\<\"hooch\"\>", ",", "\<\"innit\"\>", ",", "\<\"Janna\"\>", 
+   ",", "\<\"Jesse\"\>", ",", "\<\"kappa\"\>", ",", "\<\"kooks\"\>", 
+   ",", "\<\"kooky\"\>", ",", "\<\"Lassa\"\>", ",", "\<\"lemme\"\>", 
+   ",", "\<\"Lippi\"\>", ",", "\<\"lotto\"\>", ",", "\<\"manna\"\>", 
+   ",", "\<\"motto\"\>", ",", "\<\"Nikki\"\>", ",", "\<\"noons\"\>", 
+   ",", "\<\"peeps\"\>", ",", "\<\"poops\"\>", ",", "\<\"ragga\"\>", 
+   ",", "\<\"recce\"\>", ",", "\<\"Rocco\"\>", ",", "\<\"Rollo\"\>", 
+   ",", "\<\"seeds\"\>", ",", "\<\"seeks\"\>", ",", "\<\"seems\"\>", 
+   ",", "\<\"seeps\"\>", ",", "\<\"seers\"\>", ",", "\<\"sells\"\>", 
+   ",", "\<\"setts\"\>", ",", "\<\"shoos\"\>", ",", "\<\"sills\"\>", 
+   ",", "\<\"teeth\"\>", ",", "\<\"tooth\"\>", ",", "\<\"toots\"\>", 
+   ",", "\<\"tweet\"\>", ",", "\<\"villi\"\>", ",", "\<\"walla\"\>", 
+   ",", "\<\"wanna\"\>", ",", "\<\"yobbo\"\>", ",", "\<\"yukky\"\>", 
+   ",", "\<\"yummy\"\>", ",", "\<\"Zappa\"\>", ",", "\<\"Zorro\"\>"}], 
+  "}"}]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->363187496,ExpressionUUID->"e03af9ec-7e84-4113-9860-fea51bd2ecae"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"be198cbf-32e8-4cfc-869a-32376b9778fe"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"2bc70407-3bed-4e80-85c3-f54ed8fc5fd1"],
+ "Scope",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "6cbeb087-00ec-4f3a-80bc-ddf4d5b10726"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->67542104,ExpressionUUID->"a762f885-f068-4141-b337-3ad4b4398b9c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AlmostPalindrome", "[", "3", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->539946012,ExpressionUUID->"ef101d17-ae0b-41f5-be5d-e3df274fcb44"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"aah\"\>", ",", "\<\"add\"\>", ",", "\<\"all\"\>", 
+   ",", "\<\"Ann\"\>", ",", "\<\"ass\"\>", ",", "\<\"baa\"\>", 
+   ",", "\<\"BBC\"\>", ",", "\<\"bee\"\>", ",", "\<\"boo\"\>", 
+   ",", "\<\"brr\"\>", ",", "\<\"CNN\"\>", ",", "\<\"coo\"\>", 
+   ",", "\<\"DDT\"\>", ",", "\<\"Dee\"\>", ",", "\<\"ebb\"\>", 
+   ",", "\<\"eek\"\>", ",", "\<\"eel\"\>", ",", "\<\"eff\"\>", 
+   ",", "\<\"egg\"\>", ",", "\<\"ell\"\>", ",", "\<\"err\"\>", 
+   ",", "\<\"fee\"\>", ",", "\<\"gee\"\>", ",", "\<\"goo\"\>", 
+   ",", "\<\"ill\"\>", ",", "\<\"inn\"\>", ",", "\<\"lee\"\>", 
+   ",", "\<\"Lee\"\>", ",", "\<\"LLB\"\>", ",", "\<\"loo\"\>", 
+   ",", "\<\"moo\"\>", ",", "\<\"nee\"\>", ",", "\<\"odd\"\>", 
+   ",", "\<\"off\"\>", ",", "\<\"ooh\"\>", ",", "\<\"Orr\"\>", 
+   ",", "\<\"pee\"\>", ",", "\<\"ppm\"\>", ",", "\<\"see\"\>", 
+   ",", "\<\"shh\"\>", ",", "\<\"ssh\"\>", ",", "\<\"tee\"\>", 
+   ",", "\<\"too\"\>", ",", "\<\"wee\"\>", ",", "\<\"woo\"\>", 
+   ",", "\<\"XXL\"\>", ",", "\<\"zoo\"\>"}], "}"}]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->261794279,ExpressionUUID->"1a3cf295-57b6-4081-a2c5-026688438ed5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AlmostPalindrome", "[", "4", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[2]:=",
+ CellID->143637992,ExpressionUUID->"fc1de71a-e83d-4568-bb8d-043b7705b780"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"afar\"\>", ",", "\<\"agar\"\>", ",", "\<\"agog\"\>", 
+   ",", "\<\"ahas\"\>", ",", "\<\"ajar\"\>", ",", "\<\"alas\"\>", 
+   ",", "\<\"alga\"\>", ",", "\<\"anal\"\>", ",", "\<\"anon\"\>", 
+   ",", "\<\"aqua\"\>", ",", "\<\"area\"\>", ",", "\<\"aria\"\>", 
+   ",", "\<\"asap\"\>", ",", "\<\"asks\"\>", ",", "\<\"asps\"\>", 
+   ",", "\<\"aura\"\>", ",", "\<\"away\"\>", ",", "\<\"ayah\"\>", 
+   ",", "\<\"babe\"\>", ",", "\<\"baby\"\>", ",", "\<\"barb\"\>", 
+   ",", "\<\"Bede\"\>", ",", "\<\"bibs\"\>", ",", "\<\"blab\"\>", 
+   ",", "\<\"blob\"\>", ",", "\<\"bobs\"\>", ",", "\<\"bomb\"\>", 
+   ",", "\<\"bozo\"\>", ",", "\<\"bubo\"\>", ",", "\<\"bubs\"\>", 
+   ",", "\<\"bulb\"\>", ",", "\<\"Cara\"\>", ",", "\<\"ceca\"\>", 
+   ",", "\<\"cede\"\>", ",", "\<\"chic\"\>", ",", "\<\"choc\"\>", 
+   ",", "\<\"coca\"\>", ",", "\<\"cock\"\>", ",", "\<\"coco\"\>", 
+   ",", "\<\"coho\"\>", ",", "\<\"Colo\"\>", ",", "\<\"Como\"\>", 
+   ",", "\<\"Dada\"\>", ",", "\<\"dado\"\>", ",", "\<\"dads\"\>", 
+   ",", "\<\"Dana\"\>", ",", "\<\"data\"\>", ",", "\<\"dead\"\>", 
+   ",", "\<\"Dene\"\>", ",", "\<\"dido\"\>", ",", "\<\"died\"\>", 
+   ",", "\<\"dodo\"\>", ",", "\<\"dude\"\>", ",", "\<\"duds\"\>", 
+   ",", "\<\"DVDs\"\>", ",", "\<\"dyad\"\>", ",", "\<\"dyed\"\>", 
+   ",", "\<\"ease\"\>", ",", "\<\"eave\"\>", ",", "\<\"edge\"\>", 
+   ",", "\<\"e'en\"\>", ",", "\<\"e'er\"\>", ",", "\<\"eked\"\>", 
+   ",", "\<\"ekes\"\>", ",", "\<\"else\"\>", ",", "\<\"Elul\"\>", 
+   ",", "\<\"epee\"\>", ",", "\<\"\[EAcute]p\[EAcute]e\"\>", 
+   ",", "\<\"even\"\>", ",", "\<\"ever\"\>", ",", "\<\"eves\"\>", 
+   ",", "\<\"ewer\"\>", ",", "\<\"ewes\"\>", ",", "\<\"exec\"\>", 
+   ",", "\<\"exes\"\>", ",", "\<\"eyed\"\>", ",", "\<\"eyes\"\>", 
+   ",", "\<\"faff\"\>", ",", "\<\"fete\"\>", ",", "\<\"fief\"\>", 
+   ",", "\<\"fife\"\>", ",", "\<\"Fiji\"\>", ",", "\<\"Gaea\"\>", 
+   ",", "\<\"gaga\"\>", ",", "\<\"gage\"\>", ",", "\<\"gags\"\>", 
+   ",", "\<\"gala\"\>", ",", "\<\"Gama\"\>", ",", "\<\"gang\"\>", 
+   ",", "\<\"Gaza\"\>", ",", "\<\"gene\"\>", ",", "\<\"Gene\"\>", 
+   ",", "\<\"gigs\"\>", ",", "\<\"gong\"\>", ",", "\<\"grog\"\>", 
+   ",", "\<\"guru\"\>", ",", "\<\"hash\"\>", ",", "\<\"hath\"\>", 
+   ",", "\<\"Hebe\"\>", ",", "\<\"heme\"\>", ",", "\<\"here\"\>", 
+   ",", "\<\"high\"\>", ",", "\<\"hobo\"\>", ",", "\<\"huhs\"\>", 
+   ",", "\<\"hush\"\>", ",", "\<\"Hutu\"\>", ",", "\<\"ibis\"\>", 
+   ",", "\<\"ilia\"\>", ",", "\<\"imam\"\>", ",", "\<\"inti\"\>", 
+   ",", "\<\"iris\"\>", ",", "\<\"Isis\"\>", ",", "\<\"isms\"\>", 
+   ",", "\<\"Jana\"\>", ",", "\<\"java\"\>", ",", "\<\"Java\"\>", 
+   ",", "\<\"Kama\"\>", ",", "\<\"Kara\"\>", ",", "\<\"kick\"\>", 
+   ",", "\<\"kink\"\>", ",", "\<\"kirk\"\>", ",", "\<\"kiwi\"\>", 
+   ",", "\<\"lama\"\>", ",", "\<\"Lana\"\>", ",", "\<\"Lara\"\>", 
+   ",", "\<\"lava\"\>", ",", "\<\"lilo\"\>", ",", "\<\"lilt\"\>", 
+   ",", "\<\"lily\"\>", ",", "\<\"loco\"\>", ",", "\<\"logo\"\>", 
+   ",", "\<\"loll\"\>", ",", "\<\"luau\"\>", ",", "\<\"lull\"\>", 
+   ",", "\<\"lulu\"\>", ",", "\<\"Lulu\"\>", ",", "\<\"Lvov\"\>", 
+   ",", "\<\"Lyly\"\>", ",", "\<\"Maia\"\>", ",", "\<\"maim\"\>", 
+   ",", "\<\"mama\"\>", ",", "\<\"mams\"\>", ",", "\<\"Mara\"\>", 
+   ",", "\<\"Maya\"\>", ",", "\<\"memo\"\>", ",", "\<\"mere\"\>", 
+   ",", "\<\"mete\"\>", ",", "\<\"midi\"\>", ",", "\<\"mime\"\>", 
+   ",", "\<\"Mimi\"\>", ",", "\<\"mini\"\>", ",", "\<\"Moho\"\>", 
+   ",", "\<\"moms\"\>", ",", "\<\"mono\"\>", ",", "\<\"Moro\"\>", 
+   ",", "\<\"Mses\"\>", ",", "\<\"mums\"\>", ",", "\<\"nans\"\>", 
+   ",", "\<\"Nara\"\>", ",", "\<\"NASA\"\>", ",", "\<\"neon\"\>", 
+   ",", "\<\"nine\"\>", ",", "\<\"none\"\>", ",", "\<\"noun\"\>", 
+   ",", "\<\"nuns\"\>", ",", "\<\"oboe\"\>", ",", "\<\"odor\"\>", 
+   ",", "\<\"ohos\"\>", ",", "\<\"oleo\"\>", ",", "\<\"onto\"\>", 
+   ",", "\<\"orzo\"\>", ",", "\<\"ouzo\"\>", ",", "\<\"papa\"\>", 
+   ",", "\<\"paps\"\>", ",", "\<\"para\"\>", ",", "\<\"peke\"\>", 
+   ",", "\<\"Pele\"\>", ",", "\<\"peps\"\>", ",", "\<\"Pete\"\>", 
+   ",", "\<\"pimp\"\>", ",", "\<\"pipe\"\>", ",", "\<\"pips\"\>", 
+   ",", "\<\"plop\"\>", ",", "\<\"pogo\"\>", ",", "\<\"Pogo\"\>", 
+   ",", "\<\"polo\"\>", ",", "\<\"Polo\"\>", ",", "\<\"pomp\"\>", 
+   ",", "\<\"pope\"\>", ",", "\<\"pops\"\>", ",", "\<\"prep\"\>", 
+   ",", "\<\"prop\"\>", ",", "\<\"psis\"\>", ",", "\<\"pulp\"\>", 
+   ",", "\<\"pump\"\>", ",", "\<\"pupa\"\>", ",", "\<\"pups\"\>", 
+   ",", "\<\"raga\"\>", ",", "\<\"Rama\"\>", ",", "\<\"rare\"\>", 
+   ",", "\<\"rear\"\>", ",", "\<\"Rene\"\>", ",", "\<\"roar\"\>", 
+   ",", "\<\"Saba\"\>", ",", "\<\"sacs\"\>", ",", "\<\"saga\"\>", 
+   ",", "\<\"sags\"\>", ",", "\<\"Sana\"\>", ",", "\<\"sans\"\>", 
+   ",", "\<\"saps\"\>", ",", "\<\"Sara\"\>", ",", "\<\"sash\"\>", 
+   ",", "\<\"sass\"\>", ",", "\<\"saws\"\>", ",", "\<\"says\"\>", 
+   ",", "\<\"seas\"\>", ",", "\<\"secs\"\>", ",", "\<\"sens\"\>", 
+   ",", "\<\"sere\"\>", ",", "\<\"sets\"\>", ",", "\<\"sews\"\>", 
+   ",", "\<\"shah\"\>", ",", "\<\"shes\"\>", ",", "\<\"sics\"\>", 
+   ",", "\<\"sins\"\>", ",", "\<\"sips\"\>", ",", "\<\"sirs\"\>", 
+   ",", "\<\"sits\"\>", ",", "\<\"skis\"\>", ",", "\<\"sobs\"\>", 
+   ",", "\<\"socs\"\>", ",", "\<\"sods\"\>", ",", "\<\"Soho\"\>", 
+   ",", "\<\"solo\"\>", ",", "\<\"sols\"\>", ",", "\<\"sons\"\>", 
+   ",", "\<\"sops\"\>", ",", "\<\"Soto\"\>", ",", "\<\"sots\"\>", 
+   ",", "\<\"sous\"\>", ",", "\<\"sows\"\>", ",", "\<\"spas\"\>", 
+   ",", "\<\"stet\"\>", ",", "\<\"subs\"\>", ",", "\<\"suds\"\>", 
+   ",", "\<\"sues\"\>", ",", "\<\"sums\"\>", ",", "\<\"suns\"\>", 
+   ",", "\<\"sups\"\>", ",", "\<\"suss\"\>", ",", "\<\"tact\"\>", 
+   ",", "\<\"Tana\"\>", ",", "\<\"Tara\"\>", ",", "\<\"tart\"\>", 
+   ",", "\<\"tats\"\>", ",", "\<\"taut\"\>", ",", "\<\"teat\"\>", 
+   ",", "\<\"tent\"\>", ",", "\<\"test\"\>", ",", "\<\"text\"\>", 
+   ",", "\<\"that\"\>", ",", "\<\"tilt\"\>", ",", "\<\"tint\"\>", 
+   ",", "\<\"Togo\"\>", ",", "\<\"Tojo\"\>", ",", "\<\"tort\"\>", 
+   ",", "\<\"tote\"\>", ",", "\<\"Toto\"\>", ",", "\<\"tots\"\>", 
+   ",", "\<\"tout\"\>", ",", "\<\"trot\"\>", ",", "\<\"tuft\"\>", 
+   ",", "\<\"tuts\"\>", ",", "\<\"tutu\"\>", ",", "\<\"Tutu\"\>", 
+   ",", "\<\"twit\"\>", ",", "\<\"uses\"\>", ",", "\<\"viva\"\>", 
+   ",", "\<\"were\"\>", ",", "\<\"whew\"\>", ",", "\<\"wows\"\>", 
+   ",", "\<\"Yoko\"\>", ",", "\<\"Zeke\"\>", ",", "\<\"Zulu\"\>"}], 
+  "}"}]], "Output",
+ CellLabel->"Out[2]=",
+ CellID->443939751,ExpressionUUID->"3987e59b-4814-4cef-bf61-62f420fa84bf"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"AlmostPalindrome", "[", "2", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[3]:=",
+ CellID->123711663,ExpressionUUID->"44f9eb0b-2f09-448e-ac6e-fb1198db4716"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"AC\"\>", ",", "\<\"ad\"\>", ",", "\<\"AD\"\>", 
+   ",", "\<\"ah\"\>", ",", "\<\"am\"\>", ",", "\<\"AM\"\>", ",", "\<\"an\"\>",
+    ",", "\<\"as\"\>", ",", "\<\"at\"\>", ",", "\<\"ax\"\>", 
+   ",", "\<\"BC\"\>", ",", "\<\"be\"\>", ",", "\<\"bi\"\>", ",", "\<\"by\"\>",
+    ",", "\<\"CD\"\>", ",", "\<\"cs\"\>", ",", "\<\"cw\"\>", 
+   ",", "\<\"db\"\>", ",", "\<\"dB\"\>", ",", "\<\"dc\"\>", ",", "\<\"DJ\"\>",
+    ",", "\<\"do\"\>", ",", "\<\"Ed\"\>", ",", "\<\"eh\"\>", 
+   ",", "\<\"em\"\>", ",", "\<\"en\"\>", ",", "\<\"er\"\>", ",", "\<\"es\"\>",
+    ",", "\<\"ET\"\>", ",", "\<\"ex\"\>", ",", "\<\"fa\"\>", 
+   ",", "\<\"FM\"\>", ",", "\<\"GE\"\>", ",", "\<\"GI\"\>", ",", "\<\"go\"\>",
+    ",", "\<\"GP\"\>", ",", "\<\"gs\"\>", ",", "\<\"ha\"\>", 
+   ",", "\<\"he\"\>", ",", "\<\"hi\"\>", ",", "\<\"hm\"\>", ",", "\<\"ho\"\>",
+    ",", "\<\"HQ\"\>", ",", "\<\"id\"\>", ",", "\<\"ID\"\>", 
+   ",", "\<\"if\"\>", ",", "\<\"in\"\>", ",", "\<\"IQ\"\>", ",", "\<\"is\"\>",
+    ",", "\<\"it\"\>", ",", "\<\"IT\"\>", ",", "\<\"jg\"\>", 
+   ",", "\<\"Jo\"\>", ",", "\<\"kc\"\>", ",", "\<\"KO\"\>", ",", "\<\"ks\"\>",
+    ",", "\<\"kw\"\>", ",", "\<\"kW\"\>", ",", "\<\"la\"\>", 
+   ",", "\<\"Le\"\>", ",", "\<\"lo\"\>", ",", "\<\"ls\"\>", ",", "\<\"ma\"\>",
+    ",", "\<\"MC\"\>", ",", "\<\"me\"\>", ",", "\<\"mi\"\>", 
+   ",", "\<\"Mr\"\>", ",", "\<\"ms\"\>", ",", "\<\"Ms\"\>", ",", "\<\"mu\"\>",
+    ",", "\<\"my\"\>", ",", "\<\"no\"\>", ",", "\<\"nu\"\>", 
+   ",", "\<\"of\"\>", ",", "\<\"oh\"\>", ",", "\<\"oi\"\>", ",", "\<\"OK\"\>",
+    ",", "\<\"om\"\>", ",", "\<\"on\"\>", ",", "\<\"or\"\>", 
+   ",", "\<\"ow\"\>", ",", "\<\"ox\"\>", ",", "\<\"Oz\"\>", ",", "\<\"pa\"\>",
+    ",", "\<\"PC\"\>", ",", "\<\"pH\"\>", ",", "\<\"pi\"\>", 
+   ",", "\<\"PM\"\>", ",", "\<\"re\"\>", ",", "\<\"Rh\"\>", ",", "\<\"rs\"\>",
+    ",", "\<\"Rx\"\>", ",", "\<\"sh\"\>", ",", "\<\"so\"\>", 
+   ",", "\<\"ta\"\>", ",", "\<\"TB\"\>", ",", "\<\"ti\"\>", ",", "\<\"TM\"\>",
+    ",", "\<\"to\"\>", ",", "\<\"ts\"\>", ",", "\<\"TV\"\>", 
+   ",", "\<\"Ty\"\>", ",", "\<\"uh\"\>", ",", "\<\"UK\"\>", ",", "\<\"um\"\>",
+    ",", "\<\"UN\"\>", ",", "\<\"up\"\>", ",", "\<\"us\"\>", 
+   ",", "\<\"US\"\>", ",", "\<\"vs\"\>", ",", "\<\"we\"\>", ",", "\<\"Wm\"\>",
+    ",", "\<\"Wu\"\>", ",", "\<\"xi\"\>", ",", "\<\"XL\"\>", 
+   ",", "\<\"ya\"\>", ",", "\<\"ye\"\>", ",", "\<\"yo\"\>"}], "}"}]], "Output",
+ CellLabel->"Out[3]=",
+ CellID->398815180,ExpressionUUID->"450d4ef2-a0ef-4bb2-b333-d7244383fac5"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, 
+  Closed]]]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, 
+  Closed]]]],
+
+Cell[BoxData[GridBox[{
+   {
+    DynamicBox[FEPrivate`ImportImage[
+      FrontEnd`FileName[{"Documentation", "FooterIcons"}, 
+       "RelatedFunction.png"]],
+     ImageSizeCache->{50., {27., 33.}}], GridBox[{
+      {
+       StyleBox[
+        RowBox[{"See", " ", "Also"}], "SeeAlsoSection"]},
+      {Cell[TextData[{
+        Cell[BoxData["WordListLookup"], "InlineFormula",
+         FontFamily->"Source Sans Pro",ExpressionUUID->
+         "77fda242-a270-4e72-912b-7eef5e6db950"],
+        StyleBox[" \[FilledVerySmallSquare] ", "InlineSeparator"],
+        Cell[BoxData["PalindromeQ"], "InlineFormula",
+         FontFamily->"Source Sans Pro",
+         CellTags->"a93a9dcc-f8e8-461b-a5b4-c11311e2c34c",ExpressionUUID->
+         "5cf216f1-7153-4303-a308-2df4ce2e3f49"]
+       }], "SeeAlso",ExpressionUUID->"d6fd632f-e2cd-45d7-ac15-4cd49c908d8f"]}
+     }]}
+  }]], "SeeAlsoSection",ExpressionUUID->"38bc8def-6776-4dc4-bada-\
+f6d72429bc9d"],
+
+Cell[BoxData[GridBox[{
+   {
+    TemplateBox[{29},
+     "Spacer1"], GridBox[{
+      {
+       RowBox[{
+        TemplateBox[{17},
+         "Spacer1"], 
+        StyleBox[
+         RowBox[{"Related", " ", "Links"}], "RelatedLinksSection"]}]},
+      {Cell[TextData[Cell[BoxData[
+        RowBox[{
+         TemplateBox[{16},
+          "Spacer1"], "\[FilledVerySmallSquare]", Cell[BoxData[
+          TemplateBox[{
+            Cell[
+             TextData[
+              Cell[
+               TextData[{
+                 Cell[
+                  BoxData[
+                   TemplateBox[{2}, "Spacer1"]]], 
+                 "Almost Palindromes \[RightGuillemet]"}]]]], 
+            "https://challenges.wolframcloud.com/challenge/almost-\
+palindromes"},
+           "WebLink",
+           BaseStyle->{"RelatedLinks"}]],ExpressionUUID->
+          "1e3cd5a6-7fe8-4752-8d7a-d288b4e93749"]}]],ExpressionUUID->
+        "27f58bdd-56fc-4c08-b225-ccf9c846bdff"]], "RelatedLinks",
+        ExpressionUUID->"512a2d1c-5435-42be-a202-d4a161ea5e22"]}
+     }]}
+  }]], "RelatedLinksSection",ExpressionUUID->"24fa0e91-15d9-4a64-a3e7-\
+6b2089f9787e"],
+
+Cell[" ", "FooterCell",ExpressionUUID->"69b9bcc6-45a6-4809-878e-31c9d5692d38"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900, 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"AlmostPalindrome",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "HasOptions" -> True, "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, 
+    "ExampleSection" -> {"0" -> Open, "1" -> Closed}, "NotesSection" -> 
+    Closed}, "NewStyles" -> True, "CitationPopupData" -> $Failed, 
+  "ShowCitation" -> False, "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2023, 6, 6, 11, 14, 57.6078844}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "PeterBurbery`LittleChildPaclet`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Little Child Paclet Symbol", "language" -> 
+    "en", "paclet" -> "PeterBurbery/LittleChildPaclet", "status" -> "None", 
+    "summary" -> 
+    "AlmostPalindrome[n] takes a positive integer n and returns a list of all \
+words in DictionaryLookup[] of length n that are not palindromes but would be \
+palindromes if exactly one letter was removed arranged in alphabetical order",
+     "synonyms" -> {}, "tabletags" -> {}, "title" -> "AlmostPalindrome", 
+    "titlemodifier" -> "", "metadescription" -> "", "windowtitle" -> 
+    "AlmostPalindrome", "type" -> "Symbol", "uri" -> 
+    "PeterBurbery/LittleChildPaclet/ref/AlmostPalindrome"}},
+CellContext->"Global`",
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> FrontEnd`FileName[{"Wolfram"}, "Reference.nb"]]], 
+   Cell[
+    StyleData["Input"], CellContext -> "Global`"], 
+   Cell[
+    StyleData["Output"], CellContext -> "Global`"]}, Visible -> False, 
+  FrontEndVersion -> "13.3 for Microsoft Windows (64-bit) (May 18, 2023)", 
+  StyleDefinitions -> "Default.nb"],
+ExpressionUUID->"c125e5a8-346d-40f0-a7ad-9c3eefb3b56b"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "PrimaryExamplesSection"->{
+  Cell[8801, 226, 1419, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"c4e9766d-1b06-4f8c-a759-bebcd5fa0df4",
+   CellTags->"PrimaryExamplesSection",
+   CellID->44840584]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"PrimaryExamplesSection", 31240, 700}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[588, 21, 3517, 81, 56, "AnchorBarGrid",ExpressionUUID->"7c843da6-7bfe-411f-b77d-37a1d2bade99",
+ CellID->1],
+Cell[4108, 104, 113, 0, 23, "ContextNameCell",ExpressionUUID->"e273be8f-8f6e-4dab-a5c9-c101e1f59557"],
+Cell[CellGroupData[{
+Cell[4246, 108, 559, 14, 56, "ObjectNameGrid",ExpressionUUID->"06a29ba6-a3bb-4b1b-aec3-2505cab8fcb0"],
+Cell[4808, 124, 1238, 28, 132, "Usage",ExpressionUUID->"2a202d91-9981-4e53-90f1-73edc8a99c12",
+ CellID->188762743]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6083, 157, 1917, 48, 37, "NotesSection",ExpressionUUID->"d823325e-18af-4451-9608-827541af81e0",
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellID->5696973],
+Cell[8003, 207, 189, 4, 70, "Notes",ExpressionUUID->"0ba3ae5e-8ca8-428f-ba0e-1aae8652ad22",
+ CellID->184851728],
+Cell[8195, 213, 479, 7, 70, "Notes",ExpressionUUID->"2ef49cf7-030b-4766-8fe9-ded5753a7066",
+ CellID->19410624]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[8801, 226, 1419, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"c4e9766d-1b06-4f8c-a759-bebcd5fa0df4",
+ CellTags->"PrimaryExamplesSection",
+ CellID->44840584],
+Cell[10223, 265, 222, 4, 26, "Input",ExpressionUUID->"09bd93ec-26f7-4cc6-a7d5-bf94137e0982",
+ CellID->275879891],
+Cell[CellGroupData[{
+Cell[10470, 273, 1398, 36, 30, "ExampleSection",ExpressionUUID->"ec3eaa5a-3045-4632-a7c5-a286301b99f7",
+ CellID->612466180],
+Cell[11871, 311, 403, 6, 76, "ExampleText",ExpressionUUID->"8f7a1c41-bba5-4107-9000-d7470355bc45",
+ CellID->403085698],
+Cell[CellGroupData[{
+Cell[12299, 321, 222, 4, 26, "Input",ExpressionUUID->"dfe8a0b1-7aa2-42b5-93f4-fb4f23f02153",
+ CellID->489560414],
+Cell[12524, 327, 1690, 26, 81, "Output",ExpressionUUID->"e03af9ec-7e84-4113-9860-fea51bd2ecae",
+ CellID->363187496]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[14363, 361, 1411, 37, 30, "ExampleSection",ExpressionUUID->"a762f885-f068-4141-b337-3ad4b4398b9c",
+ CellID->67542104],
+Cell[CellGroupData[{
+Cell[15799, 402, 222, 4, 70, "Input",ExpressionUUID->"ef101d17-ae0b-41f5-be5d-e3df274fcb44",
+ CellID->539946012],
+Cell[16024, 408, 1151, 19, 51, "Output",ExpressionUUID->"1a3cf295-57b6-4081-a2c5-026688438ed5",
+ CellID->261794279]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[17212, 432, 222, 4, 70, "Input",ExpressionUUID->"fc1de71a-e83d-4568-bb8d-043b7705b780",
+ CellID->143637992],
+Cell[17437, 438, 6510, 99, 263, "Output",ExpressionUUID->"3987e59b-4814-4cef-bf61-62f420fa84bf",
+ CellID->443939751]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23984, 542, 222, 4, 70, "Input",ExpressionUUID->"44f9eb0b-2f09-448e-ac6e-fb1198db4716",
+ CellID->123711663],
+Cell[24209, 548, 2525, 37, 81, "Output",ExpressionUUID->"450d4ef2-a0ef-4bb2-b333-d7244383fac5",
+ CellID->398815180]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, Closed]]]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
+Cell[26976, 594, 930, 21, 114, "SeeAlsoSection",ExpressionUUID->"38bc8def-6776-4dc4-bada-f6d72429bc9d"],
+Cell[27909, 617, 1115, 32, 70, "RelatedLinksSection",ExpressionUUID->"24fa0e91-15d9-4a64-a3e7-6b2089f9787e"],
+Cell[29027, 651, 78, 0, 70, "FooterCell",ExpressionUUID->"69b9bcc6-45a6-4809-878e-31c9d5692d38"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
