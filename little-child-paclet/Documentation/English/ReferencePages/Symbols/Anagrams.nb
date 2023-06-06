@@ -72,10 +72,10 @@ Cell[TextData[{
     "11811042-e604-4713-8d4b-f8c175afe2c4"], 
    DynamicModuleBox[{$CellContext`nbobj$$ = NotebookObject[
     "fb921324-2022-4e2d-a423-dbb013930d54", 
-     "c10ad336-c27b-4049-9780-ff47c0f4d2b3"], $CellContext`cellobj$$ = 
+     "a169f404-53bd-49ef-85f5-66d2a9e224b0"], $CellContext`cellobj$$ = 
     CellObject[
     "65435193-8bf1-4656-9ce6-cbaef57e24c1", 
-     "030f62e5-fcdd-4834-9ad4-2c31016c07c2"]}, 
+     "6e61b812-4dfa-4329-a189-c8f5cfc4a92a"]}, 
     TemplateBox[{
       GraphicsBox[{{
          Thickness[0.06], 

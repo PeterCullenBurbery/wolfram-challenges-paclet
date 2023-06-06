@@ -7,7 +7,7 @@ BeginPackage["PeterBurbery`LittleChildPaclet`"];
 
 (* Declare your packages public symbols here. *)
 
-PeterBurbery`LittleChildPaclet`CompleteDictionary;
+PeterBIurbery`LittleChildPaclet`CompleteDictionary;
 
 Begin["`Private`"];
 
