@@ -2,21 +2,18 @@ BeginPackage["PeterBurbery`LittleChildPaclet`"];
 
 (* Declare your packages public symbols here. *)
 
-PeterBurbery`LittleChildPaclet`Anagrams;
+PeterBurbery`LittleChildPaclet`AverageElevation;
 
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-Anagrams // ClearAll
-ianagramdictionary = Union[WordData[], DictionaryLookup[], WordList[]];
-ianagramdictionary = {#, (Sort@*Characters@*ToLowerCase)[#]} & /@ 
-   ianagramdictionary;
-Anagrams[str_String] := 
- Module[{sc = Sort[Characters[ToLowerCase[str]]], sel},
-  sel = Select[ianagramdictionary, EqualTo[sc]@*Last][[All, 1]];
-  DeleteCases[sel, str]
-  ]
+AverageElevation // ClearAll
+AverageElevation[lat_ /; -90 <= lat <= 90] := 
+ QuantityMagnitude@
+  Round[Mean[
+    GeoElevationData[GeoPosition[Array[{lat, #} &, 361, {-180, 180}]],
+      "QuantityArray"]], 100]
 
 End[]; (* End `Private` *)
 
