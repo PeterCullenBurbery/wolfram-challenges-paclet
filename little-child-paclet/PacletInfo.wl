@@ -7,7 +7,7 @@ PacletObject[
     "Creator" -> "Peter Burbery",
     "License" -> "MIT",
     "PublisherID" -> "PeterBurbery",
-    "Version" -> "1.2.0",
+    "Version" -> "1.3.0",
     "WolframVersion" -> "13.2+",
     "PrimaryContext" -> "PeterBurbery`LittleChildPaclet`",
     "Category" -> "Sample Paclets",
