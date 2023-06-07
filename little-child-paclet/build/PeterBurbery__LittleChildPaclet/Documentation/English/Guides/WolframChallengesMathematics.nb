@@ -1,0 +1,243 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9306,        233]
+NotebookOptionsPosition[      6723,        177]
+NotebookOutlinePosition[      8495,        220]
+CellTagsIndexPosition[      8452,        217]
+WindowTitle->Wolfram Challenges Mathematics
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ LITTLE CHILD PACLET GUIDE", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "eea1ec05-89af-4e31-9dea-15b3b01b1209"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "6e9d1979-3d68-4f55-8f17-2d25691e88e0"],
+        Background->RGBColor[0.85098, 0.396078, 0],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Functions",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "d0724f51-b5c8-407e-90b6-47effd3508b6"]
+         }],ExpressionUUID->"c25f0cfb-23ef-4a50-81e3-60395bc33876"],
+         StripOnInput->False],{
+        "\"CaesarDecrypt\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/CaesarDecrypt"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"GuideFunction"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "64f125e8-ad31-4466-965b-4a73024a73be"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "4be63397-6fb4-4eae-8897-10776e76d555"]
+         }],ExpressionUUID->"eaaf73b4-c660-4397-842c-41e51e656f5d"],
+         StripOnInput->False],{
+        "\"PeterBurbery/LittleChildPaclet/guide/WolframChallengesMathematics\"\
+" :> None, "\"Copy Wolfram Documentation Center URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell["PeterBurbery/LittleChildPaclet/guide/\
+WolframChallengesMathematics"]}, Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
+         "\"Copy web URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell[BoxData[
+                 MakeBoxes[
+                  Hyperlink[
+                   "http://reference.wolfram.com/language/PeterBurbery/\
+LittleChildPaclet/guide/WolframChallengesMathematics.html"], StandardForm]], 
+                 "Input", TextClipboardType -> "PlainText"]}, Visible -> 
+               False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+         "\"Go to web URL\"" :> 
+         FrontEndExecute[{
+           NotebookLocate[{
+             URL[If[TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$38236], 
+                 "http://reference.wolfram.com/system-modeler/", 
+                 "http://reference.wolfram.com/language/"] <> 
+               "PeterBurbery/LittleChildPaclet/guide/\
+WolframChallengesMathematics" <> ".html"], None}]}]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "132a764d-c752-480e-aef0-7b7437c23e91"]
+    }], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "5d5e6d7b-81d1-4971-b567-2a6664f750ad"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"8ee2f034-cddc-492c-b1d4-b2ec4dcfc030"],
+
+Cell[CellGroupData[{
+
+Cell["Wolfram Challenges Mathematics", "GuideTitle",
+ CellID->520347829,ExpressionUUID->"6259c071-c1b7-4514-ab31-a1b1a95f29ad"],
+
+Cell["\<\
+This is a guide page for Wolfram Challenges with the tag Mathematics.\
+\>", "GuideAbstract",
+ CellID->469719644,ExpressionUUID->"23cf4e93-dc04-482a-aaa1-d50d6470ebcb"],
+
+Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"8af302bd-89ae-4a16-9b47-e15d2226c6b0"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["CaesarDecrypt"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/CaesarDecrypt", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"c5c6736a-1ff4-4e4e-8fcf-2d9846cbae62",ExpressionUUID->
+  "78ce4fe4-7c36-4293-84b4-90e226398e13"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " decrypt a message that was enciphered using a Caesar shift."
+}], "GuideText",
+ CellID->442617515,ExpressionUUID->"8f3b5a12-990e-4a20-a1b7-6f7cbe0d5be0"],
+
+Cell["\t", "GuideDelimiter",
+ CellID->177326085,ExpressionUUID->"55a98ef9-d037-4d17-aeed-f1f8f734a0c8"],
+
+Cell[TextData[Cell["\<\
+
+FrameBox[\"\\\"XXXX\\\"\"]\
+\>", "FunctionPlaceholder", \
+"InlineFunctionSansUnlinked",ExpressionUUID->"05e22ec4-e056-4db2-8d2d-\
+ff468234e031"]], "InlineGuideFunctionListing",
+ CellID->285224955,ExpressionUUID->"d7195843-0047-4f8c-882b-79f05a50a1ac"],
+
+Cell[BoxData["Open"], "Input",ExpressionUUID->"5f750a51-7f50-4005-981e-d2e04a032d5d"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900, 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Wolfram Challenges Mathematics",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
+  "NewStyles" -> True, "CitationPopupData" -> {$Failed, ""}, "ShowCitation" -> 
+  False, "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2023, 6, 6, 20, 14, 37.5113984}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "PeterBurbery`LittleChildPaclet`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Little Child Paclet Guide", "language" -> 
+    "en", "paclet" -> "PeterBurbery/LittleChildPaclet", "status" -> "None", 
+    "summary" -> 
+    "This is a guide page for Wolfram Challenges with the tag Mathematics.", 
+    "synonyms" -> {}, "tabletags" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$38207, "title" -> 
+    "Wolfram Challenges Mathematics", "titlemodifier" -> "", 
+    "metadescription" -> "", "windowtitle" -> 
+    "Wolfram Challenges Mathematics", "type" -> "Guide", "uri" -> 
+    "PeterBurbery/LittleChildPaclet/guide/WolframChallengesMathematics"}},
+CacheGraphics->False,
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"ec1b9835-bf08-497b-9362-3fbbcd42892b"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[602, 21, 4619, 111, 70, "AnchorBarGrid",ExpressionUUID->"8ee2f034-cddc-492c-b1d4-b2ec4dcfc030",
+ CellID->1],
+Cell[CellGroupData[{
+Cell[5246, 136, 127, 1, 70, "GuideTitle",ExpressionUUID->"6259c071-c1b7-4514-ab31-a1b1a95f29ad",
+ CellID->520347829],
+Cell[5376, 139, 177, 3, 70, "GuideAbstract",ExpressionUUID->"23cf4e93-dc04-482a-aaa1-d50d6470ebcb",
+ CellID->469719644],
+Cell[5556, 144, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"8af302bd-89ae-4a16-9b47-e15d2226c6b0"],
+Cell[5652, 146, 582, 15, 70, "GuideText",ExpressionUUID->"8f3b5a12-990e-4a20-a1b7-6f7cbe0d5be0",
+ CellID->442617515],
+Cell[6237, 163, 103, 1, 70, "GuideDelimiter",ExpressionUUID->"55a98ef9-d037-4d17-aeed-f1f8f734a0c8",
+ CellID->177326085],
+Cell[6343, 166, 276, 6, 70, InheritFromParent,ExpressionUUID->"d7195843-0047-4f8c-882b-79f05a50a1ac",
+ CellID->285224955],
+Cell[6622, 174, 85, 0, 70, "Input",ExpressionUUID->"5f750a51-7f50-4005-981e-d2e04a032d5d"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

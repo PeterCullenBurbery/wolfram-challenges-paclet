@@ -148,12 +148,12 @@ With2PointsAndThreePoints.nb" ->
    "FileHash" -> "8e3qQFq2RNqY/X5ZIj0YJmIPrJUR27H+PN1jo3hnJUg="|>, 
  "English\\ReferencePages\\Symbols\\AliquotSequence.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
-      "Time" -> Quantity[1.7511485, "Seconds"]|>], 
-   "FileHash" -> "MpvMcP/70s29OCrSZlY3IuuYeBlEW3TrWW1ex7MbmME="|>, 
+      "Time" -> Quantity[2.0754616, "Seconds"]|>], 
+   "FileHash" -> "4HQx2DPPbEYzgcHmg33VUs/Kt/fV3XXYuwXtZnVqmtU="|>, 
  "English\\ReferencePages\\Symbols\\BalancedParentheses.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
-      "Time" -> Quantity[1.8324106, "Seconds"]|>], 
-   "FileHash" -> "xa6VzU25YRAridIxFbfxmP+L+b3JBWRayTT1ZmA5OiI="|>, 
+      "Time" -> Quantity[1.8328201, "Seconds"]|>], 
+   "FileHash" -> "5d2OQe6Fb1oQktFJzYEVkEWJHPnN6NWp3M3O44dWPqs="|>, 
  "English\\ReferencePages\\Symbols\\CatalanUnrank.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
       "Time" -> Quantity[1.9929176, "Seconds"]|>], 
@@ -164,16 +164,16 @@ With2PointsAndThreePoints.nb" ->
    "FileHash" -> "RpZ8wNdjnnJvsFqnaaQq6wqP1qxinhl3ccTirJt/GgU="|>, 
  "English\\Guides\\WolframChallengesComputationalKnowledge.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
-      "Time" -> Quantity[1.4735336, "Seconds"]|>], 
-   "FileHash" -> "UfyF3zUwhmECmU8R0JiKGAtknMTXbUBBOrJs5VX+D3E="|>, 
+      "Time" -> Quantity[2.0537444, "Seconds"]|>], 
+   "FileHash" -> "jgpRruuQROZiIVKmYqoiZ6BBYDVfEUsXZBqXq1tHsmo="|>, 
  "English\\Guides\\WolframChallengesWordsandLinguistics.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
-      "Time" -> Quantity[0.7054307, "Seconds"]|>], 
-   "FileHash" -> "k/A8oqPMpeKqVzH8eQj+rV1F5Po5ODIm03t4nGRQZRI="|>, 
+      "Time" -> Quantity[0.7853661, "Seconds"]|>], 
+   "FileHash" -> "QlUNE4ewkHu5+EvrclG4AwQbn3g1+3Iq0Njw4+MC2lA="|>, 
  "English\\ReferencePages\\Symbols\\AlmostPalindrome.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
-      "Time" -> Quantity[1.6463198, "Seconds"]|>], 
-   "FileHash" -> "4Rfl1RUc6b8qFgN0rwy84hB8vu233+7jmw0M+YvO5A8="|>, 
+      "Time" -> Quantity[1.8891399, "Seconds"]|>], 
+   "FileHash" -> "1WTK2m1mJ0apDNvpYFOlVNELcuA2cCWWRVTqBGhRJ3Q="|>, 
  "English\\Guides\\PrimeNumbers.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
       "Time" -> Quantity[1.1899778, "Seconds"]|>], 
@@ -187,30 +187,40 @@ With2PointsAndThreePoints.nb" ->
       "Time" -> Quantity[2.0156336, "Seconds"]|>], 
    "FileHash" -> "PPsaleYpvM4a+C7AJyns7stc/PKb1/bQOL+TOiNPhP4="|>, 
  "English\\ReferencePages\\Symbols\\Anagrams.nb" -> 
-  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
-      "Time" -> Quantity[1.5242283, "Seconds"]|>], 
-   "FileHash" -> "OqoRSw5devw0kY8KJMte3jRt19n1tqnwtgJqlB/H3z4="|>, 
+  <|"Result" -> Success["ProcessedNotebook", 
+     <|"Action" -> "Skip"["Flagged", "FutureFlag"], 
+      "Time" -> Quantity[0.0037779, "Seconds"]|>], 
+   "FileHash" -> "QPYCGBIbuLJAPUkP0AcYo/JTfc+8f10DiMEUSvm//7o="|>, 
  "English\\ReferencePages\\Symbols\\AntipodalCity.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
-      "Time" -> Quantity[1.086168, "Seconds"]|>], 
-   "FileHash" -> "anovSrkFpEhuO+VNHaTdbv/VU+WB4C4rIOJ/aZo+KQo="|>, 
+      "Time" -> Quantity[1.8171634, "Seconds"]|>], 
+   "FileHash" -> "jauGcuJm3u+plnhtfM4DFKxQ+2Da2JUG78qh8yqICbY="|>, 
  "English\\ReferencePages\\Symbols\\AntipodeAboveSeaLevelQ.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
-      "Time" -> Quantity[1.0865013, "Seconds"]|>], 
-   "FileHash" -> "HKHZmtsPVK5LBkH7OUy2zcXks5Vfjp5MLlUUXc/y2lA="|>, 
+      "Time" -> Quantity[33.5961587, "Seconds"]|>], 
+   "FileHash" -> "p5Gvf9itvHqAB+kS8Vv6L73qiRfuSH1dVTzDHr3sVrQ="|>, 
  "English\\ReferencePages\\Symbols\\BabbageSquares.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
-      "Time" -> Quantity[1.0741134, "Seconds"]|>], 
-   "FileHash" -> "DTTl5oHAjJT3ZUwrrZur1NW0v/MHxjEOzXG/hk2aPEc="|>, 
+      "Time" -> Quantity[2.6140614, "Seconds"]|>], 
+   "FileHash" -> "JgOuT/7c6LxaOrMmwmNPoIi/ufNRbqVhcGpHmXuKbFA="|>, 
  "English\\ReferencePages\\Symbols\\BalancedTernary.nb" -> 
-  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
-      "Time" -> Quantity[1.2479232, "Seconds"]|>], 
-   "FileHash" -> "bdE2/u7jBPMRq+LLdaWfamDgJIE5crfX9qXigRsZwnU="|>, 
+  <|"Result" -> Success["ProcessedNotebook", 
+     <|"Action" -> "Skip"["Flagged", "FutureFlag"], 
+      "Time" -> Quantity[0.0032677, "Seconds"]|>], 
+   "FileHash" -> "WnS8fEOC6em4cMpHHVxFkkvnZl/51p2oG8AfS3//ghI="|>, 
  "English\\ReferencePages\\Symbols\\CaesarDecrypt.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
-      "Time" -> Quantity[1.1559031, "Seconds"]|>], 
-   "FileHash" -> "gvoSsSh3D+APEfoGalxLrrE6A+UJIrLuN2Omh9WQYQg="|>, 
+      "Time" -> Quantity[3.8281047, "Seconds"]|>], 
+   "FileHash" -> "CC2kl/OaT2Iw8G1bKRMVC+VFpMEP0L3V4rsEpYUceCk="|>, 
  "English\\ReferencePages\\Symbols\\CompleteDictionary.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
-      "Time" -> Quantity[1.772559, "Seconds"]|>], 
-   "FileHash" -> "B2vHZgMjKnAAk35rQMgdRm4Z/fkDXXFVHxvm5R4RU64="|>|>
+      "Time" -> Quantity[1.6156801, "Seconds"]|>], 
+   "FileHash" -> "GZ/yrm4xg167iqLd+mEzF26jWkUHptq/lbFB1et+6SE="|>, 
+ "English\\Guides\\WolframChallengesGeography.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[0.7986578, "Seconds"]|>], 
+   "FileHash" -> "3axmeZuZczxwApY6piQdrMp6rMHv7/oNuZQcddRo6u8="|>, 
+ "English\\Guides\\WolframChallengesMathematics.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[0.8145475, "Seconds"]|>], 
+   "FileHash" -> "xogknyK8Vu53OkoHq6IZ9I70+Sp2ho/gK/G7VKMoygQ="|>|>

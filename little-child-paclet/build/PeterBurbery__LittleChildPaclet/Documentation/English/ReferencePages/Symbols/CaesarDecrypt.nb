@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     11094,        283]
-NotebookOptionsPosition[      8026,        215]
-NotebookOutlinePosition[     10158,        269]
-CellTagsIndexPosition[     10074,        264]
+NotebookDataLength[     81477,       1905]
+NotebookOptionsPosition[     67019,       1607]
+NotebookOutlinePosition[     69559,       1668]
+CellTagsIndexPosition[     69473,       1663]
 WindowTitle->CaesarDecrypt
 WindowFrame->Normal*)
 
@@ -28,81 +28,115 @@ Cell[BoxData[GridBox[{
            "Spacer1"], Cell[
           "PETER BURBERY/ LITTLE CHILD PACLET SYMBOL", "PacletNameCell",
            TextAlignment->Center,ExpressionUUID->
-           "a025aa6e-1e7e-4714-96c3-69b8d7223e42"], 
+           "e4ba054c-bd90-45a9-84e1-bc8e61a8b75e"], 
           TemplateBox[{8},
            "Spacer1"]}]],
          TextAlignment->Center,ExpressionUUID->
-         "59e9a27f-1ca8-42e6-b374-3d62d9f6c4be"],
+         "07107245-a797-493e-b61e-98bd8ca63957"],
         Background->RGBColor[0.490196, 0.576471, 0.690196],
         ItemSize->Full], ""}
      },
      GridBoxAlignment->{"Rows" -> {{Center}}},
      GridBoxItemSize->{"Columns" -> {Full, 
-         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[Cell[BoxData[
-     TagBox[
-      ActionMenuBox[
-       FrameBox[Cell[TextData[{
-         "URL",
-         " ",
-         Cell[BoxData[
-          GraphicsBox[
-           {GrayLevel[0.66667], Thickness[0.13], 
-            LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
-           AspectRatio->1,
-           ImageSize->20,
-           PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
-          "ee71ea83-b619-4f7a-906b-f4c550f01479"]
-        }],ExpressionUUID->"2939cb6e-56f2-4b6e-a88e-5a01fac00435"],
-        StripOnInput->False],{
-       "\"PeterBurbery/LittleChildPaclet/ref/CaesarDecrypt\"" :> None, 
-        "\"Copy Wolfram Documentation Center URL\"" :> 
-        Module[{DocumentationSearch`Private`nb$}, 
-          DocumentationSearch`Private`nb$ = 
-           NotebookPut[
-            Notebook[{
-              Cell["PeterBurbery/LittleChildPaclet/ref/CaesarDecrypt"]}, 
-              Visible -> False]]; 
-          SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
-          FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
-          NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
-        "\"Copy web URL\"" :> 
-        Module[{DocumentationSearch`Private`nb$}, 
-          DocumentationSearch`Private`nb$ = 
-           NotebookPut[
-            Notebook[{
-              Cell[BoxData[
-                MakeBoxes[
-                 Hyperlink[
-                  "http://reference.wolfram.com/language/PeterBurbery/\
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Related Guides",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "d6739a0a-91ac-4735-a4b3-edae7968c122"]
+         }],ExpressionUUID->"f5c13c2c-c14c-4b03-9f11-a32f7cd7e0cf"],
+         StripOnInput->False],{
+        "\"Wolfram Challenges Mathematics\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/guide/\
+WolframChallengesMathematics"], 
+         "\"Wolfram Challenges Words and Linguistics\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/guide/\
+WolframChallengesWordsandLinguistics"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"MoreAbout"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "59ba7815-57d7-41bd-adf0-5622753e108c"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "93218bf4-e6b7-4dca-b4a4-cefc0e68aa8c"]
+         }],ExpressionUUID->"79386d8a-9bdd-4e97-a905-aa31e7291dec"],
+         StripOnInput->False],{
+        "\"PeterBurbery/LittleChildPaclet/ref/CaesarDecrypt\"" :> None, 
+         "\"Copy Wolfram Documentation Center URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell["PeterBurbery/LittleChildPaclet/ref/CaesarDecrypt"]}, 
+               Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
+         "\"Copy web URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell[BoxData[
+                 MakeBoxes[
+                  Hyperlink[
+                   "http://reference.wolfram.com/language/PeterBurbery/\
 LittleChildPaclet/ref/CaesarDecrypt.html"], StandardForm]], "Input", 
-                TextClipboardType -> "PlainText"]}, Visible -> False]]; 
-          SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
-          FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
-          NotebookClose[DocumentationSearch`Private`nb$]; Null], 
-        "\"Go to web URL\"" :> 
-        FrontEndExecute[{
-          NotebookLocate[{
-            URL[If[TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$573256], 
-                "http://reference.wolfram.com/system-modeler/", 
-                "http://reference.wolfram.com/language/"] <> 
-              "PeterBurbery/LittleChildPaclet/ref/CaesarDecrypt" <> ".html"], 
-             None}]}]},
-       Appearance->None,
-       MenuAppearance->Automatic,
-       MenuStyle->"URLMenu"],
-      MouseAppearanceTag["LinkHand"]]],
-     LineSpacing->{1.4, 0},ExpressionUUID->
-     "14181beb-39e2-42e9-a6de-00595b946260"]], "AnchorBar",
+                 TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+         "\"Go to web URL\"" :> 
+         FrontEndExecute[{
+           NotebookLocate[{
+             URL[If[TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$41838], 
+                 "http://reference.wolfram.com/system-modeler/", 
+                 "http://reference.wolfram.com/language/"] <> 
+               "PeterBurbery/LittleChildPaclet/ref/CaesarDecrypt" <> ".html"],
+               None}]}]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "9c710294-a5ff-4f2a-88e8-685747cccc44"]
+    }], "AnchorBar",
      CacheGraphics->False,ExpressionUUID->
-     "35747a48-4321-4169-8b83-a4f5acff2b71"]}
+     "ab4b7821-7c3c-4106-991f-9f4db34792c2"]}
   }]], "AnchorBarGrid",
  GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
      Scaled[0.65], {
       Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
    "RowsIndexed" -> {}}},
- CellID->1,ExpressionUUID->"51b47f57-e84e-466e-a21d-bca49e280620"],
+ CellID->1,ExpressionUUID->"3f926bd7-3907-4097-8ca5-ad68937006f6"],
 
-Cell["PeterBurbery`LittleChildPaclet`", "ContextNameCell",ExpressionUUID->"7a7539d0-4754-41c9-8a61-69cd71110553"],
+Cell["PeterBurbery`LittleChildPaclet`", "ContextNameCell",ExpressionUUID->"5ec44c43-7293-4f76-9292-d0f06463074f"],
 
 Cell[CellGroupData[{
 
@@ -110,17 +144,17 @@ Cell[BoxData[GridBox[{
    {Cell[TextData[{
      Cell[
      "CaesarDecrypt", "ObjectName",ExpressionUUID->
-      "5eea96d6-afc4-4dc5-9d9e-76004204bcb0"],
+      "4b889ef7-9713-4dd9-9969-94192947c5e5"],
      Cell[BoxData[
       TemplateBox[{8},
-       "Spacer1"]],ExpressionUUID->"56d4c72e-acda-4589-b2f4-8aba24cc0e40"],
+       "Spacer1"]],ExpressionUUID->"e3d6036e-edaa-4fdc-bea1-af9d96954e7b"],
      Cell[BoxData[
      ""], "ObjectNameTranslation",ExpressionUUID->
-      "aeac4e55-6d2e-4fc3-8aee-75b475fe299a"]
-    }],ExpressionUUID->"39f74038-ac94-42cd-8176-595ce5021f9b"], 
+      "4a6996cf-2e99-47a2-9feb-6eff125009a5"]
+    }],ExpressionUUID->"52273086-9200-4470-9cb9-842b158c8c17"], 
     "\[SpanFromLeft]"}
-  }]], "ObjectNameGrid",ExpressionUUID->"bbb2d79d-5da3-4a1b-ba2e-\
-ade372f2eedb"],
+  }]], "ObjectNameGrid",ExpressionUUID->"4993039c-31f2-449d-afc0-\
+5b3d529f8130"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -132,14 +166,644 @@ Cell[BoxData[GridBox[{
          "paclet:PeterBurberyLittleChildPaclet/ref/CaesarDecrypt", 
          "PeterBurberyLittleChildPaclet Package Symbol"},
         "PackageLink",
-        BaseStyle->"InlineFormula"], "[", "]"}]], "InlineFormula",
+        BaseStyle->"InlineFormula"], "[", 
+       RowBox[{
+        StyleBox["string", "TI"], ",", 
+        StyleBox["n", "TI"]}], "]"}]], "InlineFormula",
       FontFamily->"Source Sans Pro",ExpressionUUID->
       "f0faa849-b1b8-49cc-9970-a671bb9930ca"],
-     "\[LineSeparator]XXXX"
-    }],ExpressionUUID->"4dc3d97b-dbe6-451a-a3be-4b547353f203"]}
+     "\[LineSeparator]deciphers a Caesar-enciphered string that was \
+enciphered by shifting letters in string by ",
+     Cell[BoxData[
+      StyleBox["n", "TI"]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "16a7d74d-a6a1-4b49-b77c-96fbd3059a78"],
+     " places further in the Latin alphabet."
+    }],ExpressionUUID->"fe8c5edb-edb3-4f27-b293-0773ebb3ce1b"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{"CaesarDecrypt", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          SubscriptBox[
+           StyleBox["s", "TI"], 
+           StyleBox["1", "TR"]], ",", 
+          SubscriptBox[
+           StyleBox["s", "TI"], 
+           StyleBox["2", "TR"]], ",", "\[Ellipsis]"}], "}"}], ",", 
+        StyleBox["n", "TI"]}], "]"}]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "2d4aee00-f538-4471-a147-cfc057a54263"],
+     "\[LineSeparator]deciphers each string ",
+     Cell[BoxData[
+      SubscriptBox[
+       StyleBox["s", "TI"], 
+       StyleBox["i", "TI"]]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "1c19859e-07f7-4c7b-8c6f-8bc9ed6e8f20"]
+    }],ExpressionUUID->"7509384d-53ac-4933-b9fd-41a1d007c95e"]},
+   {"", Cell[TextData[{
+     Cell[BoxData[
+      RowBox[{"CaesarDecrypt", "[", 
+       StyleBox["n", "TI"], "]"}]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "e23e020c-2075-47aa-88a2-c2340202c956"],
+     "\[LineSeparator]represents an operator form of CaesarDecipher that can \
+be applied to an expression."
+    }],ExpressionUUID->"4ca19bba-7232-4ad5-9e4e-7ebb1947991d"]}
   }]], "Usage",
  CellID->11359370,ExpressionUUID->"d4613dd0-ede0-41b7-86ec-c355553e39b3"]
 }, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[Cell[BoxData[
+ ButtonBox[Cell[TextData[{
+   Cell[BoxData[
+    DynamicBox[ToBoxes[
+      If[
+       MatchQ[
+        CurrentValue[
+         EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, 
+         Closed], 
+        Alternatives[Open, True]], 
+       Style[
+        Graphics[{
+          Thickness[0.18], 
+          RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+          Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+         PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+        0.68 Inherited], 
+       Rotate[
+        Style[
+         Graphics[{
+           Thickness[0.18], 
+           RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+           Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+          PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+         0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+     ImageSizeCache->{
+      13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+    ExpressionUUID->"ce165c9c-d6fa-40d9-9330-42007aa347b1"],
+   Cell[BoxData[
+    TemplateBox[{1},
+     "Spacer1"]],ExpressionUUID->"3f6913c8-e8c6-4fdb-ac00-b53760c0adc5"],
+   "Details and Options"
+  }], "NotesFrameText",ExpressionUUID->"8288a88f-94c8-4db4-acb9-867a906a2ee2"],
+  Appearance->{Automatic, None, "Normal", Automatic},
+  BaseStyle->None,
+  ButtonFunction:>(FrontEndExecute[{
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], All, ButtonCell], 
+     FrontEndToken["OpenCloseGroup"], 
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], After, CellContents]}]& ),
+  Evaluator->None,
+  Method->
+   "Preemptive"]],ExpressionUUID->"e14a37b5-9072-4640-8a5e-f37d242b6a0b"]], \
+"NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CacheGraphics->False,
+ CellID->287470641,ExpressionUUID->"977692de-6a67-43c0-8fef-d04048b8963e"],
+
+Cell["\<\
+CaesarDecrypt replaces each plain text character with a different one a fixed \
+number of places n up the alphabet. Here is an example for n=3, where the \
+letter f is converted to the letter c:\
+\>", "Notes",
+ CellID->289887520,ExpressionUUID->"1d85bc22-1960-492b-af01-f336369a23f0"],
+
+Cell[BoxData[
+ GraphicsBox[
+  TagBox[RasterBox[CompressedData["
+1:eJztnQe8HFX1x4+AhSaEagGMIP4RkSIlEamGEqmRQChRCChNEUhAacHkvXRC
+FRBBhKDYaAoqoIB0BOkdpPcOoXfe//xy77Cz+3Zmlzd3c8/1/b6fzyHJzr7Z
+HzPv3jl77j3nfHGXfbbabQ4R2e9T+p+tdj5g/TFjdj5o+IL6j2323m/P3ffe
+9Qff3nv/XXffdczgXebUF+f6mMhYff9cQgghhBBCCCGEEEIIIYQQQgghhBBC
+CCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBC
+CCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBC
+CCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBC
+CCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBC
+CCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBC
+CCGEEEIIIYQQQgghhBBCCCGEEGKb8ePH92TW6fd81HN1+vwh/386ff4Q/z/6
+B41Go6VihJCA0N8L8//T6fPT36PRaP3MCCGE9I1U5tFUdIJZWh+c2WPeJJ3r
+mopOQK3hSUUnIWZpJ55kgVR0gpS0SjrzaCo6Af298KSiE1BreFLRSYhZUvFN
+UtEJUtIq6cyjqegE9PfCk4pOQK3hSUUnIWZJxTdJRSdISaukM4+mohPQ3wtP
+KjoBtYYnFZ2EEGKVVObRVHQC+nvhSUUnoNbwpKKTEEKskso8mopOQH8vPKno
+BNQanlR0EkKIVVKZR1PRCejvhScVnYBaw5OKTkJIRVLaE5eSVklnHk1FJ6C/
+F55UdAJqDU8qOgkhFUnJh0pJq6Qzj6aiE9DfC08qOgG1hicVnYSQiqTkQ6Wk
+VdKZR1PRCejvhScVnYBaw5OKTkLMkopvkopOkJJWSWceDaHzBn+O71aXUwr9
+vXru8J+xdYVzpPJ7CjqhdVm1P6g9pfaeP/9ZAc6bynVNRSchZknFN0lFJ0hJ
+q6Qzj9Lfo7+Xwu8pCK11IbWn/Tnh6z2h9rDaLwKcO5XrmopOQsySim+Sik6Q
+klZJZx6lv0d/L4XfUxBa64/8+R5UWzzgeUXSua6p6CSEEKukMo/S36O/l8Lv
+KQit9Rf+fCcEPGdGKtc1FZ2EEGKVVOZR+nv091L4PQWhtZ7qz3d4wHNmpHJd
+U9FJyP8qc6hdJm4cXq02Z5P3DFB73L8nxH6TvvJzr+FvLd53kH/fTR1XVMxy
+UpvfWtkiFT+r6jz6KbUt1E5Ru03tRbW31B5Sm6G2QkV9GaH9vYXVjhGnE3of
+UztebdGKnyES0N+78vaHe/Ycc1DPyqsN6hmw0MI9c3384z0LLbJoz1dWWKln
+p91/3HPOxdda8feGqV2h9qraTP/3rfwxa/7eiuJ8qOzeQy/mrz3UPh7g/KG0
+/kXKx/5nAnxGKK24t1dJ/f0f7o9Zu/+EkL6xlLjxjbF4SJPjf/DH7lWbp68f
+EmBP3Nektt/5syXvu9e/b6++flAArV8Q55sU2aNix9/bWuqfQa+Je4Zm/35b
+nC9QlZD+3hhx+93x95fUXsidH99Nvljxc4L4ez8dN6VnzrnmKvX3txwx0oK/
+Nz53nnfE5ZC+6/99qNh63uPev58736sN/75UKsxTnlBaJ4r7Pp3lajzm/53Z
+QgE+I4TWqVJ//5+U2v0fK7buPyGkGoiXZGN91dzrO/jXMfbXqPIBgXIg/uP1
+HFBw/Jv+OPyVAX39kA7na3xa7R5xOi8UF2OtQtV5dGO1X6mtK7Vr9jFx9SOy
+dSh8H6j6bArp770iLsdxSO7YmuL2w+P4tVLtulb29/Y+4GdtxXcN+Hsb5c5x
+pNoC/vUFxcXU4Uu9Jjae99v6c7yudrDaYv71T4qLUT/ij59Y8XNC+yYz/Pks
+ruduljvHFLX5/euYp6aLu/+vio37T4gF5hkyZMikVVZZZZcOHZ8d/FHceLxb
+bW61JcTFTvDauKonD+RD7er13FNw/GR//I9VPqSD/h78qPPEabxfKvikOTo9
+j54vFeOlnpD+3gdqg5ocX15qcYnNKnxOJX/vH9fe0TPHHHPU+XULDlioZ+zk
+I3v+ftUtPRdff0/PSX84t2fzrbfv2Wq7HWP7e//2P/+nguNn5z4j5vMe67RP
+tNCxirj7DytbA2hFf/L3rvc/P6Pg+O8k0v1feumlhwwdOvToAQMGLNWJ44T0
+hcGDB++b+QiLL774V0Mfn0007tO7WGqxkrkiaWpkPql911yz4di84uI+OLbR
+bNbVLt1SWzO1tC+ujL38+X9f8Twh/b2LSt5zlpQ/v9qhkr+HfXlS+/+d5fud
+e+n1Td9766MzY/p7n8v9/EoF71lNIj3vG9jU//yDLd6X/Y5sX+Gz+ou/t0Tu
+54ueOytLpPt/4IEHzsQzccSIEWd24jghfWHgwIHrjh079u3Ro0c/ssACCyzY
+eHzJJZdcW4+/VXS81c+XETgWhfUxxE6ysQm/ZNkQJw6o89fitJ3c8PpO/nWs
+6VRaI+1QfG9LqV3bbQKeN8SzCetiE8StlyOmm98PldllFT8jpL83tuQ9P/bv
+ua3C51Ty95CLIblrt/HmW1Xy6Tro72VreTNL3oOYtIX1vEn+55+X+j1wjfac
+f99PK3xWf/H3svv/Usl7ot3/kSNHXoh5eNCgQWMKjp/f4njpzxPSV9RPQ3zs
+kyXHF2xxvPTni+iAb/IbqY3NvUOdNKDOb4jThljevLnXL/Ovd1X9gA5cU+Tr
+ZrHHKQHPK1L92YQ1sHy+A3JJrlO7XNw1vdu/fn0llWH9vbJ9D8P9e56q8DmV
+/D3k30rt/7dnnwPHW/X3RvmfvavF++6T+P7eKblztGPjI2ptZIbY9PdGie37
+P8d8881Xlm8/x7zzzrtY2fEWP09IUgT2TVAfIPt+DCva0/ORCazzdnH6dvL/
+Xlpc7Aw2sOrJA2sNnZ/RSNVnU5Z7h/X7ZvtcRvnjN1T4DJHZ5+9l+cZm/L19
+D+qy6u/tLO097++X+P7eDP/zVfcVtEN/8ffavf8W/H1CSFj+Lm5MoqbJO/7v
+na5t2xf2Faftcv/vbF/cJdEUNacT+RmNVJlHl/c/Cz954YL3HCz2/L2k1nOH
+bjHcqr/X7nquhfzcaf7nb61wjnbpL/5eu+u52doE/T1C/jfYU9x4fFOcH3CI
+1J4FS0bU1Qz4Jqi5Aj8F+wuzOgwjY4pqAtaWoStkfkYjVebRrBZHWSzsX2LP
+37u45D1ZPumMCp9Tyd9rlq9x3uU3Nn2voXyNlQves3ruPTGf98Ok9t3kyxXO
+0w79xd8zna9BCOkImD9R0wrjcR//GnptXONfwzP/Y1U+oAN74rI60FdJ7Tvq
+3CFOHEhrp/IzGqkyjw7yP4v8jGb7XDbInd+Sv4fr2qweJL6nZHHpTSt8TiV/
+r1k9lgELL9Jz6NSje86/+tZZ9VhOOfP8nq13GNUzfPudYvp7IBvjRTWMrNRj
+QR+Yp/w5LpDmvYAyqsbR+4u/B7IxNaPgeLR6LISQ4KDWCvbnZ3GTvF+3jNTW
+cirlOHXA30Mucf55F6zXWwCtnczPaKTKPPoJcfmO2Vr4F3KvYx3/Zanlcljy
+96ALPQA2zB1bSwzVW97rJ2Pr/L0iM1Zv+WhxdZYBfKbjxFa93W1y50FNHvj8
+2XyF+nyoFY9eEWXrk+3Qn/y9LXLnmCyu5hXAvuPDxNb9J4RUI1tzxBy5RJPj
+u/njWD/tc23ADvh7mOcfkNo8slqoEwfQur/UdKGPb1lvtQUKztEuVefRHaW+
+Bg/8u6yfGnI5fiT2/L3RUvPt4Fdn/QBhJvqpPfDSBz2jD+7umXPOOa37eyCb
+A2CoVfysuL6F+Df2dVjqp7W71GK4MOw/we/se1J/bavQn/w9cHjuPFk/tewa
+4/7f6f++eYXPoL9HSFzw/TjrR1BWn/Rv/j03i4v9WOEIcbqq7M3vBHl/r5XF
+7p8LhoqrvYJYLtb1ka+HHBjUu8l67Vny96AJeziPEddHFz1+0Zv0eGm+Lv1R
+qezvZXbZLQ/07LHvAT0rrbrGrB4b6KeLtV3kdOy42149Z1/0bwv+HsD+uCvF
+xXIQP71CbSt/zJK/B5CPj1gk/BDoxRyGHrXYd7Kf1OLUfaW/+XtghNrV4uYA
+3H/8Lgz3xx7zn7F2hfPT3yOkIh3u9RqMDumE/4lz7hvypKlcU08q82gqOkEw
+f6/TJulc11R0AmqtsVjuM4py+NshpWtKiElS8U06oDPLNcDaY5V5qBepXFNP
+KvNoKjoB/b3wpKITUGuNyf78N1Y8T0rXlBCTpOKbBNaJveRZXmFjX7XKpHJN
+PanMo6noBPT3wpOKTtDftB4lrp7APLnX8B0aPRaz3opV+hGLpHVNCSHxwb5y
+1NrDfi3MHRZrA85uUplHU9EJ6O+FJxWdoL9pzfZnwp5Re0Lqc7iOrXh+kbSu
+KSEkPqgPgTkDOZmoH/L1uHJMkMo8mopOQH8vPKnoBP1NK/JwUH8RfdPwHRq5
+uah1+Be1TSqeOyOla0oIIRZJZR5NRSegvxeeVHQCag1PKjoJIRVJaU9cSlol
+nXk0FZ2A/l54UtEJqDU8qegkhFQkJR8qJa2Szjyaik5Afy88qegE1BqeVHQS
+QiqSkg+VklZJZx5NRSegvxeeVHQCag1PKjoJMUsqvkkqOkFKWiWdeTQVnYD+
+XnhS0QmoNTyp6CTELKn4JqnoBClplXTm0VR0Avp74UlFJ6DW8KSikxCzZL5J
+mX+Sf0+77wv9eZ3S0In/HwvX6yOcq4dGo9ESMUJIBTrhT4wbN26OVu/5qJ/X
+Kf8olNZQP1v0nnZ00t+j0Wj/w0YIMYb6FDtPmzZt/tg62kG17hNbQzuov7ei
+2nqxdbTJjuL61qVAEvdfWU5to9gi2mQHtUVii2gHHVN7x9bQDhMmTPhiV1fX
+5rF1tIPOqdvrdV0stg5CSOfRsT5K7W9FMSlLQKfOT9+PraMVqnMetWfVlo6t
+pQ22U7tIba7YQtrgLLUfxRbRBh9Xe1bt/2ILaYNhapeL02waHU+n6/jfL7aO
+VmAuVZ3P6J8rxNbSCtW4mdpVap+IrYUQ0ln0e+jqfu1wemwtrVCN09TeVs1r
+x9bSCtX5gNqdCcROvyZu/SVE78xOg77K76oNiS2kDe5U+6/Yj50uK+7+/yq2
+kFboeDpI7X0d/9+OraUVqvNG9aEeVDMdO0Us0u9BOSW2FkJIZ5k+ffq8OtY/
+8D7fTrH1lKH6vufnJsTOBsbWU4bqPNdrtR47xfd6+FB45u8eWUsrthGn80Vx
+fopl/iROq/XYKX433xSn1fR6uY6jLfw89bL+ffnYespQjad5rZefeOKJZmOn
+PT09H9Nr+ZrXaj52SgipBr6H+vH+tv59zdh6ilBtX8/lMtxuOXamWifn8jcO
+j62nBXeLe97D71s/spYy8IzP9oPfo7ZgXDml/ExqWo+LrKUVN4vT+Z4Y3nc4
+YcKEZXJj6v7JkycvHFtTEarvpzmtJ8fWU4bq+4/X+r7+fZPYegghnUPH+Hk5
+Pwr7TpaKrakZRxxxxNyYk3Lz6HlWY2eqa4eGnN1RsTWVcKbUfJMX1JaJK6cQ
+xMnelprWC9XmjKqomK2kPl9xj7hySvmt1HS+JEb3HSIWpWPp9dy4utRq7Ax+
+U8P43ze2piKwlpvTaj52SgjpOzrGpzTMTbdgnTe2rmaovvsatE6NrakZ3d3d
+KzXUX7EcOx0v9b4J9p59OqagEm6Xeq1Hx5VTCHymvE7LsdMDpV6r2X2HOoZu
+aBj/v4ytqRkTJkz4QoPO97q6ujaOrasZWMdt0Go6dkoI6Ts6xkc21obTMX8O
+vk/H1taIavtzo1bs64utq5Fjjjnmk5jjG3Q+g+dAbG1NyPbF5e3v4vZ2WeMP
+0lvrD6Iqag7ijm9JvU6rsVPUDmm8pib3Heb2xeXnqr1i62qG6nqlQedMteVi
+62oEfmiTOdVs7JQQ0nd0Dlq5yXiHTYqtrRHVOrHJfP+W2uDY2hpRTfc0uaa3
+GoydfkWa10w9IqaoAsZKb53vqK0TU1QBt0hvrXeJvdjpF6X5/TeXs63j5ydN
+xj9iZxvG1taI6rq2yfi/T19fKLa2PKpniYL5/8TY2gghYSmIRWW2fWx9eVTn
+ds106utPT5gwYcnY+vKoprMKrumfjcVOG/fF5W3niLqagXpxzXQ+J85vscTp
+0lzr+WIrdorfxdekuVZTOduN++Jy9pIe+3JsfXmQp1EwV12sZip2ithjwXX9
+cWxthJCw6Li+t2C8v6lzwRqx9WV0d3d/rUAn5tGbUOs4tsYM1dRVpNVg7LRx
+X1xm8APXiqirkaxeXDO7Q81SzvZBUqzVWuz0emmuE7HT9eLJqqdxX1zD+L9H
+zUzOtmoaXTL+j4+tL4/qubrgmpqMnRJC+o6O7bNL5tEnJ06c+PnYGgHqwKum
+d0u0nmUldqbz5DYl8z207hBbY45m++IyQ68IK/sOERd7Q4q1/lXsxM6a7YvL
+2y7xpPXiVCnW+byamV4xjfviGsbUP8844wwTOdvwk1qM/x/G1piBtdsSreZi
+p4SQvqPjubvF3HQD6qHE1glUy10ttHbH1ghQ16BMp7HYabN9cXm7VW2+aOrq
+uUnKtR4WT1od8JHKdFqKne4v5VqRs20idlqwLy4//n8eWyNQHZ9rMf7f1fd8
+K7ZOoDr2bqH1XkuxU0JI39GxPKLFeIf9KbZOoFrPaEPrtgZ0zqU63m7xbLIS
+O/2OlD/vYX8Rt9crNr+R1lp3jKauRtm+OGuxU/Qoa3VN/yYGYqc6bn7davzr
+uNottk6gOl5sofUFfc+XDOj8VhvX1EzslBDSd7q7u79aMMbf0T8fUbtZ7equ
+rq5NY2tVHeMK5qRXVe9/EYtUu3DSpEmLGtB6e8F1RU+4O3yswsJeLqzXNHvG
+o27co+JyTa8W5xfG5gBprhW+1X1qN4irJ/LZWAJzFO2LQ34JYmbXqVmIR6HG
+ejv3f+tYAjN0zIwpGP+vo3acr9F3iYX8LdVxZcH4f17/vFPtOtQQjL0HRefK
+xQt0Io/vMbVb9e/XGNuDQgjpA6i15H27bKyj3/c6Fmswqc85vGFOOsnCd+Rm
+qL4/5HS+oraH0XWRfB9V2BP+T/TaWiCirmbgO0feJ3na/zlNbMQf8+T3xWHf
+4Vve1o0pqoCXpab1SanlwFirH7JRw/g/Xb+vmuwJovpOyOl8Q21ftUVi62qG
+anwud13vRl0+1G6IrYsQEh7Em/y89De1T+E1X4vzr9m/LYCapV7nB9meZ99r
+6Qj99/6x9eVRPWO91qeRW+xfW8TXZFg5tr4Gsj6q/xS39+w+/+/L1Uzs3fQM
+lJpfMlqc//eu//dB8WQ1JdsXh3je19V+6f/9itpqEXU149/itF0i7v7f4/+N
+163s3RTsf8j5JbPuN8a/jqfxiP3H1pdHNe3lx/+L2V5dfN/T1/6hc+s3YuvL
+o7ou81qvUJtVI1I1DtLXLpo6daq173yEkAroGP+j90M+gX/7unwP+3n1dsT8
+Y2sE2EMyztVYHpO9pvPSN3PPgGlW9pmoxmGobZX5ekD1Tc99598gpr4GUC/u
+CrXMt8e+ssfEPfNRJ/hzkXQ1ghjeq+LWdTO2U/tAnFb0WLNS32yoOK2r+n/j
+9/J3UvNXN4qkqxkni/PtsppGS6g9LE4nfH8L+0xnoWPnpbxvp+NoxfG13ton
+WFmXUF3r+XXmD/Oy8vtR9PXNYurLo1qOw7rOtGnT5vf/ngM1rrzWR4z2BiKE
+9AEd21s3fo/T11bwcf6XdbybqWerer7f+BpifX4Ohc8afV85wDVrzMGDH606
+/+7nUUv1TIdL77U7rJM9JbUY1SazW1QBve6/sqvUfL4r1aLv3xLnIw1teA2+
+yJ+l5vNN86/FZgu1xrVG9H97XGp1WUz4Jzpudm3y2k7w+bAn1pC/h1j+Fg2v
+IY/rzHx80gLYm934nd7XO3zEf79eMZY2QsjsQcf5EjoXDImtox1Q8wp1EGLr
+aAXijzqPjoy9T7tNPiNujTfzT5Bf8omoiopZX2p7D18U14/DIojzHaL2njit
+14q9/iAZyHtCP+Xs/iN+anJfl47/tS19Ly3Cx852sPK9tAz4rBby9AghhMwW
+8FzC+mnmnyDv1GSOjPT2T9AH1sz+0wbWVHtEnE7kS4yIK6cQ3H/slUS/DWhF
+DcRloyoihBAy29DvfgNja2gH/316qdg62kF1fsZKbesmYI/5w1LLOTDVXzkH
+4qZ5/wT1RJaLqqiYAWpnSc0/PUlqe+isgRyT+8XpxL7E78aV0x4+n2NgbB3t
+gDpSqtVMfkwZuKaJrFEQQirQ3d29kt8vd9444/12VN+Bfr9Ml+W51NfFQU2+
+57Cf0uhcinoyZ0rNP7lQ7StRFRWDPInMP4Ghb7GJPhEN4D7vIbWaOFiLHiH2
+6ssA5G7mc04uVlshqqIWZHt7kctltB7SLPw+j0vGuZ5xIy2v92LdfLyrJ3+l
+wVoDhJCA6DjfHrlnfh691ahvkn23n5HLiRsfW1MRiEGOy/WLM7xHGvcaPQwQ
+48EzH+u8v1BbLKaoAuCfnCY1/+QZcb6VlRzePPCbbpOaVuTLrhlVUXNw/0eJ
+i/FC5/vi4pKfiaipEB1HP8/l71uob94U1bnYeFfbfpZWazVb8qi2b6P2gNf6
+mJUcGUJIZ5g4ceJndcyfnMJ+XuzlVq3nW68lhXlT58891Y6NraUNkM+HmnJ4
+3mdrvAeKrXp9GXh2XiM1Xwo1ZvB7a+17CvxQ+NLwSzOtZ4jLlbUG/Pvjpbav
+Ez1ODhWD69E6/ldHXjx8qthayvD1pnZRrb+KraUVkydPXli1Hq1avxdbCyGE
+kNnC8lKfI4EchJFioN9qA/DttlF7UOrXIy2uR2HdeYK4vhzQib2IR4qxfhce
+7I08T2rXFDVcdhJ7958QQkgH0O99R+n3v6FW13ozfJ2sU7q7u83nHHZ1dW2p
+1/WQrC6qMVA/+lapPfexNokYmrXnPuqJ7Kf2kjidqNv3J3H1Bq2BusczpFZb
+EHv7fiZundoaqIdzo9Tu/93i6vpZu/91oJ8Exr/a8rG1tAI12tW6Le9DzMB+
+afS/tFL/nhDSGXxt+WzPzO1TpkwZEFtTEVg7zfVos9C/vinofaI6H/JaZ1qq
+z58Dc/vOUuvBmq2dokaytbooC4urJ5f1Y4Odq7aO2FvnXUVcr7NMJ+q3TBcb
+daXzwLfD+l7WmwWG3myokWzt/s9Cx9HE3Fx1Wmw9Rfh8jju9zlexhzq2piL0
+u/NXc9f0vgkTJlj7PSWEBALxJx3nP9G59HHkcMXWUwbyi9VOQh151bpPbD1F
++NyTTdDrUu094z2O5lVDz7tHpfbcf1pcneGFI+pqBmoJYh9ilh8L+4+4HFlL
+eR3wQTdW+5fUdMJXRS+8VSLqagb28O2t9pDUtD4rLjbZ2McjKj7X9Fiff2aq
+B28eP/43QP9d/53PbF40eq77/sEPIAfNcq4xISQMiEmhR0dsHe2AfkLTp0+f
+N7aOdtBrunRsDW2CvL0d1G6W2nP/dXF1kK39P2Av/3hxvcMyrfBX4LdYq+OD
+WjO/l1quRLYXEf3bLMUm4S9vq3aD1HRiTyLyuU3tn0D+gfV8roxUxj9iksa/
+lxJCZgM6Zw1TOwe5s9b3+On31GN8/a6BsbWUAX9VdV6qOncz5rvi/qKX8AVS
+e+4jr/cvauuKLR8FsSnUbLlPalqx1+9wseej4ll6lLjc2Ezr7Wp7ii0fFfd3
+PbW/SU0n9iT+Vdzvhen4j46nqZgD1HexmCf9IT6//yLE1ozu8f0Qnfe/qVov
+UK0bMf5HyP82WJfM7fGYFFtPEag7o/rezfb46Tw1KLamIlTj7rlr+pDReRTr
+UKdKrf8F7L/iarl8NqKuRrAX8TtSX8cli6NtJ7b2o2F/LHre5fdNoj4i6noM
+Flv+9FfVfq32ttS0PiBurf/zEXU1BTE/HUdv5Orime0nrvq2zY3/ZyzXxVN9
+Z+ZqjZ4cWw8hpHNgDy/8PLUnLPtQiD0iBqk6f6d2r+V8M+ybUY07q12N2lix
+9bTgc2rdUr+3H+uTyJnYXGztnUPd499I/R4/5Moeo/a1iLoaQe7xjmrYM5v3
+Ue9Q21ds7Z2Db4/9clkP4SzmixjgMHF7AUygY2kNHVOnqj1yzDHHfDK2niJ8
+j54dfIz/lNh6ysD+GdV5qP9eajH3jBASGB3rcxWt5+K7tKW9KtDa7HW/l3o7
+S2soRVqxn8bXdbAS+4P//G21s6U+Vxaxqsni8imsgDoYWCvN1x2BXSeuTrKl
+Oimoi3eY1NduRkwNtWc2FDtrqLj/G4mrK52P+SK/Z5qamX6NRWPKHxthqU5K
+kVb06Ebel5Xvrb6/edPfRaz5dnd3W+3XSAgJhK81/6iP+V9uedz77/9Yl3gN
+cQBDvlQvVNthufXeUbH1NICeHfuLq+GR96euElfTxVJdH+TEHqc2U+pzUdBf
+Fv6Llfgk4mRYl0ZN7KwXSlYXG/solosnrReLqo1Wu1Pq7z96y8GftlhvGvVH
+vuLH/xtqv7e8jqr6DvZaH8c+v9h6ylB9N3mt16qtFlsPIaQzoGafjvXfqr2J
++iOWeyH5vcdXej/qkth6ytDruG/Oj94ztp4CEO9dS9w+P/hQ+fjUn9W2Fjt9
+26AD/UQulXofBfEprPdir4KV/XPIlR8r9T1GYDeJ87Ot5NLjeqEHHvZ15XNR
+EP9DLw/k/Jrp26bj6etq//Jj6vrYespQfbuiTorXelBsPUX4vSm/8rUGe1Ko
+h08IqQbWSLD+UHJ8RStrEzon/Z/aqs2Oqc751EysTeJ6qY+6oeppGi/BGrqh
+tSmskf5AXN25rM9E1q93hri1SSuxNNzfLqnP7YXdL26vopVYGuLPyItF3gRq
+N+dzZuG3oj6ylVga9kighvdFUh+fRD4K9lSiBo2J+4/8XR03g5sdw74/Kz08
+sP6g439d5KI1O+73fJi4/6gzoFq2KDqOOoSW46mEkDBgTlJ7x69NHA6fKram
+IrB26r9TX2dwHbUO1Xeerz99JmIXsfXkQP4m6jg37p/LYmlriI1YGjSsLq5/
+B7TltUI7+rlZyUVFnvFWamepvSX1sTTkzqDutJVYGvwT5J2gHnb+mqKWM2o6
+IiZo4f73QsfRVn5t8ibDcfVZqMbTMa+qznP1zzVj6ykCPrRqfEk1Poua2fqn
+pXwkQkhAsKcjtzbxhJU4XzNU65hsbUL/flxsPUX4/dMXovaM17pebE0FIFaG
+WBpiZ/lnP2p7IM9jZbHx7MfvJHoLI18yH0uDXab2Q3H7Fi2AmG6zWFq2L3FL
+sVOHBut7yO+9V+qv6cPi8jzwPcXC/Z+FjqM91Gb6ueq3sfWUoTrPUo3v+/oz
+W8bWU4Tq/LJqvDvrMaf/tvK9hBDSAXxu7GDUby45bmId5YgjjphbtWyN/pLN
+jmOP4qRJkxad3bqaMXHixM9jP3eRD439NOifMrt1NQHPdMT1EEt7Suqf/fAF
+JoirmWLh2Z/F0pCLnI+lwbfCvs/dxeUsWKAolgafFeuoqKFhoTYJ7iv2UBwp
+9fUHs3V0M76/X9MdVhQzR48P5M/Obl3NQL0UjP+iMe7XrqP7/n5+X7msnzDm
+f+s1/Qkh1UFtPx+nugv1niyPe9U3xeem/LNsz2JscA3RBx1rKchHRg/S2Jo8
+8E3RrwP9uvJ1SGB3i4sHmvD9xe1LQ6859BjJ1x5GDULE17Bn0UqvYdxf1HNu
+XEdHbvIMcfV0LPj+2Je4tri1Xeu+fy90LB3i4+qX6rw1PLaeMrAurfYKYpXY
+txxbTxGqcaCP/6GX79SymjqEkLRBXSwd6y94n+/i2HrKUH2/zPXy+GFsPUVg
+n4zabVnPEcQCY2tqAuZ15CT8Uu056V1/+GdiJ38CfVu/J66/WL4GHXy/C9V2
+ETv5E8hJQV5nvidyVn8a+R8bi41aye34/k3j7LHQsXSk3zeHcXVgbD1F+L6N
+N2b9MSznzqLWqGp8yl/T22LrIYR0Fl93fmjRXjTkeVj5joo1HZ2bvo/1lGbH
+kTuLWjWzW1czsE6i9oOi43pNVzLyfRoakMeL/mIvSP2zH88A1Cgxcf/F7aEb
+pXa+1Neffte/hmMm7r+4a4Zrh2uYv6a4xrjWVnKny3x/1PrDPkAT9T2RF6/j
+fyf9c6mC4wMxR8xuXc2An4cejiXHv2Zhz4ev5bpe0ZoJNEKr5bUfQkgYdM76
+nv+uenPZ/GUBnzOHGMBfu7q6vhFbTxGq8dPI8fW5cydY8VHFxZ4Qg0L+xEtS
+/+y/VVwfVys9HRDTQ51pxPgQ68vnzqJ+8k7i/EMLwF+C39RYK/l5tZPE5axY
+8f2gpZnvf7vYivv2wtckxRrABaipEltPEfChkJ+i9qLayVb2JTZDr+O3c3t+
+DoithxDSOVCDWMf5y9ZzZ/2+uQtyuXNme7cjtuf3+MGPfs5InK8RxB7wnX+G
+1PfJgGG9EuuWJmomiut9i7p4jbmz8P2wDoz14AWiqasH66RYL23sk4LYGmJs
+iLVZ+H3IfH+sQzf6/lnc14rvPwsdR2dgj28CubNfUo13+vH/OtaAY2sqwvcc
+f8FrPTO2HkJIZ0HunM6fm6N+Z7Pj+H5aVJ90duNz53Yr8qH09eUs5c4V5U4D
+HDeyjoJcU+ScolYGajnnn/3omYBcVRP3X0GvGcShUYM67/sh7wO5v9jrH/3+
+i8uLQH7EROldgxp76izVTCzz/dF/xEzNROyfRZ+MojGOvSlWapOgFoHOq9uU
+HMeej+j9J7HnR3VurLZ6s+O+1uvA2SyLEBIB5Hb5uNpFiP/H1lOE97H+6+OV
+v7Y8R6m2Ff13asQBx1mY9z14jiJ2gppzb0h93RTE11CjzkosDetkyO25THrX
+TcGaNWLAFupSwqdDXRTUR0GNxGb9R6zsocz7/vl+bug/Ah8be1at7E/ohY6j
+G3w9ut+gRl1sPUWgj0fWy1ttkuU+Gb5+KrReiRzA2HoIIZ0D67w61t/2a75m
++4z73NkbjOfOzsLHU5/28+i/Y+spAP1xs5p5+bopqJ93lj9mIZYGEH/cR+06
+qfenUJvkKDX0nLcQS8tq5h2h9oT07j+CHipWfm9xbxGfPkPtTamPpaKXM2JX
+Vno5Z7mz/87lzlrxoXuh43991fiYn6vuMBLnb4pqnKAa3/DXdUJsPYSQzoKc
+A+TOoi5ys+Pe1zIRo/JrOrsUHS/6f5jd+Ny5DYr2ImKdferUqVZiaUX9J7D+
+hz1gyAOwEEsDqJGB3IPG/hP/VRsvdval4XqtLy5/Ir+HLoulIV/FSiwNvZyR
+I/MPqb//WS/njcTGvsSsHvJuRcet1HUf5/r5rFO0ZoI9K+OM9PKdNm3a/Dr/
+j0SNhGbH/ZqviftPCOksOtb/grUJ/XOslb1+zfC5s/iuejlyky3UTCgCayfQ
+qjZjnK1enkX9Jx4V5081racRgXwsrbH/xJXi/Bcre+mxjopYGvbM5/uPIK52
+urh6elZiQKiXtLfatVJ/TR8XV9fZSg3yXvg+H8ibvQbfCS3s9S3C19FCL+/f
+Wc5HBqrzJLUn1SZb3kdDCKmG/x76YLaOonPThrE1FeFrUWVrEy8Yn++nZtcU
+Pl9sPQVksbTHpD4+dYG43Akr/jRiaciNPU1cT9z8Xr8TxPmFVvypLJZ2udT7
+U8j7QM0MS/U9kMN9qNojUq8VcWDs9bLQd+5Duru7V816eSN3FnGr2JqKwHfn
+bPyrnR1bTxnZPho/V303th5CSOfA2iRyvHS8n1jUd9YKWCPVOWkP1bpPbC2t
+wNq06pyG3nixtbQAa/lY0/2j1O/1e1Ztutiq6wZ/CvVdGuNTqEPzI7GzhgqW
+UZsk9Xv9UI8Q++c2FSNrqOLuP/zp30t9fBI1CNHf10w/D9SY97E9s308MtCv
+0e+f+1ZsLWX4XLn1kCeHXumx9RBC4uHr552K736W11CB97FOs1zTOcPXpkGC
+7+dia8mBHgjwpVHDt9kaqqWYKmqmHC319Yexhor81LXETswPfh3yZtFzOF9/
+OltDXTKetF5gz9mPxdXwzt//a8TtAbV0/3uhY2kJtd9jDdVyHgXwe+omI983
+tpZWqM6f+1o6JurlEEI6g47xwbm1iScM9ZzoheqbntN6Wmw9Rfj93g/6NZR3
+1LaOrakBPCsRl0SPiVel9tx/WlwvDxO9sTzwQbYVtw6Z91GQ74s8VCtxNID1
+XKzrIv8k33MOPurKEXU1gvuPvGisl2PdPF9/EGvAi8STVkzDOuq5sfUU4b9D
+3+zH/3tlOWqx8TWos/Xe58cV9MwjhKQP9snoGP+hrzv/j9h6yvD5fUeqzpfw
+fTS2niIw3/u6Dugz94blPBllPnF1kvP9ZrGPDj1dlomoqxnINzhM6mN+D4rL
+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
+hBBCCCGEEEIIIYQQQgghhBBCCJkd/D8Wpx8C
+    "], {{0, 156.}, {381.59999999999997`, 0}}, {0, 255},
+    ColorFunction->RGBColor,
+    ImageResolution->{120., 120.},
+    SmoothingQuality->"High"],
+   BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
+   Selectable->False],
+  DefaultBaseStyle->"ImageGraphics",
+  ImageSize->Automatic,
+  ImageSizeRaw->{381.59999999999997`, 156.},
+  PlotRange->{{0, 381.59999999999997`}, {0, 156.}}]], "Notes",
+ CellID->13174814,ExpressionUUID->"592ec71c-c3f7-4722-a358-38937c1b693c"],
+
+Cell[TextData[{
+ "CaesarDecrypt[",
+ Cell[BoxData[
+  StyleBox["string", "TI"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "aa3ff30b-0b88-4252-80aa-c94b9b538c47"],
+ "] performs the ROT13 substitution."
+}], "Notes",
+ CellID->93897284,ExpressionUUID->"250a8711-8048-45a4-833e-300277bccbbd"],
+
+Cell["n can be negative, shifting the letters to the right.", "Notes",
+ CellID->25399668,ExpressionUUID->"2a7a2047-4dd7-476d-a4d9-348e8cc5625d"],
+
+Cell["CaesarDecipher threads over the first argument.", "Notes",
+ CellID->137554373,ExpressionUUID->"17f0b0bf-6ad3-403e-a1e1-0dc76d2c11ca"],
+
+Cell["Letters retain their case (lowercase/uppercase).", "Notes",
+ CellID->547255390,ExpressionUUID->"a9684067-515a-4005-a81a-0f497187a03a"],
+
+Cell["\<\
+The Caesar shift cipher encrypts a message by replacing each letter with a \
+letter some fixed distance away from it in the alphabet. Write a function to \
+decrypt a message that was enciphered using a Caesar shift.\
+\>", "Notes",
+ CellID->56587845,ExpressionUUID->"c579da94-9da6-48ca-8aa1-db6832faab4e"],
+
+Cell["\<\
+A cipher uses a \"key\" to disguise plaintext to make it unreadable. The \
+Caesar shift cipher is one of the simplest and best-known methods of \
+encryption. The key is a number between 1 and 25. The method is to shift each \
+letter in the alphabet by n.\
+\>", "Notes",
+ CellID->190560588,ExpressionUUID->"ceb74540-7baa-4f46-a9f5-fec97475527a"],
+
+Cell["\<\
+For example, with n=4, the letters are shifted four places over:\
+\>", "Notes",
+ CellID->86147963,ExpressionUUID->"fe99d329-6478-4d1e-a786-2abe11eeb91f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Thread", "[", 
+  RowBox[{
+   RowBox[{"Alphabet", "[", "]"}], "->", 
+   RowBox[{"RotateLeft", "[", 
+    RowBox[{
+     RowBox[{"Alphabet", "[", "]"}], ",", "4"}], "]"}]}], "]"}]], "Input",
+ CellLabel->"In[2]:=",
+ CellID->143336250,ExpressionUUID->"ae682fa7-a5e7-4f9f-a5e6-365acde4ce79"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"\<\"a\"\>", "\[Rule]", "\<\"e\"\>"}], ",", 
+   RowBox[{"\<\"b\"\>", "\[Rule]", "\<\"f\"\>"}], ",", 
+   RowBox[{"\<\"c\"\>", "\[Rule]", "\<\"g\"\>"}], ",", 
+   RowBox[{"\<\"d\"\>", "\[Rule]", "\<\"h\"\>"}], ",", 
+   RowBox[{"\<\"e\"\>", "\[Rule]", "\<\"i\"\>"}], ",", 
+   RowBox[{"\<\"f\"\>", "\[Rule]", "\<\"j\"\>"}], ",", 
+   RowBox[{"\<\"g\"\>", "\[Rule]", "\<\"k\"\>"}], ",", 
+   RowBox[{"\<\"h\"\>", "\[Rule]", "\<\"l\"\>"}], ",", 
+   RowBox[{"\<\"i\"\>", "\[Rule]", "\<\"m\"\>"}], ",", 
+   RowBox[{"\<\"j\"\>", "\[Rule]", "\<\"n\"\>"}], ",", 
+   RowBox[{"\<\"k\"\>", "\[Rule]", "\<\"o\"\>"}], ",", 
+   RowBox[{"\<\"l\"\>", "\[Rule]", "\<\"p\"\>"}], ",", 
+   RowBox[{"\<\"m\"\>", "\[Rule]", "\<\"q\"\>"}], ",", 
+   RowBox[{"\<\"n\"\>", "\[Rule]", "\<\"r\"\>"}], ",", 
+   RowBox[{"\<\"o\"\>", "\[Rule]", "\<\"s\"\>"}], ",", 
+   RowBox[{"\<\"p\"\>", "\[Rule]", "\<\"t\"\>"}], ",", 
+   RowBox[{"\<\"q\"\>", "\[Rule]", "\<\"u\"\>"}], ",", 
+   RowBox[{"\<\"r\"\>", "\[Rule]", "\<\"v\"\>"}], ",", 
+   RowBox[{"\<\"s\"\>", "\[Rule]", "\<\"w\"\>"}], ",", 
+   RowBox[{"\<\"t\"\>", "\[Rule]", "\<\"x\"\>"}], ",", 
+   RowBox[{"\<\"u\"\>", "\[Rule]", "\<\"y\"\>"}], ",", 
+   RowBox[{"\<\"v\"\>", "\[Rule]", "\<\"z\"\>"}], ",", 
+   RowBox[{"\<\"w\"\>", "\[Rule]", "\<\"a\"\>"}], ",", 
+   RowBox[{"\<\"x\"\>", "\[Rule]", "\<\"b\"\>"}], ",", 
+   RowBox[{"\<\"y\"\>", "\[Rule]", "\<\"c\"\>"}], ",", 
+   RowBox[{"\<\"z\"\>", "\[Rule]", "\<\"d\"\>"}]}], "}"}]], "Output",
+ CellLabel->"Out[2]=",
+ CellID->101649752,ExpressionUUID->"566aa034-229e-4ad4-be4b-2361cc113e0f"]
+}, Open  ]],
+
+Cell["\<\
+Using those rules lets you encrypt a message\[LongDash]for example, the word \
+\"retreat\":\
+\>", "ExampleText",
+ CellID->311763645,ExpressionUUID->"a2c17cdf-4842-491e-9c04-06d96fe5e258"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringReplace", "[", 
+  RowBox[{"\"\<retreat\>\"", ",", "   ", 
+   RowBox[{"Thread", "[", 
+    RowBox[{
+     RowBox[{"Alphabet", "[", "]"}], " ", "->", " ", 
+     RowBox[{"RotateLeft", "[", 
+      RowBox[{
+       RowBox[{"Alphabet", "[", "]"}], ",", " ", "4"}], "]"}]}], "]"}]}], 
+  "]"}]], "Input",
+ CellLabel->"In[3]:=",
+ CellID->95407889,ExpressionUUID->"05f17941-0e93-4071-89c6-88179a9574dc"],
+
+Cell[BoxData["\<\"vixviex\"\>"], "Output",
+ CellLabel->"Out[3]=",
+ CellID->117242475,ExpressionUUID->"5be3608e-6619-4bf2-8118-ea90dbc45f01"]
+}, Open  ]],
+
+Cell["\<\
+The end of the alphabet is wrapped around to the beginning (\"z\" \
+\[RightArrow] \"d\"):\
+\>", "ExampleText",
+ CellID->860409746,ExpressionUUID->"448e1597-bf0a-4c04-b4ac-501a0dae2a98"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringReplace", "[", 
+  RowBox[{"\"\<fuzzy\>\"", ",", "   ", 
+   RowBox[{"Thread", "[", 
+    RowBox[{
+     RowBox[{"Alphabet", "[", "]"}], " ", "->", " ", 
+     RowBox[{"RotateLeft", "[", 
+      RowBox[{
+       RowBox[{"Alphabet", "[", "]"}], ",", " ", "4"}], "]"}]}], "]"}]}], 
+  "]"}]], "Input",
+ CellLabel->"In[4]:=",
+ CellID->95680880,ExpressionUUID->"d4f1e53e-025b-49ec-a025-4b1e6b620bdb"],
+
+Cell[BoxData["\<\"jyddc\"\>"], "Output",
+ CellLabel->"Out[4]=",
+ CellID->556523329,ExpressionUUID->"50198f3f-5655-4465-a86a-db22914cfbc6"]
+}, Open  ]],
+
+Cell["\<\
+To decrypt, you need to shift back. One way might be to try each of the 25 \
+shifts and select the strings that are words in the dictionary. In the \
+Wolfram Challenge Breaking the Caesar Cipher, the key is given.\
+\>", "ExampleText",
+ CellID->89506795,ExpressionUUID->"1dbbc498-b1db-4ecd-aa89-aac9eec8918e"]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
 
 Cell[CellGroupData[{
 
@@ -168,25 +832,664 @@ Cell[TextData[{
         PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
        0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
    ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
-  ExpressionUUID->"6f3cf5e5-07fc-4906-811a-b02ca83d83fb"],
+  ExpressionUUID->"dc35838f-42c6-4e72-a5ac-17400ba9e21a"],
  Cell[BoxData[
   TemplateBox[{1},
-   "Spacer1"]],ExpressionUUID->"30f0fcbe-a0e8-469f-b8d3-ee0bc15c7a6e"],
+   "Spacer1"]],ExpressionUUID->"00e7fe24-7b95-4c39-86cf-171806f178c9"],
  "Examples",
  "\[NonBreakingSpace]\[NonBreakingSpace]",
- Cell["(0)", "ExampleCount",ExpressionUUID->
-  "abc7b407-4816-4dec-b544-73e7b2120413"]
+ Cell["(12)", "ExampleCount",ExpressionUUID->
+  "2ae4476f-d292-47c5-b245-d73b3db3f18a"]
 }], "PrimaryExamplesSection",
  WholeCellGroupOpener->True,
  CacheGraphics->False,
  CellTags->"PrimaryExamplesSection",
- CellID->80003832,ExpressionUUID->"defbcae1-23cf-48e9-8032-30087d5b6dc4"],
+ CellID->339131033,ExpressionUUID->"cde09a05-4497-40d4-bec7-bae7103ac3a6"],
 
 Cell[BoxData[
  RowBox[{"Needs", "[", "\"\<PeterBurbery`LittleChildPaclet`\>\"", 
   "]"}]], "Input", "ExampleInitialization",
  CellLabel->"In[1]:=",
- CellID->636075012,ExpressionUUID->"9c0f6f86-03e1-479d-a2e3-9383f0fb9e28"]
+ CellID->636075012,ExpressionUUID->"9c0f6f86-03e1-479d-a2e3-9383f0fb9e28"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"99275926-a9c5-4b1f-906f-b051e63212aa"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"6f2a4f26-3ae3-4722-b9c2-223ac0d2322c"],
+ "Basic Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(3)", "ExampleCount",ExpressionUUID->
+  "3bfa645d-dac2-4ce4-98b6-8c62ca007963"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->285186968,ExpressionUUID->"8496e248-53dc-42b0-9dfe-8bfac6826ca0"],
+
+Cell["Perform a Caesar decipher with a shift of 2:", "ExampleText",
+ CellID->19866993,ExpressionUUID->"5f9c6cd9-dea2-42cd-9e2e-7532ce470496"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CaesarDecrypt", "[", 
+  RowBox[{"\"\<cdefg\>\"", ",", "2"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->978285,ExpressionUUID->"da5007ee-27f3-4cac-9a29-cd9165914ec5"],
+
+Cell[BoxData["\<\"abcde\"\>"], "Output",
+ CellLabel->"Out[1]=",
+ CellID->604226470,ExpressionUUID->"8dd89cb6-03bb-4036-9929-1a8debb274fc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\t", "ExampleDelimiter",ExpressionUUID->
+   "b7bd63f1-52c2-4d50-bb59-b582a1289480"],
+  $Line = 0; Null]], "ExampleDelimiter",
+ CellID->334381192,ExpressionUUID->"368b44a3-8c22-4715-a5e1-2fa1f9f9926a"],
+
+Cell["Decipher a text by shifting the letters 9 positions back:", \
+"ExampleText",
+ CellID->311331191,ExpressionUUID->"1bb5a160-f246-4dfd-8b3e-ac286cb18ed3"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CaesarDecrypt", "[", 
+  RowBox[{"\"\<Bjwmna\>\"", ",", "9"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->265867393,ExpressionUUID->"067ed4b8-8171-447b-be28-c2e6163a5bc5"],
+
+Cell[BoxData["\<\"Sander\"\>"], "Output",
+ CellLabel->"Out[1]=",
+ CellID->178107384,ExpressionUUID->"7b581c88-b1d0-419e-9c1f-b5bdf9c69066"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\t", "ExampleDelimiter",ExpressionUUID->
+   "575be11e-b466-4f85-8748-341e250d5e73"],
+  $Line = 0; Null]], "ExampleDelimiter",
+ CellID->53559031,ExpressionUUID->"eb5e5669-f75f-49d8-81c5-59cec3eb33cf"],
+
+Cell["\<\
+The function called CaesarDecrypt that takes two arguments, an encrypted text \
+in lowercase and a key, and outputs the decrypted message.\
+\>", "ExampleText",
+ CellID->228609230,ExpressionUUID->"aa082480-241d-489b-a0c1-0a884a1ae20f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CaesarDecrypt", "[", 
+  RowBox[{"\"\<dbu\>\"", ",", "1"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->223576076,ExpressionUUID->"4aac41b1-9986-4109-a6ad-331e39c3038a"],
+
+Cell[BoxData["\<\"cat\"\>"], "Output",
+ CellLabel->"Out[1]=",
+ CellID->562695525,ExpressionUUID->"c0494324-0cf1-4433-8d08-0cce038ba885"]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"7cf6b343-e6e3-46ec-aa37-2ad4fd544ad7"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"db5a28ca-1e11-408b-b1aa-619efa6ce66f"],
+ "Scope",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(3)", "ExampleCount",ExpressionUUID->
+  "c1092403-936d-45db-bf87-695f772e736e"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->24579743,ExpressionUUID->"05a1ff1b-4890-479a-aa43-03a7e812dc37"],
+
+Cell["\<\
+Cipher/decipher using a shift of n=13, also known at the ROT13 cipher:\
+\>", "ExampleText",
+ CellID->451640024,ExpressionUUID->"fe4d5901-2c59-45bf-a1bd-1f11c93f1b8f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CaesarDecrypt", "[", "\"\<Cheers!\>\"", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->65444307,ExpressionUUID->"7221edf4-ef56-4d33-81ff-553d7e5daf08"],
+
+Cell[BoxData["\<\"Purref!\"\>"], "Output",
+ CellLabel->"Out[1]=",
+ CellID->815568194,ExpressionUUID->"e303d989-2c76-42a9-a8bb-28223b55eb72"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CaesarDecrypt", "[", "\"\<Purref!\>\"", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[2]:=",
+ CellID->288295638,ExpressionUUID->"ea19c6dc-b88c-4eba-9457-347e107b17e0"],
+
+Cell[BoxData["\<\"Cheers!\"\>"], "Output",
+ CellLabel->"Out[2]=",
+ CellID->303664599,ExpressionUUID->"3480326c-2f8b-4fe7-9d01-f96bad1a4f68"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\t", "ExampleDelimiter",ExpressionUUID->
+   "a892d9b5-25c8-4bff-92c0-95741444c9b6"],
+  $Line = 0; Null]], "ExampleDelimiter",
+ CellID->8131086,ExpressionUUID->"a4c6b5d5-e83a-4a2e-a395-7141675f4ab6"],
+
+Cell["Decipher multiple strings:", "ExampleText",
+ CellID->677462570,ExpressionUUID->"9f2913bd-e221-401a-a6a8-632cda9de1a4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CaesarDecrypt", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"\"\<Fbjxtrj\>\"", ",", "\"\<ijanq\>\"", ",", "\"\<junh\>\""}], 
+    "}"}], ",", "5"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->451039300,ExpressionUUID->"061c509b-602e-4e49-b659-339c0dee3515"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"Awesome\"\>", ",", "\<\"devil\"\>", ",", "\<\"epic\"\>"}], 
+  "}"}]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->754409721,ExpressionUUID->"dc3ddcea-664c-4d98-8817-8d76de045ef9"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\t", "ExampleDelimiter",ExpressionUUID->
+   "672da7fe-8060-481f-84c3-59c17b58ce29"],
+  $Line = 0; Null]], "ExampleDelimiter",
+ CellID->378601359,ExpressionUUID->"2e1704e9-adf9-4cba-9826-0bbdc13a0d43"],
+
+Cell["\<\
+Create an operator form of the function that deciphers with a shift of 5:\
+\>", "ExampleText",
+ CellID->44765003,ExpressionUUID->"f4170687-2e00-44b2-83eb-8925c1ccf18a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"op", "=", 
+  RowBox[{"CaesarDecrypt", "[", "5", "]"}]}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->698889904,ExpressionUUID->"0fd161d2-9f5d-41a0-81c3-25cfcbd15831"],
+
+Cell[BoxData[
+ RowBox[{"CaesarDecrypt", "[", "5", "]"}]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->67102448,ExpressionUUID->"d5fa2fad-dca2-453c-bab5-7a8c5c92851b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"op", "[", "\"\<junh\>\"", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[2]:=",
+ CellID->63075674,ExpressionUUID->"679a7800-59d5-4a65-a5f4-e972fc5faacc"],
+
+Cell[BoxData["\<\"epic\"\>"], "Output",
+ CellLabel->"Out[2]=",
+ CellID->203985265,ExpressionUUID->"f6dcee4d-0b83-4ae4-b55b-d3c23709771c"]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"c1e90b57-cda7-49b0-8815-072f8b65d93b"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"581688cc-6077-435a-a0c6-99773a025a3e"],
+ "Applications",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(2)", "ExampleCount",ExpressionUUID->
+  "1f701305-bd49-4add-8b2d-1669778b764c"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->100240936,ExpressionUUID->"9a34e30c-811e-47c5-8e70-d619a3de5134"],
+
+Cell["Decipher a message:", "ExampleText",
+ CellID->12159865,ExpressionUUID->"ef761929-e918-4723-8322-76e77d10867c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CaesarDecrypt", "[", 
+  RowBox[{"\"\<Ocdn dn v yzxdkczmzy hznnvbz ajm tjp!\>\"", ",", "21"}], 
+  "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->33426703,ExpressionUUID->"b3f100d5-fef2-499d-b20e-991713187538"],
+
+Cell[BoxData["\<\"This is a deciphered message for you!\"\>"], "Output",
+ CellLabel->"Out[1]=",
+ CellID->578625353,ExpressionUUID->"d932a94b-f273-4842-9ee6-c792f0013540"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\t", "ExampleDelimiter",ExpressionUUID->
+   "9e5914d0-2e8c-43f4-af4c-7444d4826306"],
+  $Line = 0; Null]], "ExampleDelimiter",
+ CellID->472266934,ExpressionUUID->"08077f06-e3af-48da-b00e-32cbb18a4b21"],
+
+Cell["Decipher a message:", "ExampleText",
+ CellID->113702703,ExpressionUUID->"6a1dad82-6a22-41ab-bf8a-7c2d699b3484"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CaesarDecrypt", "[", 
+  RowBox[{"\"\<Iushuj cuiiqwu: Jxu Mebvhqc bqdwkqwu yi vkd!\>\"", ",", "16"}],
+   "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->318975043,ExpressionUUID->"70412952-91bc-4924-ba99-2b2d5cef1c97"],
+
+Cell[BoxData["\<\"Secret message: The Wolfram language is fun!\"\>"], "Output",
+ CellLabel->"Out[1]=",
+ CellID->449419483,ExpressionUUID->"cffab867-ee43-4d17-892d-d286fea89305"]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "4"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"c7d584f0-39c6-472f-abaf-782f0c5264ff"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"2d1c3d64-1e3c-41f7-8919-e42c899834b4"],
+ "Properties & Relations",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(2)", "ExampleCount",ExpressionUUID->
+  "2c2a4fe4-6ed9-4d18-bb62-b784c6667d2c"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->34595131,ExpressionUUID->"63009daa-a4eb-4b0d-b797-0a7b21b1e0de"],
+
+Cell["\<\
+Enciphering can be done using the deciphering function but with a negative \
+shift:\
+\>", "ExampleText",
+ CellID->7536541,ExpressionUUID->"e40cbe0d-39ce-47c9-802c-9c75d5955fd5"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"ResourceFunction", "[", "\"\<CaesarCipher\>\"", "]"}], "[", 
+   RowBox[{"\"\<This is a test.\>\"", ",", "10"}], "]"}], "===", 
+  RowBox[{"CaesarDecrypt", "[", 
+   RowBox[{"\"\<This is a test.\>\"", ",", 
+    RowBox[{"-", "10"}]}], "]"}]}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->559948309,ExpressionUUID->"0860711a-2a44-4e3e-9bba-f248a1539f60"],
+
+Cell[BoxData["True"], "Output",
+ CellLabel->"Out[1]=",
+ CellID->182124821,ExpressionUUID->"097114a5-9343-4819-b7be-7a6b75aa4fef"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\t", "ExampleDelimiter",ExpressionUUID->
+   "c5c2bb6f-3281-4075-871d-64c7c6d2b0cb"],
+  $Line = 0; Null]], "ExampleDelimiter",
+ CellID->52047558,ExpressionUUID->"e19deea2-73d5-439f-9fce-e97ab2ad119c"],
+
+Cell["\<\
+If the shift is an integer multiple of 26, the Caesar decipher does not \
+affect the input string:\
+\>", "ExampleText",
+ CellID->242341874,ExpressionUUID->"f2949186-047f-4f5f-86b7-58c7d6ee8cd9"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"CaesarDecrypt", "[", 
+    RowBox[{"\"\<Input equals output.\>\"", ",", 
+     RowBox[{"i", " ", "26"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", 
+     RowBox[{"-", "3"}], ",", "3"}], "}"}]}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->688904066,ExpressionUUID->"1894aca7-39cd-4146-aea0-188d7076201a"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"Input equals output.\"\>", ",", "\<\"Input equals output.\"\>",
+    ",", "\<\"Input equals output.\"\>", ",", "\<\"Input equals output.\"\>", 
+   ",", "\<\"Input equals output.\"\>", ",", "\<\"Input equals output.\"\>", 
+   ",", "\<\"Input equals output.\"\>"}], "}"}]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->99711064,ExpressionUUID->"fde34de0-91a9-4256-a9ab-eb786cc261fd"]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "4"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "5"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"dea5328e-ca93-4f31-9f83-1c740caf0d6b"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"ee37412d-f902-48c2-b446-5f8bebfda2d3"],
+ "Neat Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(2)", "ExampleCount",ExpressionUUID->
+  "872208da-24ce-4bbd-9a05-ef73edef0992"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->154625450,ExpressionUUID->"10296a51-20ba-4d6d-9257-3332787d5fdf"],
+
+Cell["\<\
+Try out all 25 options to decipher a message and find the original message:\
+\>", "ExampleText",
+ CellID->626790306,ExpressionUUID->"78297fef-8568-40f4-a223-592b2a70b050"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Grid", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"i", ",", 
+      RowBox[{"CaesarDecrypt", "[", 
+       RowBox[{"\"\<Hsle td esp dpncpe xpddlrp esle hp hlye?\>\"", ",", "i"}],
+        "]"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", "25"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->362751319,ExpressionUUID->"0846f011-0ad1-4e2d-8631-30e40bbfd494"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"1", "\<\"Grkd sc dro combod wocckqo drkd go gkxd?\"\>"},
+    {"2", "\<\"Fqjc rb cqn bnlanc vnbbjpn cqjc fn fjwc?\"\>"},
+    {"3", "\<\"Epib qa bpm amkzmb umaaiom bpib em eivb?\"\>"},
+    {"4", "\<\"Doha pz aol zljyla tlzzhnl aoha dl dhua?\"\>"},
+    {"5", "\<\"Cngz oy znk ykixkz skyygmk zngz ck cgtz?\"\>"},
+    {"6", "\<\"Bmfy nx ymj xjhwjy rjxxflj ymfy bj bfsy?\"\>"},
+    {"7", "\<\"Alex mw xli wigvix qiwweki xlex ai aerx?\"\>"},
+    {"8", "\<\"Zkdw lv wkh vhfuhw phvvdjh wkdw zh zdqw?\"\>"},
+    {"9", "\<\"Yjcv ku vjg ugetgv oguucig vjcv yg ycpv?\"\>"},
+    {"10", "\<\"Xibu jt uif tfdsfu nfttbhf uibu xf xbou?\"\>"},
+    {"11", "\<\"What is the secret message that we want?\"\>"},
+    {"12", "\<\"Vgzs hr sgd rdbqds ldrrzfd sgzs vd vzms?\"\>"},
+    {"13", "\<\"Ufyr gq rfc qcapcr kcqqyec rfyr uc uylr?\"\>"},
+    {"14", "\<\"Texq fp qeb pbzobq jbppxdb qexq tb txkq?\"\>"},
+    {"15", "\<\"Sdwp eo pda oaynap iaoowca pdwp sa swjp?\"\>"},
+    {"16", "\<\"Rcvo dn ocz nzxmzo hznnvbz ocvo rz rvio?\"\>"},
+    {"17", "\<\"Qbun cm nby mywlyn gymmuay nbun qy quhn?\"\>"},
+    {"18", "\<\"Patm bl max lxvkxm fxlltzx matm px ptgm?\"\>"},
+    {"19", "\<\"Ozsl ak lzw kwujwl ewkksyw lzsl ow osfl?\"\>"},
+    {"20", "\<\"Nyrk zj kyv jvtivk dvjjrxv kyrk nv nrek?\"\>"},
+    {"21", "\<\"Mxqj yi jxu iushuj cuiiqwu jxqj mu mqdj?\"\>"},
+    {"22", "\<\"Lwpi xh iwt htrgti bthhpvt iwpi lt lpci?\"\>"},
+    {"23", "\<\"Kvoh wg hvs gsqfsh asggous hvoh ks kobh?\"\>"},
+    {"24", "\<\"Jung vf gur frperg zrffntr gung jr jnag?\"\>"},
+    {"25", "\<\"Itmf ue ftq eqodqf yqeemsq ftmf iq imzf?\"\>"}
+   },
+   AutoDelete->False,
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->132705089,ExpressionUUID->"5e6f61f6-18fb-491c-b50a-5f578fafbe37"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\t", "ExampleDelimiter",ExpressionUUID->
+   "911d9b53-dcba-49d3-8331-0cab9aeada95"],
+  $Line = 0; Null]], "ExampleDelimiter",
+ CellID->134170743,ExpressionUUID->"d7f6ae32-0c07-4d5e-9f1f-7123ae639904"],
+
+Cell["Solve the Wolfram Challenge Breaking the Caesar Cipher:", "ExampleText",
+ CellID->58478986,ExpressionUUID->"42566688-bbc3-42b8-8ee7-beb979b2595f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CaesarDecrypt", "[", 
+  RowBox[{"\"\<vixviex\>\"", ",", "4"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->128363355,ExpressionUUID->"e2add787-8f83-4902-a229-fa3253b5ddef"],
+
+Cell[BoxData["\<\"retreat\"\>"], "Output",
+ CellLabel->"Out[1]=",
+ CellID->210423902,ExpressionUUID->"2efe0947-1c32-4c85-8d84-ea72ddfd7828"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CaesarDecrypt", "[", 
+  RowBox[{"\"\<jyddc\>\"", ",", "4"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[2]:=",
+ CellID->100676627,ExpressionUUID->"b6493845-20db-4914-a2f8-b49f27cb5096"],
+
+Cell[BoxData["\<\"fuzzy\"\>"], "Output",
+ CellLabel->"Out[2]=",
+ CellID->90394304,ExpressionUUID->"9ac8b30f-68b5-4e72-b696-f3c91e7b8f9a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CaesarDecrypt", "[", 
+  RowBox[{"\"\<hzwqclx\>\"", ",", "11"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[3]:=",
+ CellID->9576465,ExpressionUUID->"d3a8239e-4985-4c41-8d7d-b3d69dd580e7"],
+
+Cell[BoxData["\<\"wolfram\"\>"], "Output",
+ CellLabel->"Out[3]=",
+ CellID->300040927,ExpressionUUID->"a8f33e75-5ea6-4fcc-bac7-ec8dc8bf51cd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CaesarDecrypt", "[", 
+  RowBox[{"\"\<ingrrktmky\>\"", ",", "6"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[4]:=",
+ CellID->116245728,ExpressionUUID->"a26b4297-c9c7-4f83-89da-ce2e5fb153f4"],
+
+Cell[BoxData["\<\"challenges\"\>"], "Output",
+ CellLabel->"Out[4]=",
+ CellID->199850827,ExpressionUUID->"67c1d1c4-2b99-49b1-8fe1-8ed9e2424c47"]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "5"}, 
+  Closed]]]]
 }, Dynamic[CurrentValue[
  EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, 
   Closed]]]],
@@ -208,10 +1511,99 @@ Cell[BoxData[GridBox[{
         "4ce74efb-2055-4b65-98ad-ccfc9603eac4"]], "SeeAlso",ExpressionUUID->
         "0a0efa24-8f11-4623-9ebc-db97314d8ad5"]}
      }]}
-  }]], "SeeAlsoSection",ExpressionUUID->"57076865-495d-4493-a375-\
-022a427f26a7"],
+  }]], "SeeAlsoSection",ExpressionUUID->"d8dc8d14-dde9-4d78-b855-\
+659f8b65ce13"],
 
-Cell[" ", "FooterCell",ExpressionUUID->"5c7e775c-0cf2-44b0-96a4-432f187813a3"]
+Cell[BoxData[GridBox[{
+   {
+    DynamicBox[FEPrivate`ImportImage[
+      FrontEnd`FileName[{"Documentation", "FooterIcons"}, "RelatedGuide.png"]],
+     ImageSizeCache->{50., {27., 33.}}], GridBox[{
+      {
+       StyleBox[
+        RowBox[{"Related", " ", "Guides"}], "MoreAboutSection"]},
+      {
+       RowBox[{"\[FilledVerySmallSquare]", Cell[BoxData[
+         TemplateBox[{
+           Cell[
+            TextData["Wolfram Challenges Mathematics"]], 
+           "paclet:PeterBurbery/LittleChildPaclet/guide/\
+WolframChallengesMathematics"},
+          "RefLinkPlain",
+          BaseStyle->{"MoreAbout"}]], "MoreAbout",ExpressionUUID->
+         "c251dc88-51a7-40fc-b921-a9399c75be3e"]}]},
+      {
+       RowBox[{"\[FilledVerySmallSquare]", Cell[BoxData[
+         TemplateBox[{
+           Cell[
+            TextData["Wolfram Challenges Words and Linguistics"]], 
+           "paclet:PeterBurbery/LittleChildPaclet/guide/\
+WolframChallengesWordsandLinguistics"},
+          "RefLinkPlain",
+          BaseStyle->{"MoreAbout"}]], "MoreAbout",ExpressionUUID->
+         "8caa9ad6-42e1-4d95-a23c-17b986431180"]}]}
+     }]}
+  }]], "MoreAboutSection",ExpressionUUID->"dd3b7d60-51a9-4917-9545-\
+f96e5508b487"],
+
+Cell[BoxData[GridBox[{
+   {
+    TemplateBox[{29},
+     "Spacer1"], GridBox[{
+      {
+       RowBox[{
+        TemplateBox[{17},
+         "Spacer1"], 
+        StyleBox[
+         RowBox[{"Related", " ", "Links"}], "RelatedLinksSection"]}]},
+      {Cell[TextData[Cell[BoxData[
+        TemplateBox[{
+          Cell[
+           TextData[
+            Cell[
+             TextData[{
+               Cell[
+                BoxData[
+                 DynamicBox[
+                  FEPrivate`ImportImage[
+                   
+                   FrontEnd`FileName[{"Documentation", "FooterIcons"}, 
+                    "RelatedLinks-FunctionRepository.png"]]]]], 
+               Cell[
+                BoxData[
+                 TemplateBox[{4}, "Spacer1"]]], 
+               "CaesarDecipher ResourceFunction by Sander Huisman"}]]]], 
+          "https://resources.wolframcloud.com/FunctionRepository/resources/\
+CaesarDecipher/"},
+         "WebLink",
+         BaseStyle->{"RelatedLinks"}]],ExpressionUUID->
+        "b37c8ecb-e28b-4744-98ec-cbc38e8288d2"]], "RelatedLinks",
+        ExpressionUUID->"9a1806c3-c60e-44ba-b557-f405d62b1928"]},
+      {Cell[TextData[Cell[BoxData[
+        RowBox[{
+         TemplateBox[{16},
+          "Spacer1"], "\[FilledVerySmallSquare]", Cell[BoxData[
+          TemplateBox[{
+            Cell[
+             TextData[
+              Cell[
+               TextData[{
+                 Cell[
+                  BoxData[
+                   TemplateBox[{2}, "Spacer1"]]], 
+                 "Breaking the Caesar Cipher \[RightGuillemet]"}]]]], 
+            "https://challenges.wolframcloud.com/challenge/breaking-the-\
+caesar-cipher"},
+           "WebLink",
+           BaseStyle->{"RelatedLinks"}]],ExpressionUUID->
+          "b69478a1-5fce-4e38-b16f-b904289c022f"]}]],ExpressionUUID->
+        "c04bb7e8-be59-4fef-8536-fa354ea64177"]], "RelatedLinks",
+        ExpressionUUID->"c03d1d6d-ce07-41ca-af24-e4e5fdb40957"]}
+     }]}
+  }]], "RelatedLinksSection",ExpressionUUID->"f67150ff-886e-460d-bc65-\
+9b5d45ce60f6"],
+
+Cell[" ", "FooterCell",ExpressionUUID->"199d16f8-9e6d-49f0-8621-42df7d4d99e5"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",
@@ -222,19 +1614,26 @@ TaggingRules->{
  "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
   "HasOptions" -> True, "ExampleCounter" -> 1, 
   "Openers" -> {
-   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
-  "NewStyles" -> True, "CitationPopupData" -> $Failed, "ShowCitation" -> 
-  False, "RootCaptions" -> "", 
-  "Metadata" -> {
-   "built" -> "{2023, 6, 6, 18, 33, 44.7844893}", 
+   "PrimaryExamplesSection" -> Open, 
+    "ExampleSection" -> {
+     "0" -> Open, "1" -> Closed, "3" -> Closed, "4" -> Closed, "5" -> Closed},
+     "NotesSection" -> Closed}, "NewStyles" -> True, 
+  "CitationPopupData" -> $Failed, "ShowCitation" -> False, "RootCaptions" -> 
+  "", "Metadata" -> {
+   "built" -> "{2023, 6, 6, 20, 15, 23.3095974}", 
     "history" -> {"XX", "", "", ""}, "context" -> 
     "PeterBurbery`LittleChildPaclet`", "keywords" -> {}, 
     "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
      "label" -> "Peter Burbery/ Little Child Paclet Symbol", "language" -> 
     "en", "paclet" -> "PeterBurbery/LittleChildPaclet", "status" -> "None", 
-    "summary" -> "CaesarDecrypt[] XXXX", "synonyms" -> {}, "tabletags" -> {}, 
-    "title" -> "CaesarDecrypt", "titlemodifier" -> "", "metadescription" -> 
-    "", "windowtitle" -> "CaesarDecrypt", "type" -> "Symbol", "uri" -> 
+    "summary" -> 
+    "CaesarDecrypt[string, n] deciphers a Caesar-enciphered string that was \
+enciphered by shifting letters in string by n places further in the Latin \
+alphabet. CaesarDecrypt[{s1, s2, ...}, n] deciphers each string si \
+CaesarDecrypt[n] represents an operator form of CaesarDecipher that can be \
+applied to an expression.", "synonyms" -> {}, "tabletags" -> {}, "title" -> 
+    "CaesarDecrypt", "titlemodifier" -> "", "metadescription" -> "", 
+    "windowtitle" -> "CaesarDecrypt", "type" -> "Symbol", "uri" -> 
     "PeterBurbery/LittleChildPaclet/ref/CaesarDecrypt"}},
 CellContext->"Global`",
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
@@ -248,7 +1647,7 @@ StyleDefinitions->Notebook[{
     StyleData["Output"], CellContext -> "Global`"]}, Visible -> False, 
   FrontEndVersion -> "13.3 for Microsoft Windows (64-bit) (May 18, 2023)", 
   StyleDefinitions -> "Default.nb"],
-ExpressionUUID->"3887bdcc-00ad-40b3-b3d3-8043c12b7344"
+ExpressionUUID->"2841ca4f-956d-48df-93f9-dec454f53393"
 ]
 (* End of Notebook Content *)
 
@@ -256,35 +1655,258 @@ ExpressionUUID->"3887bdcc-00ad-40b3-b3d3-8043c12b7344"
 (*CellTagsOutline
 CellTagsIndex->{
  "PrimaryExamplesSection"->{
-  Cell[5480, 145, 1419, 37, 70, "PrimaryExamplesSection",ExpressionUUID->"defbcae1-23cf-48e9-8032-30087d5b6dc4",
+  Cell[39321, 809, 1421, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"cde09a05-4497-40d4-bec7-bae7103ac3a6",
    CellTags->"PrimaryExamplesSection",
-   CellID->80003832]}
+   CellID->339131033]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"PrimaryExamplesSection", 9876, 257}
+ {"PrimaryExamplesSection", 69273, 1656}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[585, 21, 3505, 81, 70, "AnchorBarGrid",ExpressionUUID->"51b47f57-e84e-466e-a21d-bca49e280620",
+Cell[585, 21, 4809, 115, 56, "AnchorBarGrid",ExpressionUUID->"3f926bd7-3907-4097-8ca5-ad68937006f6",
  CellID->1],
-Cell[4093, 104, 113, 0, 70, "ContextNameCell",ExpressionUUID->"7a7539d0-4754-41c9-8a61-69cd71110553"],
+Cell[5397, 138, 113, 0, 23, "ContextNameCell",ExpressionUUID->"5ec44c43-7293-4f76-9292-d0f06463074f"],
 Cell[CellGroupData[{
-Cell[4231, 108, 556, 14, 70, "ObjectNameGrid",ExpressionUUID->"bbb2d79d-5da3-4a1b-ba2e-ade372f2eedb"],
-Cell[4790, 124, 653, 16, 70, "Usage",ExpressionUUID->"d4613dd0-ede0-41b7-86ec-c355553e39b3",
+Cell[5535, 142, 556, 14, 56, "ObjectNameGrid",ExpressionUUID->"4993039c-31f2-449d-afc0-5b3d529f8130"],
+Cell[6094, 158, 2286, 57, 260, "Usage",ExpressionUUID->"d4613dd0-ede0-41b7-86ec-c355553e39b3",
  CellID->11359370]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5480, 145, 1419, 37, 70, "PrimaryExamplesSection",ExpressionUUID->"defbcae1-23cf-48e9-8032-30087d5b6dc4",
+Cell[8417, 220, 1919, 48, 37, "NotesSection",ExpressionUUID->"977692de-6a67-43c0-8fef-d04048b8963e",
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellID->287470641],
+Cell[10339, 270, 294, 5, 70, "Notes",ExpressionUUID->"1d85bc22-1960-492b-af01-f336369a23f0",
+ CellID->289887520],
+Cell[10636, 277, 23101, 383, 70, "Notes",ExpressionUUID->"592ec71c-c3f7-4722-a358-38937c1b693c",
+ CellID->13174814],
+Cell[33740, 662, 312, 8, 70, "Notes",ExpressionUUID->"250a8711-8048-45a4-833e-300277bccbbd",
+ CellID->93897284],
+Cell[34055, 672, 144, 1, 70, "Notes",ExpressionUUID->"2a7a2047-4dd7-476d-a4d9-348e8cc5625d",
+ CellID->25399668],
+Cell[34202, 675, 139, 1, 70, "Notes",ExpressionUUID->"17f0b0bf-6ad3-403e-a1e1-0dc76d2c11ca",
+ CellID->137554373],
+Cell[34344, 678, 140, 1, 70, "Notes",ExpressionUUID->"a9684067-515a-4005-a81a-0f497187a03a",
+ CellID->547255390],
+Cell[34487, 681, 314, 5, 70, "Notes",ExpressionUUID->"c579da94-9da6-48ca-8aa1-db6832faab4e",
+ CellID->56587845],
+Cell[34804, 688, 354, 6, 70, "Notes",ExpressionUUID->"ceb74540-7baa-4f46-a9f5-fec97475527a",
+ CellID->190560588],
+Cell[35161, 696, 163, 3, 70, "Notes",ExpressionUUID->"fe99d329-6478-4d1e-a786-2abe11eeb91f",
+ CellID->86147963],
+Cell[CellGroupData[{
+Cell[35349, 703, 308, 8, 70, "Input",ExpressionUUID->"ae682fa7-a5e7-4f9f-a5e6-365acde4ce79",
+ CellID->143336250],
+Cell[35660, 713, 1607, 30, 51, "Output",ExpressionUUID->"566aa034-229e-4ad4-be4b-2361cc113e0f",
+ CellID->101649752]
+}, Open  ]],
+Cell[37282, 746, 197, 4, 70, "ExampleText",ExpressionUUID->"a2c17cdf-4842-491e-9c04-06d96fe5e258",
+ CellID->311763645],
+Cell[CellGroupData[{
+Cell[37504, 754, 420, 11, 70, "Input",ExpressionUUID->"05f17941-0e93-4071-89c6-88179a9574dc",
+ CellID->95407889],
+Cell[37927, 767, 140, 2, 35, "Output",ExpressionUUID->"5be3608e-6619-4bf2-8118-ea90dbc45f01",
+ CellID->117242475]
+}, Open  ]],
+Cell[38082, 772, 195, 4, 70, "ExampleText",ExpressionUUID->"448e1597-bf0a-4c04-b4ac-501a0dae2a98",
+ CellID->860409746],
+Cell[CellGroupData[{
+Cell[38302, 780, 418, 11, 70, "Input",ExpressionUUID->"d4f1e53e-025b-49ec-a025-4b1e6b620bdb",
+ CellID->95680880],
+Cell[38723, 793, 138, 2, 35, "Output",ExpressionUUID->"50198f3f-5655-4465-a86a-db22914cfbc6",
+ CellID->556523329]
+}, Open  ]],
+Cell[38876, 798, 318, 5, 70, "ExampleText",ExpressionUUID->"1dbbc498-b1db-4ecd-aa89-aac9eec8918e",
+ CellID->89506795]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[39321, 809, 1421, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"cde09a05-4497-40d4-bec7-bae7103ac3a6",
  CellTags->"PrimaryExamplesSection",
- CellID->80003832],
-Cell[6902, 184, 222, 4, 70, "Input",ExpressionUUID->"9c0f6f86-03e1-479d-a2e3-9383f0fb9e28",
- CellID->636075012]
+ CellID->339131033],
+Cell[40745, 848, 222, 4, 26, "Input",ExpressionUUID->"9c0f6f86-03e1-479d-a2e3-9383f0fb9e28",
+ CellID->636075012],
+Cell[CellGroupData[{
+Cell[40992, 856, 1398, 36, 30, "ExampleSection",ExpressionUUID->"8496e248-53dc-42b0-9dfe-8bfac6826ca0",
+ CellID->285186968],
+Cell[42393, 894, 141, 1, 38, "ExampleText",ExpressionUUID->"5f9c6cd9-dea2-42cd-9e2e-7532ce470496",
+ CellID->19866993],
+Cell[CellGroupData[{
+Cell[42559, 899, 251, 5, 26, "Input",ExpressionUUID->"da5007ee-27f3-4cac-9a29-cd9165914ec5",
+ CellID->978285],
+Cell[42813, 906, 138, 2, 35, "Output",ExpressionUUID->"8dd89cb6-03bb-4036-9929-1a8debb274fc",
+ CellID->604226470]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42988, 913, 242, 5, 13, "ExampleDelimiter",ExpressionUUID->"368b44a3-8c22-4715-a5e1-2fa1f9f9926a",
+ CellID->334381192],
+Cell[43233, 920, 157, 2, 38, "ExampleText",ExpressionUUID->"1bb5a160-f246-4dfd-8b3e-ac286cb18ed3",
+ CellID->311331191],
+Cell[CellGroupData[{
+Cell[43415, 926, 255, 5, 70, "Input",ExpressionUUID->"067ed4b8-8171-447b-be28-c2e6163a5bc5",
+ CellID->265867393],
+Cell[43673, 933, 139, 2, 35, "Output",ExpressionUUID->"7b581c88-b1d0-419e-9c1f-b5bdf9c69066",
+ CellID->178107384]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[43861, 941, 241, 5, 70, "ExampleDelimiter",ExpressionUUID->"eb5e5669-f75f-49d8-81c5-59cec3eb33cf",
+ CellID->53559031],
+Cell[44105, 948, 244, 4, 70, "ExampleText",ExpressionUUID->"aa082480-241d-489b-a0c1-0a884a1ae20f",
+ CellID->228609230],
+Cell[CellGroupData[{
+Cell[44374, 956, 252, 5, 70, "Input",ExpressionUUID->"4aac41b1-9986-4109-a6ad-331e39c3038a",
+ CellID->223576076],
+Cell[44629, 963, 136, 2, 35, "Output",ExpressionUUID->"c0494324-0cf1-4433-8d08-0cce038ba885",
+ CellID->562695525]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[44926, 974, 1411, 37, 70, "ExampleSection",ExpressionUUID->"05a1ff1b-4890-479a-aa43-03a7e812dc37",
+ CellID->24579743],
+Cell[46340, 1013, 176, 3, 70, "ExampleText",ExpressionUUID->"fe4d5901-2c59-45bf-a1bd-1f11c93f1b8f",
+ CellID->451640024],
+Cell[CellGroupData[{
+Cell[46541, 1020, 232, 4, 70, "Input",ExpressionUUID->"7221edf4-ef56-4d33-81ff-553d7e5daf08",
+ CellID->65444307],
+Cell[46776, 1026, 140, 2, 35, "Output",ExpressionUUID->"e303d989-2c76-42a9-a8bb-28223b55eb72",
+ CellID->815568194]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46953, 1033, 233, 4, 70, "Input",ExpressionUUID->"ea19c6dc-b88c-4eba-9457-347e107b17e0",
+ CellID->288295638],
+Cell[47189, 1039, 140, 2, 35, "Output",ExpressionUUID->"3480326c-2f8b-4fe7-9d01-f96bad1a4f68",
+ CellID->303664599]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47366, 1046, 240, 5, 70, "ExampleDelimiter",ExpressionUUID->"a4c6b5d5-e83a-4a2e-a395-7141675f4ab6",
+ CellID->8131086],
+Cell[47609, 1053, 124, 1, 70, "ExampleText",ExpressionUUID->"9f2913bd-e221-401a-a6a8-632cda9de1a4",
+ CellID->677462570],
+Cell[CellGroupData[{
+Cell[47758, 1058, 343, 8, 70, "Input",ExpressionUUID->"061c509b-602e-4e49-b659-339c0dee3515",
+ CellID->451039300],
+Cell[48104, 1068, 221, 5, 35, "Output",ExpressionUUID->"dc3ddcea-664c-4d98-8817-8d76de045ef9",
+ CellID->754409721]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[48374, 1079, 242, 5, 70, "ExampleDelimiter",ExpressionUUID->"2e1704e9-adf9-4cba-9826-0bbdc13a0d43",
+ CellID->378601359],
+Cell[48619, 1086, 178, 3, 70, "ExampleText",ExpressionUUID->"f4170687-2e00-44b2-83eb-8925c1ccf18a",
+ CellID->44765003],
+Cell[CellGroupData[{
+Cell[48822, 1093, 243, 5, 70, "Input",ExpressionUUID->"0fd161d2-9f5d-41a0-81c3-25cfcbd15831",
+ CellID->698889904],
+Cell[49068, 1100, 164, 3, 35, "Output",ExpressionUUID->"d5fa2fad-dca2-453c-bab5-7a8c5c92851b",
+ CellID->67102448]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[49269, 1108, 218, 4, 70, "Input",ExpressionUUID->"679a7800-59d5-4a65-a5f4-e972fc5faacc",
+ CellID->63075674],
+Cell[49490, 1114, 137, 2, 35, "Output",ExpressionUUID->"f6dcee4d-0b83-4ae4-b55b-d3c23709771c",
+ CellID->203985265]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[49788, 1125, 1419, 37, 70, "ExampleSection",ExpressionUUID->"9a34e30c-811e-47c5-8e70-d619a3de5134",
+ CellID->100240936],
+Cell[51210, 1164, 116, 1, 70, "ExampleText",ExpressionUUID->"ef761929-e918-4723-8322-76e77d10867c",
+ CellID->12159865],
+Cell[CellGroupData[{
+Cell[51351, 1169, 289, 6, 70, "Input",ExpressionUUID->"b3f100d5-fef2-499d-b20e-991713187538",
+ CellID->33426703],
+Cell[51643, 1177, 170, 2, 35, "Output",ExpressionUUID->"d932a94b-f273-4842-9ee6-c792f0013540",
+ CellID->578625353]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51850, 1184, 242, 5, 70, "ExampleDelimiter",ExpressionUUID->"08077f06-e3af-48da-b00e-32cbb18a4b21",
+ CellID->472266934],
+Cell[52095, 1191, 117, 1, 70, "ExampleText",ExpressionUUID->"6a1dad82-6a22-41ab-bf8a-7c2d699b3484",
+ CellID->113702703],
+Cell[CellGroupData[{
+Cell[52237, 1196, 297, 6, 70, "Input",ExpressionUUID->"70412952-91bc-4924-ba99-2b2d5cef1c97",
+ CellID->318975043],
+Cell[52537, 1204, 177, 2, 35, "Output",ExpressionUUID->"cffab867-ee43-4d17-892d-d286fea89305",
+ CellID->449419483]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[52875, 1215, 1428, 37, 70, "ExampleSection",ExpressionUUID->"63009daa-a4eb-4b0d-b797-0a7b21b1e0de",
+ CellID->34595131],
+Cell[54306, 1254, 187, 4, 70, "ExampleText",ExpressionUUID->"e40cbe0d-39ce-47c9-802c-9c75d5955fd5",
+ CellID->7536541],
+Cell[CellGroupData[{
+Cell[54518, 1262, 449, 10, 70, "Input",ExpressionUUID->"0860711a-2a44-4e3e-9bba-f248a1539f60",
+ CellID->559948309],
+Cell[54970, 1274, 129, 2, 35, "Output",ExpressionUUID->"097114a5-9343-4819-b7be-7a6b75aa4fef",
+ CellID->182124821]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[55136, 1281, 241, 5, 70, "ExampleDelimiter",ExpressionUUID->"e19deea2-73d5-439f-9fce-e97ab2ad119c",
+ CellID->52047558],
+Cell[55380, 1288, 204, 4, 70, "ExampleText",ExpressionUUID->"f2949186-047f-4f5f-86b7-58c7d6ee8cd9",
+ CellID->242341874],
+Cell[CellGroupData[{
+Cell[55609, 1296, 434, 11, 70, "Input",ExpressionUUID->"1894aca7-39cd-4146-aea0-188d7076201a",
+ CellID->688904066],
+Cell[56046, 1309, 421, 7, 51, "Output",ExpressionUUID->"fde34de0-91a9-4256-a9ab-eb786cc261fd",
+ CellID->99711064]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "4"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[56628, 1325, 1420, 37, 70, "ExampleSection",ExpressionUUID->"10296a51-20ba-4d6d-9257-3332787d5fdf",
+ CellID->154625450],
+Cell[58051, 1364, 181, 3, 70, "ExampleText",ExpressionUUID->"78297fef-8568-40f4-a223-592b2a70b050",
+ CellID->626790306],
+Cell[CellGroupData[{
+Cell[58257, 1371, 496, 13, 70, "Input",ExpressionUUID->"0846f011-0ad1-4e2d-8631-30e40bbfd494",
+ CellID->362751319],
+Cell[58756, 1386, 1845, 32, 408, "Output",ExpressionUUID->"5e6f61f6-18fb-491c-b50a-5f578fafbe37",
+ CellID->132705089]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[60638, 1423, 242, 5, 70, "ExampleDelimiter",ExpressionUUID->"d7f6ae32-0c07-4d5e-9f1f-7123ae639904",
+ CellID->134170743],
+Cell[60883, 1430, 152, 1, 70, "ExampleText",ExpressionUUID->"42566688-bbc3-42b8-8ee7-beb979b2595f",
+ CellID->58478986],
+Cell[CellGroupData[{
+Cell[61060, 1435, 256, 5, 70, "Input",ExpressionUUID->"e2add787-8f83-4902-a229-fa3253b5ddef",
+ CellID->128363355],
+Cell[61319, 1442, 140, 2, 35, "Output",ExpressionUUID->"2efe0947-1c32-4c85-8d84-ea72ddfd7828",
+ CellID->210423902]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[61496, 1449, 254, 5, 70, "Input",ExpressionUUID->"b6493845-20db-4914-a2f8-b49f27cb5096",
+ CellID->100676627],
+Cell[61753, 1456, 137, 2, 35, "Output",ExpressionUUID->"9ac8b30f-68b5-4e72-b696-f3c91e7b8f9a",
+ CellID->90394304]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[61927, 1463, 255, 5, 70, "Input",ExpressionUUID->"d3a8239e-4985-4c41-8d7d-b3d69dd580e7",
+ CellID->9576465],
+Cell[62185, 1470, 140, 2, 35, "Output",ExpressionUUID->"a8f33e75-5ea6-4fcc-bac7-ec8dc8bf51cd",
+ CellID->300040927]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[62362, 1477, 259, 5, 70, "Input",ExpressionUUID->"a26b4297-c9c7-4f83-89da-ce2e5fb153f4",
+ CellID->116245728],
+Cell[62624, 1484, 143, 2, 35, "Output",ExpressionUUID->"67c1d1c4-2b99-49b1-8fe1-8ed9e2424c47",
+ CellID->199850827]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "5"}, Closed]]]]
 }, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
-Cell[7242, 193, 699, 18, 70, "SeeAlsoSection",ExpressionUUID->"57076865-495d-4493-a375-022a427f26a7"],
-Cell[7944, 213, 78, 0, 70, "FooterCell",ExpressionUUID->"5c7e775c-0cf2-44b0-96a4-432f187813a3"]
+Cell[63021, 1496, 699, 18, 70, "SeeAlsoSection",ExpressionUUID->"d8dc8d14-dde9-4d78-b855-659f8b65ce13"],
+Cell[63723, 1516, 1195, 30, 70, "MoreAboutSection",ExpressionUUID->"dd3b7d60-51a9-4917-9545-f96e5508b487"],
+Cell[64921, 1548, 2013, 55, 70, "RelatedLinksSection",ExpressionUUID->"f67150ff-886e-460d-bc65-9b5d45ce60f6"],
+Cell[66937, 1605, 78, 0, 70, "FooterCell",ExpressionUUID->"199d16f8-9e6d-49f0-8621-42df7d4d99e5"]
 }
 ]
 *)

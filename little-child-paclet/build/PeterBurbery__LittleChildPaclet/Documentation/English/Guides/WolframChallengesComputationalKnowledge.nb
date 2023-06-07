@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      8036,        195]
-NotebookOptionsPosition[      5487,        140]
-NotebookOutlinePosition[      7229,        182]
-CellTagsIndexPosition[      7186,        179]
+NotebookDataLength[     11063,        275]
+NotebookOptionsPosition[      8277,        216]
+NotebookOutlinePosition[     10019,        258]
+CellTagsIndexPosition[      9976,        255]
 WindowTitle->Wolfram Challenges Computational Knowledge
 WindowFrame->Normal*)
 
@@ -28,81 +28,116 @@ Cell[BoxData[GridBox[{
            "Spacer1"], Cell[
           "PETER BURBERY/ LITTLE CHILD PACLET GUIDE", "PacletNameCell",
            TextAlignment->Center,ExpressionUUID->
-           "d720ff4a-fd34-4453-a9dc-8b9837ab6e6e"], 
+           "4fc7eceb-2b25-4d82-8dd8-7f2524180485"], 
           TemplateBox[{8},
            "Spacer1"]}]],
          TextAlignment->Center,ExpressionUUID->
-         "388c8553-6028-473c-beda-59dfb89e3339"],
+         "b3c4649a-e0d1-448a-b52c-313079dddf32"],
         Background->RGBColor[0.85098, 0.396078, 0],
         ItemSize->Full], ""}
      },
      GridBoxAlignment->{"Rows" -> {{Center}}},
      GridBoxItemSize->{"Columns" -> {Full, 
-         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[Cell[BoxData[
-     TagBox[
-      ActionMenuBox[
-       FrameBox[Cell[TextData[{
-         "URL",
-         " ",
-         Cell[BoxData[
-          GraphicsBox[
-           {GrayLevel[0.66667], Thickness[0.13], 
-            LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
-           AspectRatio->1,
-           ImageSize->20,
-           PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
-          "b62e0f99-41c1-4d0d-8600-4f1db7acc575"]
-        }],ExpressionUUID->"1a4d5cb0-7b1b-4923-8453-cd078a9e3206"],
-        StripOnInput->False],{
-       "\"PeterBurbery/LittleChildPaclet/guide/\
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Functions",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "b2b5dd9c-e297-43e8-bcc4-9fefb2ac480a"]
+         }],ExpressionUUID->"7d9975fb-45b8-4567-8141-f854d120598c"],
+         StripOnInput->False],{
+        "\"AlmostPalindrome\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/AlmostPalindrome"], 
+         "\"AntipodalCity\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/AntipodalCity"], 
+         "\"AntipodeAboveSeaLevelQ\"" :> 
+         Documentation`HelpLookup[
+          "paclet:PeterBurbery/LittleChildPaclet/ref/AntipodeAboveSeaLevelQ"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"GuideFunction"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "973ab842-8b8b-4215-bb4e-12cc826a4ca6"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "500fa3aa-17ff-40e8-b421-3dae25bc2c7b"]
+         }],ExpressionUUID->"0bd60959-ae06-4ffd-abf6-339b7ce0843d"],
+         StripOnInput->False],{
+        "\"PeterBurbery/LittleChildPaclet/guide/\
 WolframChallengesComputationalKnowledge\"" :> None, 
-        "\"Copy Wolfram Documentation Center URL\"" :> 
-        Module[{DocumentationSearch`Private`nb$}, 
-          DocumentationSearch`Private`nb$ = 
-           NotebookPut[
-            Notebook[{
-              Cell["PeterBurbery/LittleChildPaclet/guide/\
+         "\"Copy Wolfram Documentation Center URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell["PeterBurbery/LittleChildPaclet/guide/\
 WolframChallengesComputationalKnowledge"]}, Visible -> False]]; 
-          SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
-          FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
-          NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
-        "\"Copy web URL\"" :> 
-        Module[{DocumentationSearch`Private`nb$}, 
-          DocumentationSearch`Private`nb$ = 
-           NotebookPut[
-            Notebook[{
-              Cell[BoxData[
-                MakeBoxes[
-                 Hyperlink[
-                  "http://reference.wolfram.com/language/PeterBurbery/\
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
+         "\"Copy web URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell[BoxData[
+                 MakeBoxes[
+                  Hyperlink[
+                   "http://reference.wolfram.com/language/PeterBurbery/\
 LittleChildPaclet/guide/WolframChallengesComputationalKnowledge.html"], 
-                  StandardForm]], "Input", TextClipboardType -> "PlainText"]},
-               Visible -> False]]; 
-          SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
-          FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
-          NotebookClose[DocumentationSearch`Private`nb$]; Null], 
-        "\"Go to web URL\"" :> 
-        FrontEndExecute[{
-          NotebookLocate[{
-            URL[If[TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$36014], 
-                "http://reference.wolfram.com/system-modeler/", 
-                "http://reference.wolfram.com/language/"] <> 
-              "PeterBurbery/LittleChildPaclet/guide/\
+                   StandardForm]], "Input", TextClipboardType -> 
+                 "PlainText"]}, Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+         "\"Go to web URL\"" :> 
+         FrontEndExecute[{
+           NotebookLocate[{
+             URL[If[TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$37523], 
+                 "http://reference.wolfram.com/system-modeler/", 
+                 "http://reference.wolfram.com/language/"] <> 
+               "PeterBurbery/LittleChildPaclet/guide/\
 WolframChallengesComputationalKnowledge" <> ".html"], None}]}]},
-       Appearance->None,
-       MenuAppearance->Automatic,
-       MenuStyle->"URLMenu"],
-      MouseAppearanceTag["LinkHand"]]],
-     LineSpacing->{1.4, 0},ExpressionUUID->
-     "744e84df-a49c-4b25-b93e-7798f31f758a"]], "AnchorBar",
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "0f85df5c-8e3a-4e30-8509-74f507a261c3"]
+    }], "AnchorBar",
      CacheGraphics->False,ExpressionUUID->
-     "bef16c06-7b61-4d66-ac7f-b065c4b7640e"]}
+     "78f07410-3d41-4e5f-8110-155a55cf2b8a"]}
   }]], "AnchorBarGrid",
  GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
      Scaled[0.65], {
       Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
    "RowsIndexed" -> {}}},
- CellID->1,ExpressionUUID->"5e44f69a-11b1-47b9-8ad5-43bf790c1ef4"],
+ CellID->1,ExpressionUUID->"7485bdd8-8cce-421d-adfb-2223d4d9f454"],
 
 Cell[CellGroupData[{
 
@@ -110,12 +145,19 @@ Cell["Wolfram Challenges Computational Knowledge", "GuideTitle",
  CellID->330726908,ExpressionUUID->"3c160c8b-a3da-4fb8-b849-d4cd2ff96403"],
 
 Cell["\[NonBreakingSpace]", "GuideAbstract",
- CellID->64897538,ExpressionUUID->"dc60d20a-d168-4e26-a4a6-6b3f80a8191e"],
+ CellID->10773592,ExpressionUUID->"114586f3-6123-4ed3-b3b0-c3f1f5ae6b10"],
 
-Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"cca674ce-9f77-4f54-b871-e3a87c19a49d"],
+Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"197a1758-7c5e-4802-8036-c672c84b662e"],
 
 Cell[TextData[{
- Cell["AlmostPalindrome", "InlineFunctionSansUnlinked",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["AlmostPalindrome"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/AlmostPalindrome", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
   CellTags->"c40ac8e4-27e1-4161-a8df-4d4f38357a23",ExpressionUUID->
   "b8f35136-858e-442b-a4b8-e4808119573a"],
  " ",
@@ -124,6 +166,40 @@ Cell[TextData[{
 }], "GuideText",
  CellID->238739369,ExpressionUUID->"f68c95c0-4a2c-4469-9349-d3dbee3cf600"],
 
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["AntipodalCity"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/AntipodalCity", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"c40ac8e4-27e1-4161-a8df-4d4f38357a23",ExpressionUUID->
+  "8800ab35-90f1-4348-9910-70445c676efa"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Find the city that is closest to the antipode of a given location on Earth."
+}], "GuideText",
+ CellID->15948173,ExpressionUUID->"5887dc9c-4831-4eb2-bdb7-9b5f5d3cc969"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["AntipodeAboveSeaLevelQ"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/AntipodeAboveSeaLevelQ", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"c5c6736a-1ff4-4e4e-8fcf-2d9846cbae62",ExpressionUUID->
+  "7696ae1c-6343-4360-ae99-b962600fadee"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Find whether the antipode of a point on Earth is above sea level."
+}], "GuideText",
+ CellID->650899828,ExpressionUUID->"375e4e7d-63c1-4f40-bc3c-1e6c425a34ad"],
+
 Cell["\t", "GuideDelimiter",
  CellID->547779727,ExpressionUUID->"6eac718c-145b-4811-b6c9-52edc68e4c39"],
 
@@ -131,11 +207,11 @@ Cell[TextData[Cell["\<\
 
 FrameBox[\"\\\"XXXX\\\"\"]\
 \>", "FunctionPlaceholder", \
-"InlineFunctionSansUnlinked",ExpressionUUID->"34395996-9a49-43d1-b213-\
-e4da2b0a1661"]], "InlineGuideFunctionListing",
+"InlineFunctionSansUnlinked",ExpressionUUID->"b1718b0c-d9cd-43ca-9d0b-\
+edee2214abd1"]], "InlineGuideFunctionListing",
  CellID->51364086,ExpressionUUID->"dab3d7e1-f8d0-4477-8ece-71b24bdff39e"],
 
-Cell[BoxData["Open"], "Input",ExpressionUUID->"a7f737a4-758b-4d42-b662-e538ebf03d22"]
+Cell[BoxData["Open"], "Input",ExpressionUUID->"6cda0089-4994-408e-86f7-b1c5ba1df8df"]
 }, Open  ]]
 },
 Saveable->False,
@@ -151,14 +227,14 @@ TaggingRules->{
   "NewStyles" -> True, "CitationPopupData" -> {$Failed, ""}, "ShowCitation" -> 
   False, "RootCaptions" -> "", 
   "Metadata" -> {
-   "built" -> "{2023, 6, 6, 11, 14, 53.4343039}", 
+   "built" -> "{2023, 6, 6, 20, 14, 34.6112589}", 
     "history" -> {"XX", "", "", ""}, "context" -> 
     "PeterBurbery`LittleChildPaclet`", "keywords" -> {}, 
     "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
      "label" -> "Peter Burbery/ Little Child Paclet Guide", "language" -> 
     "en", "paclet" -> "PeterBurbery/LittleChildPaclet", "status" -> "None", 
     "summary" -> "", "synonyms" -> {}, "tabletags" -> 
-    DocumentationBuild`Make`Private`tabletaggingrules$35984, "title" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$37491, "title" -> 
     "Wolfram Challenges Computational Knowledge", "titlemodifier" -> "", 
     "metadescription" -> "", "windowtitle" -> 
     "Wolfram Challenges Computational Knowledge", "type" -> "Guide", "uri" -> 
@@ -168,7 +244,7 @@ CacheGraphics->False,
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
   CharacterEncoding -> "UTF-8"],
-ExpressionUUID->"6f161308-80ec-41a2-910a-c6685ea707a1"
+ExpressionUUID->"41b661d1-0490-426b-a8d2-a684635fb0d0"
 ]
 (* End of Notebook Content *)
 
@@ -181,21 +257,25 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[614, 21, 3601, 83, 70, "AnchorBarGrid",ExpressionUUID->"5e44f69a-11b1-47b9-8ad5-43bf790c1ef4",
+Cell[614, 21, 4979, 118, 70, "AnchorBarGrid",ExpressionUUID->"7485bdd8-8cce-421d-adfb-2223d4d9f454",
  CellID->1],
 Cell[CellGroupData[{
-Cell[4240, 108, 139, 1, 70, "GuideTitle",ExpressionUUID->"3c160c8b-a3da-4fb8-b849-d4cd2ff96403",
+Cell[5618, 143, 139, 1, 70, "GuideTitle",ExpressionUUID->"3c160c8b-a3da-4fb8-b849-d4cd2ff96403",
  CellID->330726908],
-Cell[4382, 111, 118, 1, 70, "GuideAbstract",ExpressionUUID->"dc60d20a-d168-4e26-a4a6-6b3f80a8191e",
- CellID->64897538],
-Cell[4503, 114, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"cca674ce-9f77-4f54-b871-e3a87c19a49d"],
-Cell[4599, 116, 400, 8, 70, "GuideText",ExpressionUUID->"f68c95c0-4a2c-4469-9349-d3dbee3cf600",
+Cell[5760, 146, 118, 1, 70, "GuideAbstract",ExpressionUUID->"114586f3-6123-4ed3-b3b0-c3f1f5ae6b10",
+ CellID->10773592],
+Cell[5881, 149, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"197a1758-7c5e-4802-8036-c672c84b662e"],
+Cell[5977, 151, 603, 15, 70, "GuideText",ExpressionUUID->"f68c95c0-4a2c-4469-9349-d3dbee3cf600",
  CellID->238739369],
-Cell[5002, 126, 103, 1, 70, "GuideDelimiter",ExpressionUUID->"6eac718c-145b-4811-b6c9-52edc68e4c39",
+Cell[6583, 168, 597, 15, 70, "GuideText",ExpressionUUID->"5887dc9c-4831-4eb2-bdb7-9b5f5d3cc969",
+ CellID->15948173],
+Cell[7183, 185, 606, 15, 70, "GuideText",ExpressionUUID->"375e4e7d-63c1-4f40-bc3c-1e6c425a34ad",
+ CellID->650899828],
+Cell[7792, 202, 103, 1, 70, "GuideDelimiter",ExpressionUUID->"6eac718c-145b-4811-b6c9-52edc68e4c39",
  CellID->547779727],
-Cell[5108, 129, 275, 6, 70, InheritFromParent,ExpressionUUID->"dab3d7e1-f8d0-4477-8ece-71b24bdff39e",
+Cell[7898, 205, 275, 6, 70, InheritFromParent,ExpressionUUID->"dab3d7e1-f8d0-4477-8ece-71b24bdff39e",
  CellID->51364086],
-Cell[5386, 137, 85, 0, 70, "Input",ExpressionUUID->"a7f737a4-758b-4d42-b662-e538ebf03d22"]
+Cell[8176, 213, 85, 0, 70, "Input",ExpressionUUID->"6cda0089-4994-408e-86f7-b1c5ba1df8df"]
 }, Open  ]]
 }
 ]
