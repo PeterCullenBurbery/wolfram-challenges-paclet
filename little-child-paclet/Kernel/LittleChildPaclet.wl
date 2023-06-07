@@ -39,3 +39,8 @@
 <<PeterBurbery`LittleChildPaclet`BalancedTernary`;
 <<PeterBurbery`LittleChildPaclet`CaesarDecrypt`;
 <<PeterBurbery`LittleChildPaclet`MultisetComplement`;
+<<PeterBurbery`LittleChildPaclet`TakeLargestElements`;
+<<PeterBurbery`LittleChildPaclet`TakeSmallestElements`;
+
+
+

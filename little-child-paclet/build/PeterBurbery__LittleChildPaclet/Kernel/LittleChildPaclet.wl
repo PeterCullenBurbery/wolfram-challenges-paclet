@@ -38,4 +38,4 @@
 <<PeterBurbery`LittleChildPaclet`BalancedParentheses`;
 <<PeterBurbery`LittleChildPaclet`BalancedTernary`;
 <<PeterBurbery`LittleChildPaclet`CaesarDecrypt`;
-
+<<PeterBurbery`LittleChildPaclet`MultisetComplement`;

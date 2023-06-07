@@ -227,12 +227,25 @@
             "File"
             ->
             File[
+                "Kernel\\JosephusList.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Kernel\\LittleChildPaclet.wl"
             ]
             ,
             "Hash"
             ->
-            "0a3b8666485a4a3d1a9f41e948d148d7717ee54679c05095d2e3fdcb39c8a8cc"
+            "b488a393848923150749fac1d8e21a7231bdd36e5fc9619f3aa1e42004b64ac1"
                 
         |>
         ,
@@ -259,6 +272,19 @@
             "Hash"
             ->
             "96c9ed6af113596290530f2d1d02f4a45cf0f68d36800e39c10ce745300d6abd"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\MultisetComplement.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "342d5adf68bf94eba465da75c087cceacd5cba3a96872146df13af2370f566ba"
                 
         |>
         ,
@@ -462,6 +488,20 @@
             "File"
             ->
             File[
+                "Documentation\\English\\Guides\\HelpfulFunctions.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "80a27798695b92bf0af24d829a13d093a8bdf7123fa548a681004c7964fd18fd"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Documentation\\English\\Guides\\LinguisticData.nb"
             ]
             ,
@@ -562,7 +602,7 @@
             ,
             "Hash"
             ->
-            "84245f6a879bd9dcd9291d0af26c70e137ee7717ffd5e21a7371e455d7937890"
+            "65d7335e20b12de8e5fd60060cef6bf61becdcfbf505cfec2128c928a472ff67"
                 
         |>
         ,
@@ -829,6 +869,20 @@
             "Hash"
             ->
             "51b47a833e63b204aa02d7ff0adc58391353af9f37870ab668a9ce0e2710b227"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\MultisetComplement.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "5eddff85ef15f3fcc58d2dc1e97c6504e24c586d2676cd28336d354bbf247105"
                 
         |>
         ,

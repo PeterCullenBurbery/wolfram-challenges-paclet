@@ -218,9 +218,17 @@ With2PointsAndThreePoints.nb" ->
    "FileHash" -> "GZ/yrm4xg167iqLd+mEzF26jWkUHptq/lbFB1et+6SE="|>, 
  "English\\Guides\\WolframChallengesGeography.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
-      "Time" -> Quantity[0.7986578, "Seconds"]|>], 
-   "FileHash" -> "3axmeZuZczxwApY6piQdrMp6rMHv7/oNuZQcddRo6u8="|>, 
+      "Time" -> Quantity[0.7812709, "Seconds"]|>], 
+   "FileHash" -> "QPbaLPb5VEKWMrrCAEuKXDUjrutLx+SfNHeMlFKGWho="|>, 
  "English\\Guides\\WolframChallengesMathematics.nb" -> 
   <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
       "Time" -> Quantity[0.8145475, "Seconds"]|>], 
-   "FileHash" -> "xogknyK8Vu53OkoHq6IZ9I70+Sp2ho/gK/G7VKMoygQ="|>|>
+   "FileHash" -> "xogknyK8Vu53OkoHq6IZ9I70+Sp2ho/gK/G7VKMoygQ="|>, 
+ "English\\Guides\\HelpfulFunctions.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[2.467972, "Seconds"]|>], 
+   "FileHash" -> "18q46PJhXxYERyNlwbkW/7tvwJv0Sn2YZxL2Mr3GwPc="|>, 
+ "English\\ReferencePages\\Symbols\\MultisetComplement.nb" -> 
+  <|"Result" -> Success["ProcessedNotebook", <|"Action" -> "Build", 
+      "Time" -> Quantity[1.5835674, "Seconds"]|>], 
+   "FileHash" -> "MU0Y8qe1s1t3G8N9O6d6wz0jHRmZDeVwXRagnBiqU3A="|>|>

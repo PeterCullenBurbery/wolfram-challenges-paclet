@@ -1,0 +1,383 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     14027,        373]
+NotebookOptionsPosition[     11041,        310]
+NotebookOutlinePosition[     12677,        350]
+CellTagsIndexPosition[     12634,        347]
+WindowTitle->Helpful Functions
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ LITTLE CHILD PACLET GUIDE", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "89d59b4f-51d9-4408-9470-7dd665cb8c1f"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "67112654-1b99-4d2d-963b-d9ab7e164105"],
+        Background->RGBColor[0.85098, 0.396078, 0],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Functions",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "81825fd7-c3f3-4800-9de4-58a915efa5e2"]
+         }],ExpressionUUID->"62b14225-cfa3-403a-a02a-a38824c9232c"],
+         StripOnInput->False],{
+        "\"Between\"" :> Documentation`HelpLookup["paclet:ref/Between"], 
+         "\"TabView\"" :> Documentation`HelpLookup["paclet:ref/TabView"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"GuideFunction"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "144366b5-433a-4432-b3c8-16b8bdc55748"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "6d975a7f-1170-47e0-abd9-1cc84a147e1f"]
+         }],ExpressionUUID->"0828580f-58d5-4fc5-b35e-1acbf8e85f58"],
+         StripOnInput->False],{
+        "\"PeterBurbery/LittleChildPaclet/guide/HelpfulFunctions\"" :> None, 
+         "\"Copy Wolfram Documentation Center URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell["PeterBurbery/LittleChildPaclet/guide/HelpfulFunctions"]},
+                Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
+         "\"Copy web URL\"" :> 
+         Module[{DocumentationSearch`Private`nb$}, 
+           DocumentationSearch`Private`nb$ = 
+            NotebookPut[
+             Notebook[{
+               Cell[BoxData[
+                 MakeBoxes[
+                  Hyperlink[
+                   "http://reference.wolfram.com/language/PeterBurbery/\
+LittleChildPaclet/guide/HelpfulFunctions.html"], StandardForm]], "Input", 
+                 TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+           NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+         "\"Go to web URL\"" :> 
+         FrontEndExecute[{
+           NotebookLocate[{
+             URL[If[TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$41290], 
+                 "http://reference.wolfram.com/system-modeler/", 
+                 "http://reference.wolfram.com/language/"] <> 
+               "PeterBurbery/LittleChildPaclet/guide/HelpfulFunctions" <> 
+               ".html"], None}]}]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "e3ca91a3-d86c-4c87-ac25-673301a2c434"]
+    }], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "84498819-1d8a-4cfc-8214-0c69d6eb0d1f"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"0b7a72cc-1d69-4fb5-b59d-37c740cd7346"],
+
+Cell[CellGroupData[{
+
+Cell["Helpful Functions", "GuideTitle",
+ CellID->445985841,ExpressionUUID->"bb757a23-82a2-4fe1-8221-3bd6273b3a30"],
+
+Cell["\[NonBreakingSpace]", "GuideAbstract",
+ CellID->541269004,ExpressionUUID->"c1eea95f-e636-4569-b57b-a9b6b3d10647"],
+
+Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"cd7d8a18-6635-4733-9d66-e97e1ce523cd"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["TabView"]], "paclet:ref/TabView"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",
+  CellTags->"c40ac8e4-27e1-4161-a8df-4d4f38357a23",ExpressionUUID->
+  "f359f27b-bccd-475a-a6ab-013e3b7b8580"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "7b8cd126-68dc-4d00-b580-2366eab19cb5"]
+}], "GuideText",
+ CellID->77066128,ExpressionUUID->"af1f0573-2226-4700-b44c-3dd7bca02ff1"],
+
+Cell[CellGroupData[{
+
+Cell["Section", "GuideFunctionsSubsection",
+ CellID->236405771,ExpressionUUID->"dd3d33fd-3325-45d7-8f2c-ca50be00405f"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["Between"]], "paclet:ref/Between"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",
+  CellTags->"2ae9e9c1-01ed-438a-9838-917b1cd97ce3",ExpressionUUID->
+  "649ff719-9808-4bb5-adbf-a324fc302386"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " is equivalent to ",
+ Cell[BoxData[
+  RowBox[{
+   StyleBox["min", "TI"], "\[LessEqual]", 
+   StyleBox["x", "TI"], "\[LessEqual]", 
+   StyleBox["max", "TI"]}]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "66a66679-5745-4ae7-b687-92af9ebd619e"],
+ " with {min, max}. ",
+ Cell[BoxData[
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      TemplateBox[{
+        Cell[
+         TextData["Between"]], "paclet:ref/Between"},
+       "RefLink",
+       BaseStyle->{"InlineFormula"}], "[", 
+      RowBox[{
+       StyleBox["x", "TI"], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           SubscriptBox[
+            StyleBox["min", "TI"], 
+            StyleBox["1", "TR"]], ",", 
+           SubscriptBox[
+            StyleBox["max", "TI"], 
+            StyleBox["1", "TR"]]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{
+           SubscriptBox[
+            StyleBox["min", "TI"], 
+            StyleBox["2", "TR"]], ",", 
+           SubscriptBox[
+            StyleBox["max", "TI"], 
+            StyleBox["2", "TR"]]}], "}"}], ",", 
+         StyleBox["\[Ellipsis]", "TR"]}], "}"}]}], "]"}], " ", "is", " ", 
+     "equivalent", " ", "to", 
+     SubscriptBox[
+      StyleBox["min", "TI"], 
+      StyleBox["1", "TR"]]}], "\[LessEqual]", 
+    StyleBox["x", "TI"], "\[LessEqual]", 
+    SubscriptBox[
+     StyleBox["max", "TI"], 
+     StyleBox["1", "TR"]]}], "||", 
+   RowBox[{
+    SubscriptBox[
+     StyleBox["min", "TI"], 
+     StyleBox["2", "TR"]], "\[LessEqual]", 
+    StyleBox["x", "TI"], "\[LessEqual]", 
+    SubscriptBox[
+     StyleBox["max", "TI"], 
+     StyleBox["2", "TR"]]}], "||", 
+   RowBox[{
+    StyleBox["\[Ellipsis]", "TR"], "."}]}]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "747ca584-ad99-4e7c-948e-4ba1a5a14c4b"]
+}], "GuideText",
+ CellID->253253351,ExpressionUUID->"51a93b14-19e0-4f78-ada2-6cdd9fb636e4"],
+
+Cell[BoxData[Cell[TextData[{
+  Cell[BoxData[
+   RowBox[{
+    TemplateBox[{
+      Cell[
+       TextData["Between"]], "paclet:ref/Between"},
+     "RefLink",
+     BaseStyle->{"InlineFormula"}], "[", 
+    StyleBox["range", "TI2"], "]"}]], "InlineFormula",
+   FontFamily->"Source Sans Pro",ExpressionUUID->
+   "06dfc5b6-4887-4792-ba14-5d2ddd1533e2"],
+  " \[LineSeparator]is an operator form that yields ",
+  Cell[BoxData[
+   RowBox[{
+    TemplateBox[{
+      Cell[
+       TextData["Between"]], "paclet:ref/Between"},
+     "RefLink",
+     BaseStyle->{"InlineFormula"}], "[", 
+    RowBox[{
+     StyleBox["x", "TI2"], ",", 
+     StyleBox["range", "TI2"]}], "]"}]], "InlineFormula",
+   FontFamily->"Source Sans Pro",ExpressionUUID->
+   "a2145983-1435-4bb8-8c69-2b298f1e7968"],
+  " when applied to an expression ",
+  Cell[BoxData[
+   StyleBox["x", "TI2"]], "InlineFormula",
+   FontFamily->"Source Sans Pro",ExpressionUUID->
+   "03ade922-8abd-4a0d-9a67-7cd382c11ef0"],
+  "."
+ }],ExpressionUUID->
+  "179ea2fd-1f02-4e8f-b339-fb9e0e23f3bc"]], "InlineGuideFunctionListing",
+ CellID->537548017,ExpressionUUID->"b666d18f-3648-46fb-b206-474390dd639e"],
+
+Cell[TextData[{
+ "This could be useful with numbers such as ",
+ Cell[BoxData[
+  RowBox[{"2", "\[LessEqual]", "x", "\[LessEqual]", "7"}]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "72da8dfb-24b0-4695-a894-0a2d0309018f"],
+ ", relations such as ",
+ Cell[BoxData[
+  RowBox[{"p", "\[LessEqual]", "q", "\[LessEqual]", "r"}]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "01240414-bbef-4e96-b6bd-2df7c8840566"],
+ " for inequalities including the Squeeze Theorem and Chebyshev's Inequality. \
+This could also be helpful for searching for files by date."
+}], "GuideText",
+ CellID->108109678,ExpressionUUID->"cb68c285-31f4-4a70-bbdc-ff197917ac45"],
+
+Cell["\t", "GuideDelimiter",
+ CellID->57608426,ExpressionUUID->"f6448b02-1abe-4d46-99e7-654d8f41ff5c"],
+
+Cell[TextData[Cell["\<\
+
+FrameBox[\"\\\"XXXX\\\"\"]\
+\>", "FunctionPlaceholder", \
+"InlineFunctionSansUnlinked",ExpressionUUID->"034224ca-0256-46c6-8fe6-\
+59509cc2fbbd"]], "InlineGuideFunctionListing",
+ CellID->267712468,ExpressionUUID->"33f65dfc-94b7-4ee5-9ef4-3906cb0c40ba"],
+
+Cell[BoxData["Open"], "Input",ExpressionUUID->"334055e7-a028-43b9-8373-25b306e062ab"]
+}, Open  ]]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900, 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Helpful Functions",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
+  "NewStyles" -> True, "CitationPopupData" -> {$Failed, ""}, "ShowCitation" -> 
+  False, "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2023, 6, 6, 21, 2, 12.4119855}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "PeterBurbery`LittleChildPaclet`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Little Child Paclet Guide", "language" -> 
+    "en", "paclet" -> "PeterBurbery/LittleChildPaclet", "status" -> "None", 
+    "summary" -> "", "synonyms" -> {}, "tabletags" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$41259, "title" -> 
+    "Helpful Functions", "titlemodifier" -> "", "metadescription" -> "", 
+    "windowtitle" -> "Helpful Functions", "type" -> "Guide", "uri" -> 
+    "PeterBurbery/LittleChildPaclet/guide/HelpfulFunctions"}},
+CacheGraphics->False,
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"8c95310b-f180-409e-87cd-41827ec004a2"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[589, 21, 4602, 109, 70, "AnchorBarGrid",ExpressionUUID->"0b7a72cc-1d69-4fb5-b59d-37c740cd7346",
+ CellID->1],
+Cell[CellGroupData[{
+Cell[5216, 134, 114, 1, 70, "GuideTitle",ExpressionUUID->"bb757a23-82a2-4fe1-8221-3bd6273b3a30",
+ CellID->445985841],
+Cell[5333, 137, 119, 1, 70, "GuideAbstract",ExpressionUUID->"c1eea95f-e636-4569-b57b-a9b6b3d10647",
+ CellID->541269004],
+Cell[5455, 140, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"cd7d8a18-6635-4733-9d66-e97e1ce523cd"],
+Cell[5551, 142, 764, 22, 70, "GuideText",ExpressionUUID->"af1f0573-2226-4700-b44c-3dd7bca02ff1",
+ CellID->77066128],
+Cell[CellGroupData[{
+Cell[6340, 168, 118, 1, 70, "GuideFunctionsSubsection",ExpressionUUID->"dd3d33fd-3325-45d7-8f2c-ca50be00405f",
+ CellID->236405771],
+Cell[6461, 171, 2254, 72, 70, "GuideText",ExpressionUUID->"51a93b14-19e0-4f78-ada2-6cdd9fb636e4",
+ CellID->253253351],
+Cell[8718, 245, 1132, 32, 70, "InlineGuideFunctionListing",ExpressionUUID->"b666d18f-3648-46fb-b206-474390dd639e",
+ CellID->537548017],
+Cell[9853, 279, 688, 14, 70, "GuideText",ExpressionUUID->"cb68c285-31f4-4a70-bbdc-ff197917ac45",
+ CellID->108109678],
+Cell[10544, 295, 102, 1, 70, "GuideDelimiter",ExpressionUUID->"f6448b02-1abe-4d46-99e7-654d8f41ff5c",
+ CellID->57608426],
+Cell[10649, 298, 276, 6, 70, InheritFromParent,ExpressionUUID->"33f65dfc-94b7-4ee5-9ef4-3906cb0c40ba",
+ CellID->267712468],
+Cell[10928, 306, 85, 0, 70, "Input",ExpressionUUID->"334055e7-a028-43b9-8373-25b306e062ab"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
