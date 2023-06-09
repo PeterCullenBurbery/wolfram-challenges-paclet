@@ -10,7 +10,8 @@ Begin["`Private`"];
 
 AntipodalCity // ClearAll
 AntipodalCity[loc_] := GeoNearest["City", GeoAntipode@loc][[1]]
-
+AntipodalCity[args___] :=
+  Null /; CheckArguments[AntipodalCity[args], 1]
 End[]; (* End `Private` *)
 
 EndPackage[];

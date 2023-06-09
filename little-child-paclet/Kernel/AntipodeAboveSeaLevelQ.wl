@@ -11,6 +11,8 @@ Begin["`Private`"];
 AntipodeAboveSeaLevelQ // ClearAll
 AntipodeAboveSeaLevelQ[loc_] := 
  GeoElevationData@GeoAntipode@loc > 0 Quantity@"m"
+ AlmostPalindrome[args___] :=
+  Null /; CheckArguments[AlmostPalindrome[args], 1]
 End[]; (* End `Private` *)
 
 EndPackage[];
