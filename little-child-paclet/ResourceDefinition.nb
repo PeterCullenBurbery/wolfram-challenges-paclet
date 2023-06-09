@@ -2810,7 +2810,7 @@ Cell[BoxData[
    RowBox[{"NotebookDirectory", "[", "]"}], "]"}], ";"}]], "Input", "Excluded",
  TaggingRules->{},
  InitializationCell->True,
- CellLabel->"In[40]:=",
+ CellLabel->"In[2]:=",
  CellID->996717066,ExpressionUUID->"4dc4e45d-0c72-4586-994f-b2455cfc7fd1"],
 
 Cell[BoxData[
@@ -2819,7 +2819,7 @@ Cell[BoxData[
   ";"}]], "Input", "Excluded",
  TaggingRules->{},
  InitializationCell->True,
- CellLabel->"In[41]:=",
+ CellLabel->"In[3]:=",
  CellID->172764492,ExpressionUUID->"38b0056b-41fc-4400-9eee-0577c6aa1cc3"]
 }, Open  ]],
 
@@ -2843,7 +2843,7 @@ Cell[BoxData[
  TaggingRules->{},
  CellChangeTimes->{{3.8947882144903355`*^9, 3.894788220660986*^9}},
  CellTags->"DefaultContent",
- CellLabel->"In[42]:=",
+ CellLabel->"In[4]:=",
  CellID->593829399,ExpressionUUID->"0ec2c17e-6430-4a56-b245-b671c8ee0214"],
 
 Cell[BoxData["\<\"-- --- .-. ... ./-.-. --- -.. .\"\>"], "Output",
@@ -2852,10 +2852,10 @@ Cell[BoxData["\<\"-- --- .-. ... ./-.-. --- -.. .\"\>"], "Output",
   3.894788812701339*^9, 3.8947992572030296`*^9, 3.894809483075021*^9, 
   3.894811048779587*^9, 3.894907712691246*^9, 3.894913955484247*^9, 
   3.8949144615474577`*^9, 3.8949148183623395`*^9, 3.8949190523117304`*^9, 
-  3.894919871008396*^9, 3.89499637680766*^9},
+  3.894919871008396*^9, 3.89499637680766*^9, 3.895128756221713*^9},
  CellTags->"DefaultContent",
- CellLabel->"Out[42]=",
- CellID->564916147,ExpressionUUID->"4ba91510-7f41-433c-91fa-6e4ca4b56147"]
+ CellLabel->"Out[4]=",
+ CellID->732035198,ExpressionUUID->"352e290c-ea64-4082-8db9-fd34f299458d"]
 }, Open  ]]
 }, Open  ]],
 
@@ -7165,7 +7165,16 @@ Cell[BoxData["1"], "Output",
   3.8949154862218075`*^9},
  CellLabel->"Out[21]=",
  CellID->332650716,ExpressionUUID->"c6a5dace-883f-4fb0-95ab-9beffe266de7"]
-}, Open  ]]
+}, Open  ]],
+
+Cell["Use a complete dictionary:", "Text",
+ CellChangeTimes->{{3.895129575675545*^9, 3.8951295787588873`*^9}},
+ CellID->9011270,ExpressionUUID->"def4eea2-0c94-4166-abc8-5d947f1fa3bb"],
+
+Cell[BoxData[
+ RowBox[{"CompleteDictionary", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.8951295793348618`*^9, 3.895129583333113*^9}},
+ CellID->347852007,ExpressionUUID->"7347ea94-bbb3-458d-9993-c65cb50a98b1"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -7375,7 +7384,6 @@ CC0-1.0"}, "HyperlinkURL"]}, "RowDefault"], FontSize -> 12, Editable -> False,
               EvaluationCell[], {TaggingRules, "RadioButtonValue"}]], {
             "None"}], "\" \"", 
            StyleBox[
-            
             TemplateBox[{
              "\"None\"", 
               "\"A license is not required for personal deployments\""}, 
@@ -8695,8 +8703,7 @@ modifications\n\[FilledSmallSquare] Internal handlers"}], "MoreInfoText"],
                    FrameStyle -> GrayLevel[0.9], RoundingRadius -> 5, 
                    ImageSize -> {
                     Scaled[0.65], Automatic}]], "MoreInfoText", Deletable -> 
-                 True, 
-                 CellTags -> {
+                 True, CellTags -> {
                   "SectionMoreInfoDisclosuresWLSystemConfiguration"}, 
                  CellMargins -> {{66, 66}, {15, 15}}], 
                 HoldComplete[
@@ -9196,7 +9203,7 @@ Cell[BoxData[
               StandardForm],
              
              ImageSizeCache->{
-              254.51600446701053`, {2.1337889811024073`, 8.261718434840441}}],
+              251.71600542068484`, {2.1337889811024073`, 8.261718434840441}}],
             StripOnInput->False,
             FontFamily->"Roboto",
             FontSize->10,
@@ -9246,7 +9253,7 @@ Cell[BoxData[
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1141.2, 579.6},
+WindowSize->{1141.2, 574.8},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 DockedCells->{
   Cell[

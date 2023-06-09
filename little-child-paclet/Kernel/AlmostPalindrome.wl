@@ -9,7 +9,7 @@ Begin["`Private`"];
 (* Define your public and private symbols here. *)
 
 AlmostPalindrome // ClearAll
-
+AlmostPalindrome::usage = "AlmostPalindrome[n] returns a list of words of length n that are not palindromes, but become palindromes when any one letter is removed.";
 AlmostPalindrome[n_?PositiveIntegerQ] := 
  Cases[word_ /; ! 
       PalindromeQ[

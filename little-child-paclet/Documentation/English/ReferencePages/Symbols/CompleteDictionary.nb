@@ -85,10 +85,10 @@ Cell[TextData[{
     "a3f91f1c-32ee-4b16-b717-5e495a8890a7"], 
    DynamicModuleBox[{$CellContext`nbobj$$ = NotebookObject[
     "bf7c7253-4e6c-4ead-98a8-a6986ba225f5", 
-     "7d44a321-6b93-4568-ac3e-b32238b344e1"], $CellContext`cellobj$$ = 
+     "a5f54fcc-0188-4ab3-b906-f1a9aaef47a2"], $CellContext`cellobj$$ = 
     CellObject[
     "3d073f1f-2413-4eac-ab86-577e3ab912d9", 
-     "247132d6-5af0-4c55-ba99-85a036db759a"]}, 
+     "ea2abc0c-3e57-4ca0-a0fb-95b350dd3620"]}, 
     TemplateBox[{
       GraphicsBox[{{
          Thickness[0.06], 
@@ -1254,7 +1254,7 @@ Cell[BoxData[""], "Template",
 }, Closed]]
 }, Open  ]]
 },
-WindowSize->{1141.2, 579.6},
+WindowSize->{1141.2, 574.8},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"Paclet" -> "PeterBurbery/LittleChildPaclet"|>,
 CellContext->"Global`",

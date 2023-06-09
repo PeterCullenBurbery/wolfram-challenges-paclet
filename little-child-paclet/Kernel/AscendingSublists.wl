@@ -2,21 +2,15 @@ BeginPackage["PeterBurbery`LittleChildPaclet`"];
 
 (* Declare your packages public symbols here. *)
 
-PeterBurbery`LittleChildPaclet`Anagrams;
+PeterBurbery`LittleChildPaclet`AscendingSublists;
 
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-Anagrams // ClearAll
-ianagramdictionary = Union[WordData[], DictionaryLookup[], WordList[]];
-ianagramdictionary = {#, (Sort@*Characters@*ToLowerCase)[#]} & /@ 
-   ianagramdictionary;
-Anagrams[str_String] := 
- Module[{sc = Sort[Characters[ToLowerCase[str]]], sel},
-  sel = Select[ianagramdictionary, EqualTo[sc]@*Last][[All, 1]];
-  DeleteCases[sel, str]
-  ]
+AscendingSublists // ClearAll
+AscendingSublists[list : {___Integer}] :=
+ Select[Length[#] > 1 &][Split[list, Less]]
 
 End[]; (* End `Private` *)
 

@@ -9,6 +9,7 @@ Begin["`Private`"];
 (* Define your public and private symbols here. *)
 
 Anagrams // ClearAll
+Anagrams::usage = "Anagrams[str] returns a list of anagrams of str.";
 ianagramdictionary = Union[WordData[], DictionaryLookup[], WordList[]];
 ianagramdictionary = {#, (Sort@*Characters@*ToLowerCase)[#]} & /@ 
    ianagramdictionary;
