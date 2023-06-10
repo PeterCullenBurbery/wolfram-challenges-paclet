@@ -25,8 +25,10 @@ BabbageSquares::usage = "BabbageSquares[string] finds all Babbage squares starti
 
 BabbageSquares[word_?StringQ /; StringLength[word] == 4] :=
   Grid /@ wordsquare[word]
+
 BabbageSquares[args___] :=
   Null /; CheckArguments[BabbageSquares[args], 1]
+
 End[]; (* End `Private` *)
 
 EndPackage[];

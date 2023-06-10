@@ -7,12 +7,18 @@ PeterBurbery`LittleChildPaclet`ButterflyString;
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
+(*There's a Programming Lab thing on this called MirrorText.*)
 ClearAll[ButterflyString]
-ButterflyString::usage="ButterflyString[input] returns the input string with its reverse appended to it."
-SetAttributes[ButterflyString,{Listable}]
-ButterflyString[input_?StringQ]:=StringJoin[input,StringReverse[input]]
+
+ButterflyString::usage = "ButterflyString[input] returns the input string with its reverse appended to it."
+
+SetAttributes[ButterflyString, {Listable}]
+
+ButterflyString[input_?StringQ] :=
+    StringJoin[input, StringReverse[input]]
+
 ButterflyString[args___] :=
-  Null /; CheckArguments[ButterflyString[args], 1]
+    Null /; CheckArguments[ButterflyString[args], 1]
 
 End[]; (* End `Private` *)
 

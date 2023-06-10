@@ -7,14 +7,21 @@ PeterBurbery`LittleChildPaclet`LookAndSay;
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
-LookAndSay//ClearAll
-LookAndSay[n_?PositiveIntegerQ] := 
- FromDigits /@ 
-  Flatten /@ 
-   NestList[
-    Function[
-     list, {Length[#], First[#]} & /@ Split[Flatten@list]], {1}, 
-    n - 1]
+
+LookAndSay // ClearAll
+
+LookAndSay[n_?PositiveIntegerQ] :=
+    FromDigits /@
+        Flatten /@
+            NestList[
+                Function[list,
+                    {Length[#], First[#]}& /@ Split[Flatten @ list]
+                ]
+                ,
+                {1}
+                ,
+                n - 1
+            ]
 
 End[]; (* End `Private` *)
 

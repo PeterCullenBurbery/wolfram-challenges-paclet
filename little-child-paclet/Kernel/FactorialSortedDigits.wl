@@ -8,13 +8,11 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-FactorialSortedDigits//ClearAll
-FactorialSortedDigits[n_?IntegerQ] /; n > 10 := 
- First /@ 
-  Join @@ Values[
-    KeySort[SortBy[First] /@ 
-      GroupBy[Last][
-       Tally[Flatten[Table[IntegerDigits[i!], {i, n}]]]]]]
+FactorialSortedDigits // ClearAll
+
+FactorialSortedDigits[n_?IntegerQ] /; n > 10 :=
+  First /@ Join @@ Values[KeySort[SortBy[First] /@ GroupBy[Last][Tally[
+    Flatten[Table[IntegerDigits[i!], {i, n}]]]]]]
 
 End[]; (* End `Private` *)
 

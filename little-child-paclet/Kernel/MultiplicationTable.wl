@@ -8,8 +8,8 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-
-ButterflyString[input_?StringQ]:=StringJoin[input,StringReverse[input]]
+ButterflyString[input_?StringQ] :=
+    StringJoin[input, StringReverse[input]]
 
 End[]; (* End `Private` *)
 

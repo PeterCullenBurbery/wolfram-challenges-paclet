@@ -8,9 +8,14 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-Composite//ClearAll
+Composite // ClearAll
+
 SetAttributes[Composite, Listable];
-Composite[n_?PositiveIntegerQ] := FixedPoint[n + PrimePi[#] + 1 &, n]
+
+Composite::usage = "Composite[n] gives the nth composite number.";
+
+Composite[n_?PositiveIntegerQ] :=
+    FixedPoint[n + PrimePi[#] + 1&, n]
 
 End[]; (* End `Private` *)
 

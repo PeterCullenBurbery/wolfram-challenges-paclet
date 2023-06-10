@@ -8,9 +8,10 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-LargestContiguousSum//ClearAll
-LargestContiguousSum[numbers_?VectorQ] := 
- Total[First[MaximalBy[Total][Subsequences[numbers]]]]
+LargestContiguousSum // ClearAll
+
+LargestContiguousSum[numbers_?VectorQ] :=
+    Total[First[MaximalBy[Total][Subsequences[numbers]]]]
 
 End[]; (* End `Private` *)
 

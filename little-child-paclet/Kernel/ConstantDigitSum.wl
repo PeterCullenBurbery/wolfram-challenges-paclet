@@ -8,8 +8,11 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-ConstantDigitSum//ClearAll
-ConstantDigitSum[m_?PositiveIntegerQ,n_PositiveIntegerQ,s_PositiveIntegerQ]:=Select[Total[IntegerDigits[#]]==s&][Range[m,n]]
+ConstantDigitSum // ClearAll
+
+ConstantDigitSum[m_?PositiveIntegerQ, n_?PositiveIntegerQ, s_?PositiveIntegerQ
+    ] :=
+    Select[Total[IntegerDigits[#]] == s&][Range[m, n]]
 
 End[]; (* End `Private` *)
 

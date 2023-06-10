@@ -9,8 +9,8 @@ Begin["`Private`"];
 (* Define your public and private symbols here. *)
 
 BalancedTernary // ClearAll
-BalancedTernary::usage="BalancedTernary[n] toggles the n between integer and balanced ternary format."
 
+BalancedTernary::usage = "BalancedTernary[n] toggles the n between integer and balanced ternary format."
 
 SetAttributes[BalancedTernary, {Listable}]
 
@@ -27,9 +27,9 @@ BalancedTernary[n : (_?IntegerQ | _Row)] :=
                         
             ]
       ]
-BalancedTernary[args___] :=
-  Null /; CheckArguments[BalancedTernary[args], 1]
 
+BalancedTernary[args___] :=
+      Null /; CheckArguments[BalancedTernary[args], 1]
 
 End[]; (* End `Private` *)
 
