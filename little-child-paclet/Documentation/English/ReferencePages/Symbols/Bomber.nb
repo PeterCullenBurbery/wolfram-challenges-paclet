@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    259127,       5807]
+NotebookDataLength[    259107,       5806]
 NotebookOptionsPosition[    238775,       5378]
-NotebookOutlinePosition[    239609,       5405]
-CellTagsIndexPosition[    239528,       5400]
+NotebookOutlinePosition[    239589,       5404]
+CellTagsIndexPosition[    239508,       5399]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -81,10 +81,10 @@ Cell[TextData[{
     "cf4303c4-37e4-4725-bdde-08747f264ee9"], 
    DynamicModuleBox[{$CellContext`nbobj$$ = NotebookObject[
     "5f009c41-03bd-4cac-bb30-883bb4504bc8", 
-     "fc638ee7-f06d-46ad-9a89-f7b79f63f33d"], $CellContext`cellobj$$ = 
+     "4cdf7cb5-f9fe-4a48-9269-b998a626a8ea"], $CellContext`cellobj$$ = 
     CellObject[
     "4bb64877-8633-424f-b1ff-5a7bb77371fb", 
-     "5828c953-d181-4dc0-8587-02f6290bcff6"]}, 
+     "f1b80f3f-7411-4955-a3ef-cbbf9f811e69"]}, 
     TemplateBox[{
       GraphicsBox[{{
          Thickness[0.06], 
@@ -1375,7 +1375,7 @@ Cell[BoxData[
  CellLabel->"Out[477]=",
  CellID->161766189,ExpressionUUID->"5a9f07be-4d56-4af9-a0d0-765a46450573"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -1990,7 +1990,7 @@ Cell[BoxData[
  CellLabel->"Out[482]=",
  CellID->666836971,ExpressionUUID->"e1931668-0d99-4407-a7a4-8a9a20556096"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -2681,7 +2681,7 @@ Cell[BoxData[
  CellLabel->"Out[488]=",
  CellID->98077830,ExpressionUUID->"b7efd2f3-12b7-4e84-8263-c5bb96c63723"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -3316,7 +3316,7 @@ Cell[BoxData[
  CellLabel->"Out[492]=",
  CellID->13202594,ExpressionUUID->"9c1b3b79-48be-44cc-9418-3097a5c33c21"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -4111,7 +4111,7 @@ The function FastOrientedRectangle is faster but the result isn't as good.\
 \>", "ExampleText",
  CellChangeTimes->{{3.895403711286077*^9, 3.8954037267966638`*^9}},
  CellID->340794609,ExpressionUUID->"eb1f5682-a2e2-4687-a5c2-82df96b5aa47"]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -4261,7 +4261,7 @@ Cell["The function Bomber scored better.", "ExampleText",
  CellChangeTimes->{{3.895403711286077*^9, 3.8954037267966638`*^9}, {
   3.8954038778293457`*^9, 3.895403882198223*^9}},
  CellID->352276300,ExpressionUUID->"899f344b-c0ff-4823-b1a6-9af8bc14dd6d"]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -5180,8 +5180,8 @@ Cell[BoxData[
   3.895403926408403*^9},
  CellLabel->"Out[523]=",
  CellID->65443410,ExpressionUUID->"7e8a493b-5d7a-448a-99e5-b5df5b8a0800"]
-}, Closed]]
-}, Closed]]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -5376,9 +5376,8 @@ Cell[BoxData[""], "Template",
 }, Closed]]
 }, Open  ]]
 },
-WindowSize->{576, 585.6},
-WindowMargins->{{
-  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+WindowSize->{576, 574.8},
+WindowMargins->{{Automatic, 0.6000000000001364}, {Automatic, 0}},
 TaggingRules-><|"Paclet" -> "PeterBurbery/LittleChildPaclet"|>,
 CellContext->"Global`",
 FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
@@ -5399,7 +5398,7 @@ CellTagsIndex->{
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ExtendedExamples", 239334, 5393}
+ {"ExtendedExamples", 239314, 5392}
  }
 *)
 (*NotebookFileOutline
@@ -5544,7 +5543,7 @@ Cell[36135, 986, 1208, 33, 78, "Input",ExpressionUUID->"2a59646e-d6bf-49fc-b98c-
 Cell[37346, 1021, 16243, 354, 833, "Output",ExpressionUUID->"5a9f07be-4d56-4af9-a0d0-765a46450573",
  CellID->161766189]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 Cell[CellGroupData[{
 Cell[53638, 1381, 242, 5, 20, "ExampleDelimiter",ExpressionUUID->"76d32ac7-af37-435f-8f97-f5abfc09901f",
  CellID->259670784],
@@ -5568,7 +5567,7 @@ Cell[56899, 1468, 1229, 33, 78, "Input",ExpressionUUID->"0fa2cbfa-0231-42a4-ae4c
 Cell[58131, 1503, 24340, 487, 644, "Output",ExpressionUUID->"e1931668-0d99-4407-a7a4-8a9a20556096",
  CellID->666836971]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 Cell[CellGroupData[{
 Cell[82520, 1996, 242, 5, 20, "ExampleDelimiter",ExpressionUUID->"1427ca6a-c1f5-4212-aeb3-e6e99c8525d7",
  CellID->264982284],
@@ -5592,7 +5591,7 @@ Cell[92674, 2225, 1249, 33, 78, "Input",ExpressionUUID->"c6ce99fc-3090-463f-beea
 Cell[93926, 2260, 20451, 421, 818, "Output",ExpressionUUID->"b7efd2f3-12b7-4e84-8263-c5bb96c63723",
  CellID->98077830]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 Cell[CellGroupData[{
 Cell[114426, 2687, 242, 5, 20, "ExampleDelimiter",ExpressionUUID->"d38a82d8-f487-4c9d-b677-419663746a1e",
  CellID->139233880],
@@ -5616,7 +5615,7 @@ Cell[118076, 2778, 1269, 34, 78, "Input",ExpressionUUID->"24516256-a2d2-4b18-8f8
 Cell[119348, 2814, 23708, 502, 894, "Output",ExpressionUUID->"9c1b3b79-48be-44cc-9418-3097a5c33c21",
  CellID->13202594]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 Cell[CellGroupData[{
 Cell[143105, 3322, 242, 5, 20, "ExampleDelimiter",ExpressionUUID->"57b97692-46dd-4ece-9d6a-75081a7ad2e9",
  CellID->481011520],
@@ -5682,7 +5681,7 @@ Cell[178470, 4102, 190, 3, 24, "Output",ExpressionUUID->"03ffafd3-f61f-438f-aaf4
 }, Open  ]],
 Cell[178675, 4108, 248, 4, 24, "ExampleText",ExpressionUUID->"eb1f5682-a2e2-4687-a5c2-82df96b5aa47",
  CellID->340794609]
-}, Closed]],
+}, Open  ]],
 Cell[CellGroupData[{
 Cell[178960, 4117, 242, 5, 20, "ExampleDelimiter",ExpressionUUID->"25c8e67a-2a0f-40a8-a330-851364603e40",
  CellID->226213874],
@@ -5726,7 +5725,7 @@ Cell[184314, 4253, 213, 3, 24, "Output",ExpressionUUID->"229a49f8-55f4-4778-968d
 }, Open  ]],
 Cell[184542, 4259, 251, 3, 24, "ExampleText",ExpressionUUID->"899f344b-c0ff-4823-b1a6-9af8bc14dd6d",
  CellID->352276300]
-}, Closed]],
+}, Open  ]],
 Cell[CellGroupData[{
 Cell[184830, 4267, 242, 5, 20, "ExampleDelimiter",ExpressionUUID->"490fe2cb-b102-464a-9696-45c8f042b61f",
  CellID->455545624],
@@ -5741,8 +5740,8 @@ Cell[186659, 4306, 1296, 34, 78, "Input",ExpressionUUID->"b9abf5f3-86a5-4e13-ac2
  CellID->404383086],
 Cell[187958, 4342, 44802, 839, 660, "Output",ExpressionUUID->"7e8a493b-5d7a-448a-99e5-b5df5b8a0800",
  CellID->65443410]
-}, Closed]]
-}, Closed]]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[232821, 5188, 250, 5, 35, "ExampleSection",ExpressionUUID->"a36e022b-ca02-4bb0-9c6b-227d424b33f1",
