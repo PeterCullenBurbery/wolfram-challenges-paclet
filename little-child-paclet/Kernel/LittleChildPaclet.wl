@@ -52,7 +52,7 @@
 
 <<PeterBurbery`LittleChildPaclet`RepeatandEndingPrimes`;
 
-<<PeterBurbery`LittleChildPaclet`CompleteDictionary`;
+<<PeterBurbery`LittleChildPaclet`FullDictionary`;
 
 <<PeterBurbery`LittleChildPaclet`Anagrams`;
 
@@ -177,5 +177,3 @@
 <<PeterBurbery`LittleChildPaclet`Varignon`;
 <<PeterBurbery`LittleChildPaclet`WaterInBarrel`;
 <<PeterBurbery`LittleChildPaclet`WordLadderLength`;*)
-
-
