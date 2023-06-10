@@ -17,7 +17,7 @@ StringPatternQ[GeneralUtilities`Strings`PackagePrivate`x_] :=
     GeneralUtilities`Strings`PackagePrivate`spq[GeneralUtilities`Strings`PackagePrivate`x
         ]
 
-Developer`Private`LHS$_StringPatternQ :=
+Developer`Private`LHS$_?StringPatternQ :=
     RuleCondition[
         Developer`CheckArgumentCount[Developer`Private`LHS$, 1, 1];
         Fail
