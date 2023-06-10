@@ -32,7 +32,8 @@ CaesarDecrypt[n_?IntegerQ][s_?StringQ] :=
 
 (* CaesarDecrypt[n_?IntegerQ][s_?ListQ] :=
   CaesarDecrypt[#, n]& /@ s *)
-
+CaesarDecrypt[args___] :=
+  Null /; CheckArguments[CaesarDecrypt[args],{1,2}]
 End[]; (* End `Private` *)
 
 EndPackage[];
