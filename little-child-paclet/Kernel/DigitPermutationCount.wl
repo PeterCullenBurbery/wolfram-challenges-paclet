@@ -8,9 +8,10 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-DigitPermutationCount//ClearAll
-DigitPermutationCount[number_Integer?Positive] := 
- Multinomial @@ Values[Counts[IntegerDigits[number]]]
+DigitPermutationCount // ClearAll
+
+DigitPermutationCount[number_?PositiveIntegerQ] :=
+    Multinomial @@ Values[Counts[IntegerDigits[number]]]
 
 End[]; (* End `Private` *)
 

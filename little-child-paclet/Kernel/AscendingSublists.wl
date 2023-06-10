@@ -9,10 +9,11 @@ Begin["`Private`"];
 (* Define your public and private symbols here. *)
 
 AscendingSublists // ClearAll
-AscendingSublists[list : {___Integer}] :=
+AscendingSublists::usage="AscendingSublists[vector] finds the maximal ascending sublists of at least two contiguous elements in the given unsorted list vector."
+AscendingSublists[list : {___?IntegerQ}] :=
  Select[Length[#] > 1 &][Split[list, Less]]
-AlmostPalindrome[args___] :=
-  Null /; CheckArguments[AlmostPalindrome[args], 1]
+AscendingSublists[args___] :=
+  Null /; CheckArguments[AscendingSublists[args], 1]
 End[]; (* End `Private` *)
 
 EndPackage[];

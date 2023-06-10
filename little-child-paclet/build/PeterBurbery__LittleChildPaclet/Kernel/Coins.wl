@@ -1,5 +1,4 @@
-
-     (* ::Package:: *)
+(* ::Package:: *)
 
 BeginPackage["PeterBurbery`LittleChildPaclet`"];
 
@@ -10,12 +9,13 @@ PeterBurbery`LittleChildPaclet`Coins;
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
+
 ClearAll[Coins]
-Coins[values : {x__Integer?Positive}, target_Integer?Positive] := 
- Sort[Table[Count[coin][#], {coin, values}] & /@ 
-  Extract[IntegerPartitions[target, Infinity, values], 
-   List /@ PositionSmallest[
-     Length /@ IntegerPartitions[target, Infinity, values]]]]
+
+Coins[values : {x__?PositiveIntegerQ}, target_?PositiveIntegerQ] :=
+     Sort[Table[Count[coin][#], {coin, values}]& /@ Extract[IntegerPartitions[
+          target, Infinity, values], List /@ PositionSmallest[Length /@ IntegerPartitions[
+          target, Infinity, values]]]]
 
 End[]; (* End `Private` *)
 
