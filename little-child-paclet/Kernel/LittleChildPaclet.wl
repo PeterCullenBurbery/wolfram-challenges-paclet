@@ -68,7 +68,7 @@
 
 <<PeterBurbery`LittleChildPaclet`BalancedTernary`;
 
-<<PeterBurbery`LittleChildPaclet`CaesarDecrypt`;
+<<PeterBurbery`LittleChildPaclet`CaesarDecipher`;
 
 <<PeterBurbery`LittleChildPaclet`MultisetComplement`;
 
@@ -177,3 +177,6 @@
 <<PeterBurbery`LittleChildPaclet`Varignon`;
 <<PeterBurbery`LittleChildPaclet`WaterInBarrel`;
 <<PeterBurbery`LittleChildPaclet`WordLadderLength`;*)
+
+
+
