@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    190057,       3812]
+NotebookDataLength[    190058,       3812]
 NotebookOptionsPosition[    178259,       3563]
-NotebookOutlinePosition[    180208,       3610]
-CellTagsIndexPosition[    179899,       3601]
+NotebookOutlinePosition[    180209,       3610]
+CellTagsIndexPosition[    179900,       3601]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -3561,7 +3561,7 @@ Cell[BoxData[""], "Template",
 }, Closed]]
 }, Open  ]]
 },
-WindowSize->{576, 585.6},
+WindowSize->{1152, 585.6},
 WindowMargins->{{
   Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
 TaggingRules-><|"Paclet" -> "PeterBurbery/LittleChildPaclet"|>,
@@ -3580,14 +3580,6 @@ CellTagsIndex->{
   Cell[10158, 303, 487, 13, 57, "ExtendedExamplesSection",ExpressionUUID->"3f403fff-02f6-458b-bed5-1e510557fd72",
    CellTags->"ExtendedExamples",
    CellID->121808365]},
- "98bfdf42-0915-4b7f-b6d8-85bf1a86c444"->{
-  Cell[172305, 3392, 510, 11, 24, "EchoBefore",ExpressionUUID->"5109656b-0b58-44e9-8d9b-7fdc0ce46637",
-   CellTags->"98bfdf42-0915-4b7f-b6d8-85bf1a86c444",
-   CellID->996158473]},
- "9fa6b80e-4ab6-45dd-b609-46203f65606f"->{
-  Cell[172818, 3405, 449, 9, 24, "EchoBefore",ExpressionUUID->"7bd8eef9-7b36-4d90-b552-94272e09edde",
-   CellTags->"9fa6b80e-4ab6-45dd-b609-46203f65606f",
-   CellID->264043178]},
  "1ffdc1f2-5aa0-4f60-bd08-9861a517652c"->{
   Cell[173270, 3416, 535, 13, 24, "EchoAfter",ExpressionUUID->"89b2db8f-7066-4c0e-9e2a-38d9801323db",
    CellTags->"1ffdc1f2-5aa0-4f60-bd08-9861a517652c",
@@ -3595,16 +3587,24 @@ CellTagsIndex->{
  "607542a0-3d7f-4f02-aea9-30f75dc7389e"->{
   Cell[173808, 3431, 667, 16, 24, "EchoAfter",ExpressionUUID->"f8b97cc2-e036-4cf5-a8d5-dd3119e35a32",
    CellTags->"607542a0-3d7f-4f02-aea9-30f75dc7389e",
-   CellID->534974703]}
+   CellID->534974703]},
+ "9fa6b80e-4ab6-45dd-b609-46203f65606f"->{
+  Cell[172818, 3405, 449, 9, 24, "EchoBefore",ExpressionUUID->"7bd8eef9-7b36-4d90-b552-94272e09edde",
+   CellTags->"9fa6b80e-4ab6-45dd-b609-46203f65606f",
+   CellID->264043178]},
+ "98bfdf42-0915-4b7f-b6d8-85bf1a86c444"->{
+  Cell[172305, 3392, 510, 11, 24, "EchoBefore",ExpressionUUID->"5109656b-0b58-44e9-8d9b-7fdc0ce46637",
+   CellTags->"98bfdf42-0915-4b7f-b6d8-85bf1a86c444",
+   CellID->996158473]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"ExtendedExamples", 178818, 3578},
- {"98bfdf42-0915-4b7f-b6d8-85bf1a86c444", 179032, 3582},
- {"9fa6b80e-4ab6-45dd-b609-46203f65606f", 179255, 3586},
- {"1ffdc1f2-5aa0-4f60-bd08-9861a517652c", 179477, 3590},
- {"607542a0-3d7f-4f02-aea9-30f75dc7389e", 179697, 3594}
+ {"ExtendedExamples", 178819, 3578},
+ {"1ffdc1f2-5aa0-4f60-bd08-9861a517652c", 179033, 3582},
+ {"607542a0-3d7f-4f02-aea9-30f75dc7389e", 179253, 3586},
+ {"9fa6b80e-4ab6-45dd-b609-46203f65606f", 179475, 3590},
+ {"98bfdf42-0915-4b7f-b6d8-85bf1a86c444", 179697, 3594}
  }
 *)
 (*NotebookFileOutline
