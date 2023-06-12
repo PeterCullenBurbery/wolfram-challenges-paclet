@@ -10,7 +10,7 @@ Begin["`Private`"];
 
 DigitPermutationCount // ClearAll
 
-DigitPermutationCount[number_?PositiveIntegerQ] :=
+DigitPermutationCount[number_ ? (PositiveIntegerQ[#]&)] :=
     Multinomial @@ Values[Counts[IntegerDigits[number]]]
 
 End[]; (* End `Private` *)

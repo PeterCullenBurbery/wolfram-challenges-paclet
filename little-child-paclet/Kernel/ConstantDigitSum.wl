@@ -10,8 +10,8 @@ Begin["`Private`"];
 
 ConstantDigitSum // ClearAll
 
-ConstantDigitSum[m_?PositiveIntegerQ, n_?PositiveIntegerQ, s_?PositiveIntegerQ
-    ] :=
+ConstantDigitSum[m_ ? (PositiveIntegerQ[#]&), n_ ? (PositiveIntegerQ[
+    #]&), s_ ? (PositiveIntegerQ[#]&)] :=
     Select[Total[IntegerDigits[#]] == s&][Range[m, n]]
 
 End[]; (* End `Private` *)

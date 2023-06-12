@@ -10,7 +10,7 @@ Begin["`Private`"];
 
 DigitCountPi // ClearAll
 
-DigitCountPi[n_?PositiveIntegerQ] :=
+DigitCountPi[n_ ? (PositiveIntegerQ[#]&)] :=
     BinCounts[First[RealDigits[Pi, 10, n]], {0, 10, 1}]
 
 End[]; (* End `Private` *)

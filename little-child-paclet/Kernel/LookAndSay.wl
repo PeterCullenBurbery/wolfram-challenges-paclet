@@ -10,7 +10,7 @@ Begin["`Private`"];
 
 LookAndSay // ClearAll
 
-LookAndSay[n_?PositiveIntegerQ] :=
+LookAndSay[n_ ? (PositiveIntegerQ[#]&)] :=
     FromDigits /@
         Flatten /@
             NestList[

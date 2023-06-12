@@ -10,7 +10,8 @@ Begin["`Private`"];
 
 JosephusList // ClearAll
 
-JosephusList[men_?PositiveIntegerQ, skip_?PositiveIntegerQ] :=
+JosephusList[men_ ? (PositiveIntegerQ[#]&), skip_ ? (PositiveIntegerQ[
+   #]&)] :=
    Module[{live = Range[men], next},
       Table[
          next = RotateLeft[live, skip - 1];

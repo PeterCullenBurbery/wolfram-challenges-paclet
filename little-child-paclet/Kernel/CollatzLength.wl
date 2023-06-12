@@ -14,25 +14,8 @@ CollatzLength::usage = "CollatzLength[n] gives the number of steps required to r
 
 SetAttributes[CollatzLength, Listable];
 
-CollatzLength[_?PositiveIntegerQ] /; n > 0 :=
-  Length @
-    NestWhileList[
-      If[EvenQ[#],
-        Quotient[#, 2]
-        ,
-        3 # + 1
-      ]&
-      ,
-      n
-      ,
-      #1 != 1&
-      ,
-      1
-      ,
-      Infinity
-      ,
-      -1
-    ]
+CollatzLength[n_ ? (PositiveIntegerQ[#]&)] :=
+  Length @ Collatz[n]
 
 CollatzLength[args___] :=
   Null /; CheckArguments[CollatzLength[args], {1, 2}]

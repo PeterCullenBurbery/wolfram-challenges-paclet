@@ -8,7 +8,7 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-MaxRomanNumeralValue[n_?PositiveIntegerQ] :=
+MaxRomanNumeralValue[n_ ? (PositiveIntegerQ[#]&)] :=
     TakeLargestElements[Array[RomanNumeral, n], 1, Order[StringLength[
         #1], StringLength[#2]]&]
 
