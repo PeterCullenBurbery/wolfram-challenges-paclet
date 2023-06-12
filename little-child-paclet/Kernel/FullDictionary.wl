@@ -6,7 +6,7 @@ BeginPackage["PeterBurbery`LittleChildPaclet`"];
 
 (* Declare your packages public symbols here. *)
 
-PeterBIurbery`LittleChildPaclet`FullDictionary;
+PeterBurbery`LittleChildPaclet`FullDictionary;
 
 Begin["`Private`"];
 
@@ -14,8 +14,8 @@ Begin["`Private`"];
 
 ClearAll[FullDictionary]
 
-FullDictionary[] :=
-     Union[WordData[], DictionaryLookup[], WordList[]]
+FullDictionary[] =
+     Union[WordData[], DictionaryLookup[], WordList[]];
 
 FullDictionary[s_?StringPatternQ] :=
      Select[StringMatchQ[s][#]&][FullDictionary[]]

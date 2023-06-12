@@ -16,7 +16,11 @@ SetAttributes[CaesarCipher, {Listable}]
 
 CaesarCipher[s_ ? (StringQ[#]&)] :=
     CaesarCipher[s, 13]
+CaesarCipher[s_ ? (StringQ[#]&),Language->Automatic] :=
 
+
+    CaesarCipher[s, 13,Language->LanguageIdentify[s]]
+    
 CaesarCipher[s_ ? (StringQ[#]&), n_ ? (IntegerQ[#]&)] :=
     StringReplace[s, CaesarEncipherRules[n]]
 
