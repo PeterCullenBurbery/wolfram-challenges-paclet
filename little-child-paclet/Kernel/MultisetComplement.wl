@@ -10,11 +10,19 @@ Begin["`Private`"];
 
 MultisetComplement // ClearAll
 
-expr : MultisetComplement[a__Association] :=
+expr :
+  MultisetComplement[
+    a__ ?
+      (
+        Function[{hashmap},
+          AssociationQ[hashmap]
+        ]
+      )
+  ] :=
   Catch[
     Module[{p},
-      p = First[FirstPosition[Values /@ {a}, v_ /; !MatchQ[v, {___?NonNegativeIntegerQ
-        }], {Null}, {1}, Heads -> False]];
+      p = First[FirstPosition[Values /@ {a}, v_ /; !MatchQ[v, {___ ? 
+        (NonNegativeIntegerQ[#]&)}], {Null}, {1}, Heads -> False]];
       If[MatchQ[p, _ ? (IntegerQ[#]&)],
         Message[MultisetComplement::nocnt, p, HoldForm[expr]];
         Throw[HoldForm[expr]]
@@ -50,11 +58,31 @@ expr : MultisetComplement[] :=
     HoldForm[expr]
   )
 
-msetComplement[a : {__Association}] :=
+msetComplement[
+  a :
+    {
+      __ ?
+        (
+          Function[{hashmap},
+            AssociationQ[hashmap]
+          ]
+        )
+    }
+] :=
   (KeySort[DeleteCases[#1, 0]]&)[Merge[KeyUnion[{First[a], msetSum[Rest[
     a]]}, 0&], Ramp[Subtract @@ #1]&]]
 
-msetSum[a : {___Association}] :=
+msetSum[
+  a :
+    {
+      ___ ?
+        (
+          Function[{hashmap},
+            AssociationQ[hashmap]
+          ]
+        )
+    }
+] :=
   With[{counts = KeyUnion[a, 0&]},
     (KeySort[DeleteCases[#1, 0]]&)[Merge[counts, Total]]
   ]

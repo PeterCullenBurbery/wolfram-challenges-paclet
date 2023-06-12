@@ -10,20 +10,20 @@ Begin["`Private`"];
 
 ClearAll[TakeLargestElements]
 
-TakeLargestElements[list_?ListQ] :=
+TakeLargestElements[list_ ? (ListQ[#]&)] :=
   Module[{positionLargest},
     positionLargest = PositionLargest[list];
     Extract[list, List /@ positionLargest]
   ]
 
-TakeLargestElements[list_?ListQ, n_ ? (PositiveIntegerQ[#]&)] :=
+TakeLargestElements[list_ ? (ListQ[#]&), n_ ? (PositiveIntegerQ[#]&)] :=
   Module[{positionLargest},
     positionLargest = PositionLargest[list, n];
     Extract[list, List /@ positionLargest]
   ]
 
-TakeLargestElements[list_?ListQ, n_ ? (PositiveIntegerQ[#]&), orderfun_
-  ] :=
+TakeLargestElements[list_ ? (ListQ[#]&), n_ ? (PositiveIntegerQ[#]&),
+   orderfun_] :=
   Module[{positionLargest},
     positionLargest = PositionLargest[list, n, orderfun];
     Extract[list, List /@ positionLargest]

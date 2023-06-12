@@ -14,7 +14,7 @@ BalancedTernary::usage = "BalancedTernary[n] toggles the n between integer and b
 
 SetAttributes[BalancedTernary, {Listable}]
 
-BalancedTernary[n : (_?IntegerQ | _Row)] :=
+BalancedTernary[n : (_ ? (IntegerQ[#]&) | _Row)] :=
       Module[{list, len},
             If[Head[n] === Row,
                   list = Normal[n] /. \!\(\*UnderscriptBox[\(1\), \(_\)]\)

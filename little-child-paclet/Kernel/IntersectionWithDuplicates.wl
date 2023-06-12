@@ -10,7 +10,7 @@ Begin["`Private`"];
 
 IntersectionWithDuplicates // ClearAll
 
-IntersectionWithDuplicates[lists__?ListQ] :=
+IntersectionWithDuplicates[lists__ ? (ListQ[#]&)] :=
 	With[{kint = KeyIntersection[Counts /@ {lists}]},
 			If[kint === {},
 				{}

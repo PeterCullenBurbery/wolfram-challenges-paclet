@@ -12,7 +12,7 @@ AscendingSublists // ClearAll
 
 AscendingSublists::usage = "AscendingSublists[vector] finds the maximal ascending sublists of at least two contiguous elements in the given unsorted list vector."
 
-AscendingSublists[list : {___?IntegerQ}] :=
+AscendingSublists[list : {___ ? (IntegerQ[#]&)}] :=
   Select[Length[#] > 1&][Split[list, Less]]
 
 AscendingSublists[args___] :=

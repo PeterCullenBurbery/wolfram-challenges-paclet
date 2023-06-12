@@ -17,7 +17,8 @@ wordsquare[s_?StringQ] :=
     NestWhile[computewords[w, n, m++, #]&, c, m < n&]
   ]
 
-computewords[w_, n_?IntegerQ, m_?IntegerQ, c_?ListQ] :=
+computewords[w_, n_ ? (IntegerQ[#]&), m_ ? (IntegerQ[#]&), c_ ? (ListQ[
+  #]&)] :=
   Flatten[DeleteCases[Map[Cases[w, p : Append[#[[All, m + 1]], Repeated[
     _, {n - m}]] :> Append[#, p]]&, c], {}], 1]
 

@@ -10,7 +10,15 @@ Begin["`Private`"];
 
 MultisetCardinality // ClearAll
 
-expr : MultisetCardinality[a_Association] :=
+expr :
+   MultisetCardinality[
+      a_ ?
+         (
+            Function[{hashmap},
+               AssociationQ[hashmap]
+            ]
+         )
+   ] :=
    Catch[
       Module[{p},
          p = First[FirstPosition[Values /@ {a}, v_ /; !MatchQ[v, {___

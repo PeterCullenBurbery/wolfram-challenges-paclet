@@ -10,7 +10,7 @@ Begin["`Private`"];
 
 CountSquares // ClearAll
 
-CountSquares[inputPoints_?ListQ] :=
+CountSquares[inputPoints_ ? (ListQ[#]&)] :=
   Module[{count = 0, n = Length[inputPoints], pointA, pointB, pointC,
      pointD, sameDistancePoints},
     For[i = 1, i <= n, i++,

@@ -12,7 +12,7 @@ Begin["`Private`"];
 
 ClearAll[DigitalRoot]
 
-DigitalRoot[n_?NonNegativeIntegerQ] :=
+DigitalRoot[n_ ? (NonNegativeIntegerQ[#]&)] :=
     FixedPoint[Total[IntegerDigits[#]]&, n]
 
 End[]; (* End `Private` *)
