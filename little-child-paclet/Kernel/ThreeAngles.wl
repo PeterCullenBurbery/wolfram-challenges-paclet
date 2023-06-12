@@ -1,8 +1,4 @@
-ThreeAngles@{p_, q_, r_} := 
- Sort[PolygonAngle[
-    Polygon[{{1, 2, 0}, {2, 1, 0}, {0, 1, 2}}]] 180/\[Pi]]
 
-    
 BeginPackage["PeterBurbery`LittleChildPaclet`"];
 
 (* Declare your packages public symbols here. *)
