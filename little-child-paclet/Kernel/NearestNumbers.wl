@@ -8,8 +8,9 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-
-ButterflyString[input_?StringQ]:=StringJoin[input,StringReverse[input]]
+NearestNumbers[numbers : {__?(Function[{number},IntegerQ[number]])}] :=
+    Sort /@ Union[KeySort[GroupBy[EuclideanDistance @@ #&][DeleteCases[
+        {x_, x_}][Subsets[numbers, {2}]]]][[1]]]
 
 End[]; (* End `Private` *)
 

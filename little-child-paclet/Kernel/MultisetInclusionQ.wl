@@ -26,9 +26,42 @@ expr :
     ] :=
     Catch[
         Module[{p},
-            p = First[FirstPosition[Values /@ {a, b}, v_ /; !MatchQ[v,
-                 {___Integer?NonNegative}], {Null}, {1}, Heads -> False]];
-            If[MatchQ[p, _Integer],
+            p =
+                First[
+                    FirstPosition[
+                        Values /@ {a, b}
+                        ,
+                        v_ /;
+                            !MatchQ[
+                                v
+                                ,
+                                {
+                                    ___ ?
+                                            (
+                                                Function[{number},
+                                                    NonNegativeIntegerQ[number]
+                                                ]
+                                            ) 
+                                }
+                            ]
+                        ,
+                        {Null}
+                        ,
+                        {1}
+                        ,
+                        Heads -> False
+                    ]
+                ];
+            If[MatchQ[
+                p
+                ,
+                _ ?
+                    (
+                        Function[{number},
+                            IntegerQ[number]
+                        ]
+                    )
+            ],
                 Message[MultisetInclusionQ::nocnt, {a, b}[[p]], p];
                 Throw[HoldForm[expr]]
             ];
@@ -41,7 +74,16 @@ expr : MultisetInclusionQ[a_, b_] :=
         Module[{p, h},
             p = First[FirstPosition[{a, b}, _?AtomQ, {Null}, {1}, Heads
                  -> False]];
-            If[MatchQ[p, _Integer],
+            If[MatchQ[
+                p
+                ,
+                _ ?
+                    (
+                        Function[{number},
+                            IntegerQ[number]
+                        ]
+                    )
+            ],
                 Message[MultisetInclusionQ::normal, p, HoldForm[expr]
                     ];
                 Throw[HoldForm[expr]]

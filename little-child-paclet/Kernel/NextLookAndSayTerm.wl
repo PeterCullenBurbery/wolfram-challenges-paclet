@@ -8,8 +8,16 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-
-ButterflyString[input_?StringQ]:=StringJoin[input,StringReverse[input]]
+LookAndSay[
+        n_ ?
+            (
+                Function[{number},
+                    NonNegativeIntegerQ[number]
+                ]
+            )
+    ] /;  :=
+    FromDigits[Flatten[{Length[#], First[#]}& /@ Split[IntegerDigits[
+        n]]]]
 
 End[]; (* End `Private` *)
 

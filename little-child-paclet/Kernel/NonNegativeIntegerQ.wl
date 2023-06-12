@@ -8,8 +8,8 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-NonNegativeIntegerQ[n_]:=TrueQ[n\[Element]NonNegativeIntegers]
-
+NonNegativeIntegerQ[n_] :=
+    TrueQ[n \[Element] NonNegativeIntegers]
 
 End[]; (* End `Private` *)
 

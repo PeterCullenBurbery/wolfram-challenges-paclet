@@ -8,8 +8,8 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-
-ButterflyString[input_?StringQ]:=StringJoin[input,StringReverse[input]]
+PythagoreanPrimes[n_] :=
+    Select[PrimeQ] @* Select[Mod[#, 4] == 1&] @ Range @ (n)
 
 End[]; (* End `Private` *)
 
