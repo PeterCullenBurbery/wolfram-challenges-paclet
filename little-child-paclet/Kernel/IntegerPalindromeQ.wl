@@ -8,7 +8,7 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-IntegerPalindromeQ[n_?IntegerQ] :=
+IntegerPalindromeQ[n_ ? (IntegerQ[#]&)] :=
     IntegerReverse[n] == n
 
 IntegerPalindromeQ[n_?IntegerQ, b_] /; b > 1 :=

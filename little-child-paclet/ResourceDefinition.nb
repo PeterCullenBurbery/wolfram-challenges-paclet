@@ -4933,14 +4933,87 @@ excluded using ",
   "ExampleInitialization", "Initialization for Examples", "TemplateCellGroup"},
  CellID->468286435,ExpressionUUID->"cd132247-b0d2-4f83-a59c-0af53c83310a"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{
   RowBox[{"PacletDirectoryLoad", "[", 
    RowBox[{"NotebookDirectory", "[", "]"}], "]"}], ";"}]], "Input", "Excluded",
  TaggingRules->{},
  InitializationCell->True,
- CellLabel->"In[2]:=",
+ CellLabel->"In[1]:=",
  CellID->996717066,ExpressionUUID->"4dc4e45d-0c72-4586-994f-b2455cfc7fd1"],
+
+Cell[BoxData[
+ DynamicModuleBox[{Progress`ProgressDump`forceRedraw$$ = {{}, {}}, 
+  Progress`ProgressDump`open$$ = True, Progress`ProgressDump`clock$$ = 0, 
+  Progress`ProgressDump`maxTime$$ = DirectedInfinity[1]}, 
+  OverlayBox[{
+   AnimatorBox[Dynamic[Progress`ProgressDump`clock$$], {0., 
+     DirectedInfinity[1], 0.4},
+    AnimationRate->1,
+    AnimationRunTime->0.,
+    AppearanceElements->None,
+    ImageSize->{1, 1}], 
+   DynamicWrapperBox[
+    DynamicBox[ToBoxes[
+      Progress`GenerateProgressPanel[<|
+       "Text" :> StringForm[
+         "Initializing `1` indices ....", "WordData"]|>, <|{
+        "Title" -> "Computing...", "Type" -> "Panel", "Environment" -> 
+         "Notebook", 
+         "Parameters" -> <|
+          "Text" :> StringForm["Initializing `1` indices ....", "WordData"]|>,
+          "PreemptibleQ" -> False, "ConsoleQ" -> True, "Evaluator" -> "Local",
+          "EvaluationCell" -> 
+         CellObject[
+          "4dc4e45d-0c72-4586-994f-b2455cfc7fd1", 
+           "01bb3d41-433a-49b4-9536-c5b3fa61eaff"], "TimeStart" -> 
+         3.8953981219392425`17.343126839698822*^9, "TimeStartLocal" -> 
+         3.8953981219392425`17.343126839698822*^9, "InitialTimeEstimate" -> 
+         Indeterminate, "UpdateInterval" -> 0.4, "OuterUpdateInterval" -> 
+         DirectedInfinity[1], "Buttons" -> None, "Optional" -> {}, 
+         "ContainerQ" -> False, "CreateContainerQ" -> False, 
+         "CurrentContainer" -> None, "PreviousContainer" -> None, 
+         "ContainerName" -> None, "Cell" -> 
+         Hold[Progress`ProgressDump`cell$8581], "Clock" :> 
+         Dynamic[Progress`ProgressDump`clock$$], "Redraw" -> 
+         Progress`ProgressDump`forceRedraw$$, "Open" :> 
+         Dynamic[Progress`ProgressDump`open$$]}|>], StandardForm],
+     ImageSizeCache->{352., {11.900390625, 18.099609375}},
+     TrackedSymbols:>{Progress`ProgressDump`forceRedraw$$}], Refresh[
+    Progress`ProgressDump`forceRedraw$$ = 
+     With[{Progress`ProgressDump`values = Quiet[
+          
+          Values[<|"Text" :> 
+            StringForm["Initializing `1` indices ....", "WordData"]|>]]}, 
+       Map[
+       Position[Progress`ProgressDump`values, #, Infinity]& , {
+        None, Automatic}]], UpdateInterval -> 
+     Lookup[<|"Title" -> "Computing...", "Type" -> "Panel", "Environment" -> 
+        "Notebook", 
+        "Parameters" -> <|
+         "Text" :> StringForm["Initializing `1` indices ....", "WordData"]|>, 
+        "PreemptibleQ" -> False, "ConsoleQ" -> True, "Evaluator" -> "Local", 
+        "EvaluationCell" -> 
+        CellObject[
+         "4dc4e45d-0c72-4586-994f-b2455cfc7fd1", 
+          "01bb3d41-433a-49b4-9536-c5b3fa61eaff"], "TimeStart" -> 
+        3.8953981219392425`17.343126839698822*^9, "TimeStartLocal" -> 
+        3.8953981219392425`17.343126839698822*^9, "InitialTimeEstimate" -> 
+        Indeterminate, "UpdateInterval" -> 0.4, "OuterUpdateInterval" -> 
+        DirectedInfinity[1], "Buttons" -> None, "Optional" -> {}, 
+        "ContainerQ" -> False, "CreateContainerQ" -> False, 
+        "CurrentContainer" -> None, "PreviousContainer" -> None, 
+        "ContainerName" -> None, "Cell" -> 
+        Hold[Progress`ProgressDump`cell$8581], "Clock" -> Dynamic[None]|>, 
+       "OuterUpdateInterval"], TrackedSymbols :> {}],
+    ImageSizeCache->{352., {11.900390625, 18.099609375}}]}, All, 2],
+  DynamicModuleValues:>{}]], "PrintTemporary", "Excluded",
+ CellChangeTimes->{3.8954125219832726`*^9},
+ CellLabel->"During evaluation of In[1]:=",
+ CellID->344887351,ExpressionUUID->"4442d368-f7f3-4aef-9a93-ddf46e1f4317"]
+}, Open  ]],
 
 Cell[BoxData[
  RowBox[{
@@ -11140,6 +11213,7 @@ the following:\n\[FilledSmallSquare] Executes Shell or RUN commands\n\
                     ContentPadding -> False], 
                     MouseAppearanceTag["LinkHand"]], ShowStringCharacters -> 
                     True, FontFamily -> "Source Sans Pro"]]], 
+                    
                     "\n\[FilledSmallSquare] Interacts with external libraries\
 \n\[FilledSmallSquare] Reads or writes to streams or sockets\n\
 \[FilledSmallSquare] Launches parallel kernels, subkernels or GPUs"}], 

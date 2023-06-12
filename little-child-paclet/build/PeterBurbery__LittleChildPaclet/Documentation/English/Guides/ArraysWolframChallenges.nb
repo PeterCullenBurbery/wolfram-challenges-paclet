@@ -1,0 +1,239 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      9164,        229]
+NotebookOptionsPosition[      6687,        176]
+NotebookOutlinePosition[      8360,        216]
+CellTagsIndexPosition[      8317,        213]
+WindowTitle->Arrays Wolfram Challenges
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ LITTLE CHILD PACLET GUIDE", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "31999119-a62e-4fc9-a75c-3f530a75cbdc"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "eb22087f-4a8a-4cc3-851e-0ddbe3083746"],
+        Background->RGBColor[0.85098, 0.396078, 0],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Functions",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "32f3a93e-dcba-4268-aeac-1334218aa341"]
+         }],ExpressionUUID->"ebe383f5-00c5-4e41-a22b-7b05a07d5f4c"],
+         StripOnInput->False], {"\<\"AscendingSublists\"\>":>
+        Documentation`HelpLookup[
+        "paclet:PeterBurbery/LittleChildPaclet/ref/AscendingSublists"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"GuideFunction"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "6eba8688-c482-4bc2-ae72-935c17cf098c"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "deedc0dc-b6d9-4bde-a4c7-3937104a1b35"]
+         }],ExpressionUUID->"03f9ef48-56f3-4195-a71d-3aa6b49a994a"],
+         StripOnInput->
+          False], {"\<\"PeterBurbery/LittleChildPaclet/guide/\
+ArraysWolframChallenges\"\>":>
+        None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
+        Module[{DocumentationSearch`Private`nb$}, 
+         DocumentationSearch`Private`nb$ = NotebookPut[
+            Notebook[{
+              Cell[
+              "PeterBurbery/LittleChildPaclet/guide/ArraysWolframChallenges"]}\
+, Visible -> False]]; 
+         SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+         NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+        Delimiter, "\<\"Copy web URL\"\>":>
+        Module[{DocumentationSearch`Private`nb$}, 
+         DocumentationSearch`Private`nb$ = NotebookPut[
+            Notebook[{
+              Cell[
+               BoxData[
+                MakeBoxes[
+                 Hyperlink[
+                 "http://reference.wolfram.com/language/PeterBurbery/\
+LittleChildPaclet/guide/ArraysWolframChallenges.html"], StandardForm]], 
+               "Input", TextClipboardType -> "PlainText"]}, Visible -> 
+             False]]; SelectionMove[
+          DocumentationSearch`Private`nb$, All, Notebook]; 
+         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+         NotebookClose[DocumentationSearch`Private`nb$]; 
+         Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
+          NotebookLocate[{
+            URL[If[
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$23682], 
+               "http://reference.wolfram.com/system-modeler/", 
+               "http://reference.wolfram.com/language/"] <> 
+             "PeterBurbery/LittleChildPaclet/guide/ArraysWolframChallenges" <> 
+             ".html"], None}]}]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "7ef23eff-62db-448b-8a79-f254da8514c9"]
+    }], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "80f0fd27-0254-413c-b32d-342a4a49e06b"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"6b751a14-8c15-477c-a34c-ade55e1e16d9"],
+
+Cell[CellGroupData[{
+
+Cell["Arrays Wolfram Challenges", "GuideTitle",
+ CellID->417531041,ExpressionUUID->"b3a0d5fe-0829-4072-afa8-6d0c7c8029b7"],
+
+Cell["\[NonBreakingSpace]", "GuideAbstract",
+ CellID->46408263,ExpressionUUID->"17b90ca0-a396-4fc4-9bee-9f66e79db8ae"],
+
+Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"499a5d64-f78c-40c9-bee3-1cd060873db0"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["AscendingSublists"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/AscendingSublists", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "92741b0e-64b0-41b9-b230-1e863db0bec9"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " In a given unsorted list, find the maximal ascending sublists of at least \
+two contiguous elements."
+}], "GuideText",
+ CellID->736560881,ExpressionUUID->"103968d6-fb2d-41b7-9100-602a3790286a"],
+
+Cell["\t", "GuideDelimiter",
+ CellID->9822470,ExpressionUUID->"9a4a3bca-1813-439e-9cb1-68d05c87376e"],
+
+Cell[TextData[Cell["\<\
+
+FrameBox[\"\\\"XXXX\\\"\"]\
+\>", "FunctionPlaceholder", \
+"InlineFunctionSansUnlinked",ExpressionUUID->"fbd9d32e-ac1f-4d32-8dcc-\
+c3380b23d0eb"]], "InlineGuideFunctionListing",
+ CellID->17456849,ExpressionUUID->"ab75cbc3-1145-4257-8ad3-78704fd65af3"],
+
+Cell[BoxData["Open"], "Input",ExpressionUUID->"c566669b-f5b4-4db6-8cec-04a4792a5311"]
+}, Open  ]]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900., 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Arrays Wolfram Challenges",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
+  "NewStyles" -> True, "CitationPopupData" -> {$Failed, ""}, "ShowCitation" -> 
+  False, "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2023, 6, 10, 15, 28, 5.5159900}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "PeterBurbery`LittleChildPaclet`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Little Child Paclet Guide", "language" -> 
+    "en", "paclet" -> "PeterBurbery/LittleChildPaclet", "status" -> "None", 
+    "summary" -> "", "synonyms" -> {}, "tabletags" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$23652, "title" -> 
+    "Arrays Wolfram Challenges", "titlemodifier" -> "", "metadescription" -> 
+    "", "windowtitle" -> "Arrays Wolfram Challenges", "type" -> "Guide", 
+    "uri" -> "PeterBurbery/LittleChildPaclet/guide/ArraysWolframChallenges"}},
+CacheGraphics->False,
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 31, 2023)",
+StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
+  CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"610f6f7e-227c-411e-9c4c-1d310f13600f"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[600, 21, 4603, 111, 70, "AnchorBarGrid",ExpressionUUID->"6b751a14-8c15-477c-a34c-ade55e1e16d9",
+ CellID->1],
+Cell[CellGroupData[{
+Cell[5228, 136, 122, 1, 70, "GuideTitle",ExpressionUUID->"b3a0d5fe-0829-4072-afa8-6d0c7c8029b7",
+ CellID->417531041],
+Cell[5353, 139, 118, 1, 70, "GuideAbstract",ExpressionUUID->"17b90ca0-a396-4fc4-9bee-9f66e79db8ae",
+ CellID->46408263],
+Cell[5474, 142, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"499a5d64-f78c-40c9-bee3-1cd060873db0"],
+Cell[5570, 144, 631, 16, 70, "GuideText",ExpressionUUID->"103968d6-fb2d-41b7-9100-602a3790286a",
+ CellID->736560881],
+Cell[6204, 162, 101, 1, 70, "GuideDelimiter",ExpressionUUID->"9a4a3bca-1813-439e-9cb1-68d05c87376e",
+ CellID->9822470],
+Cell[6308, 165, 275, 6, 70, InheritFromParent,ExpressionUUID->"ab75cbc3-1145-4257-8ad3-78704fd65af3",
+ CellID->17456849],
+Cell[6586, 173, 85, 0, 70, "Input",ExpressionUUID->"c566669b-f5b4-4db6-8cec-04a4792a5311"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

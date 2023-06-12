@@ -3,17 +3,17 @@
 (*** Wolfram Notebook File ***)
 (* http://www.wolfram.com/nb *)
 
-(* CreatedBy='Mathematica 13.3' *)
+(* CreatedBy='WolframDesktop 13.2' *)
 
 (*CacheID: 234*)
 (* Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
-NotebookDataPosition[       158,          7]
-NotebookDataLength[     11168,        284]
-NotebookOptionsPosition[      8068,        215]
-NotebookOutlinePosition[     10230,        270]
-CellTagsIndexPosition[     10146,        265]
+NotebookDataPosition[       161,          7]
+NotebookDataLength[     11138,        283]
+NotebookOptionsPosition[      8031,        214]
+NotebookOutlinePosition[     10203,        269]
+CellTagsIndexPosition[     10119,        264]
 WindowTitle->MultisetComplement
 WindowFrame->Normal*)
 
@@ -28,11 +28,11 @@ Cell[BoxData[GridBox[{
            "Spacer1"], Cell[
           "PETER BURBERY/ LITTLE CHILD PACLET SYMBOL", "PacletNameCell",
            TextAlignment->Center,ExpressionUUID->
-           "5fdfb5f8-37db-4fb0-99d9-58d94eaa0e98"], 
+           "9d20097b-8df9-4392-b944-21c7546379bc"], 
           TemplateBox[{8},
            "Spacer1"]}]],
          TextAlignment->Center,ExpressionUUID->
-         "54650b59-9fbb-4f13-abe8-aca9c3737406"],
+         "4fbc8a80-788e-4de7-a8c4-47888e4d2336"],
         Background->RGBColor[0.490196, 0.576471, 0.690196],
         ItemSize->Full], ""}
      },
@@ -51,58 +51,57 @@ Cell[BoxData[GridBox[{
            AspectRatio->1,
            ImageSize->20,
            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
-          "cf80e05c-9f64-4dd2-9adf-222dd9a881f5"]
-        }],ExpressionUUID->"08fa1fb6-57e8-4852-9598-7520ef6bb123"],
-        StripOnInput->False],{
-       "\"PeterBurbery/LittleChildPaclet/ref/MultisetComplement\"" :> None, 
-        "\"Copy Wolfram Documentation Center URL\"" :> 
-        Module[{DocumentationSearch`Private`nb$}, 
-          DocumentationSearch`Private`nb$ = 
-           NotebookPut[
-            Notebook[{
-              Cell["PeterBurbery/LittleChildPaclet/ref/MultisetComplement"]}, 
-              Visible -> False]]; 
-          SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
-          FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
-          NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
-        "\"Copy web URL\"" :> 
-        Module[{DocumentationSearch`Private`nb$}, 
-          DocumentationSearch`Private`nb$ = 
-           NotebookPut[
-            Notebook[{
-              Cell[BoxData[
-                MakeBoxes[
-                 Hyperlink[
-                  "http://reference.wolfram.com/language/PeterBurbery/\
+          "72e50361-afa7-458e-913d-e215d742c242"]
+        }],ExpressionUUID->"cc5f0074-b31c-4e93-a598-06d9abc7eb54"],
+        StripOnInput->
+         False], {"\<\"PeterBurbery/LittleChildPaclet/ref/MultisetComplement\"\
+\>":>None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell["PeterBurbery/LittleChildPaclet/ref/MultisetComplement"]}, 
+            Visible -> False]]; 
+        SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+       Delimiter, "\<\"Copy web URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell[
+              BoxData[
+               MakeBoxes[
+                Hyperlink[
+                "http://reference.wolfram.com/language/PeterBurbery/\
 LittleChildPaclet/ref/MultisetComplement.html"], StandardForm]], "Input", 
-                TextClipboardType -> "PlainText"]}, Visible -> False]]; 
-          SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
-          FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
-          NotebookClose[DocumentationSearch`Private`nb$]; Null], 
-        "\"Go to web URL\"" :> 
-        FrontEndExecute[{
-          NotebookLocate[{
-            URL[If[TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$42012], 
-                "http://reference.wolfram.com/system-modeler/", 
-                "http://reference.wolfram.com/language/"] <> 
-              "PeterBurbery/LittleChildPaclet/ref/MultisetComplement" <> 
-              ".html"], None}]}]},
+              TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+        SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; 
+        Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
+         NotebookLocate[{
+           URL[If[
+              TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$39845], 
+              "http://reference.wolfram.com/system-modeler/", 
+              "http://reference.wolfram.com/language/"] <> 
+            "PeterBurbery/LittleChildPaclet/ref/MultisetComplement" <> 
+            ".html"], None}]}]},
        Appearance->None,
        MenuAppearance->Automatic,
        MenuStyle->"URLMenu"],
       MouseAppearanceTag["LinkHand"]]],
      LineSpacing->{1.4, 0},ExpressionUUID->
-     "6216394c-5ea2-4c7f-82ea-db7360c64c6a"]], "AnchorBar",
+     "f2475b9d-c06a-449c-a142-d19e9a2a3a76"]], "AnchorBar",
      CacheGraphics->False,ExpressionUUID->
-     "e4b55939-fe2b-4d48-92d6-83a2b221f8b3"]}
+     "6fd9fc38-e3a7-488d-9e87-7d0f7e4d2468"]}
   }]], "AnchorBarGrid",
  GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
      Scaled[0.65], {
       Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
    "RowsIndexed" -> {}}},
- CellID->1,ExpressionUUID->"bfbfff6f-aa84-4b18-bf47-c812bc1249a6"],
+ CellID->1,ExpressionUUID->"06f9eeab-2dad-49b7-bccf-c81a811b8c83"],
 
-Cell["PeterBurbery`LittleChildPaclet`", "ContextNameCell",ExpressionUUID->"cd69dc06-a80c-471b-b190-44a16aceeeb2"],
+Cell["PeterBurbery`LittleChildPaclet`", "ContextNameCell",ExpressionUUID->"94759f72-c3ba-4e32-96dc-721a2e1ec0b8"],
 
 Cell[CellGroupData[{
 
@@ -110,17 +109,17 @@ Cell[BoxData[GridBox[{
    {Cell[TextData[{
      Cell[
      "MultisetComplement", "ObjectName",ExpressionUUID->
-      "86e74c78-5a30-4f39-b608-5e79f9ec8aaa"],
+      "51cc915e-b9ea-4406-a99a-abbd1ce98062"],
      Cell[BoxData[
       TemplateBox[{8},
-       "Spacer1"]],ExpressionUUID->"f3cd147f-8d41-4345-8c67-b427e7e9d39a"],
+       "Spacer1"]],ExpressionUUID->"b5eeaea8-4449-475a-b87e-c0b001ca7418"],
      Cell[BoxData[
      ""], "ObjectNameTranslation",ExpressionUUID->
-      "39904cca-8ee3-4923-a94f-61e5a704fdd8"]
-    }],ExpressionUUID->"ffb7c538-13cf-4028-9202-d2695d2f85fa"], 
+      "86793772-4a4c-43c8-bf7d-1e65c4721ae4"]
+    }],ExpressionUUID->"83779c4b-8712-4b15-bde1-4f9210069743"], 
     "\[SpanFromLeft]"}
-  }]], "ObjectNameGrid",ExpressionUUID->"82b900e7-18d0-486e-a623-\
-0a72c3394676"],
+  }]], "ObjectNameGrid",ExpressionUUID->"6898a3c3-c221-44bf-974f-\
+05ca3085aeb1"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -136,7 +135,7 @@ Cell[BoxData[GridBox[{
       FontFamily->"Source Sans Pro",ExpressionUUID->
       "d5c037c9-1105-402a-b055-1f25fe310204"],
      "\[LineSeparator]XXXX"
-    }],ExpressionUUID->"d2f62f15-9545-461f-b937-16c0aa7f4e44"]}
+    }],ExpressionUUID->"603c48c7-d539-4319-8d28-9ddb61f3484a"]}
   }]], "Usage",
  CellID->128708821,ExpressionUUID->"b392f062-f516-4814-beec-2f0003053fd1"]
 }, Open  ]],
@@ -168,19 +167,19 @@ Cell[TextData[{
         PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
        0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
    ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
-  ExpressionUUID->"9b1fe57b-b3b5-4482-9018-418651ee6fb5"],
+  ExpressionUUID->"eda7a539-6316-42e4-b86b-07ebe73e1313"],
  Cell[BoxData[
   TemplateBox[{1},
-   "Spacer1"]],ExpressionUUID->"8a51f507-1f24-402e-90f5-8d256aff818c"],
+   "Spacer1"]],ExpressionUUID->"0e9ca578-0beb-4988-8d1b-69b751120968"],
  "Examples",
  "\[NonBreakingSpace]\[NonBreakingSpace]",
  Cell["(0)", "ExampleCount",ExpressionUUID->
-  "1e171095-a273-4b7f-9622-6d0ed61670d5"]
+  "d394cc1a-5863-4a4b-ac24-6de024726b47"]
 }], "PrimaryExamplesSection",
  WholeCellGroupOpener->True,
  CacheGraphics->False,
  CellTags->"PrimaryExamplesSection",
- CellID->151956980,ExpressionUUID->"0f2adbce-5d20-4bfe-9307-804c08fae762"],
+ CellID->419895457,ExpressionUUID->"5624a61a-892c-467b-a0b3-717991c75e84"],
 
 Cell[BoxData[
  RowBox[{"Needs", "[", "\"\<PeterBurbery`LittleChildPaclet`\>\"", 
@@ -208,14 +207,14 @@ Cell[BoxData[GridBox[{
         "4fcd46be-919f-4f01-a492-0d14660b66f8"]], "SeeAlso",ExpressionUUID->
         "f9919fd3-929f-4364-b668-37dcb177664e"]}
      }]}
-  }]], "SeeAlsoSection",ExpressionUUID->"0b392e3e-0153-4817-a3a1-\
-f53db19712a8"],
+  }]], "SeeAlsoSection",ExpressionUUID->"f9776e83-ae19-4e22-9fe5-\
+38ca4f9218c9"],
 
-Cell[" ", "FooterCell",ExpressionUUID->"b8d01801-23dd-4264-90f6-4e4eff082661"]
+Cell[" ", "FooterCell",ExpressionUUID->"37cdcf34-ca60-4d43-8749-f8cbe55e800c"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",
-WindowSize->{900, 604.8},
+WindowSize->{900., 604.8},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 WindowTitle->"MultisetComplement",
 TaggingRules->{
@@ -226,7 +225,7 @@ TaggingRules->{
   "NewStyles" -> True, "CitationPopupData" -> $Failed, "ShowCitation" -> 
   False, "RootCaptions" -> "", 
   "Metadata" -> {
-   "built" -> "{2023, 6, 6, 21, 2, 15.8677868}", 
+   "built" -> "{2023, 6, 10, 15, 32, 9.6636487}", 
     "history" -> {"XX", "", "", ""}, "context" -> 
     "PeterBurbery`LittleChildPaclet`", "keywords" -> {}, 
     "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
@@ -238,7 +237,7 @@ TaggingRules->{
     "Symbol", "uri" -> 
     "PeterBurbery/LittleChildPaclet/ref/MultisetComplement"}},
 CellContext->"Global`",
-FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 31, 2023)",
 StyleDefinitions->Notebook[{
    Cell[
     StyleData[
@@ -247,9 +246,9 @@ StyleDefinitions->Notebook[{
     StyleData["Input"], CellContext -> "Global`"], 
    Cell[
     StyleData["Output"], CellContext -> "Global`"]}, Visible -> False, 
-  FrontEndVersion -> "13.3 for Microsoft Windows (64-bit) (May 18, 2023)", 
-  StyleDefinitions -> "Default.nb"],
-ExpressionUUID->"201ada32-ae04-4f65-b4e8-d9170920e6bd"
+  FrontEndVersion -> "13.2 for Microsoft Windows (64-bit) (January 31, 2023)",
+   StyleDefinitions -> "Default.nb"],
+ExpressionUUID->"5e1c1c26-61f4-4836-be5d-70855d55e911"
 ]
 (* End of Notebook Content *)
 
@@ -257,35 +256,35 @@ ExpressionUUID->"201ada32-ae04-4f65-b4e8-d9170920e6bd"
 (*CellTagsOutline
 CellTagsIndex->{
  "PrimaryExamplesSection"->{
-  Cell[5521, 145, 1420, 37, 70, "PrimaryExamplesSection",ExpressionUUID->"0f2adbce-5d20-4bfe-9307-804c08fae762",
+  Cell[5484, 144, 1420, 37, 70, "PrimaryExamplesSection",ExpressionUUID->"5624a61a-892c-467b-a0b3-717991c75e84",
    CellTags->"PrimaryExamplesSection",
-   CellID->151956980]}
+   CellID->419895457]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"PrimaryExamplesSection", 9947, 258}
+ {"PrimaryExamplesSection", 9920, 257}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[590, 21, 3525, 81, 70, "AnchorBarGrid",ExpressionUUID->"bfbfff6f-aa84-4b18-bf47-c812bc1249a6",
+Cell[593, 21, 3485, 80, 70, "AnchorBarGrid",ExpressionUUID->"06f9eeab-2dad-49b7-bccf-c81a811b8c83",
  CellID->1],
-Cell[4118, 104, 113, 0, 70, "ContextNameCell",ExpressionUUID->"cd69dc06-a80c-471b-b190-44a16aceeeb2"],
+Cell[4081, 103, 113, 0, 70, "ContextNameCell",ExpressionUUID->"94759f72-c3ba-4e32-96dc-721a2e1ec0b8"],
 Cell[CellGroupData[{
-Cell[4256, 108, 561, 14, 70, "ObjectNameGrid",ExpressionUUID->"82b900e7-18d0-486e-a623-0a72c3394676"],
-Cell[4820, 124, 664, 16, 70, "Usage",ExpressionUUID->"b392f062-f516-4814-beec-2f0003053fd1",
+Cell[4219, 107, 561, 14, 70, "ObjectNameGrid",ExpressionUUID->"6898a3c3-c221-44bf-974f-05ca3085aeb1"],
+Cell[4783, 123, 664, 16, 70, "Usage",ExpressionUUID->"b392f062-f516-4814-beec-2f0003053fd1",
  CellID->128708821]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5521, 145, 1420, 37, 70, "PrimaryExamplesSection",ExpressionUUID->"0f2adbce-5d20-4bfe-9307-804c08fae762",
+Cell[5484, 144, 1420, 37, 70, "PrimaryExamplesSection",ExpressionUUID->"5624a61a-892c-467b-a0b3-717991c75e84",
  CellTags->"PrimaryExamplesSection",
- CellID->151956980],
-Cell[6944, 184, 222, 4, 70, "Input",ExpressionUUID->"00ac1bf9-de23-4ba1-92f1-e1fd24a11c8e",
+ CellID->419895457],
+Cell[6907, 183, 222, 4, 70, "Input",ExpressionUUID->"00ac1bf9-de23-4ba1-92f1-e1fd24a11c8e",
  CellID->916944554]
 }, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
-Cell[7284, 193, 699, 18, 70, "SeeAlsoSection",ExpressionUUID->"0b392e3e-0153-4817-a3a1-f53db19712a8"],
-Cell[7986, 213, 78, 0, 70, "FooterCell",ExpressionUUID->"b8d01801-23dd-4264-90f6-4e4eff082661"]
+Cell[7247, 192, 699, 18, 70, "SeeAlsoSection",ExpressionUUID->"f9776e83-ae19-4e22-9fe5-38ca4f9218c9"],
+Cell[7949, 212, 78, 0, 70, "FooterCell",ExpressionUUID->"37cdcf34-ca60-4d43-8749-f8cbe55e800c"]
 }
 ]
 *)

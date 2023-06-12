@@ -8,16 +8,16 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-Internal`ArgumentCountRegistry[StringPatternQ] ^= {1, 1};
+Internal`ArgumentCountRegistry[StringPatternQ] ^= {1, 1}
 
-StringPatternQ[_?StringQ] :=
-    True;
+StringPatternQ[_String] :=
+    True
 
 StringPatternQ[GeneralUtilities`Strings`PackagePrivate`x_] :=
     GeneralUtilities`Strings`PackagePrivate`spq[GeneralUtilities`Strings`PackagePrivate`x
         ]
 
-Developer`Private`LHS$_?StringQPatternQ :=
+Developer`Private`LHS$_StringPatternQ(*although the code linter marks this an error, it doesn't work if you accept the quick fix*) :=
     RuleCondition[
         Developer`CheckArgumentCount[Developer`Private`LHS$, 1, 1];
         Fail

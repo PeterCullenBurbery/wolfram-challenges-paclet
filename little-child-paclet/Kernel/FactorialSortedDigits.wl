@@ -10,7 +10,7 @@ Begin["`Private`"];
 
 FactorialSortedDigits // ClearAll
 
-FactorialSortedDigits[n_?IntegerQ] /; n > 10 :=
+FactorialSortedDigits[n_ ? (IntegerQ[#]&)] /; n > 10 :=
   First /@ Join @@ Values[KeySort[SortBy[First] /@ GroupBy[Last][Tally[
     Flatten[Table[IntegerDigits[i!], {i, n}]]]]]]
 

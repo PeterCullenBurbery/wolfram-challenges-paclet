@@ -6,12 +6,25 @@
             "File"
             ->
             File[
+                "Kernel\\AliquotSequence.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "424c747461a83d993178b13e9f86d2e41b1c1a6ee42a543f10f423bf32c4e4c9"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Kernel\\AlmostPalindrome.wl"
             ]
             ,
             "Hash"
             ->
-            "064a564fe33ae82864aa74da85715da1f471a5d4e99c34b1e2702cb7fd09a42b"
+            "e75ebb91e99ddb1429e1ec55a2bb4567dffbad632b615c0944edd150076e436d"
                 
         |>
         ,
@@ -24,7 +37,7 @@
             ,
             "Hash"
             ->
-            "b4513b1cd46fb5daa1097aad47f2f52bccb68c4f404ec5492e8358639e203b4c"
+            "39d2eab63c1b5d7ca8d5b2987e8d2af039818517d6d7b2c99d29cd97873f59bd"
                 
         |>
         ,
@@ -37,7 +50,7 @@
             ,
             "Hash"
             ->
-            "c11b4be841c673927dd6875da2e24cb42db9f4024079fa1d585a73369c98023e"
+            "c4629aa2c3f314191c69b7f434521c164fd7e57d89f4b61540b655b6e3fc46f5"
                 
         |>
         ,
@@ -50,7 +63,7 @@
             ,
             "Hash"
             ->
-            "c49a9f04074700b1f3d06a9ee29c9e38db3fedb0b6ab8d3e37ba71f2585b64a9"
+            "712eb3a8d556c379b81451e6d6d2e804d4e2d93412aa95333e0e4a539db7573f"
                 
         |>
         ,
@@ -63,7 +76,7 @@
             ,
             "Hash"
             ->
-            "b4513b1cd46fb5daa1097aad47f2f52bccb68c4f404ec5492e8358639e203b4c"
+            "2a4c91b13b81f12e9cb3ee99992d997833fd45403a53272dbbc5c4d77b6364ef"
                 
         |>
         ,
@@ -76,7 +89,7 @@
             ,
             "Hash"
             ->
-            "5852b4804842757af7d8924db60a598c7960d12ff6af28d20145e7a4dfc39a31"
+            "d6b2adb98bed41d3b0018517bb4db65aa94498d309ba5dfc0863ca344af6fc3a"
                 
         |>
         ,
@@ -89,7 +102,7 @@
             ,
             "Hash"
             ->
-            "bd2006429600965b5ab1ca57860029db8e13bd1d0d5cabb52f9934ff857f9d96"
+            "33cecc3fa467036cb787ddeb8bf6e9a88324e3d503ca459eeb5f73971103c393"
                 
         |>
         ,
@@ -102,7 +115,7 @@
             ,
             "Hash"
             ->
-            "b8c89b26e4db0ae9f6f6d80b168423bc7a5640f424dc2fc5ddaf50e091584ba8"
+            "5495604d583b2b6d37962d53757e3b34a6b09f604feaffaffa0af880c450b6e9"
                 
         |>
         ,
@@ -115,7 +128,20 @@
             ,
             "Hash"
             ->
-            "dcd53edf163aabf312eaded49196d7e03e51b0051d4dc8260a1d35173246399c"
+            "32a0601caf1e6b994d8b25ac78f5501da5c2d33921239487041a94abad8e124a"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\Bomber.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "281e3a909e23bbe410146dbdf30d1cfd4695fa812f3a11f83e56f84614030e3b"
                 
         |>
         ,
@@ -128,7 +154,7 @@
             ,
             "Hash"
             ->
-            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+            "996fffc501d8ac0a6be3abb015b1625c51f05890e41c53f87fe9f96f23954d9d"
                 
         |>
         ,
@@ -136,12 +162,12 @@
             "File"
             ->
             File[
-                "Kernel\\CaesarDecrypt.wl"
+                "Kernel\\CaesarDecipher.wl"
             ]
             ,
             "Hash"
             ->
-            "29f2ef6bf31f76c91471a5ecb669e5c8edf913be5835b82a9573733fcb1806b9"
+            "b7efefb217abf98580ce8656622606ac8df410ae7e13152c071179b6323e3d05"
                 
         |>
         ,
@@ -154,7 +180,7 @@
             ,
             "Hash"
             ->
-            "3078cc940a710fcf6ee0f067d2c64a742711e794fc6093f73226770216419d2d"
+            "2cc75d3391f516b44a78bca28e650076e27475f759a87c92cca26f78c892c0ec"
                 
         |>
         ,
@@ -167,7 +193,7 @@
             ,
             "Hash"
             ->
-            "23e7aa4cba03d84558f0226b3600e415824bb6d5a91c922906bfd5b62b463efb"
+            "a34c7142efecf7d3b158ca08e286b50c3650f38cdf6d219c4fb00cbfe37bade9"
                 
         |>
         ,
@@ -175,12 +201,51 @@
             "File"
             ->
             File[
-                "Kernel\\CompleteDictionary.wl"
+                "Kernel\\CollatzLength.wl"
             ]
             ,
             "Hash"
             ->
-            "80f9811df4ce829251587eef2abde61eae7b36b20cf921b8d719ce2cfcf2a677"
+            "196d8f98a693452a8366662a4a75b248bc47d0a9402429e886e84ea1dd34624b"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\Composite.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "6432c370e4b88bcab2b808d03b16669043483842ca8c6159a80cb71a2fc51e5d"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\ConstantDigitSum.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "cdecb830714b4e96fe83130be60148ae3cc56c8d26d6f2bb3d403e38d1ab3e36"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\CountSquares.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "976ed04d0dcfbb3aa486c7ea959da44f532856e3e9043cc3a4a0c93ff583c2f0"
                 
         |>
         ,
@@ -193,7 +258,85 @@
             ,
             "Hash"
             ->
-            "2e8bf0078aee76297eb560517c228c7d6e29d3fcf8db1dfc8fdb9ed4eebb457c"
+            "fea98537260d8f060ad7c327940350695c0587220bb1efc14b1a44898726587a"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\DigitCountPi.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "fc89c09a5e34a760b4a55c3f718abefbb836eec87a71c6e74276588086633502"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\DigitPermutationCount.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "7b42f7f6325475e31654a12af826ad06d94f551f2fd252f024d827993c142002"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\DiscreteSpiral.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "549250c9e549253e3625b0a15959181454513e6845416b1307d4088763659f4d"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\FactorialSortedDigits.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "42a5e538f00b74f400102a438fc624eddff726dc0184faabae6a3ec33d918c5b"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\FindInPi.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "549250c9e549253e3625b0a15959181454513e6845416b1307d4088763659f4d"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\FivePointConic.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "46fbd07ae417d997b4281252c75050d52958c0b9f95ab9108b7dd4423af1e54d"
                 
         |>
         ,
@@ -206,7 +349,111 @@
             ,
             "Hash"
             ->
-            "1439272f106ee5c0086b5888820e04f2eb5f8ec5b021b7c76dc1b9c85df32261"
+            "b9f00c089f74dd0889a61e6bf9eac9cc5c5e0afa208730358b9729cc8d513f39"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\FlipPrimeQ.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "ef2d10eac69c0d800cb7c162473cac8c28888105065cd93e8ccb050841d38218"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\FourPointParabola.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "c38724752d2e7ca2b3f859b67a385765b65bfc3bd859a2f6070e2cb475c7bb15"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\FullDictionary.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "562387a850e2dce10ade630012aa0804d2572c14ebfcb3ed0eb091f7be896d96"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\GeoPositionQ.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9db451a92c0375124de91cc476ec26c04ab3361e395048d7b650fc3d30edf665"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\GoldbachPartitions.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "d674cf6e11bdcc3ae2135728386c70cd14e32a78d2c7bf7fef3f40a2cdc6ad3a"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\GrayCode.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "b62f58407fba130d3173f12d7467e6c2b26c4ef71f966d1819cb82cdb3bb7b99"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\HessianPlane.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "549250c9e549253e3625b0a15959181454513e6845416b1307d4088763659f4d"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\InsideTriangle.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "3e79cc5a05966de0a7c40136ed600dc1eb8ea712b62fe833ce74ee48a13625ce"
                 
         |>
         ,
@@ -219,7 +466,20 @@
             ,
             "Hash"
             ->
-            "8217cb139b62572a70ca1e6fb981810a05f7dbec5d6ebe51fa79ffdd33a5a720"
+            "5bcaf93b4a24a786cebfc117df434e7e7aded8e9add4d73e020c8945994f7185"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\IntersectionWithDuplicates.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "72be33596072e238e863afeeb2774d23e3be064769c12582083585a724033a41"
                 
         |>
         ,
@@ -232,7 +492,20 @@
             ,
             "Hash"
             ->
-            "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            "e5a1090b8d6a3b52e5ad18317381381fa46822e3d7af219a8474099d9095addd"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\LargestContiguousSum.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "c4a8c2bfc65894c155e25201562b2fd910cb1ba347f6ed6cd3d76b3efa6a6c37"
                 
         |>
         ,
@@ -245,7 +518,33 @@
             ,
             "Hash"
             ->
-            "b488a393848923150749fac1d8e21a7231bdd36e5fc9619f3aa1e42004b64ac1"
+            "536229487d85d27f37e2b5e23631ac609c482d73a4574aa7e0f4b89f4e422f3e"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\LookAndSay.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "684dc9da505debebc8ce71d45cfa9bb272a84f8fc28948f752311b6bdf5521ea"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\MaximumOverhang.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "61e8db88d6e1c7e4c3a5484a93ec345d0e2993b2b14bf3e74949ac167a921713"
                 
         |>
         ,
@@ -258,7 +557,7 @@
             ,
             "Hash"
             ->
-            "37d4e1323490ca9e51b469cbcdf7a1ac2f94c2962805b923a205338aec375b80"
+            "ec9af14eea26038f53ae4964f6c24fdd281194831da29dde70d473097ea8ab0f"
                 
         |>
         ,
@@ -271,7 +570,46 @@
             ,
             "Hash"
             ->
-            "96c9ed6af113596290530f2d1d02f4a45cf0f68d36800e39c10ce745300d6abd"
+            "f991a954a7a42cad3de3aecfe81b44c681d8b0e893f40748f6cb5233c89b9304"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\MirrorReflection.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "549250c9e549253e3625b0a15959181454513e6845416b1307d4088763659f4d"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\MultiplicationTable.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "549250c9e549253e3625b0a15959181454513e6845416b1307d4088763659f4d"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\MultisetCardinality.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "ba6ff6ad6e932759e682ba317c20aec50e0e2989298d22343642e645b0b89e1f"
                 
         |>
         ,
@@ -284,7 +622,124 @@
             ,
             "Hash"
             ->
-            "342d5adf68bf94eba465da75c087cceacd5cba3a96872146df13af2370f566ba"
+            "9e28caadd69b43faef58c6a0db4ccfebfaeb7acfe61ab9b013e14793dab40176"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\MultisetInclusionQ.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "db425d7188c1d629363846bf8a2620ef5201b1bad243eff88dad4429a6ba93cf"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\MultisetIntersection.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "db425d7188c1d629363846bf8a2620ef5201b1bad243eff88dad4429a6ba93cf"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\MultisetProduct.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "db425d7188c1d629363846bf8a2620ef5201b1bad243eff88dad4429a6ba93cf"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\MultisetSum.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "db425d7188c1d629363846bf8a2620ef5201b1bad243eff88dad4429a6ba93cf"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\MultisetSupport.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "db425d7188c1d629363846bf8a2620ef5201b1bad243eff88dad4429a6ba93cf"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\MultisetSymmetricDifference.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "fa2b03f641115421863a77af3f0664f03b708a1b51dcaf186408544be1067ab3"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\MultisetUnion.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "db425d7188c1d629363846bf8a2620ef5201b1bad243eff88dad4429a6ba93cf"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\NearestNumbers.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\NextLookAndSayTerm.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
                 
         |>
         ,
@@ -298,6 +753,19 @@
             "Hash"
             ->
             "dee95d2e07a2c8af55c25dd41003f625562a7d50c040f6f6a3e86e3fa52008a8"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\NumberOfLatticePaths.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
                 
         |>
         ,
@@ -344,12 +812,129 @@
             "File"
             ->
             File[
+                "Kernel\\PalindromicSubsequenceCount.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\PellCompanion.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\PermutationIndex.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Kernel\\PositiveIntegerQ.wl"
             ]
             ,
             "Hash"
             ->
-            "eb371ca356fc240308d9ab5596036943863e4973dc12129284780c63d2323451"
+            "b31e8df70e4668e20aef9682359c2080f92321324f018159e51f470e6542e987"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\PossibleSumFactors.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\PrimeGap.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\PrimePalidnromePi.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\PrimePalindrome.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\PrimePowerPi.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\PythagoreanPrimes.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
                 
         |>
         ,
@@ -363,6 +948,32 @@
             "Hash"
             ->
             "ff86c20bd1cfd156a9a82d3da48ffa237186e6ad44bbb51e3f5046d65e106a8a"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\ReverseAndAddSequence.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\RomanPalindromes.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
                 
         |>
         ,
@@ -396,6 +1007,84 @@
             "File"
             ->
             File[
+                "Kernel\\Sharpshooter.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\Silverman.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\SmallFactors.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\SquarefreeTernarySequence.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\SquareRootFloor.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\SquareSequence.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Kernel\\SquareSum.wl"
             ]
             ,
@@ -409,12 +1098,64 @@
             "File"
             ->
             File[
+                "Kernel\\SteinerInellipseArea.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\StringPatternQ.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "8ce7ab3afd807bbe16666412e0a87f0490ca1162449d3398e4528c459e89af72"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\TakeLargestElements.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "bef32adaa6110927f68d3736f6db2f836ca1f2076448a74a9007421ea5fb1a85"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\TakeSmallestElements.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "318c459fb3b3ee770b2595e63f83e7961e245f9119ee9ed35e5e54910be5644a"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Kernel\\ThreeAngles.wl"
             ]
             ,
             "Hash"
             ->
-            "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            "1976befc4f299ddfd8934fbe0fb76478222c6a78bd32a7399a1f47dd3c82a503"
                 
         |>
         ,
@@ -448,6 +1189,58 @@
             "File"
             ->
             File[
+                "Kernel\\TrailingZeroes.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\TriangularSums.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\TruncatedInteger.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\TwinPrimeCount.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Kernel\\TwoAndThreePointers.wl"
             ]
             ,
@@ -461,12 +1254,78 @@
             "File"
             ->
             File[
+                "Kernel\\UnitSystemTransform.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "f80a5adc1d90782dc1ad90b35b9af8d373f350333709f156381d3407c052a607"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\Varignon.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\WaterInBarrel.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Kernel\\WordLadderLength.wl"
+            ]
+            ,
+            "Hash"
+            ->
+            "9e0518bcd568a82464e8222eac439cbc7c740476f69ebb56b47e4074d28b5fe6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Kernel\\WordListLookup.wl"
             ]
             ,
             "Hash"
             ->
             "3cbbd004652f5e196a97e0b8d307250cdbcfc5bf6f8923b1d00560f754127490"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\Guides\\ArraysWolframChallenges.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "b4a841f8e34a2ddc47132c0c4585df1f8ba1a845e8e941393bf551c5f8caaa03"
                 
         |>
         ,
@@ -508,6 +1367,20 @@
             "Hash"
             ->
             "e700e09a2e09dfe4d3ab00d3113156df7f6e83c49fc24d3ba537e088311be759"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\Guides\\ListsWolframChallenges.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "8cc116f6f6029175330e084f1a97b86f01dfad0a8ca1ae8eeab571ece442a4bc"
                 
         |>
         ,
@@ -574,7 +1447,7 @@
             ,
             "Hash"
             ->
-            "d8d9a79f88c71844175a96e6337598f26a0ed341e0153d4bebe1ca1e4599f4db"
+            "3621563da73274430afc0993023ae209be960d2e1eda95518b5c04adf1af9562"
                 
         |>
         ,
@@ -616,7 +1489,7 @@
             ,
             "Hash"
             ->
-            "c53833c4de18661378676352fd3d7a5f83f27f72ccdf74ba76f7a609d505ec9b"
+            "6b9259ab523d39c8a20d7fe90bebd2cd2e6e3fecd8ab2f0fe953258d14b99e33"
                 
         |>
         ,
@@ -630,7 +1503,7 @@
             ,
             "Hash"
             ->
-            "0ab16239b9bd6a65e8a47dd4bd750c17508c0b59021d9b4e2b2d3e5ea37c9f1a"
+            "dfc374f7ed78f58d9c654f8fa31396c8bee2463fba06a833358f51476504c860"
                 
         |>
         ,
@@ -658,7 +1531,7 @@
             ,
             "Hash"
             ->
-            "4432bf3f277ddc16a164395c1763622b55ca3ddea05b81207033b6bc35c1dc5d"
+            "ffabf8ab618f571b605763521fd17613245774a7a6972f9a8d14c258ff1dfdad"
                 
         |>
         ,
@@ -672,7 +1545,21 @@
             ,
             "Hash"
             ->
-            "30b8e50103b90a0cca8863f13702356d36c9b5548a289ecb684b034ef3ca5361"
+            "f51f4934f6e50e34bb097f8355f1206aa61a787ff34f3830e4f057b981b621e1"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\Anagrams.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "f34edff4d925c0af05be45ea6c9e8f374a3e334c506d9258f3fd7cc3b3c202af"
                 
         |>
         ,
@@ -686,7 +1573,7 @@
             ,
             "Hash"
             ->
-            "3a075b2b115c5834da3ab375ce0d9df8f80a1bde60bf9009b045db63dd9be50f"
+            "24ef13e3752c010d35c2d576a141d75601bf74bdea725fe1ed919aa0548ac388"
                 
         |>
         ,
@@ -701,6 +1588,20 @@
             "Hash"
             ->
             "6c0e4d2038925aa1ae105c783ed44990fb1efeb43b452448f2c851115881efb7"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\AscendingSublists.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "e20d2a134b979c22b5a0ada4c3dcde5839e29620e1301ba179e5d8c831fb9976"
                 
         |>
         ,
@@ -728,7 +1629,35 @@
             ,
             "Hash"
             ->
-            "0a593400fa53da8e4ace3f5d606edc7815709e89c6b440919ceb4480dece9ca1"
+            "fc794498e01e41317c60ef6206df356c3c487c70d2cf615196fdf75e9aef08e9"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\BalancedTernary.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "b3f4d0f6997fed7b602626280af8134b093265e49ec875f9d1674c65145ca9f6"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\Bomber.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "1233244fdd01f02db2d15aa197955f11f7674541bf46e4c77d6fa31a268c1c1c"
                 
         |>
         ,
@@ -742,21 +1671,7 @@
             ,
             "Hash"
             ->
-            "36ab5aedeeb28e160277c7f0336cb06ab18aee04893599ae31f58ad89de69adf"
-                
-        |>
-        ,
-        <|
-            "File"
-            ->
-            File[
-                "Documentation\\English\\ReferencePages\\Symbols\\CaesarDecrypt.nb"
-                    
-            ]
-            ,
-            "Hash"
-            ->
-            "e002a05108b34046bec2e329ab0a4071b75cf5dc9a6816a7024b35165570ffc3"
+            "822e67d6bb0e39b0f95d7ef078abe112b7f04cce183d665a5797f19f73f9a082"
                 
         |>
         ,
@@ -792,13 +1707,69 @@
             "File"
             ->
             File[
+                "Documentation\\English\\ReferencePages\\Symbols\\CollatzLength.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "3fc2eb307d90ea8e6410058a3eb3ae5a74b64234495f22ce17fc3857035aaf06"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Documentation\\English\\ReferencePages\\Symbols\\CompleteDictionary.nb"
                     
             ]
             ,
             "Hash"
             ->
-            "45fbd6ff1705cca725c7d51d8172fa9b846aa318e3e7cd53891c66769b855198"
+            "20d605c86f2a58a8860af053bdde0a035d0ae860f01f45db878bafee0fda0f97"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\Composite.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "f07f6620264e9a0e44436374d50e9a5eafad990b0768387573d4397a24dbcee2"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\ConstantDigitSum.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "6e99bcaced0547ca3a88d12b5e0a2ed39a4d3d2f0b9e27edb3efc14cdfaf2281"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\CountSquares.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "8df34c3e050f80f79d69f4a7d48e8e3f7edcf9cb1d75dda0533c040191c713d7"
                 
         |>
         ,
@@ -820,6 +1791,62 @@
             "File"
             ->
             File[
+                "Documentation\\English\\ReferencePages\\Symbols\\DigitCountPi.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "c68cb136a033f1485781fb041b88b36b2c696cfd96198e21dd5ce0443a25382d"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\DigitPermutationCount.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "8543d24f1b1906cccf903509c62e2b27ff2f864462457f87f12f2f33cdf2fee1"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\FactorialSortedDigits.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "43106fd4d0ffdc064f40b7f65cc7886e6be693ce6c5e2ef99b0d58c1a7b9790e"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\FivePointConic.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "11bb997361633e958c71cff00015982539df1614604c378e5317ab51fd948228"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Documentation\\English\\ReferencePages\\Symbols\\FizzBuzz.nb"
                     
             ]
@@ -834,6 +1861,90 @@
             "File"
             ->
             File[
+                "Documentation\\English\\ReferencePages\\Symbols\\FlipPrimeQ.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "aa0af3e724069892fb8673679dd19efddbce1fb628bf4c09906396ef94a4e1f9"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\FourPointParabolas.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "e4898fff5dc63839ccdd0fda57d1455c4931d28a76f87f0f7bf89a08664c847c"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\GeoPositionQ.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "c9c5d8e871092383c46632e67a73351e3c7d91ec7422cc902d4f61bfe9a5ca9a"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\GoldbachPartitions.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "167c598f69e206077d91711d24fb821a6bf9f3d6da60c347792d10b9f8c618dc"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\GrayCode.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "a246fb506e17e6d1d0f3ec4d35c3d2b7790c41d263b304d84e04193ff4091c8f"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\InsideTriangle.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "84019572c3b6875173bb00a1fe3a943a7083a94281a3665a640bb9e7183b2b9d"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Documentation\\English\\ReferencePages\\Symbols\\IntegerPalindromeQ.nb"
                     
             ]
@@ -841,6 +1952,62 @@
             "Hash"
             ->
             "cec68923d4f1718d710de060a0d2d89b6bc7ad03903287b38b550f4d12b66ad1"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\IntersectionWithDuplicates.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "d8c1864ef743d9196c71fb9290245562006435faf90ece8318359aa9c6c53caa"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\LargestContiguousSum.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "4e74adc9caa2e9c81a9e0f11e60bb16f059a6abf8f72d1846039c15a28bddab2"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\LookAndSay.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "fbff9675aed8f17d6e6ec05c62ae16362cdb3a5bfab24fd788a1c83a9574ffe9"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\MaximumOverhang.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "7f7ba6911bd6ce406fb48be61c3addf223fedf7e477cdaa86b7e50ebd73d355b"
                 
         |>
         ,
@@ -868,7 +2035,21 @@
             ,
             "Hash"
             ->
-            "51b47a833e63b204aa02d7ff0adc58391353af9f37870ab668a9ce0e2710b227"
+            "34ea11ebf31a15e1d56760bead0e259c3026f4c972cce0f1f141899ec2e6f07f"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\MultisetCardinality.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "a9e5a9f9fb6c9476b65c1f693284482a1e737d257b64699d622b827b7ea8c477"
                 
         |>
         ,
@@ -882,7 +2063,21 @@
             ,
             "Hash"
             ->
-            "5eddff85ef15f3fcc58d2dc1e97c6504e24c586d2676cd28336d354bbf247105"
+            "da298e00da09e7d7bfd69f1606211a2b0768e83276d2751032d3b27752cd0846"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\MultisetSymmetricDifference.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "f2eed4d84d94ad6cfe3cf9f7cea6af842008a7e261e263cdcddef3665bbaf837"
                 
         |>
         ,
@@ -1030,6 +2225,34 @@
             "File"
             ->
             File[
+                "Documentation\\English\\ReferencePages\\Symbols\\TakeLargestElements.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "67bff809299c05bbe24d9d5a1b109a4626d99fc09f3e47406d364a77d5f68718"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\TakeSmallestElements.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "082f0614220095b3925096709c6dff5882f2ce95bb7ad321e4466a0d6481cdfb"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
                 "Documentation\\English\\ReferencePages\\Symbols\\ThreeFive.nb"
                     
             ]
@@ -1064,7 +2287,7 @@
             ,
             "Hash"
             ->
-            "5775697de9932d8b62b61273362a149a5c4b54892fd7d28bda7b08fd0c7893c2"
+            "ee4f8040b6a7b3e8edbe82cfc8f0848cbe3f23e6444a1262850edfffb7190a79"
                 
         |>
         ,
@@ -1079,6 +2302,20 @@
             "Hash"
             ->
             "5227314a007b13367c4a5373ba8f2a6502b965f4d4de245753e4327dedd7b534"
+                
+        |>
+        ,
+        <|
+            "File"
+            ->
+            File[
+                "Documentation\\English\\ReferencePages\\Symbols\\$MXFile.nb"
+                    
+            ]
+            ,
+            "Hash"
+            ->
+            "7febd4fe62520c0131c2aab30c60be7919463a95586815d057529fc45a6fe67d"
                 
         |>
     }

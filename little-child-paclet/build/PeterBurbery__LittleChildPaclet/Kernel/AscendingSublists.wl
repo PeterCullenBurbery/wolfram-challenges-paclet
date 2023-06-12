@@ -2,25 +2,21 @@ BeginPackage["PeterBurbery`LittleChildPaclet`"];
 
 (* Declare your packages public symbols here. *)
 
-PeterBurbery`LittleChildPaclet`Anagrams;
+PeterBurbery`LittleChildPaclet`AscendingSublists;
 
 Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-Anagrams // ClearAll
+AscendingSublists // ClearAll
 
-ianagramdictionary = Union[WordData[], DictionaryLookup[], WordList[]
-   ];
+AscendingSublists::usage = "AscendingSublists[vector] finds the maximal ascending sublists of at least two contiguous elements in the given unsorted list vector."
 
-ianagramdictionary = {#, (Sort @* Characters @* ToLowerCase)[#]}& /@ ianagramdictionary;
+AscendingSublists[list : {___?IntegerQ}] :=
+  Select[Length[#] > 1&][Split[list, Less]]
 
-Anagrams[str_?StringQ] :=
-   Module[{sc = Sort[Characters[ToLowerCase[str]]], sel},
-      sel = Select[ianagramdictionary, EqualTo[sc] @* Last][[All, 1]]
-         ;
-      DeleteCases[sel, str]
-   ]
+AscendingSublists[args___] :=
+  Null /; CheckArguments[AscendingSublists[args], 1]
 
 End[]; (* End `Private` *)
 

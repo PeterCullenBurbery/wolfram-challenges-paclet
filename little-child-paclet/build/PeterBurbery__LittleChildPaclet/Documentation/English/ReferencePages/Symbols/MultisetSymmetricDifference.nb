@@ -1,0 +1,284 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[     10828,        274]
+NotebookOptionsPosition[      7677,        205]
+NotebookOutlinePosition[      9895,        260]
+CellTagsIndexPosition[      9811,        255]
+WindowTitle->MultisetSymmetricDifference
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{12},
+           "Spacer1"], Cell[
+          "PETER BURBERY/ LITTLE CHILD PACLET SYMBOL", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "09bfca2e-3fd9-4c50-80a1-12fe637daf1d"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "b4e1aece-9069-4fe8-83ba-8d1f69d80158"],
+        Background->RGBColor[0.490196, 0.576471, 0.690196],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[Cell[BoxData[
+     TagBox[
+      ActionMenuBox[
+       FrameBox[Cell[TextData[{
+         "URL",
+         " ",
+         Cell[BoxData[
+          GraphicsBox[
+           {GrayLevel[0.66667], Thickness[0.13], 
+            LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+           AspectRatio->1,
+           ImageSize->20,
+           PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+          "72ced1c5-08d8-49ce-9471-84f4d4214caa"]
+        }],ExpressionUUID->"076346e4-09d1-4bf7-a61a-37d931150e51"],
+        StripOnInput->
+         False], {"\<\"PeterBurbery/LittleChildPaclet/ref/\
+MultisetSymmetricDifference\"\>":>
+       None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell[
+             "PeterBurbery/LittleChildPaclet/ref/MultisetSymmetricDifference"]\
+}, Visible -> False]]; 
+        SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+       Delimiter, "\<\"Copy web URL\"\>":>
+       Module[{DocumentationSearch`Private`nb$}, 
+        DocumentationSearch`Private`nb$ = NotebookPut[
+           Notebook[{
+             Cell[
+              BoxData[
+               MakeBoxes[
+                Hyperlink[
+                "http://reference.wolfram.com/language/PeterBurbery/\
+LittleChildPaclet/ref/MultisetSymmetricDifference.html"], StandardForm]], 
+              "Input", TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+        SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+        FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+        NotebookClose[DocumentationSearch`Private`nb$]; 
+        Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
+         NotebookLocate[{
+           URL[If[
+              TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$40263], 
+              "http://reference.wolfram.com/system-modeler/", 
+              "http://reference.wolfram.com/language/"] <> 
+            "PeterBurbery/LittleChildPaclet/ref/MultisetSymmetricDifference" <> 
+            ".html"], None}]}]},
+       Appearance->None,
+       MenuAppearance->Automatic,
+       MenuStyle->"URLMenu"],
+      MouseAppearanceTag["LinkHand"]]],
+     LineSpacing->{1.4, 0},ExpressionUUID->
+     "171521a0-8372-4925-989f-724acdcd7130"]], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "cef247fe-19c2-4638-9e8c-8f23dcd8a46c"]}
+  }]], "AnchorBarGrid",
+ GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
+     Scaled[0.65], {
+      Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+   "RowsIndexed" -> {}}},
+ CellID->1,ExpressionUUID->"533e8860-e1af-4c53-a12b-119a53ad27d1"],
+
+Cell["PeterBurbery`LittleChildPaclet`", "ContextNameCell",ExpressionUUID->"b476524d-56de-4faf-a243-ff9521edc89d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[GridBox[{
+   {Cell[TextData[{
+     Cell[
+     "MultisetSymmetricDifference", "ObjectName",ExpressionUUID->
+      "ff43a20f-d594-4297-8f43-33de7b41d521"],
+     Cell[BoxData[
+      TemplateBox[{8},
+       "Spacer1"]],ExpressionUUID->"ca616792-c73a-4c2d-a6de-c23edc982449"],
+     Cell[BoxData[
+     ""], "ObjectNameTranslation",ExpressionUUID->
+      "d4538c08-c1e5-4e28-a973-801b98e7210a"]
+    }],ExpressionUUID->"8d6caaea-9172-468f-b5e7-fe261bf702ff"], 
+    "\[SpanFromLeft]"}
+  }]], "ObjectNameGrid",ExpressionUUID->"e7c99b5e-4e5c-4d35-b028-\
+6263fbfcc51f"],
+
+Cell[BoxData[GridBox[{
+   {"", Cell[
+    "MultisetSymmetricDifference[]\[LineSeparator]XXXX",ExpressionUUID->
+     "06042660-ea83-4f98-a7fb-2fcaedb11b68"]}
+  }]], "Usage",
+ CellID->124937694,ExpressionUUID->"f268c2d1-6480-40c0-9f83-dc861f8de550"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {
+       TaggingRules, "Openers", "PrimaryExamplesSection"}, Open], 
+      Alternatives[True, Open]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"ae34c4f4-f391-463a-a137-c490c55d71d3"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"edc0978e-186f-4847-bbba-2b3f57e4cdca"],
+ "Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(0)", "ExampleCount",ExpressionUUID->
+  "691c5b36-9435-4d4e-90f9-79bdacafdbf6"]
+}], "PrimaryExamplesSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellTags->"PrimaryExamplesSection",
+ CellID->342466671,ExpressionUUID->"7ceeab48-3148-402c-81cb-19916d21e14e"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<PeterBurbery`LittleChildPaclet`\>\"", 
+  "]"}]], "Input", "ExampleInitialization",
+ CellLabel->"In[1]:=",
+ CellID->60121972,ExpressionUUID->"e9f0a25c-3982-402f-a895-7b02ea839182"]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, 
+  Closed]]]],
+
+Cell[BoxData[GridBox[{
+   {
+    DynamicBox[FEPrivate`ImportImage[
+      FrontEnd`FileName[{"Documentation", "FooterIcons"}, 
+       "RelatedFunction.png"]],
+     ImageSizeCache->{50., {27., 33.}}], GridBox[{
+      {
+       StyleBox[
+        RowBox[{"See", " ", "Also"}], "SeeAlsoSection"]},
+      {Cell[TextData[Cell[BoxData[
+        TagBox[
+         FrameBox["\"\<XXXX\>\""],
+         "FunctionPlaceholder"]], "InlineFormula",
+        FontFamily->"Source Sans Pro",ExpressionUUID->
+        "6d9d8b18-f6da-4e45-9fee-b1972eb44038"]], "SeeAlso",ExpressionUUID->
+        "6299e997-e326-431c-bd6b-dae5e823c3b0"]}
+     }]}
+  }]], "SeeAlsoSection",ExpressionUUID->"6538b36b-5520-4371-886b-\
+ec8fdcafd953"],
+
+Cell[" ", "FooterCell",ExpressionUUID->"2313dbe5-4e26-49a5-9e79-b99afbe9ed73"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900., 604.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"MultisetSymmetricDifference",
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "HasOptions" -> True, "ExampleCounter" -> 1, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
+  "NewStyles" -> True, "CitationPopupData" -> $Failed, "ShowCitation" -> 
+  False, "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2023, 6, 10, 15, 32, 10.9865063}", 
+    "history" -> {"XX", "", "", ""}, "context" -> 
+    "PeterBurbery`LittleChildPaclet`", "keywords" -> {}, 
+    "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
+     "label" -> "Peter Burbery/ Little Child Paclet Symbol", "language" -> 
+    "en", "paclet" -> "PeterBurbery/LittleChildPaclet", "status" -> "None", 
+    "summary" -> "MultisetSymmetricDifference[] XXXX", "synonyms" -> {}, 
+    "tabletags" -> {}, "title" -> "MultisetSymmetricDifference", 
+    "titlemodifier" -> "", "metadescription" -> "", "windowtitle" -> 
+    "MultisetSymmetricDifference", "type" -> "Symbol", "uri" -> 
+    "PeterBurbery/LittleChildPaclet/ref/MultisetSymmetricDifference"}},
+CellContext->"Global`",
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 31, 2023)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> FrontEnd`FileName[{"Wolfram"}, "Reference.nb"]]], 
+   Cell[
+    StyleData["Input"], CellContext -> "Global`"], 
+   Cell[
+    StyleData["Output"], CellContext -> "Global`"]}, Visible -> False, 
+  FrontEndVersion -> "13.2 for Microsoft Windows (64-bit) (January 31, 2023)",
+   StyleDefinitions -> "Default.nb"],
+ExpressionUUID->"f7da1b21-0423-4cae-9634-981a9163652e"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "PrimaryExamplesSection"->{
+  Cell[5131, 135, 1420, 37, 70, "PrimaryExamplesSection",ExpressionUUID->"7ceeab48-3148-402c-81cb-19916d21e14e",
+   CellTags->"PrimaryExamplesSection",
+   CellID->342466671]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"PrimaryExamplesSection", 9612, 248}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[602, 21, 3532, 82, 70, "AnchorBarGrid",ExpressionUUID->"533e8860-e1af-4c53-a12b-119a53ad27d1",
+ CellID->1],
+Cell[4137, 105, 113, 0, 70, "ContextNameCell",ExpressionUUID->"b476524d-56de-4faf-a243-ff9521edc89d"],
+Cell[CellGroupData[{
+Cell[4275, 109, 570, 14, 70, "ObjectNameGrid",ExpressionUUID->"e7c99b5e-4e5c-4d35-b028-6263fbfcc51f"],
+Cell[4848, 125, 246, 5, 70, "Usage",ExpressionUUID->"f268c2d1-6480-40c0-9f83-dc861f8de550",
+ CellID->124937694]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5131, 135, 1420, 37, 70, "PrimaryExamplesSection",ExpressionUUID->"7ceeab48-3148-402c-81cb-19916d21e14e",
+ CellTags->"PrimaryExamplesSection",
+ CellID->342466671],
+Cell[6554, 174, 221, 4, 70, "Input",ExpressionUUID->"e9f0a25c-3982-402f-a895-7b02ea839182",
+ CellID->60121972]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
+Cell[6893, 183, 699, 18, 70, "SeeAlsoSection",ExpressionUUID->"6538b36b-5520-4371-886b-ec8fdcafd953"],
+Cell[7595, 203, 78, 0, 70, "FooterCell",ExpressionUUID->"2313dbe5-4e26-49a5-9e79-b99afbe9ed73"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

@@ -13,8 +13,9 @@ MultisetComplement // ClearAll
 expr : MultisetComplement[a__Association] :=
   Catch[
     Module[{p},
-      p = First[FirstPosition[Values /@ {a}, v_ /; !MatchQ[v, {___?NonNegativeIntegerQ}], {Null}, {1}, Heads -> False]];
-      If[MatchQ[p, _?IntegerQ],
+      p = First[FirstPosition[Values /@ {a}, v_ /; !MatchQ[v, {___?NonNegativeIntegerQ
+        }], {Null}, {1}, Heads -> False]];
+      If[MatchQ[p, _ ? (IntegerQ[#]&)],
         Message[MultisetComplement::nocnt, p, HoldForm[expr]];
         Throw[HoldForm[expr]]
       ];
@@ -27,7 +28,7 @@ expr : MultisetComplement[a__] :=
     Module[{p, h, counts},
       p = First[FirstPosition[{a}, _?AtomQ, {Null}, {1}, Heads -> False
         ]];
-      If[MatchQ[p, _?IntegerQ],
+      If[MatchQ[p, _ ? (IntegerQ[#]&)],
         Message[MultisetComplement::normal, p, HoldForm[expr]];
         Throw[HoldForm[expr]]
       ];

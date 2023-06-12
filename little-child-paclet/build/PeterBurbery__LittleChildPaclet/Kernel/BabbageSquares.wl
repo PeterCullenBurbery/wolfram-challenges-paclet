@@ -21,8 +21,13 @@ computewords[w_, n_?IntegerQ, m_?IntegerQ, c_?ListQ] :=
   Flatten[DeleteCases[Map[Cases[w, p : Append[#[[All, m + 1]], Repeated[
     _, {n - m}]] :> Append[#, p]]&, c], {}], 1]
 
+BabbageSquares::usage = "BabbageSquares[string] finds all Babbage squares starting with the four-letter word string."
+
 BabbageSquares[word_?StringQ /; StringLength[word] == 4] :=
   Grid /@ wordsquare[word]
+
+BabbageSquares[args___] :=
+  Null /; CheckArguments[BabbageSquares[args], 1]
 
 End[]; (* End `Private` *)
 

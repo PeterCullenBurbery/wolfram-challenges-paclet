@@ -3,17 +3,17 @@
 (*** Wolfram Notebook File ***)
 (* http://www.wolfram.com/nb *)
 
-(* CreatedBy='Mathematica 13.3' *)
+(* CreatedBy='WolframDesktop 13.2' *)
 
 (*CacheID: 234*)
 (* Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
-NotebookDataPosition[       158,          7]
-NotebookDataLength[      9306,        233]
-NotebookOptionsPosition[      6723,        177]
-NotebookOutlinePosition[      8495,        220]
-CellTagsIndexPosition[      8452,        217]
+NotebookDataPosition[       161,          7]
+NotebookDataLength[     41272,       1080]
+NotebookOptionsPosition[     33713,        940]
+NotebookOutlinePosition[     35490,        983]
+CellTagsIndexPosition[     35447,        980]
 WindowTitle->Wolfram Challenges Mathematics
 WindowFrame->Normal*)
 
@@ -28,11 +28,11 @@ Cell[BoxData[GridBox[{
            "Spacer1"], Cell[
           "PETER BURBERY/ LITTLE CHILD PACLET GUIDE", "PacletNameCell",
            TextAlignment->Center,ExpressionUUID->
-           "eea1ec05-89af-4e31-9dea-15b3b01b1209"], 
+           "9e68eae6-4858-4163-9db0-df5e06a8f613"], 
           TemplateBox[{8},
            "Spacer1"]}]],
          TextAlignment->Center,ExpressionUUID->
-         "6e9d1979-3d68-4f55-8f17-2d25691e88e0"],
+         "a5cfa66b-b3ec-4d8b-a1d8-722f8fda7a70"],
         Background->RGBColor[0.85098, 0.396078, 0],
         ItemSize->Full], ""}
      },
@@ -52,18 +52,31 @@ Cell[BoxData[GridBox[{
             AspectRatio->1,
             ImageSize->20,
             PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
-           "d0724f51-b5c8-407e-90b6-47effd3508b6"]
-         }],ExpressionUUID->"c25f0cfb-23ef-4a50-81e3-60395bc33876"],
-         StripOnInput->False],{
-        "\"CaesarDecrypt\"" :> 
-         Documentation`HelpLookup[
-          "paclet:PeterBurbery/LittleChildPaclet/ref/CaesarDecrypt"]},
+           "fb1f930e-f1b4-4cfd-ab78-2658a75968f4"]
+         }],ExpressionUUID->"48f1f4f5-834c-45d9-90d7-408d388654df"],
+         StripOnInput->False], {"\<\"AliquotSequence\"\>":>
+        Documentation`HelpLookup[
+        "paclet:PeterBurbery/LittleChildPaclet/ref/AliquotSequence"], \
+"\<\"BalancedTernary\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/LittleChildPaclet/ref/BalancedTernary"], \
+"\<\"CaesarDecipher\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/LittleChildPaclet/ref/CaesarDecipher"], \
+"\<\"MaxRomanLength\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/LittleChildPaclet/ref/MaxRomanLength"], \
+"\<\"RepeatandEndingPrimes\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/LittleChildPaclet/ref/RepeatandEndingPrimes"], "\
+\<\"ThreeAngles\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/LittleChildPaclet/ref/ThreeAngles"], \
+"\<\"ThreeFive\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/LittleChildPaclet/ref/ThreeFive"], \
+"\<\"TwoAndThreePointers\"\>":>Documentation`HelpLookup[
+        "paclet:PeterBurbery/LittleChildPaclet/ref/TwoAndThreePointers"]},
         Appearance->None,
         MenuAppearance->Automatic,
         MenuStyle->"GuideFunction"],
        MouseAppearanceTag["LinkHand"]]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "64f125e8-ad31-4466-965b-4a73024a73be"],
+      "0995f5e0-d2c6-41fb-8a28-27cdec58ff0d"],
      "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
 \[ThickSpace]",
      Cell[BoxData[
@@ -79,58 +92,59 @@ Cell[BoxData[GridBox[{
             AspectRatio->1,
             ImageSize->20,
             PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
-           "4be63397-6fb4-4eae-8897-10776e76d555"]
-         }],ExpressionUUID->"eaaf73b4-c660-4397-842c-41e51e656f5d"],
-         StripOnInput->False],{
-        "\"PeterBurbery/LittleChildPaclet/guide/WolframChallengesMathematics\"\
-" :> None, "\"Copy Wolfram Documentation Center URL\"" :> 
-         Module[{DocumentationSearch`Private`nb$}, 
-           DocumentationSearch`Private`nb$ = 
-            NotebookPut[
-             Notebook[{
-               Cell["PeterBurbery/LittleChildPaclet/guide/\
+           "23365265-dd9c-4a83-b0fc-77a55052aaaa"]
+         }],ExpressionUUID->"b6928e41-ba57-4d96-aea6-05cddf8574cb"],
+         StripOnInput->
+          False], {"\<\"PeterBurbery/LittleChildPaclet/guide/\
+WolframChallengesMathematics\"\>":>
+        None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
+        Module[{DocumentationSearch`Private`nb$}, 
+         DocumentationSearch`Private`nb$ = NotebookPut[
+            Notebook[{
+              Cell[
+              "PeterBurbery/LittleChildPaclet/guide/\
 WolframChallengesMathematics"]}, Visible -> False]]; 
-           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
-           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
-           NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
-         "\"Copy web URL\"" :> 
-         Module[{DocumentationSearch`Private`nb$}, 
-           DocumentationSearch`Private`nb$ = 
-            NotebookPut[
-             Notebook[{
-               Cell[BoxData[
-                 MakeBoxes[
-                  Hyperlink[
-                   "http://reference.wolfram.com/language/PeterBurbery/\
+         SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+         NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+        Delimiter, "\<\"Copy web URL\"\>":>
+        Module[{DocumentationSearch`Private`nb$}, 
+         DocumentationSearch`Private`nb$ = NotebookPut[
+            Notebook[{
+              Cell[
+               BoxData[
+                MakeBoxes[
+                 Hyperlink[
+                 "http://reference.wolfram.com/language/PeterBurbery/\
 LittleChildPaclet/guide/WolframChallengesMathematics.html"], StandardForm]], 
-                 "Input", TextClipboardType -> "PlainText"]}, Visible -> 
-               False]]; 
-           SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
-           FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
-           NotebookClose[DocumentationSearch`Private`nb$]; Null], 
-         "\"Go to web URL\"" :> 
-         FrontEndExecute[{
-           NotebookLocate[{
-             URL[If[TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$38236], 
-                 "http://reference.wolfram.com/system-modeler/", 
-                 "http://reference.wolfram.com/language/"] <> 
-               "PeterBurbery/LittleChildPaclet/guide/\
+               "Input", TextClipboardType -> "PlainText"]}, Visible -> 
+             False]]; SelectionMove[
+          DocumentationSearch`Private`nb$, All, Notebook]; 
+         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+         NotebookClose[DocumentationSearch`Private`nb$]; 
+         Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
+          NotebookLocate[{
+            URL[If[
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$25306], 
+               "http://reference.wolfram.com/system-modeler/", 
+               "http://reference.wolfram.com/language/"] <> 
+             "PeterBurbery/LittleChildPaclet/guide/\
 WolframChallengesMathematics" <> ".html"], None}]}]},
         Appearance->None,
         MenuAppearance->Automatic,
         MenuStyle->"URLMenu"],
        MouseAppearanceTag["LinkHand"]]],
       LineSpacing->{1.4, 0},ExpressionUUID->
-      "132a764d-c752-480e-aef0-7b7437c23e91"]
+      "eeb22f93-4dad-43a6-898f-c4c137b8aa81"]
     }], "AnchorBar",
      CacheGraphics->False,ExpressionUUID->
-     "5d5e6d7b-81d1-4971-b567-2a6664f750ad"]}
+     "e3cb91ef-1407-410f-a73b-bea6db3a34ed"]}
   }]], "AnchorBarGrid",
  GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
      Scaled[0.65], {
       Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
    "RowsIndexed" -> {}}},
- CellID->1,ExpressionUUID->"8ee2f034-cddc-492c-b1d4-b2ec4dcfc030"],
+ CellID->1,ExpressionUUID->"9adcce4d-7955-47e5-9396-c2d1fdd1053a"],
 
 Cell[CellGroupData[{
 
@@ -142,14 +156,84 @@ This is a guide page for Wolfram Challenges with the tag Mathematics.\
 \>", "GuideAbstract",
  CellID->469719644,ExpressionUUID->"23cf4e93-dc04-482a-aaa1-d50d6470ebcb"],
 
-Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"8af302bd-89ae-4a16-9b47-e15d2226c6b0"],
+Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"2867a506-e43c-4f7e-aaa2-997846c728e8"],
 
 Cell[TextData[{
  Cell[BoxData[
   TemplateBox[{
     Cell[
-     TextData["CaesarDecrypt"]], 
-    "paclet:PeterBurbery/LittleChildPaclet/ref/CaesarDecrypt", 
+     TextData["AliquotSequence"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/AliquotSequence", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"c40ac8e4-27e1-4161-a8df-4d4f38357a23",ExpressionUUID->
+  "1d2e4774-13d6-4df2-abce-49f666dbc6ae"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Find the aliquot sequence starting with a given positive integer."
+}], "GuideText",
+ CellID->713661200,ExpressionUUID->"83dd8358-1400-4411-b1b0-2cbd8a761fdc"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["RepeatandEndingPrimes"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/RepeatandEndingPrimes", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "0345858a-f8b9-4eb9-999f-30ad96f621ad"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Find primes that start with a repeated base-10 digit, followed by a single \
+digit at the end."
+}], "GuideText",
+ CellID->645734177,ExpressionUUID->"4ae0c590-9aed-42cf-8876-605fc18cc731"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["ThreeAngles"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/ThreeAngles", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "fde8e584-a7c4-4f0b-b6dc-5ad365f7b81b"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Given three points in 3D space, determine the angles (in degrees) of the \
+triangle they form."
+}], "GuideText",
+ CellID->833464561,ExpressionUUID->"11bf7f67-89a2-4682-9048-fd5447740f4c"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["BalancedTernary"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/BalancedTernary", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "8f3a3dd3-8000-4e6e-b507-99352af13396"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Represent a number in balanced ternary."
+}], "GuideText",
+ CellID->27375449,ExpressionUUID->"029d1fe0-059b-4ac2-9618-77b31391d95e"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["CaesarDecipher"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/CaesarDecipher", 
     "PeterBurbery Package Symbol"},
    "PackageLink",
    BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
@@ -161,6 +245,685 @@ Cell[TextData[{
 }], "GuideText",
  CellID->442617515,ExpressionUUID->"8f3b5a12-990e-4a20-a1b7-6f7cbe0d5be0"],
 
+Cell[TextData[{
+ Cell["Composite", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "16501d5c-b15f-4844-9df7-6c03bf0f3497"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " A function that gives the nth composite number."
+}], "GuideText",
+ CellID->422650855,ExpressionUUID->"a97791ad-fd04-4da3-9d4d-b40f04e8d454"],
+
+Cell[TextData[{
+ Cell["ConstantDigitSum", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "c0afeb26-9459-4f39-9479-0b6414e834e3"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Finds all of the integers between m and n whose digits in base 10 add up \
+to s."
+}], "GuideText",
+ CellID->436855638,ExpressionUUID->"426dadf0-80bb-4c1e-ae1d-5db107d113ee"],
+
+Cell[TextData[{
+ Cell["PalindromicSubsequenceCount", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "3a051405-0eaa-4003-a3c2-83b2580cba37"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Takes a string and returns the number of its palindromic substrings"
+}], "GuideText",
+ CellID->436148865,ExpressionUUID->"306567cd-230a-4783-bc88-b2843b62ef5f"],
+
+Cell[TextData[{
+ Cell["CountSquares", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "4b862910-1d73-440a-af12-cc052243c468"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Given a subset of points of a rectangular grid, count the number of \
+squares of any size and at any angle that can be drawn using those points as \
+vertices."
+}], "GuideText",
+ CellID->286648757,ExpressionUUID->"55763b0b-54d4-43e7-94b9-4e0d7d63ad33"],
+
+Cell[TextData[{
+ Cell["NumberOfLatticePaths", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "ddbd99aa-87ca-409f-990b-c54838b3a5fa"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " A function that takes n as input and outputs the number of paths from the \
+upper-left corner to the lower-right corner of an n\[Times]n grid of lattice \
+points."
+}], "GuideText",
+ CellID->107010722,ExpressionUUID->"20c3018f-09ac-43f0-9e80-7ddb647a3db9"],
+
+Cell[TextData[{
+ Cell["TwinPrimeCount", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "1f93948c-3764-4d8c-b88e-227bb835f1f6"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Take a positive integer n and output the number of twin prime pairs up to \
+n."
+}], "GuideText",
+ CellID->152613969,ExpressionUUID->"837a7e11-4116-4b13-8414-42db438e703c"],
+
+Cell[TextData[{
+ Cell["DigitCountPi", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "b1923631-46d5-4b81-8ac8-3312b129ea15"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Take a positive integer n as input and output a list of numbers that count \
+the number of occurrences of the digits 0\[Dash]9 in the n-digit decimal \
+expansion of \[Pi]."
+}], "GuideText",
+ CellID->84365630,ExpressionUUID->"33f46d07-286e-4c2b-a4ea-c3caffd94e0e"],
+
+Cell[TextData[{
+ Cell["DigitalRoot", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "4d019176-3c93-4e0b-906c-28dccc46590a"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "b404e1f7-0b68-4c8d-b22e-70d3c204f21f"]
+}], "GuideText",
+ CellID->462676275,ExpressionUUID->"3c76f850-da64-4e66-8f66-7ff5bee85533"],
+
+Cell[TextData[{
+ Cell["DiscreteSpiral", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "1e4c7483-9d56-4fad-99ca-6dca6aab65d2"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "f30fa293-5467-45bb-bd41-e6bf91fa9297"]
+}], "GuideText",
+ CellID->644990945,ExpressionUUID->"1e512732-ffb9-420d-841e-8b302bfe9ae7"],
+
+Cell[TextData[{
+ Cell["FactorialSortedDigits", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "48ad2c82-6320-49a0-8709-d26c2e3f16c7"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "d8bb9415-bf9f-4dce-8751-c42878b4ee3e"]
+}], "GuideText",
+ CellID->38625777,ExpressionUUID->"9eed3a56-5454-4e53-91f4-4dc5c6203700"],
+
+Cell[TextData[{
+ Cell["TrailingZeroes", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "132b6b05-7bdd-4e91-9b66-759a7bdadad2"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "a3b665d9-2bb2-4804-80c4-dddd562e404c"]
+}], "GuideText",
+ CellID->72001770,ExpressionUUID->"f8ade241-6223-4590-9775-7066cfa78f90"],
+
+Cell[TextData[{
+ Cell["Coins", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "a592e712-c2dd-4c04-b50b-a25243d4babf"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Finds the fewest number of coins needed to add up to a certain value."
+}], "GuideText",
+ CellID->41501662,ExpressionUUID->"2c79662f-bd8a-4bb2-88b8-ede20c9bcaca"],
+
+Cell[TextData[{
+ Cell["GoldbachPartitions", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "16f4b175-fd51-42cb-907c-816499fcf73d"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "69a99f4f-ea71-4df7-8032-76fed2ad2b27"]
+}], "GuideText",
+ CellID->313342484,ExpressionUUID->"7c2a4329-fe01-4b10-8b90-0ee5eb7af757"],
+
+Cell[TextData[{
+ Cell["FlipPrimeQ", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "093c3f38-ce57-4074-b670-ae848bf41508"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "e9b84ed9-1a68-42ae-a698-9d48436d54eb"]
+}], "GuideText",
+ CellID->266072826,ExpressionUUID->"e4df6534-9f16-4ed5-9576-174282fb4dc8"],
+
+Cell[TextData[{
+ Cell["FivePointConic", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "d126f88b-7a33-4608-b1ae-f6c4865e9f2e"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "e9f0674b-1a00-495d-ab73-38d2e2d1a8b7"]
+}], "GuideText",
+ CellID->353511843,ExpressionUUID->"f3ca1f85-8843-4a5e-8930-4dc67ba0e281"],
+
+Cell[TextData[{
+ Cell["FourPointParabola", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "b1a504ff-c294-4964-94ef-823ec23e5f1d"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "72169960-71bf-46cd-8e66-88b5ee24998b"]
+}], "GuideText",
+ CellID->96672272,ExpressionUUID->"1f5b22d1-bf76-4e0c-b008-59ad990774b0"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["TwoAndThreePointers"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/TwoAndThreePointers", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "43648f8b-8d00-40f7-ae45-224ca491b877"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "5be7834e-c0ac-4202-8bd2-74239e388af7"]
+}], "GuideText",
+ CellID->684923268,ExpressionUUID->"3e5a4b1b-fb1f-4dc9-abb7-c984828b125f"],
+
+Cell[TextData[{
+ Cell["GrayCode", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "15e65a83-faa3-4a8f-afe5-bdb12ead8264"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "2c1692a5-e697-400b-9cef-7b8f1ebca44e"]
+}], "GuideText",
+ CellID->151868882,ExpressionUUID->"36d085df-d7fd-4f0b-936d-49bf85ca7ba9"],
+
+Cell[TextData[{
+ Cell["CollatzLength", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "5aa6bfca-0f44-47e9-880a-48ac611c84b5"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "6fac6865-ab76-4e13-92b7-ac5b6f46ac83"]
+}], "GuideText",
+ CellID->73175773,ExpressionUUID->"ff4e7974-5764-45b2-b546-5a3e84637310"],
+
+Cell[TextData[{
+ Cell["PrimePalindrome", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "8f2d2a3a-e43a-4117-b0ee-370100149ccb"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "f4b1e4ef-2c02-46f0-9baa-93b0d90d2c38"]
+}], "GuideText",
+ CellID->465779582,ExpressionUUID->"9db9d442-cd34-4eb8-a08f-8b72d6b305ae"],
+
+Cell[TextData[{
+ Cell["LookAndSay", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "1c5872d7-1cdf-488b-8676-12b60464578f"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "fa5c3b78-8e1e-4f69-9c9f-4c925135e09f"]
+}], "GuideText",
+ CellID->723978523,ExpressionUUID->"f548f1dd-1f1b-4bc7-9af5-c0a367dd4a00"],
+
+Cell[TextData[{
+ Cell["LargestContiguousSum", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "65e6d967-0917-45fa-866b-56575b89e11b"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "f1881926-90a3-4724-a599-893b5b5da649"]
+}], "GuideText",
+ CellID->284202911,ExpressionUUID->"65cfc9d1-a401-4d9e-94a1-e82e4d20308a"],
+
+Cell[TextData[{
+ Cell["MaximumOverhang", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "d380f167-e671-4470-a1f6-9d988445197c"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "27005550-80e9-4821-8cca-fd1d0d8616c9"]
+}], "GuideText",
+ CellID->34905420,ExpressionUUID->"eb740f8a-e41e-443f-91d5-b4139f5634d2"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["MaxRomanLength"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/MaxRomanLength", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "34a915e9-1a54-4beb-9892-89adff5d63c3"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "0e4e7634-cf00-41e8-9d15-473df27dcf92"]
+}], "GuideText",
+ CellID->320374,ExpressionUUID->"bc67f465-9896-46ca-bacd-55f5ca57892b"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["ThreeFive"]], 
+    "paclet:PeterBurbery/LittleChildPaclet/ref/ThreeFive", 
+    "PeterBurbery Package Symbol"},
+   "PackageLink",
+   BaseStyle->"InlineFunctionSans"]], "InlineFunctionSans",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "b80f1df2-c579-4ffb-9a23-8be6ce061711"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "ec517da3-0f5a-4a1c-8b33-340cffb9b60d"]
+}], "GuideText",
+ CellID->83369855,ExpressionUUID->"bdbc7fd0-f59d-460a-ae7e-ed3c42dd1830"],
+
+Cell[TextData[{
+ Cell["MultiplicationTable", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "a5c87265-d084-4e65-bcf7-7deceea05e0f"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "be92dc74-fee9-47c6-a615-2dcbf745dfab"]
+}], "GuideText",
+ CellID->817407445,ExpressionUUID->"6c4048ad-e332-4a13-924d-86403bd7eada"],
+
+Cell[TextData[{
+ Cell["NearestNumbers", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "956a93e3-485b-4a18-9b09-f88a9179dee1"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "17218e38-3bf2-4998-9931-7b2db550f6c6"]
+}], "GuideText",
+ CellID->18487539,ExpressionUUID->"027add65-f4b1-40e9-9246-b9589a7bc584"],
+
+Cell[TextData[{
+ Cell["NextLookAndSayTerm", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "46d7f992-ea23-46e2-8e99-83a37fec6a70"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "8d78296a-f3e1-4db5-9bbc-2db6c9bfbb5c"]
+}], "GuideText",
+ CellID->631799018,ExpressionUUID->"de2fd079-ea3d-4c74-9bf6-f849be5bc5b6"],
+
+Cell[TextData[{
+ Cell["HessianPlane", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "ae0192b8-d8d5-4b62-8681-909beca91a93"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "8d63b6dc-97b0-4e19-ad03-e6731ad85247"]
+}], "GuideText",
+ CellID->550079672,ExpressionUUID->"04d44b87-0d95-41b2-a1bf-a0a8fc9c6c2d"],
+
+Cell[TextData[{
+ Cell["RomanPalindromes", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "6ff50f5a-f416-4d86-b66e-e03785db6bee"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "6e134b67-7534-4b3b-98cb-f314d3e31ca4"]
+}], "GuideText",
+ CellID->207884927,ExpressionUUID->"f414a9cf-ed7f-4cfb-85e7-bf310a3eff92"],
+
+Cell[TextData[{
+ Cell["DigitPermutationCount", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "2e5ebda4-c7c3-4960-94ed-92ceb0bede6f"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "3d4572d0-1c17-40c7-b90f-f40bb98ecdfc"]
+}], "GuideText",
+ CellID->281267327,ExpressionUUID->"75e4fe70-5743-4de0-855b-99e9b53508b6"],
+
+Cell[TextData[{
+ Cell["PermutationIndex", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "8953b1d7-c08f-4acd-b3b5-8e8836f32cbc"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "69771e04-06d2-426c-9f7d-7796e572baef"]
+}], "GuideText",
+ CellID->329411963,ExpressionUUID->"ba5c24fe-5fb6-4425-aced-01c097b6d379"],
+
+Cell[TextData[{
+ Cell["InsideTriangle", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "6941863d-04f2-4c61-bada-2bab92724703"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "84f288b2-3ef6-4d61-a46d-65ee105fea53"]
+}], "GuideText",
+ CellID->107976581,ExpressionUUID->"fe3c424d-aaa5-4b1c-b7d7-f151e215593b"],
+
+Cell[TextData[{
+ Cell["FibonacciPrimes", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "96e294de-9e9b-4580-87b7-b52b413ad509"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "396274d9-4238-4105-ab2a-a2a621681a8c"]
+}], "GuideText",
+ CellID->89149059,ExpressionUUID->"c7fbbcbd-c64f-448c-aa60-31102397ce23"],
+
+Cell[TextData[{
+ Cell["PrimeGap", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "b3bbb088-238d-4eed-ba09-b72873bb7975"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "bc5afabc-a192-4bbd-bbc4-514f6c74ee53"]
+}], "GuideText",
+ CellID->617057688,ExpressionUUID->"e07d864f-80c4-48b4-9bbd-98f931ad8712"],
+
+Cell[TextData[{
+ Cell["PythagoreanPrimes", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "9b35a1e8-0f1c-4604-8a23-e7fb19bbb8ef"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "b2298d30-c294-40b4-a2b2-2e2f09448555"]
+}], "GuideText",
+ CellID->136485087,ExpressionUUID->"43146593-860c-4cf2-a9e8-256d0cfab483"],
+
+Cell[TextData[{
+ Cell["Varignon", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "586c065f-da68-4ead-9b16-cda9ba83ef7a"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "fdb50fd1-acdd-411f-9b66-9cea15f8c56b"]
+}], "GuideText",
+ CellID->16187572,ExpressionUUID->"dad7e2a8-58d9-4649-8af9-0571320bd0c5"],
+
+Cell[TextData[{
+ Cell["ReverseAddSortSequence", "InlineFunctionSansUnlinked",
+  CellTags->"fffec7a8-a488-4993-b90e-cc1bd1395789",ExpressionUUID->
+  "4af3d359-04a6-456a-bb87-e7d5a15066c8"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " ",
+ Cell[BoxData[
+  TagBox[
+   TagBox[
+    FrameBox["description"],
+    "GuideTextPlaceholder"],
+   EventHandlerTag[{"MouseClicked" :> SelectionMove[
+       EvaluationCell[], All, Cell], Method -> "Preemptive", PassEventsDown -> 
+     Automatic, PassEventsUp -> True}]]],ExpressionUUID->
+  "806eabbd-c84a-483f-92fd-e3adb32e95b2"]
+}], "GuideText",
+ CellID->81111724,ExpressionUUID->"12066a05-7bb5-48e2-a0ec-c9aaa07360da"],
+
 Cell["\t", "GuideDelimiter",
  CellID->177326085,ExpressionUUID->"55a98ef9-d037-4d17-aeed-f1f8f734a0c8"],
 
@@ -168,16 +931,16 @@ Cell[TextData[Cell["\<\
 
 FrameBox[\"\\\"XXXX\\\"\"]\
 \>", "FunctionPlaceholder", \
-"InlineFunctionSansUnlinked",ExpressionUUID->"05e22ec4-e056-4db2-8d2d-\
-ff468234e031"]], "InlineGuideFunctionListing",
+"InlineFunctionSansUnlinked",ExpressionUUID->"d65529e3-63c0-4a86-b37c-\
+0fd82c325ba3"]], "InlineGuideFunctionListing",
  CellID->285224955,ExpressionUUID->"d7195843-0047-4f8c-882b-79f05a50a1ac"],
 
-Cell[BoxData["Open"], "Input",ExpressionUUID->"5f750a51-7f50-4005-981e-d2e04a032d5d"]
+Cell[BoxData["Open"], "Input",ExpressionUUID->"1ce7d2f6-39d7-4c59-b3e4-b9c21912dce4"]
 }, Open  ]]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",
-WindowSize->{900, 604.8},
+WindowSize->{900., 604.8},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 WindowTitle->"Wolfram Challenges Mathematics",
 TaggingRules->{
@@ -188,7 +951,7 @@ TaggingRules->{
   "NewStyles" -> True, "CitationPopupData" -> {$Failed, ""}, "ShowCitation" -> 
   False, "RootCaptions" -> "", 
   "Metadata" -> {
-   "built" -> "{2023, 6, 6, 20, 14, 37.5113984}", 
+   "built" -> "{2023, 6, 10, 15, 28, 7.6935173}", 
     "history" -> {"XX", "", "", ""}, "context" -> 
     "PeterBurbery`LittleChildPaclet`", "keywords" -> {}, 
     "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
@@ -197,16 +960,16 @@ TaggingRules->{
     "summary" -> 
     "This is a guide page for Wolfram Challenges with the tag Mathematics.", 
     "synonyms" -> {}, "tabletags" -> 
-    DocumentationBuild`Make`Private`tabletaggingrules$38207, "title" -> 
+    DocumentationBuild`Make`Private`tabletaggingrules$25270, "title" -> 
     "Wolfram Challenges Mathematics", "titlemodifier" -> "", 
     "metadescription" -> "", "windowtitle" -> 
     "Wolfram Challenges Mathematics", "type" -> "Guide", "uri" -> 
     "PeterBurbery/LittleChildPaclet/guide/WolframChallengesMathematics"}},
 CacheGraphics->False,
-FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 31, 2023)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "Reference.nb", 
   CharacterEncoding -> "UTF-8"],
-ExpressionUUID->"ec1b9835-bf08-497b-9362-3fbbcd42892b"
+ExpressionUUID->"d7341fae-1821-4155-9468-090f166eff21"
 ]
 (* End of Notebook Content *)
 
@@ -219,21 +982,105 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[602, 21, 4619, 111, 70, "AnchorBarGrid",ExpressionUUID->"8ee2f034-cddc-492c-b1d4-b2ec4dcfc030",
+Cell[605, 21, 5478, 125, 70, "AnchorBarGrid",ExpressionUUID->"9adcce4d-7955-47e5-9396-c2d1fdd1053a",
  CellID->1],
 Cell[CellGroupData[{
-Cell[5246, 136, 127, 1, 70, "GuideTitle",ExpressionUUID->"6259c071-c1b7-4514-ab31-a1b1a95f29ad",
+Cell[6108, 150, 127, 1, 70, "GuideTitle",ExpressionUUID->"6259c071-c1b7-4514-ab31-a1b1a95f29ad",
  CellID->520347829],
-Cell[5376, 139, 177, 3, 70, "GuideAbstract",ExpressionUUID->"23cf4e93-dc04-482a-aaa1-d50d6470ebcb",
+Cell[6238, 153, 177, 3, 70, "GuideAbstract",ExpressionUUID->"23cf4e93-dc04-482a-aaa1-d50d6470ebcb",
  CellID->469719644],
-Cell[5556, 144, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"8af302bd-89ae-4a16-9b47-e15d2226c6b0"],
-Cell[5652, 146, 582, 15, 70, "GuideText",ExpressionUUID->"8f3b5a12-990e-4a20-a1b7-6f7cbe0d5be0",
+Cell[6418, 158, 93, 0, 70, "GuideDelimiterSubsection",ExpressionUUID->"2867a506-e43c-4f7e-aaa2-997846c728e8"],
+Cell[6514, 160, 592, 15, 70, "GuideText",ExpressionUUID->"83dd8358-1400-4411-b1b0-2cbd8a761fdc",
+ CellID->713661200],
+Cell[7109, 177, 633, 16, 70, "GuideText",ExpressionUUID->"4ae0c590-9aed-42cf-8876-605fc18cc731",
+ CellID->645734177],
+Cell[7745, 195, 613, 16, 70, "GuideText",ExpressionUUID->"11bf7f67-89a2-4682-9048-fd5447740f4c",
+ CellID->833464561],
+Cell[8361, 213, 565, 15, 70, "GuideText",ExpressionUUID->"029d1fe0-059b-4ac2-9618-77b31391d95e",
+ CellID->27375449],
+Cell[8929, 230, 584, 15, 70, "GuideText",ExpressionUUID->"8f3b5a12-990e-4a20-a1b7-6f7cbe0d5be0",
  CellID->442617515],
-Cell[6237, 163, 103, 1, 70, "GuideDelimiter",ExpressionUUID->"55a98ef9-d037-4d17-aeed-f1f8f734a0c8",
+Cell[9516, 247, 366, 8, 70, "GuideText",ExpressionUUID->"a97791ad-fd04-4da3-9d4d-b40f04e8d454",
+ CellID->422650855],
+Cell[9885, 257, 406, 9, 70, "GuideText",ExpressionUUID->"426dadf0-80bb-4c1e-ae1d-5db107d113ee",
+ CellID->436855638],
+Cell[10294, 268, 404, 8, 70, "GuideText",ExpressionUUID->"306567cd-230a-4783-bc88-b2843b62ef5f",
+ CellID->436148865],
+Cell[10701, 278, 480, 10, 70, "GuideText",ExpressionUUID->"55763b0b-54d4-43e7-94b9-4e0d7d63ad33",
+ CellID->286648757],
+Cell[11184, 290, 492, 10, 70, "GuideText",ExpressionUUID->"20c3018f-09ac-43f0-9e80-7ddb647a3db9",
+ CellID->107010722],
+Cell[11679, 302, 402, 9, 70, "GuideText",ExpressionUUID->"837a7e11-4116-4b13-8414-42db438e703c",
+ CellID->152613969],
+Cell[12084, 313, 492, 10, 70, "GuideText",ExpressionUUID->"33f46d07-286e-4c2b-a4ea-c3caffd94e0e",
+ CellID->84365630],
+Cell[12579, 325, 649, 17, 70, "GuideText",ExpressionUUID->"3c76f850-da64-4e66-8f66-7ff5bee85533",
+ CellID->462676275],
+Cell[13231, 344, 652, 17, 70, "GuideText",ExpressionUUID->"1e512732-ffb9-420d-841e-8b302bfe9ae7",
+ CellID->644990945],
+Cell[13886, 363, 658, 17, 70, "GuideText",ExpressionUUID->"9eed3a56-5454-4e53-91f4-4dc5c6203700",
+ CellID->38625777],
+Cell[14547, 382, 651, 17, 70, "GuideText",ExpressionUUID->"f8ade241-6223-4590-9775-7066cfa78f90",
+ CellID->72001770],
+Cell[15201, 401, 383, 8, 70, "GuideText",ExpressionUUID->"2c79662f-bd8a-4bb2-88b8-ede20c9bcaca",
+ CellID->41501662],
+Cell[15587, 411, 656, 17, 70, "GuideText",ExpressionUUID->"7c2a4329-fe01-4b10-8b90-0ee5eb7af757",
+ CellID->313342484],
+Cell[16246, 430, 648, 17, 70, "GuideText",ExpressionUUID->"e4df6534-9f16-4ed5-9576-174282fb4dc8",
+ CellID->266072826],
+Cell[16897, 449, 652, 17, 70, "GuideText",ExpressionUUID->"f3ca1f85-8843-4a5e-8930-4dc67ba0e281",
+ CellID->353511843],
+Cell[17552, 468, 654, 17, 70, "GuideText",ExpressionUUID->"1f5b22d1-bf76-4e0c-b008-59ad990774b0",
+ CellID->96672272],
+Cell[18209, 487, 863, 24, 70, "GuideText",ExpressionUUID->"3e5a4b1b-fb1f-4dc9-abb7-c984828b125f",
+ CellID->684923268],
+Cell[19075, 513, 646, 17, 70, "GuideText",ExpressionUUID->"36d085df-d7fd-4f0b-936d-49bf85ca7ba9",
+ CellID->151868882],
+Cell[19724, 532, 650, 17, 70, "GuideText",ExpressionUUID->"ff4e7974-5764-45b2-b546-5a3e84637310",
+ CellID->73175773],
+Cell[20377, 551, 653, 17, 70, "GuideText",ExpressionUUID->"9db9d442-cd34-4eb8-a08f-8b72d6b305ae",
+ CellID->465779582],
+Cell[21033, 570, 648, 17, 70, "GuideText",ExpressionUUID->"f548f1dd-1f1b-4bc7-9af5-c0a367dd4a00",
+ CellID->723978523],
+Cell[21684, 589, 658, 17, 70, "GuideText",ExpressionUUID->"65cfc9d1-a401-4d9e-94a1-e82e4d20308a",
+ CellID->284202911],
+Cell[22345, 608, 652, 17, 70, "GuideText",ExpressionUUID->"eb740f8a-e41e-443f-91d5-b4139f5634d2",
+ CellID->34905420],
+Cell[23000, 627, 850, 24, 70, "GuideText",ExpressionUUID->"bc67f465-9896-46ca-bacd-55f5ca57892b",
+ CellID->320374],
+Cell[23853, 653, 842, 24, 70, "GuideText",ExpressionUUID->"bdbc7fd0-f59d-460a-ae7e-ed3c42dd1830",
+ CellID->83369855],
+Cell[24698, 679, 657, 17, 70, "GuideText",ExpressionUUID->"6c4048ad-e332-4a13-924d-86403bd7eada",
+ CellID->817407445],
+Cell[25358, 698, 651, 17, 70, "GuideText",ExpressionUUID->"027add65-f4b1-40e9-9246-b9589a7bc584",
+ CellID->18487539],
+Cell[26012, 717, 656, 17, 70, "GuideText",ExpressionUUID->"de2fd079-ea3d-4c74-9bf6-f849be5bc5b6",
+ CellID->631799018],
+Cell[26671, 736, 650, 17, 70, "GuideText",ExpressionUUID->"04d44b87-0d95-41b2-a1bf-a0a8fc9c6c2d",
+ CellID->550079672],
+Cell[27324, 755, 654, 17, 70, "GuideText",ExpressionUUID->"f414a9cf-ed7f-4cfb-85e7-bf310a3eff92",
+ CellID->207884927],
+Cell[27981, 774, 659, 17, 70, "GuideText",ExpressionUUID->"75e4fe70-5743-4de0-855b-99e9b53508b6",
+ CellID->281267327],
+Cell[28643, 793, 654, 17, 70, "GuideText",ExpressionUUID->"ba5c24fe-5fb6-4425-aced-01c097b6d379",
+ CellID->329411963],
+Cell[29300, 812, 652, 17, 70, "GuideText",ExpressionUUID->"fe3c424d-aaa5-4b1c-b7d7-f151e215593b",
+ CellID->107976581],
+Cell[29955, 831, 652, 17, 70, "GuideText",ExpressionUUID->"c7fbbcbd-c64f-448c-aa60-31102397ce23",
+ CellID->89149059],
+Cell[30610, 850, 646, 17, 70, "GuideText",ExpressionUUID->"e07d864f-80c4-48b4-9bbd-98f931ad8712",
+ CellID->617057688],
+Cell[31259, 869, 655, 17, 70, "GuideText",ExpressionUUID->"43146593-860c-4cf2-a9e8-256d0cfab483",
+ CellID->136485087],
+Cell[31917, 888, 645, 17, 70, "GuideText",ExpressionUUID->"dad7e2a8-58d9-4649-8af9-0571320bd0c5",
+ CellID->16187572],
+Cell[32565, 907, 659, 17, 70, "GuideText",ExpressionUUID->"12066a05-7bb5-48e2-a0ec-c9aaa07360da",
+ CellID->81111724],
+Cell[33227, 926, 103, 1, 70, "GuideDelimiter",ExpressionUUID->"55a98ef9-d037-4d17-aeed-f1f8f734a0c8",
  CellID->177326085],
-Cell[6343, 166, 276, 6, 70, InheritFromParent,ExpressionUUID->"d7195843-0047-4f8c-882b-79f05a50a1ac",
+Cell[33333, 929, 276, 6, 70, InheritFromParent,ExpressionUUID->"d7195843-0047-4f8c-882b-79f05a50a1ac",
  CellID->285224955],
-Cell[6622, 174, 85, 0, 70, "Input",ExpressionUUID->"5f750a51-7f50-4005-981e-d2e04a032d5d"]
+Cell[33612, 937, 85, 0, 70, "Input",ExpressionUUID->"1ce7d2f6-39d7-4c59-b3e4-b9c21912dce4"]
 }, Open  ]]
 }
 ]

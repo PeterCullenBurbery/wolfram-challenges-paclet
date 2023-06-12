@@ -3,17 +3,17 @@
 (*** Wolfram Notebook File ***)
 (* http://www.wolfram.com/nb *)
 
-(* CreatedBy='Mathematica 13.3' *)
+(* CreatedBy='WolframDesktop 13.2' *)
 
 (*CacheID: 234*)
 (* Internal cache information:
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
-NotebookDataPosition[       158,          7]
-NotebookDataLength[     11120,        283]
-NotebookOptionsPosition[      8043,        215]
-NotebookOutlinePosition[     10184,        269]
-CellTagsIndexPosition[     10100,        264]
+NotebookDataPosition[       161,          7]
+NotebookDataLength[     92889,       2611]
+NotebookOptionsPosition[     73396,       2204]
+NotebookOutlinePosition[     75729,       2262]
+CellTagsIndexPosition[     75643,       2257]
 WindowTitle->BalancedTernary
 WindowFrame->Normal*)
 
@@ -28,81 +28,109 @@ Cell[BoxData[GridBox[{
            "Spacer1"], Cell[
           "PETER BURBERY/ LITTLE CHILD PACLET SYMBOL", "PacletNameCell",
            TextAlignment->Center,ExpressionUUID->
-           "926ac44a-abcd-4e25-89ca-277bc2169923"], 
+           "a453189c-1f02-485d-a58d-a0d752c3df2c"], 
           TemplateBox[{8},
            "Spacer1"]}]],
          TextAlignment->Center,ExpressionUUID->
-         "67763ddf-a580-4ba0-b495-8351a2fd95e1"],
+         "d79bfd9d-66ee-4cf9-ae1f-856ef47e86d6"],
         Background->RGBColor[0.490196, 0.576471, 0.690196],
         ItemSize->Full], ""}
      },
      GridBoxAlignment->{"Rows" -> {{Center}}},
      GridBoxItemSize->{"Columns" -> {Full, 
-         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[Cell[BoxData[
-     TagBox[
-      ActionMenuBox[
-       FrameBox[Cell[TextData[{
-         "URL",
-         " ",
-         Cell[BoxData[
-          GraphicsBox[
-           {GrayLevel[0.66667], Thickness[0.13], 
-            LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
-           AspectRatio->1,
-           ImageSize->20,
-           PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
-          "a984dc35-0f85-4ac2-92d4-a8fcdb70eb68"]
-        }],ExpressionUUID->"9b676bd3-2a15-4354-8813-e2ebf8de9180"],
-        StripOnInput->False],{
-       "\"PeterBurbery/LittleChildPaclet/ref/BalancedTernary\"" :> None, 
-        "\"Copy Wolfram Documentation Center URL\"" :> 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Related Guides",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "a121d82b-0b96-43f1-b41e-abec378da13e"]
+         }],ExpressionUUID->"11d5b550-a6cb-437e-a8f0-ac5acd83d0b6"],
+         StripOnInput->False], {"\<\"Wolfram Challenges Mathematics\"\>":>
+        Documentation`HelpLookup[
+        "paclet:PeterBurbery/LittleChildPaclet/guide/\
+WolframChallengesMathematics"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"MoreAbout"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "976dc5aa-4a70-46bd-99ee-c615c7b3e3e8"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "98c3d534-16e4-42a1-bc74-88a0432ed70a"]
+         }],ExpressionUUID->"3e3a6b97-9f1b-44f2-ad81-30903aade31d"],
+         StripOnInput->
+          False], {"\<\"PeterBurbery/LittleChildPaclet/ref/BalancedTernary\"\>\
+":>None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
         Module[{DocumentationSearch`Private`nb$}, 
-          DocumentationSearch`Private`nb$ = 
-           NotebookPut[
+         DocumentationSearch`Private`nb$ = NotebookPut[
             Notebook[{
               Cell["PeterBurbery/LittleChildPaclet/ref/BalancedTernary"]}, 
-              Visible -> False]]; 
-          SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
-          FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
-          NotebookClose[DocumentationSearch`Private`nb$]; Null], Delimiter, 
-        "\"Copy web URL\"" :> 
+             Visible -> False]]; 
+         SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+         NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+        Delimiter, "\<\"Copy web URL\"\>":>
         Module[{DocumentationSearch`Private`nb$}, 
-          DocumentationSearch`Private`nb$ = 
-           NotebookPut[
+         DocumentationSearch`Private`nb$ = NotebookPut[
             Notebook[{
-              Cell[BoxData[
+              Cell[
+               BoxData[
                 MakeBoxes[
                  Hyperlink[
-                  "http://reference.wolfram.com/language/PeterBurbery/\
+                 "http://reference.wolfram.com/language/PeterBurbery/\
 LittleChildPaclet/ref/BalancedTernary.html"], StandardForm]], "Input", 
-                TextClipboardType -> "PlainText"]}, Visible -> False]]; 
-          SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
-          FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
-          NotebookClose[DocumentationSearch`Private`nb$]; Null], 
-        "\"Go to web URL\"" :> 
-        FrontEndExecute[{
+               TextClipboardType -> "PlainText"]}, Visible -> False]]; 
+         SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+         NotebookClose[DocumentationSearch`Private`nb$]; 
+         Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
           NotebookLocate[{
-            URL[If[TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$572828], 
-                "http://reference.wolfram.com/system-modeler/", 
-                "http://reference.wolfram.com/language/"] <> 
-              "PeterBurbery/LittleChildPaclet/ref/BalancedTernary" <> 
-              ".html"], None}]}]},
-       Appearance->None,
-       MenuAppearance->Automatic,
-       MenuStyle->"URLMenu"],
-      MouseAppearanceTag["LinkHand"]]],
-     LineSpacing->{1.4, 0},ExpressionUUID->
-     "9b37fd68-5908-4351-a79a-93a7762ee030"]], "AnchorBar",
+            URL[If[
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$29079], 
+               "http://reference.wolfram.com/system-modeler/", 
+               "http://reference.wolfram.com/language/"] <> 
+             "PeterBurbery/LittleChildPaclet/ref/BalancedTernary" <> ".html"],
+             None}]}]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "221b51f9-fa40-49f7-919b-92094ffa3368"]
+    }], "AnchorBar",
      CacheGraphics->False,ExpressionUUID->
-     "c7ba5d5c-47be-4672-8e2d-a33323c3dbf9"]}
+     "b081da98-3f7f-417a-88d3-28083878e5ad"]}
   }]], "AnchorBarGrid",
  GridBoxOptions->{GridBoxItemSize->{"Columns" -> {
      Scaled[0.65], {
       Scaled[0.34]}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
    "RowsIndexed" -> {}}},
- CellID->1,ExpressionUUID->"cbdb5ae1-736b-4661-a573-02368ecdcd8b"],
+ CellID->1,ExpressionUUID->"838d6bfb-b569-4f7f-bb99-b6f832da815f"],
 
-Cell["PeterBurbery`LittleChildPaclet`", "ContextNameCell",ExpressionUUID->"f93ea412-fb1a-4e79-8095-ec7119738fb8"],
+Cell["PeterBurbery`LittleChildPaclet`", "ContextNameCell",ExpressionUUID->"e245eb2d-2ccf-4b60-a730-a155628eeda0"],
 
 Cell[CellGroupData[{
 
@@ -110,17 +138,17 @@ Cell[BoxData[GridBox[{
    {Cell[TextData[{
      Cell[
      "BalancedTernary", "ObjectName",ExpressionUUID->
-      "7ec89628-0a8b-479a-9b52-dbbc8fab1ab7"],
+      "8a62c2b2-895c-464d-bd73-4f2ceb1c48be"],
      Cell[BoxData[
       TemplateBox[{8},
-       "Spacer1"]],ExpressionUUID->"db4b2a04-1e84-491d-82e4-c6e14e74d8ff"],
+       "Spacer1"]],ExpressionUUID->"75f4d917-ccf4-4476-9af4-8c4fda858028"],
      Cell[BoxData[
      ""], "ObjectNameTranslation",ExpressionUUID->
-      "be53ae22-a05c-4c24-8dd5-908599f31c31"]
-    }],ExpressionUUID->"8a8d3cd6-edfc-4686-98d6-e51b977ee465"], 
+      "eb127fd6-b7b1-4cca-b588-6eec4c675782"]
+    }],ExpressionUUID->"37b4c5a8-49a5-4eee-8d42-e057958f29b0"], 
     "\[SpanFromLeft]"}
-  }]], "ObjectNameGrid",ExpressionUUID->"546e6ea9-ba9a-47e8-8784-\
-0d76ac2e970f"],
+  }]], "ObjectNameGrid",ExpressionUUID->"4026e2cd-dadc-49f3-a2a8-\
+b07c914a2b74"],
 
 Cell[BoxData[GridBox[{
    {"", Cell[TextData[{
@@ -132,14 +160,91 @@ Cell[BoxData[GridBox[{
          "paclet:PeterBurberyLittleChildPaclet/ref/BalancedTernary", 
          "PeterBurberyLittleChildPaclet Package Symbol"},
         "PackageLink",
-        BaseStyle->"InlineFormula"], "[", "]"}]], "InlineFormula",
+        BaseStyle->"InlineFormula"], "[", 
+       StyleBox["n", "TI"], "]"}]], "InlineFormula",
       FontFamily->"Source Sans Pro",ExpressionUUID->
-      "52254df6-a891-462c-a11b-559844a50f66"],
-     "\[LineSeparator]XXXX"
-    }],ExpressionUUID->"9b41f6e5-1c60-49b4-b79c-286558050a27"]}
+      "7d2e243a-3c31-4a0c-ae7f-ea84ef369d04"],
+     "\[LineSeparator]toggles the ",
+     Cell[BoxData[
+      StyleBox["n", "TI"]], "InlineFormula",
+      FontFamily->"Source Sans Pro",ExpressionUUID->
+      "2624c7bb-d025-4caa-90ea-58dc2dd6f0bb"],
+     " between integer and balanced ternary format."
+    }],ExpressionUUID->"9bd16816-d596-4725-aefc-cb83db3ab2a3"]}
   }]], "Usage",
- CellID->232999120,ExpressionUUID->"6804a6f9-a6fd-4af5-be9c-ce51be64a414"]
+ CellID->1257942,ExpressionUUID->"2d0c3be9-4377-44a5-9322-03ac55fdab2b"]
 }, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[Cell[BoxData[
+ ButtonBox[Cell[TextData[{
+   Cell[BoxData[
+    DynamicBox[ToBoxes[
+      If[
+       MatchQ[
+        CurrentValue[
+         EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, 
+         Closed], 
+        Alternatives[Open, True]], 
+       Style[
+        Graphics[{
+          Thickness[0.18], 
+          RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+          Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+         PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+        0.68 Inherited], 
+       Rotate[
+        Style[
+         Graphics[{
+           Thickness[0.18], 
+           RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+           Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+          PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+         0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+     ImageSizeCache->{
+      13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+    ExpressionUUID->"32587470-0f76-4a6a-a9f3-901e2204884a"],
+   Cell[BoxData[
+    TemplateBox[{1},
+     "Spacer1"]],ExpressionUUID->"bfbed9b4-5070-4d46-9802-1e66b68e88c7"],
+   "Details and Options"
+  }], "NotesFrameText",ExpressionUUID->"76806ec2-6b72-4831-b97d-ef68169065a0"],
+  Appearance->{Automatic, None, "Normal", Automatic},
+  BaseStyle->None,
+  ButtonFunction:>(FrontEndExecute[{
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], All, ButtonCell], 
+     FrontEndToken["OpenCloseGroup"], 
+     FrontEnd`SelectionMove[
+      FrontEnd`SelectedNotebook[], After, CellContents]}]& ),
+  Evaluator->None,
+  Method->
+   "Preemptive"]],ExpressionUUID->"cb1da1a4-06f3-467e-97ad-2c68409a2daf"]], \
+"NotesSection",
+ WholeCellGroupOpener->True,
+ CellGroupingRules->{"SectionGrouping", 50},
+ CacheGraphics->False,
+ CellID->179593120,ExpressionUUID->"0a5c3f06-a2cb-4bd6-945b-5647f1435c11"],
+
+Cell[TextData[{
+ "The ",
+ Cell[BoxData[
+  UnderscriptBox["1", "_"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "2c716cc2-7d52-497e-845f-4e83b2fd1941"],
+ " is UnderBar[1]. You can get it with Ctrl+Shift+, _. The output has the \
+head Row."
+}], "Notes",
+ CellID->104383061,ExpressionUUID->"a62f5da1-00f5-4c90-9c62-f58b40944f13"],
+
+Cell["\<\
+I tried to figure out how to make a way to turn decimals like 0.4389 into \
+balanced ternary but I got stuck.\
+\>", "Notes",
+ CellID->190376723,ExpressionUUID->"173867dd-33b7-47bd-ba00-3539af74d438"]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
 
 Cell[CellGroupData[{
 
@@ -168,25 +273,1790 @@ Cell[TextData[{
         PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
        0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
    ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
-  ExpressionUUID->"c18408cd-d271-4ca8-85b9-95318f77d9ff"],
+  ExpressionUUID->"1c03de29-b8db-480d-8156-38cf10e0e080"],
  Cell[BoxData[
   TemplateBox[{1},
-   "Spacer1"]],ExpressionUUID->"7f2f5dba-27ff-44c3-8511-7bd18967c271"],
+   "Spacer1"]],ExpressionUUID->"dd703084-7ab2-4958-bb2f-517c1ed97ab4"],
  "Examples",
  "\[NonBreakingSpace]\[NonBreakingSpace]",
- Cell["(0)", "ExampleCount",ExpressionUUID->
-  "4744ec4d-37a8-493f-8a87-c04f54449ae0"]
+ Cell["(9)", "ExampleCount",ExpressionUUID->
+  "fbae3cb3-58ff-49f5-be5c-4a657d08a813"]
 }], "PrimaryExamplesSection",
  WholeCellGroupOpener->True,
  CacheGraphics->False,
  CellTags->"PrimaryExamplesSection",
- CellID->7007243,ExpressionUUID->"f363f2e2-8252-4acb-b854-9e6256e24fd8"],
+ CellID->183286909,ExpressionUUID->"91da08c7-9dd8-4088-95f3-4bf716126765"],
 
 Cell[BoxData[
  RowBox[{"Needs", "[", "\"\<PeterBurbery`LittleChildPaclet`\>\"", 
   "]"}]], "Input", "ExampleInitialization",
  CellLabel->"In[1]:=",
- CellID->500170225,ExpressionUUID->"1e92b569-e3c5-4d2d-8178-ea702ca99bdc"]
+ CellID->56443622,ExpressionUUID->"d9d8d3aa-d253-4242-88e8-60052d5d2755"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{13.600000000000001`, {5., 8.600000000000001}}]],
+  ExpressionUUID->"a8bc49d5-13fa-47a4-b40a-3954c5c3fb82"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"2dcc6b0b-4613-4f96-be61-d6e81f2683e3"],
+ "Basic Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "e2260603-1bdb-4c16-b488-1b88c16dd5a9"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->76399362,ExpressionUUID->"d6f74513-8b5c-4cdc-b48c-8c5e8b47e6a4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", 
+  RowBox[{"Range", "[", 
+   RowBox[{
+    RowBox[{"-", "9"}], ",", "9"}], "]"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->150504914,ExpressionUUID->"8ac092df-b183-4d10-8486-9bbaa76d4d39"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{
+     UnderscriptBox["1", "_"], "0", "0"},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"], "0", "1"},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"], "1", 
+     UnderscriptBox["1", "_"]},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"], "1", "0"},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"], "1", "1"},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"], 
+     UnderscriptBox["1", "_"]},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"], "0"},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"], "1"},
+    "RowDefault"], ",", 
+   TemplateBox[{
+     UnderscriptBox["1", "_"]},
+    "RowDefault"], ",", 
+   TemplateBox[{"0"},
+    "RowDefault"], ",", 
+   TemplateBox[{"1"},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", 
+     UnderscriptBox["1", "_"]},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", "0"},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", "1"},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", 
+     UnderscriptBox["1", "_"], 
+     UnderscriptBox["1", "_"]},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", 
+     UnderscriptBox["1", "_"], "0"},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", 
+     UnderscriptBox["1", "_"], "1"},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", "0", 
+     UnderscriptBox["1", "_"]},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", "0", "0"},
+    "RowDefault"]}], "}"}]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->55895663,ExpressionUUID->"4ce964fa-1eb6-416b-9099-39705d234652"]
+}, Open  ]],
+
+Cell["Convert the balanced ternary numbers back into integers:", "ExampleText",
+ CellID->470300484,ExpressionUUID->"338eb411-b470-466b-b458-903fbbcb4322"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", "%", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[2]:=",
+ CellID->33498536,ExpressionUUID->"2ea2df70-725f-403e-9fc1-828c015605ed"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"-", "9"}], ",", 
+   RowBox[{"-", "8"}], ",", 
+   RowBox[{"-", "7"}], ",", 
+   RowBox[{"-", "6"}], ",", 
+   RowBox[{"-", "5"}], ",", 
+   RowBox[{"-", "4"}], ",", 
+   RowBox[{"-", "3"}], ",", 
+   RowBox[{"-", "2"}], ",", 
+   RowBox[{"-", "1"}], ",", "0", ",", "1", ",", "2", ",", "3", ",", "4", ",", 
+   "5", ",", "6", ",", "7", ",", "8", ",", "9"}], "}"}]], "Output",
+ CellLabel->"Out[2]=",
+ CellID->572840478,ExpressionUUID->"b18c619e-c379-492b-b566-3ab4e950af7d"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"08898085-e640-4d9e-aa74-5039856947c5"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"256328a6-98c3-4c9f-be8b-1c8930d83c78"],
+ "Scope",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(3)", "ExampleCount",ExpressionUUID->
+  "5fff168f-08b1-4369-9cd3-78f1784599c6"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->168643635,ExpressionUUID->"d9892ce5-0a49-4e0a-9ce8-9abe567a60d8"],
+
+Cell["Large numbers can be converted into balanced ternary:", "ExampleText",
+ CellID->127161260,ExpressionUUID->"699b81ee-0565-47cf-a621-aa97aa111a05"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Column", "[", 
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"BalancedTernary", "[", 
+     RowBox[{"10", "^", "n"}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"n", ",", "1", ",", "12"}], "}"}]}], "]"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->348436759,ExpressionUUID->"c21ee7f2-23cb-43b7-b73e-d8e229ecc7c3"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     TemplateBox[{"1", "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "1", 
+       UnderscriptBox["1", "_"], "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "1", "0", "1", "0", "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", "1", "1", "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", "1", 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"], "1", "1", 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], "0", "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", "1", 
+       UnderscriptBox["1", "_"], "1", "1", "0", "0", "1", "1", "1", 
+       UnderscriptBox["1", "_"], "1", "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1", "0", "0", 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"], "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "0", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], "0", "1", 
+       UnderscriptBox["1", "_"], "0", "0", "1", 
+       UnderscriptBox["1", "_"], "1", "0", "1", "0", "0", "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "0", "0", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "1", "1", "0", 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], "1", "0", 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"], "0", "1", "0", "1", "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "0", "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", "0", "1", "0", "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"], "1", "0", "0", "1", 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "1", "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", "1", "1", "1", 
+       UnderscriptBox["1", "_"], "1", "1", 
+       UnderscriptBox["1", "_"], "1", "1", "1", "0", "0", "1"},
+      "RowDefault"]}
+   },
+   DefaultBaseStyle->"Column",
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Column"]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->999262,ExpressionUUID->"edcb8147-0956-4fb6-a2bb-5bffd1000c4b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\t", "ExampleDelimiter",ExpressionUUID->
+   "ffeb55e9-9a69-404f-bc96-8480d406ef75"],
+  $Line = 0; Null]], "ExampleDelimiter",
+ CellID->246732129,ExpressionUUID->"0aecc4b8-1dbe-48e0-8611-c90dfeafe048"],
+
+Cell["\<\
+
+Create a random 20-digit balanced ternary number:\
+\>", "ExampleText",
+ CellID->455078897,ExpressionUUID->"f30d6843-eed0-4ffe-960b-6ff635fc974b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Row", "[", 
+  RowBox[{"RandomChoice", "[", 
+   RowBox[{
+    RowBox[{"Normal", "[", 
+     RowBox[{"BalancedTernary", "[", "6", "]"}], "]"}], ",", "20"}], "]"}], 
+  "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->306652615,ExpressionUUID->"7d82aff0-7ca9-4fd7-aa69-3089fbbe5e19"],
+
+Cell[BoxData[
+ TemplateBox[{"1", 
+   UnderscriptBox["1", "_"], 
+   UnderscriptBox["1", "_"], "1", "1", "0", 
+   UnderscriptBox["1", "_"], "1", "0", 
+   UnderscriptBox["1", "_"], "1", "0", 
+   UnderscriptBox["1", "_"], "1", "0", "0", "1", "0", "1", 
+   UnderscriptBox["1", "_"]},
+  "RowDefault"]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->394392570,ExpressionUUID->"3da12bc1-0257-4847-add0-618c1216e408"]
+}, Open  ]],
+
+Cell["Convert to an integer:", "ExampleText",
+ CellID->477532804,ExpressionUUID->"51e4787d-b368-42a2-85bf-31fb1dee9eed"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", "%", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[2]:=",
+ CellID->124121861,ExpressionUUID->"8264e65b-6f98-4ce9-b9cb-725b53285a2d"],
+
+Cell[BoxData["701992766"], "Output",
+ CellLabel->"Out[2]=",
+ CellID->324845068,ExpressionUUID->"c5d1868c-ba54-4393-bdee-0957da85c633"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\t", "ExampleDelimiter",ExpressionUUID->
+   "1817948b-b300-485f-bc95-8f23769c5f5d"],
+  $Line = 0; Null]], "ExampleDelimiter",
+ CellID->158736213,ExpressionUUID->"cfa9db81-01d4-4e81-94a3-f0d5b3ac0eb4"],
+
+Cell["The function is Listable, which means it threads over Lists:", \
+"ExampleText",
+ CellID->237079951,ExpressionUUID->"32d55d30-d953-4bfb-b365-66c0671da815"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", 
+  RowBox[{"{", 
+   RowBox[{"1", ",", "2"}], "}"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->79407013,ExpressionUUID->"1f02f6d0-cf28-4a20-9358-ec3a2fb939ea"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[{"1"},
+    "RowDefault"], ",", 
+   TemplateBox[{"1", 
+     UnderscriptBox["1", "_"]},
+    "RowDefault"]}], "}"}]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->792471162,ExpressionUUID->"18c3cf6f-862d-4745-a169-bc852fab2577"]
+}, Open  ]],
+
+Cell["The function accepts nonvectors where VectorQ returns False:", \
+"ExampleText",
+ CellID->491841012,ExpressionUUID->"c330cee3-c817-41a8-aa95-0b85d68f2197"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"1", ",", "2"}], "}"}], ",", "2"}], "}"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[2]:=",
+ CellID->205935822,ExpressionUUID->"f524ea58-db8b-455a-b747-032ba7a9459b"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     TemplateBox[{"1"},
+      "RowDefault"], ",", 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"]}], "}"}], ",", 
+   TemplateBox[{"1", 
+     UnderscriptBox["1", "_"]},
+    "RowDefault"]}], "}"}]], "Output",
+ CellLabel->"Out[2]=",
+ CellID->294198169,ExpressionUUID->"0fdf828c-7851-4f66-90ad-cb16bb50a002"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", "1", "}"}], ",", 
+    RowBox[{"{", "2", "}"}]}], "}"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[3]:=",
+ CellID->107418938,ExpressionUUID->"706da1f6-09ee-4a1b-bbc3-a52e9548820b"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    TemplateBox[{"1"},
+     "RowDefault"], "}"}], ",", 
+   RowBox[{"{", 
+    TemplateBox[{"1", 
+      UnderscriptBox["1", "_"]},
+     "RowDefault"], "}"}]}], "}"}]], "Output",
+ CellLabel->"Out[3]=",
+ CellID->476666795,ExpressionUUID->"60df7eb7-6690-42e0-bc8a-d56a372ed6e9"]
+}, Open  ]],
+
+Cell["Use the function on a matrix:", "ExampleText",
+ CellID->32825079,ExpressionUUID->"c742e898-ee4d-4d14-847f-490aeaaf09de"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", 
+  RowBox[{"(", GridBox[{
+     {"2", "3"},
+     {"5", "7"}
+    }], ")"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[4]:=",
+ CellID->260955964,ExpressionUUID->"55b7200e-c7ae-479c-b88b-d39417ea2a28"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], ",", 
+     TemplateBox[{"1", "0"},
+      "RowDefault"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], ",", 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1"},
+      "RowDefault"]}], "}"}]}], "}"}]], "Output",
+ CellLabel->"Out[4]=",
+ CellID->390985938,ExpressionUUID->"dac363bf-2724-426c-a198-e9056af26fcf"]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"8b7e48e7-21e7-4bc6-9027-37614fe912eb"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"59e9f6a9-0a58-44a0-abd9-abff24b85334"],
+ "Applications",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(2)", "ExampleCount",ExpressionUUID->
+  "af7bac26-a420-453a-b70b-e8fcbe251540"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->106274569,ExpressionUUID->"4b9cf4c3-8e6b-4a9f-89df-7cf0f250b889"],
+
+Cell["Solve the Wolfram Challenge BalancedTernary:", "ExampleText",
+ CellID->113702228,ExpressionUUID->"74703787-4efa-44ce-ab9e-e24f80b9d195"],
+
+Cell[BoxData[{
+ RowBox[{"ClearAll", "[", "WolframChallengeBalancedTernary", 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"WolframChallengeBalancedTernary", "::", "usage"}], "=", 
+   "\"\<WolframChallengeBalancedTernary[n] represents the integer n in \
+balanced ternary\>\""}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"WolframChallengeBalancedTernary", "[", 
+   RowBox[{"i_", "?", "IntegerQ"}], "]"}], ":=", 
+  RowBox[{"StringJoin", "@@", 
+   RowBox[{
+    RowBox[{"ReplaceAll", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"1", "->", "\"\<1\>\""}], ",", 
+       RowBox[{
+        RowBox[{"UnderBar", "[", "1", "]"}], "->", "\"\<T\>\""}], ",", 
+       RowBox[{"0", "->", "\"\<0\>\""}]}], "}"}], "]"}], "[", 
+    RowBox[{"Normal", "[", 
+     RowBox[{"BalancedTernary", "[", "i", "]"}], "]"}], 
+    "]"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"WolframChallengeBalancedTernary", "[", "args___", "]"}], ":=", 
+  RowBox[{"Null", "/;", 
+   RowBox[{"CheckArguments", "[", 
+    RowBox[{
+     RowBox[{"WolframChallengeBalancedTernary", "[", "args", "]"}], ",", 
+     "1"}], "]"}]}]}]}], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->586010494,ExpressionUUID->"ef2bd22b-0f6e-4211-a890-67af27f02a9a"],
+
+Cell["\<\
+Write a function BalancedTernary that takes an integer n for its argument and \
+returns a string consisting of elements from the set {T, 0, 1} that \
+represents the balanced ternary representation of n.\
+\>", "ExampleText",
+ CellID->233222947,ExpressionUUID->"916d520f-ccbc-42ee-b738-fcce7e749956"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WolframChallengeBalancedTernary", "[", "17", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[2]:=",
+ CellID->28794299,ExpressionUUID->"71d02966-f856-4bda-b46f-4a5f0e8e14dd"],
+
+Cell[BoxData["\<\"1T0T\"\>"], "Output",
+ CellLabel->"Out[2]=",
+ CellID->72811674,ExpressionUUID->"f2514baf-fa78-49fa-a164-32ed05fa0a18"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WolframChallengeBalancedTernary", "[", "60", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[3]:=",
+ CellID->202552322,ExpressionUUID->"0d57407a-d898-402c-9e23-dd1c8fb0142d"],
+
+Cell[BoxData["\<\"1T1T0\"\>"], "Output",
+ CellLabel->"Out[3]=",
+ CellID->295696010,ExpressionUUID->"3f4bd89d-fa88-4449-b173-7a0eb7f36f94"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WolframChallengeBalancedTernary", "[", 
+  RowBox[{"-", "60"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[4]:=",
+ CellID->812523186,ExpressionUUID->"afd9f44a-2aab-4f8d-87ed-f0ec1050278b"],
+
+Cell[BoxData["\<\"T1T10\"\>"], "Output",
+ CellLabel->"Out[4]=",
+ CellID->85640394,ExpressionUUID->"42d77cff-e8d4-425e-ae33-ca2d0bf19fdb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WolframChallengeBalancedTernary", "[", "0", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[5]:=",
+ CellID->63356725,ExpressionUUID->"91f41c0c-14c2-4ff7-81be-7b184add9df6"],
+
+Cell[BoxData["\<\"0\"\>"], "Output",
+ CellLabel->"Out[5]=",
+ CellID->12427222,ExpressionUUID->"e6b9f083-d656-42e8-a079-276d965d6db3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WolframChallengeBalancedTernary", "[", "10000", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[6]:=",
+ CellID->225720092,ExpressionUUID->"8d43499b-4a36-455e-a5ce-1f334b05a25b"],
+
+Cell[BoxData["\<\"1TTTT01101\"\>"], "Output",
+ CellLabel->"Out[6]=",
+ CellID->464628999,ExpressionUUID->"919263fa-d6ad-4ea8-9217-f954683f2ed4"]
+}, Open  ]],
+
+Cell["Here are the numbers 1 to 100.", "ExampleText",
+ CellID->226012747,ExpressionUUID->"02b0313e-a10e-44c7-8345-19d50069f87f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Multicolumn", "[", 
+  RowBox[{
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"WolframChallengeBalancedTernary", "[", "n", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", "1", ",", "100"}], "}"}]}], "]"}], ",", "10", ",", 
+   RowBox[{"Appearance", "->", "\"\<Horizontal\>\""}]}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[7]:=",
+ CellID->304425603,ExpressionUUID->"0736032b-129a-4e66-a617-957abc530e73"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"1\"\>", "\<\"1T\"\>", "\<\"10\"\>", "\<\"11\"\>", "\<\"1TT\"\>", \
+"\<\"1T0\"\>", "\<\"1T1\"\>", "\<\"10T\"\>", "\<\"100\"\>", "\<\"101\"\>"},
+    {"\<\"11T\"\>", "\<\"110\"\>", "\<\"111\"\>", "\<\"1TTT\"\>", "\<\"1TT0\"\
+\>", "\<\"1TT1\"\>", "\<\"1T0T\"\>", "\<\"1T00\"\>", "\<\"1T01\"\>", \
+"\<\"1T1T\"\>"},
+    {"\<\"1T10\"\>", "\<\"1T11\"\>", "\<\"10TT\"\>", "\<\"10T0\"\>", \
+"\<\"10T1\"\>", "\<\"100T\"\>", "\<\"1000\"\>", "\<\"1001\"\>", \
+"\<\"101T\"\>", "\<\"1010\"\>"},
+    {"\<\"1011\"\>", "\<\"11TT\"\>", "\<\"11T0\"\>", "\<\"11T1\"\>", \
+"\<\"110T\"\>", "\<\"1100\"\>", "\<\"1101\"\>", "\<\"111T\"\>", \
+"\<\"1110\"\>", "\<\"1111\"\>"},
+    {"\<\"1TTTT\"\>", "\<\"1TTT0\"\>", "\<\"1TTT1\"\>", "\<\"1TT0T\"\>", \
+"\<\"1TT00\"\>", "\<\"1TT01\"\>", "\<\"1TT1T\"\>", "\<\"1TT10\"\>", \
+"\<\"1TT11\"\>", "\<\"1T0TT\"\>"},
+    {"\<\"1T0T0\"\>", "\<\"1T0T1\"\>", "\<\"1T00T\"\>", "\<\"1T000\"\>", \
+"\<\"1T001\"\>", "\<\"1T01T\"\>", "\<\"1T010\"\>", "\<\"1T011\"\>", \
+"\<\"1T1TT\"\>", "\<\"1T1T0\"\>"},
+    {"\<\"1T1T1\"\>", "\<\"1T10T\"\>", "\<\"1T100\"\>", "\<\"1T101\"\>", \
+"\<\"1T11T\"\>", "\<\"1T110\"\>", "\<\"1T111\"\>", "\<\"10TTT\"\>", \
+"\<\"10TT0\"\>", "\<\"10TT1\"\>"},
+    {"\<\"10T0T\"\>", "\<\"10T00\"\>", "\<\"10T01\"\>", "\<\"10T1T\"\>", \
+"\<\"10T10\"\>", "\<\"10T11\"\>", "\<\"100TT\"\>", "\<\"100T0\"\>", \
+"\<\"100T1\"\>", "\<\"1000T\"\>"},
+    {"\<\"10000\"\>", "\<\"10001\"\>", "\<\"1001T\"\>", "\<\"10010\"\>", \
+"\<\"10011\"\>", "\<\"101TT\"\>", "\<\"101T0\"\>", "\<\"101T1\"\>", \
+"\<\"1010T\"\>", "\<\"10100\"\>"},
+    {"\<\"10101\"\>", "\<\"1011T\"\>", "\<\"10110\"\>", "\<\"10111\"\>", \
+"\<\"11TTT\"\>", "\<\"11TT0\"\>", "\<\"11TT1\"\>", "\<\"11T0T\"\>", \
+"\<\"11T00\"\>", "\<\"11T01\"\>"}
+   },
+   AutoDelete->False,
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellLabel->"Out[7]=",
+ CellID->209320737,ExpressionUUID->"c21d5fb3-d0df-4632-9021-25a0a291d869"]
+}, Open  ]],
+
+Cell["The output must be a string.", "ExampleText",
+ CellID->460633909,ExpressionUUID->"6b0128bc-5a35-4017-a042-7110967509f0"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"StringQ", "[", 
+  RowBox[{"WolframChallengeBalancedTernary", "[", "51", "]"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[8]:=",
+ CellID->626654087,ExpressionUUID->"1d163ea9-28f0-4cef-a237-7098a5e6fd0f"],
+
+Cell[BoxData["True"], "Output",
+ CellLabel->"Out[8]=",
+ CellID->2909218,ExpressionUUID->"46eee352-1053-45f3-8da5-bdc4c9c5266d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"WolframChallengeBalancedTernary", "[", "51", "]"}], "//", 
+  "InputForm"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[9]:=",
+ CellID->375057318,ExpressionUUID->"54ff3102-017f-48e7-ba48-3a0c4246873e"],
+
+Cell["\"1T0T0\"", "Output",
+ CellLabel->"Out[9]//InputForm=",
+ CellID->196718372,ExpressionUUID->"9873d34e-4ba8-4c8c-914a-7131af0557bd"]
+}, Open  ]],
+
+Cell["\<\
+Verify the answer is correct by extracting the digits as integers and \
+performing the weighted sum of powers of 3.\
+\>", "ExampleText",
+ CellID->92614270,ExpressionUUID->"66da7141-1f53-46ff-8e94-bc3f8e29af87"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WolframChallengeBalancedTernary", "[", "70", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[10]:=",
+ CellID->888679494,ExpressionUUID->"9a267188-5330-4ddc-8cac-a0106783c506"],
+
+Cell[BoxData["\<\"10TT1\"\>"], "Output",
+ CellLabel->"Out[10]=",
+ CellID->763164749,ExpressionUUID->"bdbb8b30-90a2-4f55-8d3c-ecf33f63d9e1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ToExpression", "[", 
+  RowBox[{
+   RowBox[{"Characters", "[", "%", "]"}], "/.", " ", 
+   RowBox[{"\"\<T\>\"", "->", 
+    RowBox[{"-", "1"}]}]}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[11]:=",
+ CellID->537671275,ExpressionUUID->"ddae9997-7bbc-4a01-9748-9313fa85a60a"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1", ",", "0", ",", 
+   RowBox[{"-", "1"}], ",", 
+   RowBox[{"-", "1"}], ",", "1"}], "}"}]], "Output",
+ CellLabel->"Out[11]=",
+ CellID->527191057,ExpressionUUID->"431b7c2a-ccc4-469b-9727-ab05f669deef"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Reverse", "[", "%", "]"}], ".", 
+  RowBox[{"(", 
+   RowBox[{"3", "^", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"Range", "[", 
+       RowBox[{"Length", "[", "%", "]"}], "]"}], "-", "1"}], ")"}]}], 
+   ")"}]}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[12]:=",
+ CellID->281055,ExpressionUUID->"1389fb1a-eb3a-4865-95d2-2b0a0c0d4be9"],
+
+Cell[BoxData["70"], "Output",
+ CellLabel->"Out[12]=",
+ CellID->210796572,ExpressionUUID->"6e8b42d8-48ca-4c32-bd5f-a71e47fd9b75"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[Cell[
+  "\t", "ExampleDelimiter",ExpressionUUID->
+   "be30fb9f-9165-48c8-ae63-85a66680f4ce"],
+  $Line = 0; Null]], "ExampleDelimiter",
+ CellID->3173077,ExpressionUUID->"0222f240-0fa2-4f4e-abc0-2b211a582dbf"],
+
+Cell["Here are the examples but with the function:", "ExampleText",
+ CellID->24690118,ExpressionUUID->"8db4f375-f6f0-4e21-82bb-21ab721e6106"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", "17", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->17481760,ExpressionUUID->"091380f6-4429-4a69-94b1-67f14da97609"],
+
+Cell[BoxData[
+ TemplateBox[{"1", 
+   UnderscriptBox["1", "_"], "0", 
+   UnderscriptBox["1", "_"]},
+  "RowDefault"]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->302309396,ExpressionUUID->"2be0c510-a7f3-4c4b-9c51-d559dd2d10e1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", "60", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[2]:=",
+ CellID->308212380,ExpressionUUID->"31d88f0e-a0ef-4e37-a3bb-f5090333b9cd"],
+
+Cell[BoxData[
+ TemplateBox[{"1", 
+   UnderscriptBox["1", "_"], "1", 
+   UnderscriptBox["1", "_"], "0"},
+  "RowDefault"]], "Output",
+ CellLabel->"Out[2]=",
+ CellID->474514718,ExpressionUUID->"1c13a9fa-a212-4a09-a57c-e9628f50558f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", 
+  RowBox[{"-", "60"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[3]:=",
+ CellID->551536092,ExpressionUUID->"78fe5a21-6a7f-498d-8618-d55b4ec2640f"],
+
+Cell[BoxData[
+ TemplateBox[{
+   UnderscriptBox["1", "_"], "1", 
+   UnderscriptBox["1", "_"], "1", "0"},
+  "RowDefault"]], "Output",
+ CellLabel->"Out[3]=",
+ CellID->273858,ExpressionUUID->"55fbee05-c103-47b0-827b-2d784c5801dc"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", "0", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[4]:=",
+ CellID->67098777,ExpressionUUID->"b10a6415-3388-41ca-93e5-9c6f2ce52b96"],
+
+Cell[BoxData[
+ TemplateBox[{"0"},
+  "RowDefault"]], "Output",
+ CellLabel->"Out[4]=",
+ CellID->232663992,ExpressionUUID->"2e2f9db4-0550-4490-b707-149d7dfe7e2e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", "10000", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[5]:=",
+ CellID->288093900,ExpressionUUID->"58bdaf4c-85f8-4376-a978-1560e9337f73"],
+
+Cell[BoxData[
+ TemplateBox[{"1", 
+   UnderscriptBox["1", "_"], 
+   UnderscriptBox["1", "_"], 
+   UnderscriptBox["1", "_"], 
+   UnderscriptBox["1", "_"], "0", "1", "1", "0", "1"},
+  "RowDefault"]], "Output",
+ CellLabel->"Out[5]=",
+ CellID->71831411,ExpressionUUID->"6f086e51-e46f-4416-9d2e-c2195c9cd5a9"]
+}, Open  ]],
+
+Cell["Here are the numbers 1 to 100.", "ExampleText",
+ CellID->356276268,ExpressionUUID->"ef183b08-ec43-4143-85cf-c7d75c21de67"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Multicolumn", "[", 
+  RowBox[{
+   RowBox[{"Table", "[", 
+    RowBox[{
+     RowBox[{"BalancedTernary", "[", "n", "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"n", ",", "1", ",", "100"}], "}"}]}], "]"}], ",", "10", ",", 
+   RowBox[{"Appearance", "->", "\"\<Horizontal\>\""}]}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[6]:=",
+ CellID->460625871,ExpressionUUID->"c95b9129-8e33-42e1-a3a5-fa5bf5f3bfc5"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     TemplateBox[{"1"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "1", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", 
+       UnderscriptBox["1", "_"], "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", 
+       UnderscriptBox["1", "_"], "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "0", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "0", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "0", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "1", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "1", "0"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "0", "1", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", 
+       UnderscriptBox["1", "_"], "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", 
+       UnderscriptBox["1", "_"], "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", "0", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", "0", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", "0", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", "1", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", "1", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", "1", "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "1", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "1", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"], "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"], "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", "0", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", "0", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", "0", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", "1", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", "1", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "0", "1", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], "0"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"], "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1", "0", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1", "0", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1", "0", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1", "1", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1", "1", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", 
+       UnderscriptBox["1", "_"], "1", "1", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "1"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "0", 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", 
+       UnderscriptBox["1", "_"], "0", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", 
+       UnderscriptBox["1", "_"], "0", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", 
+       UnderscriptBox["1", "_"], "1", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", 
+       UnderscriptBox["1", "_"], "1", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", 
+       UnderscriptBox["1", "_"], "1", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "0", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "0", 
+       UnderscriptBox["1", "_"], "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "0", 
+       UnderscriptBox["1", "_"], "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "0", "0", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "0", "0", "0", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "0", "0", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "0", "1", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "0", "1", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "0", "1", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "1", 
+       UnderscriptBox["1", "_"], "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "1", 
+       UnderscriptBox["1", "_"], "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "1", "0", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "1", "0", "0"},
+      "RowDefault"]},
+    {
+     TemplateBox[{"1", "0", "1", "0", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "1", "1", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "1", "1", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "0", "1", "1", "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", 
+       UnderscriptBox["1", "_"], 
+       UnderscriptBox["1", "_"], "1"},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", 
+       UnderscriptBox["1", "_"], "0", 
+       UnderscriptBox["1", "_"]},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", 
+       UnderscriptBox["1", "_"], "0", "0"},
+      "RowDefault"], 
+     TemplateBox[{"1", "1", 
+       UnderscriptBox["1", "_"], "0", "1"},
+      "RowDefault"]}
+   },
+   AutoDelete->False,
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellLabel->"Out[6]=",
+ CellID->112526831,ExpressionUUID->"899039ac-2ede-4566-8faf-b904804f207c"]
+}, Open  ]],
+
+Cell["The output is a Row:", "ExampleText",
+ CellID->78698541,ExpressionUUID->"d89faa12-d7f0-4c81-ba67-c231d3534aa2"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", "51", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[7]:=",
+ CellID->166485130,ExpressionUUID->"f1afd709-ce16-4fce-b97a-b892cc51f34b"],
+
+Cell[BoxData[
+ TemplateBox[{"1", 
+   UnderscriptBox["1", "_"], "0", 
+   UnderscriptBox["1", "_"], "0"},
+  "RowDefault"]], "Output",
+ CellLabel->"Out[7]=",
+ CellID->39973561,ExpressionUUID->"b8715ffd-89dc-4e41-8f03-31c996389508"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"BalancedTernary", "[", "51", "]"}], "//", "InputForm"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[8]:=",
+ CellID->48760618,ExpressionUUID->"75524a56-9d01-4403-88c4-23fef1b25e34"],
+
+Cell["Row[{1, UnderBar[1], 0, UnderBar[1], 0}]", "Output",
+ CellLabel->"Out[8]//InputForm=",
+ CellID->491979173,ExpressionUUID->"b1895c82-d2e8-4315-bbeb-f690cb8453ea"]
+}, Open  ]],
+
+Cell["\<\
+Verify the answer is correct by extracting the digits as integers and \
+performing the weighted sum of powers of 3.\
+\>", "ExampleText",
+ CellID->67618799,ExpressionUUID->"4454c076-43b6-47cc-b3f0-9fb30b9ba6fd"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", "70", "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[9]:=",
+ CellID->21633418,ExpressionUUID->"42a8c805-54f5-4805-a2c2-cc4fb4cc456e"],
+
+Cell[BoxData[
+ TemplateBox[{"1", "0", 
+   UnderscriptBox["1", "_"], 
+   UnderscriptBox["1", "_"], "1"},
+  "RowDefault"]], "Output",
+ CellLabel->"Out[9]=",
+ CellID->99432304,ExpressionUUID->"888317ef-13ab-48d8-a504-b66f27383f6d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Normal", "[", 
+  RowBox[{"BalancedTernary", "[", "70", "]"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[10]:=",
+ CellID->617469942,ExpressionUUID->"13051a2c-a658-43fe-b676-f68475dc5bda"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1", ",", "0", ",", 
+   UnderscriptBox["1", "_"], ",", 
+   UnderscriptBox["1", "_"], ",", "1"}], "}"}]], "Output",
+ CellLabel->"Out[10]=",
+ CellID->757221219,ExpressionUUID->"915bbe8b-1069-46b4-ac45-50487ae1995a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[ScriptL]", "=", 
+  RowBox[{
+   RowBox[{"Normal", "[", 
+    RowBox[{"BalancedTernary", "[", "70", "]"}], "]"}], "/.", 
+   RowBox[{"{", 
+    RowBox[{
+     UnderscriptBox["1", "_"], "->", 
+     RowBox[{"-", "1"}]}], "}"}]}]}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[11]:=",
+ CellID->390756503,ExpressionUUID->"9f88bb37-e638-445a-a890-f19d4ccd19b7"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1", ",", "0", ",", 
+   RowBox[{"-", "1"}], ",", 
+   RowBox[{"-", "1"}], ",", "1"}], "}"}]], "Output",
+ CellLabel->"Out[11]=",
+ CellID->18119141,ExpressionUUID->"04e84919-ec6f-411d-82c2-2d31ff14dec7"]
+}, Open  ]],
+
+Cell["\<\
+Start from 0 and go up the length of the list using iteration:\
+\>", "ExampleText",
+ CellID->44707919,ExpressionUUID->"6a094b04-0f47-4f5d-9194-2504003fbce0"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[ScriptR]", "=", 
+  RowBox[{"Array", "[", 
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["3", "#"], "&"}], ",", 
+    RowBox[{"Length", "[", "\[ScriptL]", "]"}], ",", "0"}], "]"}]}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[12]:=",
+ CellID->367237261,ExpressionUUID->"e0123bd5-b3e3-445e-92d2-dce09e70cd51"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1", ",", "3", ",", "9", ",", "27", ",", "81"}], "}"}]], "Output",
+ CellLabel->"Out[12]=",
+ CellID->88792157,ExpressionUUID->"79866254-5791-409a-989c-763aa9b17553"]
+}, Open  ]],
+
+Cell["It might be more efficient to use recursion:", "ExampleText",
+ CellID->39617538,ExpressionUUID->"802f3715-08ff-4b59-8974-0eda60376c4c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[ScriptN]", "=", 
+  RowBox[{"NestList", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"3", "#"}], "&"}], ",", "1", ",", 
+    RowBox[{
+     RowBox[{"Length", "[", "\[ScriptL]", "]"}], "-", "1"}]}], 
+   "]"}]}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[13]:=",
+ CellID->33263804,ExpressionUUID->"586147d4-12a4-4b20-b022-aa51b74d634d"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1", ",", "3", ",", "9", ",", "27", ",", "81"}], "}"}]], "Output",
+ CellLabel->"Out[13]=",
+ CellID->58148560,ExpressionUUID->"356b440d-8f99-4f1f-af78-737fdf46c8eb"]
+}, Open  ]],
+
+Cell["Reverse the list:", "ExampleText",
+ CellID->33591593,ExpressionUUID->"33873d3e-7d66-452c-a32f-2fd870311482"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[ScriptV]", "=", 
+  RowBox[{"Reverse", "[", "\[ScriptL]", "]"}]}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[14]:=",
+ CellID->492138304,ExpressionUUID->"d0bdb9a7-4ccd-4bba-b51e-ea61c50bb759"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1", ",", 
+   RowBox[{"-", "1"}], ",", 
+   RowBox[{"-", "1"}], ",", "0", ",", "1"}], "}"}]], "Output",
+ CellLabel->"Out[14]=",
+ CellID->110076238,ExpressionUUID->"f7557629-53b2-43c4-9fe3-a5bfa8b1aaa9"]
+}, Open  ]],
+
+Cell["multiply by the array with the dot product:", "ExampleText",
+ CellID->266896838,ExpressionUUID->"db779471-5268-43cb-96fe-9f1ebe1f1a3e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[ScriptR]", ".", "\[ScriptV]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[15]:=",
+ CellID->288594646,ExpressionUUID->"52659e18-d3c1-40c2-a85e-ee31205f8185"],
+
+Cell[BoxData["70"], "Output",
+ CellLabel->"Out[15]=",
+ CellID->275954301,ExpressionUUID->"35d0f848-3b70-4f80-9a62-41b063a876b4"]
+}, Open  ]],
+
+Cell["Perform the dot product with the nested list:", "ExampleText",
+ CellID->87275720,ExpressionUUID->"12b98575-d1fe-493f-9b38-f70473622657"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\[ScriptN]", ".", "\[ScriptV]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[16]:=",
+ CellID->187866584,ExpressionUUID->"36d47c74-20b8-4c28-a709-240fad88bebd"],
+
+Cell[BoxData["70"], "Output",
+ CellLabel->"Out[16]=",
+ CellID->159233538,ExpressionUUID->"8ae86143-bb02-4169-bc5e-8c7a77520b60"]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "4"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"b6505151-a82c-44f1-b96c-cf9b51f547ce"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"cca5101b-e6bf-4b58-846f-0eab8be59f22"],
+ "Properties & Relations",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "e17ed056-5ade-435c-9d64-aa0b2c89f964"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->25065116,ExpressionUUID->"2f42ff80-0b45-4a25-9fd6-028edac9cb50"],
+
+Cell["Balanced ternary numbers are expressed in Row form:", "ExampleText",
+ CellID->176307694,ExpressionUUID->"c722a6f3-513b-496f-9fca-b37b09f5488c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Head", "[", 
+  RowBox[{"BalancedTernary", "[", "6", "]"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->27816792,ExpressionUUID->"eb93042b-527a-4c83-ba62-cb501a0715c7"],
+
+Cell[BoxData["Row"], "Output",
+ CellLabel->"Out[1]=",
+ CellID->626832710,ExpressionUUID->"6396984e-68c9-4dfa-be28-792ae6d584ea"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "4"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "5"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"560633f6-8a4e-4a11-8975-983554e20e8f"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"ac7a6cec-a52f-413d-9f22-3226948093d6"],
+ "Possible Issues",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "9c60057f-00b9-42e4-8a7b-5799ba968f74"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->565665305,ExpressionUUID->"6faba049-a2e8-47e9-b4e2-b7831566d36a"],
+
+Cell["The function only takes one argument:", "ExampleText",
+ CellID->323901343,ExpressionUUID->"8fafcb3b-0d27-4bd8-aa37-5bec0536fd64"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"BalancedTernary", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"1", ",", "2"}], "}"}], ",", "2"}], "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->82834060,ExpressionUUID->"ade3c943-2b0d-488a-8ae5-b748cdf2e9de"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "BalancedTernary", "argx", 
+   "\"\\!\\(\\*RowBox[{\\\"BalancedTernary\\\"}]\\) called with \
+\\!\\(\\*RowBox[{\\\"2\\\"}]\\) arguments; 1 argument is expected.\"", 2, 422,
+    40, 34138685494977380171, "Local", 
+   "PeterBurbery`LittleChildPaclet`BalancedTernary"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellLabel->"During evaluation of In[1]:=",
+ CellID->119269394,ExpressionUUID->"9c882662-942b-4f5c-b0a2-e3d603653d61"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "BalancedTernary", "argx", 
+   "\"\\!\\(\\*RowBox[{\\\"BalancedTernary\\\"}]\\) called with \
+\\!\\(\\*RowBox[{\\\"2\\\"}]\\) arguments; 1 argument is expected.\"", 2, 422,
+    41, 34138685494977380171, "Local", 
+   "PeterBurbery`LittleChildPaclet`BalancedTernary"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellLabel->"During evaluation of In[1]:=",
+ CellID->171885031,ExpressionUUID->"3d8d70d4-65a6-4b90-a101-b76e8bf264f0"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"BalancedTernary", "[", 
+    RowBox[{"1", ",", "2"}], "]"}], ",", 
+   RowBox[{"BalancedTernary", "[", 
+    RowBox[{"2", ",", "2"}], "]"}]}], "}"}]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->680298712,ExpressionUUID->"d4fbc86a-7a1d-4399-b8f7-05de16ca9bc6"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "5"}, 
+  Closed]]]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+ Cell[BoxData[
+  DynamicBox[ToBoxes[
+    If[
+     MatchQ[
+      CurrentValue[
+       EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "6"},
+        Closed], 
+      Alternatives[Open, True]], 
+     Style[
+      Graphics[{
+        Thickness[0.18], 
+        RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+        Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+       PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+      0.68 Inherited], 
+     Rotate[
+      Style[
+       Graphics[{
+         Thickness[0.18], 
+         RGBColor[0.8509803921568627, 0.396078431372549, 0], 
+         Line[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]}, AspectRatio -> 1, 
+        PlotRange -> {{-3, 4}, {-1, 1}}, ImageSize -> 20], Magnification -> 
+       0.68 Inherited], Rational[1, 2] Pi, {-1.65, -1}]]],
+   ImageSizeCache->{
+    13.600000000000001`, {0.5800000000000001, 13.020000000000001`}}]],
+  ExpressionUUID->"62662ace-f26c-43ff-b0f8-3ab901d2da95"],
+ Cell[BoxData[
+  TemplateBox[{1},
+   "Spacer1"]],ExpressionUUID->"65dfd563-5645-4ce9-a5f0-d52ba41ee3af"],
+ "Neat Examples",
+ "\[NonBreakingSpace]\[NonBreakingSpace]",
+ Cell["(1)", "ExampleCount",ExpressionUUID->
+  "59581d2e-b46a-404b-9569-a4d067ed216e"]
+}], "ExampleSection", "ExampleSection",
+ WholeCellGroupOpener->True,
+ CacheGraphics->False,
+ CellID->199553546,ExpressionUUID->"2341dc9a-5881-42fe-a7bb-99bb4afbdbe3"],
+
+Cell["\<\
+Using weights of size 1, 3, 9 and 27 and a 2-sided balance, measure weights 1 \
+to 20:\
+\>", "ExampleText",
+ CellID->83510547,ExpressionUUID->"2ee488c8-a86b-4870-9af8-0bd4c9a796ea"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Grid", "[", 
+  RowBox[{
+   RowBox[{"Transpose", "[", "\n", "  ", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"With", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"l", " ", "=", " ", 
+          RowBox[{"PadLeft", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"Normal", "[", 
+              RowBox[{"BalancedTernary", "[", "k", "]"}], "]"}], " ", "/.", 
+             " ", "\n", 
+             RowBox[{
+              UnderscriptBox["1", "_"], " ", "->", " ", 
+              RowBox[{"-", "1"}]}]}], ",", " ", "4"}], "]"}]}], "}"}], ",", 
+        "\n", "    ", 
+        RowBox[{"Append", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"l", " ", 
+            RowBox[{"(", 
+             RowBox[{"3", "^", 
+              RowBox[{"Range", "[", 
+               RowBox[{"3", ",", " ", "0", ",", " ", 
+                RowBox[{"-", "1"}]}], "]"}]}], ")"}]}], " ", "/.", " ", 
+           RowBox[{"0", " ", "->", " ", "\"\<\>\""}]}], " ", ",", " ", "k"}], 
+         "]"}]}], "]"}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"k", ",", " ", "1", ",", " ", "20"}], "}"}]}], "]"}], "]"}], 
+   ",", " ", 
+   RowBox[{"Frame", " ", "->", " ", "All"}], ",", " ", 
+   RowBox[{"Dividers", " ", "->", " ", 
+    RowBox[{"{", 
+     RowBox[{"Automatic", ",", " ", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"-", "2"}], " ", "->", " ", 
+        RowBox[{"{", 
+         RowBox[{"Red", ",", " ", "Thick"}], "}"}]}], "}"}]}], "}"}]}]}], 
+  "]"}]], "Input",
+ CellProlog:>Needs["PeterBurbery`LittleChildPaclet`"],
+ CellLabel->"In[1]:=",
+ CellID->150451374,ExpressionUUID->"1832bd77-6648-45ea-a5eb-4c3f90287093"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", \
+"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\
+\"\>", "27", "27", "27", "27", "27", "27", "27"},
+    {"\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "9", "9", "9", "9", "9", 
+     "9", "9", "9", "9", 
+     RowBox[{"-", "9"}], 
+     RowBox[{"-", "9"}], 
+     RowBox[{"-", "9"}], 
+     RowBox[{"-", "9"}], 
+     RowBox[{"-", "9"}], 
+     RowBox[{"-", "9"}], 
+     RowBox[{"-", "9"}]},
+    {"\<\"\"\>", "3", "3", "3", 
+     RowBox[{"-", "3"}], 
+     RowBox[{"-", "3"}], 
+     RowBox[{"-", "3"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "3", "3", "3", 
+     RowBox[{"-", "3"}], 
+     RowBox[{"-", "3"}], 
+     RowBox[{"-", "3"}], "\<\"\"\>", "\<\"\"\>", "\<\"\"\>", "3"},
+    {"1", 
+     RowBox[{"-", "1"}], "\<\"\"\>", "1", 
+     RowBox[{"-", "1"}], "\<\"\"\>", "1", 
+     RowBox[{"-", "1"}], "\<\"\"\>", "1", 
+     RowBox[{"-", "1"}], "\<\"\"\>", "1", 
+     RowBox[{"-", "1"}], "\<\"\"\>", "1", 
+     RowBox[{"-", "1"}], "\<\"\"\>", "1", 
+     RowBox[{"-", "1"}]},
+    {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", 
+     "14", "15", "16", "17", "18", "19", "20"}
+   },
+   AutoDelete->False,
+   GridBoxDividers->{"Columns" -> {{Automatic}}, "RowsIndexed" -> {-2 -> {
+         RGBColor[1, 0, 0], 
+         Thickness[Large]}}},
+   GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellLabel->"Out[1]=",
+ CellID->40832451,ExpressionUUID->"318fb9e1-360d-480b-ac71-58f96c0c2ff1"]
+}, Open  ]]
+}, Dynamic[CurrentValue[
+ EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "6"}, 
+  Closed]]]]
 }, Dynamic[CurrentValue[
  EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, 
   Closed]]]],
@@ -205,39 +2075,162 @@ Cell[BoxData[GridBox[{
          FrameBox["\"\<XXXX\>\""],
          "FunctionPlaceholder"]], "InlineFormula",
         FontFamily->"Source Sans Pro",ExpressionUUID->
-        "c8e327fa-00dc-4a74-968b-fab1d168c5da"]], "SeeAlso",ExpressionUUID->
-        "dc39b18e-7c5e-4d3b-a143-4e00af8e431d"]}
+        "ab488842-bfc1-4a54-ae01-f12253db8b62"]], "SeeAlso",ExpressionUUID->
+        "4c781030-3778-4bb5-af7f-59703dfe5173"]}
      }]}
-  }]], "SeeAlsoSection",ExpressionUUID->"58304a39-7607-4215-b3e4-\
-dbd4d9af9480"],
+  }]], "SeeAlsoSection",ExpressionUUID->"31d64fa5-6683-44f6-a4a9-\
+6cc03dc25705"],
 
-Cell[" ", "FooterCell",ExpressionUUID->"dfeae55b-dbe5-4e57-b91c-7287cb27bf41"]
+Cell[BoxData[GridBox[{
+   {
+    DynamicBox[FEPrivate`ImportImage[
+      FrontEnd`FileName[{"Documentation", "FooterIcons"}, "RelatedGuide.png"]],
+     ImageSizeCache->{50., {27., 33.}}], GridBox[{
+      {
+       StyleBox[
+        RowBox[{"Related", " ", "Guides"}], "MoreAboutSection"]},
+      {
+       RowBox[{"\[FilledVerySmallSquare]", Cell[BoxData[
+         TemplateBox[{
+           Cell[
+            TextData["Wolfram Challenges Mathematics"]], 
+           "paclet:PeterBurbery/LittleChildPaclet/guide/\
+WolframChallengesMathematics"},
+          "RefLinkPlain",
+          BaseStyle->{"MoreAbout"}]], "MoreAbout",ExpressionUUID->
+         "7796fe48-33d5-402e-9580-9fd69931f492"]}]}
+     }]}
+  }]], "MoreAboutSection",ExpressionUUID->"ee28f332-d6ae-4a2e-a02e-\
+c1cc3785effa"],
+
+Cell[BoxData[GridBox[{
+   {
+    TemplateBox[{29},
+     "Spacer1"], GridBox[{
+      {
+       RowBox[{
+        TemplateBox[{17},
+         "Spacer1"], 
+        StyleBox[
+         RowBox[{"Related", " ", "Links"}], "RelatedLinksSection"]}]},
+      {Cell[TextData[Cell[BoxData[
+        RowBox[{
+         TemplateBox[{16},
+          "Spacer1"], "\[FilledVerySmallSquare]", Cell[BoxData[
+          TemplateBox[{
+            Cell[
+             TextData[
+              Cell[
+               TextData[{
+                 Cell[
+                  BoxData[
+                   TemplateBox[{2}, "Spacer1"]]], 
+                 "Wolfram Challenge Balanced Ternary"}]]]], 
+            "https://challenges.wolframcloud.com/challenge/balanced-ternary"},
+           "WebLink",
+           BaseStyle->{"RelatedLinks"}]],ExpressionUUID->
+          "20ad38d8-dfdb-4b43-8f0f-53a557388617"]}]],ExpressionUUID->
+        "65d08c29-5637-4d20-b848-9b3af8997cb3"]], "RelatedLinks",
+        ExpressionUUID->"07605c6f-f332-4123-aa73-a2dfa1218fc3"]},
+      {Cell[TextData[Cell[BoxData[
+        TemplateBox[{
+          Cell[
+           TextData[
+            Cell[
+             TextData[{
+               Cell[
+                BoxData[
+                 DynamicBox[
+                  FEPrivate`ImportImage[
+                   
+                   FrontEnd`FileName[{"Documentation", "FooterIcons"}, 
+                    "RelatedLinks-FunctionRepository.png"]]]]], 
+               Cell[
+                BoxData[
+                 TemplateBox[{4}, "Spacer1"]]], 
+               "Resource Function Balanced Ternary by Ed Pegg Jr"}]]]], 
+          "https://resources.wolframcloud.com/FunctionRepository/resources/\
+BalancedTernary"},
+         "WebLink",
+         BaseStyle->{"RelatedLinks"}]],ExpressionUUID->
+        "2759f4de-8221-4e20-abe8-688ee662ae80"]], "RelatedLinks",
+        ExpressionUUID->"9f7d0a81-7793-46b2-8d2c-f876e0d45bdd"]},
+      {Cell[TextData[Cell[BoxData[
+        TemplateBox[{
+          Cell[
+           TextData[
+            Cell[
+             TextData[{
+               Cell[
+                BoxData[
+                 DynamicBox[
+                  FEPrivate`ImportImage[
+                   
+                   FrontEnd`FileName[{"Documentation", "FooterIcons"}, 
+                    "RelatedLinks-Demonstrations.png"]]]]], 
+               Cell[
+                BoxData[
+                 TemplateBox[{4}, "Spacer1"]]], 
+               "Balanced Ternary Notation"}]]]], 
+          "https://demonstrations.wolfram.com/BalancedTernaryNotation/"},
+         "WebLink",
+         BaseStyle->{"RelatedLinks"}]],ExpressionUUID->
+        "43f316b2-5776-4109-8de8-07dda240b1c1"]], "RelatedLinks",
+        ExpressionUUID->"76f5cd01-bc4f-456a-b78f-cf526bbc59f5"]},
+      {Cell[TextData[Cell[BoxData[
+        RowBox[{
+         TemplateBox[{16},
+          "Spacer1"], "\[FilledVerySmallSquare]", Cell[BoxData[
+          TemplateBox[{
+            Cell[
+             TextData[
+              Cell[
+               TextData[{
+                 Cell[
+                  BoxData[
+                   TemplateBox[{2}, "Spacer1"]]], 
+                 "Wikipedia\[Dash]Balanced ternary"}]]]], 
+            "https://en.wikipedia.org/wiki/Balanced_ternary"},
+           "WebLink",
+           BaseStyle->{"RelatedLinks"}]],ExpressionUUID->
+          "0e465af6-69aa-4554-89c1-17c0044a5ffc"]}]],ExpressionUUID->
+        "4d76c832-5fdd-42d7-be12-157d77348b45"]], "RelatedLinks",
+        ExpressionUUID->"a420b133-ab1a-4c08-ad9a-6f093d20222b"]}
+     }]}
+  }]], "RelatedLinksSection",ExpressionUUID->"1a63ea2b-af8d-4086-9eb6-\
+d05e3cc1adf0"],
+
+Cell[" ", "FooterCell",ExpressionUUID->"a72d9c11-01e5-4d54-90d4-c5de11527854"]
 },
 Saveable->False,
 ScreenStyleEnvironment->"Working",
-WindowSize->{900, 604.8},
+WindowSize->{900., 604.8},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 WindowTitle->"BalancedTernary",
 TaggingRules->{
  "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
   "HasOptions" -> True, "ExampleCounter" -> 1, 
   "Openers" -> {
-   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
-  "NewStyles" -> True, "CitationPopupData" -> $Failed, "ShowCitation" -> 
-  False, "RootCaptions" -> "", 
-  "Metadata" -> {
-   "built" -> "{2023, 6, 6, 18, 33, 43.6865659}", 
+   "PrimaryExamplesSection" -> Open, 
+    "ExampleSection" -> {
+     "0" -> Open, "1" -> Closed, "3" -> Closed, "4" -> Closed, "5" -> Closed, 
+      "6" -> Closed}, "NotesSection" -> Closed}, "NewStyles" -> True, 
+  "CitationPopupData" -> $Failed, "ShowCitation" -> False, "RootCaptions" -> 
+  "", "Metadata" -> {
+   "built" -> "{2023, 6, 10, 15, 31, 30.7418323}", 
     "history" -> {"XX", "", "", ""}, "context" -> 
     "PeterBurbery`LittleChildPaclet`", "keywords" -> {}, 
     "specialkeywords" -> {}, "tutorialcollectionlinks" -> {}, "index" -> True,
      "label" -> "Peter Burbery/ Little Child Paclet Symbol", "language" -> 
     "en", "paclet" -> "PeterBurbery/LittleChildPaclet", "status" -> "None", 
-    "summary" -> "BalancedTernary[] XXXX", "synonyms" -> {}, 
-    "tabletags" -> {}, "title" -> "BalancedTernary", "titlemodifier" -> "", 
-    "metadescription" -> "", "windowtitle" -> "BalancedTernary", "type" -> 
-    "Symbol", "uri" -> "PeterBurbery/LittleChildPaclet/ref/BalancedTernary"}},
+    "summary" -> 
+    "BalancedTernary[n] toggles the n between integer and balanced ternary \
+format.", "synonyms" -> {}, "tabletags" -> {}, "title" -> "BalancedTernary", 
+    "titlemodifier" -> "", "metadescription" -> "", "windowtitle" -> 
+    "BalancedTernary", "type" -> "Symbol", "uri" -> 
+    "PeterBurbery/LittleChildPaclet/ref/BalancedTernary"}},
 CellContext->"Global`",
-FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (May 18, 2023)",
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 31, 2023)",
 StyleDefinitions->Notebook[{
    Cell[
     StyleData[
@@ -246,9 +2239,9 @@ StyleDefinitions->Notebook[{
     StyleData["Input"], CellContext -> "Global`"], 
    Cell[
     StyleData["Output"], CellContext -> "Global`"]}, Visible -> False, 
-  FrontEndVersion -> "13.3 for Microsoft Windows (64-bit) (May 18, 2023)", 
-  StyleDefinitions -> "Default.nb"],
-ExpressionUUID->"8fc3b3ba-8859-4301-98d3-2f9a3d66df02"
+  FrontEndVersion -> "13.2 for Microsoft Windows (64-bit) (January 31, 2023)",
+   StyleDefinitions -> "Default.nb"],
+ExpressionUUID->"7e98d047-0174-4c16-9470-a7572e8234e3"
 ]
 (* End of Notebook Content *)
 
@@ -256,35 +2249,370 @@ ExpressionUUID->"8fc3b3ba-8859-4301-98d3-2f9a3d66df02"
 (*CellTagsOutline
 CellTagsIndex->{
  "PrimaryExamplesSection"->{
-  Cell[5498, 145, 1418, 37, 70, "PrimaryExamplesSection",ExpressionUUID->"f363f2e2-8252-4acb-b854-9e6256e24fd8",
+  Cell[9426, 250, 1420, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"91da08c7-9dd8-4088-95f3-4bf716126765",
    CellTags->"PrimaryExamplesSection",
-   CellID->7007243]}
+   CellID->183286909]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"PrimaryExamplesSection", 9903, 257}
+ {"PrimaryExamplesSection", 75444, 2250}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[587, 21, 3514, 81, 70, "AnchorBarGrid",ExpressionUUID->"cbdb5ae1-736b-4661-a573-02368ecdcd8b",
+Cell[590, 21, 4573, 109, 56, "AnchorBarGrid",ExpressionUUID->"838d6bfb-b569-4f7f-bb99-b6f832da815f",
  CellID->1],
-Cell[4104, 104, 113, 0, 70, "ContextNameCell",ExpressionUUID->"f93ea412-fb1a-4e79-8095-ec7119738fb8"],
+Cell[5166, 132, 113, 0, 23, "ContextNameCell",ExpressionUUID->"e245eb2d-2ccf-4b60-a730-a155628eeda0"],
 Cell[CellGroupData[{
-Cell[4242, 108, 558, 14, 70, "ObjectNameGrid",ExpressionUUID->"546e6ea9-ba9a-47e8-8784-0d76ac2e970f"],
-Cell[4803, 124, 658, 16, 70, "Usage",ExpressionUUID->"6804a6f9-a6fd-4af5-be9c-ce51be64a414",
- CellID->232999120]
+Cell[5304, 136, 558, 14, 56, "ObjectNameGrid",ExpressionUUID->"4026e2cd-dadc-49f3-a2a8-b07c914a2b74"],
+Cell[5865, 152, 911, 22, 111, "Usage",ExpressionUUID->"2d0c3be9-4377-44a5-9322-03ac55fdab2b",
+ CellID->1257942]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5498, 145, 1418, 37, 70, "PrimaryExamplesSection",ExpressionUUID->"f363f2e2-8252-4acb-b854-9e6256e24fd8",
+Cell[6813, 179, 1919, 48, 37, "NotesSection",ExpressionUUID->"0a5c3f06-a2cb-4bd6-945b-5647f1435c11",
+ CellGroupingRules->{"SectionGrouping", 50},
+ CellID->179593120],
+Cell[8735, 229, 352, 9, 70, "Notes",ExpressionUUID->"a62f5da1-00f5-4c90-9c62-f58b40944f13",
+ CellID->104383061],
+Cell[9090, 240, 209, 4, 70, "Notes",ExpressionUUID->"173867dd-33b7-47bd-ba00-3539af74d438",
+ CellID->190376723]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "NotesSection"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[9426, 250, 1420, 37, 35, "PrimaryExamplesSection",ExpressionUUID->"91da08c7-9dd8-4088-95f3-4bf716126765",
  CellTags->"PrimaryExamplesSection",
- CellID->7007243],
-Cell[6919, 184, 222, 4, 70, "Input",ExpressionUUID->"1e92b569-e3c5-4d2d-8178-ea702ca99bdc",
- CellID->500170225]
+ CellID->183286909],
+Cell[10849, 289, 221, 4, 26, "Input",ExpressionUUID->"d9d8d3aa-d253-4242-88e8-60052d5d2755",
+ CellID->56443622],
+Cell[CellGroupData[{
+Cell[11095, 297, 1397, 36, 30, "ExampleSection",ExpressionUUID->"d6f74513-8b5c-4cdc-b48c-8c5e8b47e6a4",
+ CellID->76399362],
+Cell[CellGroupData[{
+Cell[12517, 337, 297, 7, 26, "Input",ExpressionUUID->"8ac092df-b183-4d10-8486-9bbaa76d4d39",
+ CellID->150504914],
+Cell[12817, 346, 1632, 59, 35, "Output",ExpressionUUID->"4ce964fa-1eb6-416b-9099-39705d234652",
+ CellID->55895663]
+}, Open  ]],
+Cell[14464, 408, 154, 1, 38, "ExampleText",ExpressionUUID->"338eb411-b470-466b-b458-903fbbcb4322",
+ CellID->470300484],
+Cell[CellGroupData[{
+Cell[14643, 413, 220, 4, 26, "Input",ExpressionUUID->"2ea2df70-725f-403e-9fc1-828c015605ed",
+ CellID->33498536],
+Cell[14866, 419, 516, 14, 35, "Output",ExpressionUUID->"b18c619e-c379-492b-b566-3ab4e950af7d",
+ CellID->572840478]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "0"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[15531, 441, 1412, 37, 30, "ExampleSection",ExpressionUUID->"d9892ce5-0a49-4e0a-9ce8-9abe567a60d8",
+ CellID->168643635],
+Cell[16946, 480, 151, 1, 70, "ExampleText",ExpressionUUID->"699b81ee-0565-47cf-a621-aa97aa111a05",
+ CellID->127161260],
+Cell[CellGroupData[{
+Cell[17122, 485, 401, 10, 70, "Input",ExpressionUUID->"c21ee7f2-23cb-43b7-b73e-d8e229ecc7c3",
+ CellID->348436759],
+Cell[17526, 497, 3381, 100, 207, "Output",ExpressionUUID->"edcb8147-0956-4fb6-a2bb-5bffd1000c4b",
+ CellID->999262]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20944, 602, 242, 5, 70, "ExampleDelimiter",ExpressionUUID->"0aecc4b8-1dbe-48e0-8611-c90dfeafe048",
+ CellID->246732129],
+Cell[21189, 609, 156, 4, 70, "ExampleText",ExpressionUUID->"f30d6843-eed0-4ffe-960b-6ff635fc974b",
+ CellID->455078897],
+Cell[CellGroupData[{
+Cell[21370, 617, 356, 9, 70, "Input",ExpressionUUID->"7d82aff0-7ca9-4fd7-aa69-3089fbbe5e19",
+ CellID->306652615],
+Cell[21729, 628, 404, 10, 35, "Output",ExpressionUUID->"3da12bc1-0257-4847-add0-618c1216e408",
+ CellID->394392570]
+}, Open  ]],
+Cell[22148, 641, 120, 1, 70, "ExampleText",ExpressionUUID->"51e4787d-b368-42a2-85bf-31fb1dee9eed",
+ CellID->477532804],
+Cell[CellGroupData[{
+Cell[22293, 646, 221, 4, 70, "Input",ExpressionUUID->"8264e65b-6f98-4ce9-b9cb-725b53285a2d",
+ CellID->124121861],
+Cell[22517, 652, 134, 2, 35, "Output",ExpressionUUID->"c5d1868c-ba54-4393-bdee-0957da85c633",
+ CellID->324845068]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22700, 660, 242, 5, 70, "ExampleDelimiter",ExpressionUUID->"cfa9db81-01d4-4e81-94a3-f0d5b3ac0eb4",
+ CellID->158736213],
+Cell[22945, 667, 160, 2, 70, "ExampleText",ExpressionUUID->"32d55d30-d953-4bfb-b365-66c0671da815",
+ CellID->237079951],
+Cell[CellGroupData[{
+Cell[23130, 673, 267, 6, 70, "Input",ExpressionUUID->"1f02f6d0-cf28-4a20-9358-ec3a2fb939ea",
+ CellID->79407013],
+Cell[23400, 681, 277, 9, 35, "Output",ExpressionUUID->"18c3cf6f-862d-4745-a169-bc852fab2577",
+ CellID->792471162]
+}, Open  ]],
+Cell[23692, 693, 160, 2, 70, "ExampleText",ExpressionUUID->"c330cee3-c817-41a8-aa95-0b85d68f2197",
+ CellID->491841012],
+Cell[CellGroupData[{
+Cell[23877, 699, 319, 8, 70, "Input",ExpressionUUID->"f524ea58-db8b-455a-b747-032ba7a9459b",
+ CellID->205935822],
+Cell[24199, 709, 405, 14, 35, "Output",ExpressionUUID->"0fdf828c-7851-4f66-90ad-cb16bb50a002",
+ CellID->294198169]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24641, 728, 318, 8, 70, "Input",ExpressionUUID->"706da1f6-09ee-4a1b-bbc3-a52e9548820b",
+ CellID->107418938],
+Cell[24962, 738, 330, 11, 35, "Output",ExpressionUUID->"60df7eb7-6690-42e0-bc8a-d56a372ed6e9",
+ CellID->476666795]
+}, Open  ]],
+Cell[25307, 752, 126, 1, 70, "ExampleText",ExpressionUUID->"c742e898-ee4d-4d14-847f-490aeaaf09de",
+ CellID->32825079],
+Cell[CellGroupData[{
+Cell[25458, 757, 290, 8, 70, "Input",ExpressionUUID->"55b7200e-c7ae-479c-b88b-d39417ea2a28",
+ CellID->260955964],
+Cell[25751, 767, 579, 20, 35, "Output",ExpressionUUID->"dac363bf-2724-426c-a198-e9056af26fcf",
+ CellID->390985938]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "1"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[26491, 796, 1419, 37, 24, "ExampleSection",ExpressionUUID->"4b9cf4c3-8e6b-4a9f-89df-7cf0f250b889",
+ CellID->106274569],
+Cell[27913, 835, 142, 1, 70, "ExampleText",ExpressionUUID->"74703787-4efa-44ce-ab9e-e24f80b9d195",
+ CellID->113702228],
+Cell[28058, 838, 1289, 32, 70, "Input",ExpressionUUID->"ef2bd22b-0f6e-4211-a890-67af27f02a9a",
+ CellID->586010494],
+Cell[29350, 872, 308, 5, 70, "ExampleText",ExpressionUUID->"916d520f-ccbc-42ee-b738-fcce7e749956",
+ CellID->233222947],
+Cell[CellGroupData[{
+Cell[29683, 881, 237, 4, 70, "Input",ExpressionUUID->"71d02966-f856-4bda-b46f-4a5f0e8e14dd",
+ CellID->28794299],
+Cell[29923, 887, 136, 2, 35, "Output",ExpressionUUID->"f2514baf-fa78-49fa-a164-32ed05fa0a18",
+ CellID->72811674]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30096, 894, 238, 4, 70, "Input",ExpressionUUID->"0d57407a-d898-402c-9e23-dd1c8fb0142d",
+ CellID->202552322],
+Cell[30337, 900, 138, 2, 35, "Output",ExpressionUUID->"3f4bd89d-fa88-4449-b173-7a0eb7f36f94",
+ CellID->295696010]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30512, 907, 256, 5, 70, "Input",ExpressionUUID->"afd9f44a-2aab-4f8d-87ed-f0ec1050278b",
+ CellID->812523186],
+Cell[30771, 914, 137, 2, 35, "Output",ExpressionUUID->"42d77cff-e8d4-425e-ae33-ca2d0bf19fdb",
+ CellID->85640394]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[30945, 921, 236, 4, 70, "Input",ExpressionUUID->"91f41c0c-14c2-4ff7-81be-7b184add9df6",
+ CellID->63356725],
+Cell[31184, 927, 133, 2, 35, "Output",ExpressionUUID->"e6b9f083-d656-42e8-a079-276d965d6db3",
+ CellID->12427222]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31354, 934, 241, 4, 70, "Input",ExpressionUUID->"8d43499b-4a36-455e-a5ce-1f334b05a25b",
+ CellID->225720092],
+Cell[31598, 940, 143, 2, 35, "Output",ExpressionUUID->"919263fa-d6ad-4ea8-9217-f954683f2ed4",
+ CellID->464628999]
+}, Open  ]],
+Cell[31756, 945, 128, 1, 70, "ExampleText",ExpressionUUID->"02b0313e-a10e-44c7-8345-19d50069f87f",
+ CellID->226012747],
+Cell[CellGroupData[{
+Cell[31909, 950, 486, 11, 70, "Input",ExpressionUUID->"0736032b-129a-4e66-a617-957abc530e73",
+ CellID->304425603],
+Cell[32398, 963, 2064, 37, 176, "Output",ExpressionUUID->"c21d5fb3-d0df-4632-9021-25a0a291d869",
+ CellID->209320737]
+}, Open  ]],
+Cell[34477, 1003, 126, 1, 70, "ExampleText",ExpressionUUID->"6b0128bc-5a35-4017-a042-7110967509f0",
+ CellID->460633909],
+Cell[CellGroupData[{
+Cell[34628, 1008, 272, 5, 70, "Input",ExpressionUUID->"1d163ea9-28f0-4cef-a237-7098a5e6fd0f",
+ CellID->626654087],
+Cell[34903, 1015, 127, 2, 35, "Output",ExpressionUUID->"46eee352-1053-45f3-8da5-bdc4c9c5266d",
+ CellID->2909218]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35067, 1022, 273, 6, 70, "Input",ExpressionUUID->"54ff3102-017f-48e7-ba48-3a0c4246873e",
+ CellID->375057318],
+Cell[35343, 1030, 136, 2, 49, "Output",ExpressionUUID->"9873d34e-4ba8-4c8c-914a-7131af0557bd",
+ CellID->196718372]
+}, Open  ]],
+Cell[35494, 1035, 220, 4, 70, "ExampleText",ExpressionUUID->"66da7141-1f53-46ff-8e94-bc3f8e29af87",
+ CellID->92614270],
+Cell[CellGroupData[{
+Cell[35739, 1043, 239, 4, 70, "Input",ExpressionUUID->"9a267188-5330-4ddc-8cac-a0106783c506",
+ CellID->888679494],
+Cell[35981, 1049, 139, 2, 35, "Output",ExpressionUUID->"bdbb8b30-90a2-4f55-8d3c-ecf33f63d9e1",
+ CellID->763164749]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36157, 1056, 339, 8, 70, "Input",ExpressionUUID->"ddae9997-7bbc-4a01-9748-9313fa85a60a",
+ CellID->537671275],
+Cell[36499, 1066, 240, 6, 35, "Output",ExpressionUUID->"431b7c2a-ccc4-469b-9727-ab05f669deef",
+ CellID->527191057]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36776, 1077, 410, 12, 70, "Input",ExpressionUUID->"1389fb1a-eb3a-4865-95d2-2b0a0c0d4be9",
+ CellID->281055],
+Cell[37189, 1091, 128, 2, 35, "Output",ExpressionUUID->"6e8b42d8-48ca-4c32-bd5f-a71e47fd9b75",
+ CellID->210796572]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37354, 1098, 240, 5, 70, "ExampleDelimiter",ExpressionUUID->"0222f240-0fa2-4f4e-abc0-2b211a582dbf",
+ CellID->3173077],
+Cell[37597, 1105, 141, 1, 70, "ExampleText",ExpressionUUID->"8db4f375-f6f0-4e21-82bb-21ab721e6106",
+ CellID->24690118],
+Cell[CellGroupData[{
+Cell[37763, 1110, 221, 4, 70, "Input",ExpressionUUID->"091380f6-4429-4a69-94b1-67f14da97609",
+ CellID->17481760],
+Cell[37987, 1116, 224, 6, 35, "Output",ExpressionUUID->"2be0c510-a7f3-4c4b-9c51-d559dd2d10e1",
+ CellID->302309396]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38248, 1127, 222, 4, 70, "Input",ExpressionUUID->"31d88f0e-a0ef-4e37-a3bb-f5090333b9cd",
+ CellID->308212380],
+Cell[38473, 1133, 229, 6, 35, "Output",ExpressionUUID->"1c13a9fa-a212-4a09-a57c-e9628f50558f",
+ CellID->474514718]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38739, 1144, 240, 5, 70, "Input",ExpressionUUID->"78fe5a21-6a7f-498d-8618-d55b4ec2640f",
+ CellID->551536092],
+Cell[38982, 1151, 226, 6, 35, "Output",ExpressionUUID->"55fbee05-c103-47b0-827b-2d784c5801dc",
+ CellID->273858]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[39245, 1162, 220, 4, 70, "Input",ExpressionUUID->"b10a6415-3388-41ca-93e5-9c6f2ce52b96",
+ CellID->67098777],
+Cell[39468, 1168, 159, 4, 35, "Output",ExpressionUUID->"2e2f9db4-0550-4490-b707-149d7dfe7e2e",
+ CellID->232663992]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[39664, 1177, 225, 4, 70, "Input",ExpressionUUID->"58bdaf4c-85f8-4376-a978-1560e9337f73",
+ CellID->288093900],
+Cell[39892, 1183, 303, 8, 35, "Output",ExpressionUUID->"6f086e51-e46f-4416-9d2e-c2195c9cd5a9",
+ CellID->71831411]
+}, Open  ]],
+Cell[40210, 1194, 128, 1, 70, "ExampleText",ExpressionUUID->"ef183b08-ec43-4143-85cf-c7d75c21de67",
+ CellID->356276268],
+Cell[CellGroupData[{
+Cell[40363, 1199, 470, 11, 70, "Input",ExpressionUUID->"c95b9129-8e33-42e1-a3a5-fa5bf5f3bfc5",
+ CellID->460625871],
+Cell[40836, 1212, 10348, 344, 176, "Output",ExpressionUUID->"899039ac-2ede-4566-8faf-b904804f207c",
+ CellID->112526831]
+}, Open  ]],
+Cell[51199, 1559, 117, 1, 70, "ExampleText",ExpressionUUID->"d89faa12-d7f0-4c81-ba67-c231d3534aa2",
+ CellID->78698541],
+Cell[CellGroupData[{
+Cell[51341, 1564, 222, 4, 70, "Input",ExpressionUUID->"f1afd709-ce16-4fce-b97a-b892cc51f34b",
+ CellID->166485130],
+Cell[51566, 1570, 228, 6, 35, "Output",ExpressionUUID->"b8715ffd-89dc-4e41-8f03-31c996389508",
+ CellID->39973561]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[51831, 1581, 253, 5, 70, "Input",ExpressionUUID->"75524a56-9d01-4403-88c4-23fef1b25e34",
+ CellID->48760618],
+Cell[52087, 1588, 167, 2, 49, "Output",ExpressionUUID->"b1895c82-d2e8-4315-bbeb-f690cb8453ea",
+ CellID->491979173]
+}, Open  ]],
+Cell[52269, 1593, 220, 4, 70, "ExampleText",ExpressionUUID->"4454c076-43b6-47cc-b3f0-9fb30b9ba6fd",
+ CellID->67618799],
+Cell[CellGroupData[{
+Cell[52514, 1601, 221, 4, 70, "Input",ExpressionUUID->"42a8c805-54f5-4805-a2c2-cc4fb4cc456e",
+ CellID->21633418],
+Cell[52738, 1607, 228, 6, 35, "Output",ExpressionUUID->"888317ef-13ab-48d8-a504-b66f27383f6d",
+ CellID->99432304]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[53003, 1618, 256, 5, 70, "Input",ExpressionUUID->"13051a2c-a658-43fe-b676-f68475dc5bda",
+ CellID->617469942],
+Cell[53262, 1625, 252, 6, 35, "Output",ExpressionUUID->"915bbe8b-1069-46b4-ac45-50487ae1995a",
+ CellID->757221219]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[53551, 1636, 413, 11, 70, "Input",ExpressionUUID->"9f88bb37-e638-445a-a890-f19d4ccd19b7",
+ CellID->390756503],
+Cell[53967, 1649, 239, 6, 35, "Output",ExpressionUUID->"04e84919-ec6f-411d-82c2-2d31ff14dec7",
+ CellID->18119141]
+}, Open  ]],
+Cell[54221, 1658, 167, 3, 70, "ExampleText",ExpressionUUID->"6a094b04-0f47-4f5d-9194-2504003fbce0",
+ CellID->44707919],
+Cell[CellGroupData[{
+Cell[54413, 1665, 369, 9, 70, "Input",ExpressionUUID->"e0123bd5-b3e3-445e-92d2-dce09e70cd51",
+ CellID->367237261],
+Cell[54785, 1676, 203, 4, 35, "Output",ExpressionUUID->"79866254-5791-409a-989c-763aa9b17553",
+ CellID->88792157]
+}, Open  ]],
+Cell[55003, 1683, 141, 1, 70, "ExampleText",ExpressionUUID->"802f3715-08ff-4b59-8974-0eda60376c4c",
+ CellID->39617538],
+Cell[CellGroupData[{
+Cell[55169, 1688, 395, 11, 70, "Input",ExpressionUUID->"586147d4-12a4-4b20-b022-aa51b74d634d",
+ CellID->33263804],
+Cell[55567, 1701, 203, 4, 35, "Output",ExpressionUUID->"356b440d-8f99-4f1f-af78-737fdf46c8eb",
+ CellID->58148560]
+}, Open  ]],
+Cell[55785, 1708, 114, 1, 70, "ExampleText",ExpressionUUID->"33873d3e-7d66-452c-a32f-2fd870311482",
+ CellID->33591593],
+Cell[CellGroupData[{
+Cell[55924, 1713, 255, 5, 70, "Input",ExpressionUUID->"d0bdb9a7-4ccd-4bba-b51e-ea61c50bb759",
+ CellID->492138304],
+Cell[56182, 1720, 240, 6, 35, "Output",ExpressionUUID->"f7557629-53b2-43c4-9fe3-a5bfa8b1aaa9",
+ CellID->110076238]
+}, Open  ]],
+Cell[56437, 1729, 141, 1, 70, "ExampleText",ExpressionUUID->"db779471-5268-43cb-96fe-9f1ebe1f1a3e",
+ CellID->266896838],
+Cell[CellGroupData[{
+Cell[56603, 1734, 221, 4, 70, "Input",ExpressionUUID->"52659e18-d3c1-40c2-a85e-ee31205f8185",
+ CellID->288594646],
+Cell[56827, 1740, 128, 2, 35, "Output",ExpressionUUID->"35d0f848-3b70-4f80-9a62-41b063a876b4",
+ CellID->275954301]
+}, Open  ]],
+Cell[56970, 1745, 142, 1, 70, "ExampleText",ExpressionUUID->"12b98575-d1fe-493f-9b38-f70473622657",
+ CellID->87275720],
+Cell[CellGroupData[{
+Cell[57137, 1750, 221, 4, 70, "Input",ExpressionUUID->"36d47c74-20b8-4c28-a709-240fad88bebd",
+ CellID->187866584],
+Cell[57361, 1756, 128, 2, 35, "Output",ExpressionUUID->"8ae86143-bb02-4169-bc5e-8c7a77520b60",
+ CellID->159233538]
+}, Open  ]]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "3"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[57650, 1767, 1428, 37, 24, "ExampleSection",ExpressionUUID->"2f42ff80-0b45-4a25-9fd6-028edac9cb50",
+ CellID->25065116],
+Cell[59081, 1806, 149, 1, 70, "ExampleText",ExpressionUUID->"c722a6f3-513b-496f-9fca-b37b09f5488c",
+ CellID->176307694],
+Cell[CellGroupData[{
+Cell[59255, 1811, 251, 5, 70, "Input",ExpressionUUID->"eb93042b-527a-4c83-ba62-cb501a0715c7",
+ CellID->27816792],
+Cell[59509, 1818, 128, 2, 35, "Output",ExpressionUUID->"6396984e-68c9-4dfa-be28-792ae6d584ea",
+ CellID->626832710]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "4"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[59786, 1828, 1422, 37, 24, "ExampleSection",ExpressionUUID->"6faba049-a2e8-47e9-b4e2-b7831566d36a",
+ CellID->565665305],
+Cell[61211, 1867, 135, 1, 70, "ExampleText",ExpressionUUID->"8fafcb3b-0d27-4bd8-aa37-5bec0536fd64",
+ CellID->323901343],
+Cell[CellGroupData[{
+Cell[61371, 1872, 292, 7, 70, "Input",ExpressionUUID->"ade3c943-2b0d-488a-8ae5-b748cdf2e9de",
+ CellID->82834060],
+Cell[61666, 1881, 458, 9, 70, "Message",ExpressionUUID->"9c882662-942b-4f5c-b0a2-e3d603653d61",
+ CellID->119269394],
+Cell[62127, 1892, 458, 9, 70, "Message",ExpressionUUID->"3d8d70d4-65a6-4b90-a101-b76e8bf264f0",
+ CellID->171885031],
+Cell[62588, 1903, 307, 8, 35, "Output",ExpressionUUID->"d4fbc86a-7a1d-4399-b8f7-05de16ca9bc6",
+ CellID->680298712]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "5"}, Closed]]]],
+Cell[CellGroupData[{
+Cell[63044, 1919, 1420, 37, 24, "ExampleSection",ExpressionUUID->"2341dc9a-5881-42fe-a7bb-99bb4afbdbe3",
+ CellID->199553546],
+Cell[64467, 1958, 191, 4, 70, "ExampleText",ExpressionUUID->"2ee488c8-a86b-4870-9af8-0bd4c9a796ea",
+ CellID->83510547],
+Cell[CellGroupData[{
+Cell[64683, 1966, 1676, 46, 70, "Input",ExpressionUUID->"1832bd77-6648-45ea-a5eb-4c3f90287093",
+ CellID->150451374],
+Cell[66362, 2014, 1643, 40, 109, "Output",ExpressionUUID->"318fb9e1-360d-480b-ac71-58f96c0c2ff1",
+ CellID->40832451]
+}, Open  ]]
+}, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "ExampleSection", "6"}, Closed]]]]
 }, Dynamic[CurrentValue[EvaluationNotebook[], {TaggingRules, "Openers", "PrimaryExamplesSection"}, Closed]]]],
-Cell[7259, 193, 699, 18, 70, "SeeAlsoSection",ExpressionUUID->"58304a39-7607-4215-b3e4-dbd4d9af9480"],
-Cell[7961, 213, 78, 0, 70, "FooterCell",ExpressionUUID->"dfeae55b-dbe5-4e57-b91c-7287cb27bf41"]
+Cell[68247, 2063, 699, 18, 70, "SeeAlsoSection",ExpressionUUID->"31d64fa5-6683-44f6-a4a9-6cc03dc25705"],
+Cell[68949, 2083, 778, 20, 70, "MoreAboutSection",ExpressionUUID->"ee28f332-d6ae-4a2e-a02e-c1cc3785effa"],
+Cell[69730, 2105, 3581, 95, 70, "RelatedLinksSection",ExpressionUUID->"1a63ea2b-af8d-4086-9eb6-d05e3cc1adf0"],
+Cell[73314, 2202, 78, 0, 70, "FooterCell",ExpressionUUID->"a72d9c11-01e5-4d54-90d4-c5de11527854"]
 }
 ]
 *)

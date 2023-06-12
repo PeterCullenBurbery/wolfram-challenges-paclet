@@ -15,7 +15,7 @@ expr : MultisetCardinality[a_Association] :=
       Module[{p},
          p = First[FirstPosition[Values /@ {a}, v_ /; !MatchQ[v, {___
             ?NonNegativeIntegerQ}], {Null}, {1}, Heads -> False]];
-         If[MatchQ[p, _?IntegerQ],
+         If[MatchQ[p, _ ? (IntegerQ[#]&)],
             Message[MultisetCardinality::nocnt, {a}[[p]], p];
             Throw[HoldForm[expr]]
          ];
@@ -28,7 +28,7 @@ expr : MultisetCardinality[a_] :=
       Module[{p, h},
          p = First[FirstPosition[{a}, _?AtomQ, {Null}, {1}, Heads -> 
             False]];
-         If[MatchQ[p, _?IntegerQ],
+         If[MatchQ[p, _ ? (IntegerQ[#]&)],
             Message[MultisetCardinality::normal, p, HoldForm[expr]];
             Throw[HoldForm[expr]]
          ];

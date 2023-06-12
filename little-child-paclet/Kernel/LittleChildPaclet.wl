@@ -68,7 +68,11 @@
 
 <<PeterBurbery`LittleChildPaclet`BalancedTernary`;
 
-<<PeterBurbery`LittleChildPaclet`CaesarDecipher`;
+<<PeterBurbery`LittleChildPaclet`CaesarCipher`;
+
+<<PeterBurbery`LittleChildPaclet`CaesarDecipherRules`;
+
+<<PeterBurbery`LittleChildPaclet`CaesarEncipherRules`;
 
 <<PeterBurbery`LittleChildPaclet`MultisetComplement`;
 
@@ -99,6 +103,8 @@
 <<PeterBurbery`LittleChildPaclet`MultisetUnion`;
 
 <<PeterBurbery`LittleChildPaclet`Bomber`;
+
+<<PeterBurbery`LittleChildPaclet`CaesarCipher`;
 
 <<PeterBurbery`LittleChildPaclet`Coins`;
 
@@ -177,6 +183,8 @@
 <<PeterBurbery`LittleChildPaclet`Varignon`;
 <<PeterBurbery`LittleChildPaclet`WaterInBarrel`;
 <<PeterBurbery`LittleChildPaclet`WordLadderLength`;*)
+
+
 
 
 
