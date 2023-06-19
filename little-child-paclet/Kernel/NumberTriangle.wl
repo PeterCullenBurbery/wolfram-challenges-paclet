@@ -8,7 +8,7 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-NumberTriangle[n_ ? (PositiveIntegerQ[#]&)] :=
+NumberTriangle[n_ ? (Function[{x}, PositiveIntegerQ[x], {}])] :=
     Column[Array[p |-> Array[#&, p], n]]
 
 End[]; (* End `Private` *)

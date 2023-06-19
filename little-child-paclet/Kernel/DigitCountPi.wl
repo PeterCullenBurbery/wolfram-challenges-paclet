@@ -10,9 +10,9 @@ Begin["`Private`"];
 
 DigitCountPi // ClearAll
 
-DigitCountPi[n_ ? (PositiveIntegerQ[#]&)] :=
+DigitCountPi[n_ ? (Function[{x}, PositiveIntegerQ[x], {}])] :=
     BinCounts[First[RealDigits[Pi, 10, n]], {0, 10, 1}]
-
+DigitalCountPi[args___]:=Null/;CheckArguments[]
 End[]; (* End `Private` *)
 
 EndPackage[];

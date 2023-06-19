@@ -12,7 +12,7 @@ AlmostPalindrome // ClearAll
 
 AlmostPalindrome::usage = "AlmostPalindrome[n] returns a list of words of length n that are not palindromes, but become palindromes when any one letter is removed.";
 
-AlmostPalindrome[n_ ? (PositiveIntegerQ[#]&)] :=
+AlmostPalindrome[n_ ? (Function[{x}, PositiveIntegerQ[x], {}])] :=
   Cases[word_ /; !PalindromeQ[word] && (CountsBy[PalindromeQ][StringDrop[
     word, {#}]& /@ Range[n]][True] >= 1)][DictionaryLookup[StringExpression
      @@ ConstantArray[Blank[], n]]]

@@ -1,3 +1,5 @@
+(* ::Package:: *)
+
 BeginPackage["PeterBurbery`LittleChildPaclet`"];
 
 (* Declare your packages public symbols here. *)
@@ -15,7 +17,7 @@ LookAndSay[
                     NonNegativeIntegerQ[number]
                 ]
             )
-    ] /;  :=
+    ]   :=
     FromDigits[Flatten[{Length[#], First[#]}& /@ Split[IntegerDigits[
         n]]]]
 

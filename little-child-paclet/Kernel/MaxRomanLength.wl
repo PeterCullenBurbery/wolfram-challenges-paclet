@@ -8,7 +8,7 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-MaxRomanLength[n_ ? (PositiveIntegerQ[#]&)] :=
+MaxRomanLength[n_ ? (Function[{x}, PositiveIntegerQ[x], {}])] :=
     Max[StringLength[Array[RomanNumeral, n]]]
 
 End[]; (* End `Private` *)

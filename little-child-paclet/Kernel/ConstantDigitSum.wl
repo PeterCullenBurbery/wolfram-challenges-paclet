@@ -12,8 +12,9 @@ ConstantDigitSum // ClearAll
 
 ConstantDigitSum::usage = "ConstanDigitSum[m,n,s] returns all integers in the range m to n whose digits sum to s."
 
-ConstantDigitSum[m_ ? (PositiveIntegerQ[#]&), n_ ? (PositiveIntegerQ[
-    #]&), s_ ? (PositiveIntegerQ[#]&)] :=
+ConstantDigitSum[m_ ? (Function[{x}, PositiveIntegerQ[x], {}]), n_ ? 
+    (PositiveIntegerQ[#]&), s_ ? (Function[{x}, PositiveIntegerQ[x], {}])
+    ] :=
     Select[Total[IntegerDigits[#]] == s&][Range[m, n]]
 
 ConstantDigitSum[args___] :=

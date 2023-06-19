@@ -8,7 +8,7 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-FizzBuzz[n_ ? (PositiveIntegerQ[#]&)] :=
+FizzBuzz[n_ ? (Function[{x}, PositiveIntegerQ[x], {}])] :=
     Array[
         Which[
             Divisible[#, 3] && Divisible[#, 5],

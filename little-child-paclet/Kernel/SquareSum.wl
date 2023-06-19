@@ -8,7 +8,7 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-SquareSum[n_ ? (PositiveIntegerQ[#]&)] :=
+SquareSum[n_ ? (Function[{x}, PositiveIntegerQ[x], {}])] :=
     Fold[(#1 + #2) ^ 2&, 1, Rest @ Range @ n]
 
 End[]; (* End `Private` *)

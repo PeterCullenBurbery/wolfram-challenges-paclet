@@ -16,15 +16,15 @@ TakeSmallestElements[list_ ? (ListQ[#]&)] :=
     Extract[list, List /@ positionSmallest]
   ]
 
-TakeSmallestElements[list_ ? (ListQ[#]&), n_ ? (PositiveIntegerQ[#]&)
-  ] :=
+TakeSmallestElements[list_ ? (ListQ[#]&), n_ ? (Function[{x}, PositiveIntegerQ[
+  x], {}])] :=
   Module[{positionSmallest},
     positionSmallest = PositionLargest[list, n];
     Extract[list, List /@ positionSmallest]
   ]
 
-TakeSmallestElements[list_ ? (ListQ[#]&), n_ ? (PositiveIntegerQ[#]&),
-   orderfun_] :=
+TakeSmallestElements[list_ ? (ListQ[#]&), n_ ? (Function[{x}, PositiveIntegerQ[
+  x], {}]), orderfun_] :=
   Module[{positionSmallest},
     positionSmallest = PositionSmallest[list, n, orderfun];
     Extract[list, List /@ positionSmallest]

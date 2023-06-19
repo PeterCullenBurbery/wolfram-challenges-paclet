@@ -9,7 +9,9 @@ Begin["`Private`"];
 (* Define your public and private symbols here. *)
 
 CountSquares // ClearAll
-CountSquares::usage="CountSquares[inputPoints] counts the number of squares that can be formed on a rectangular grid with integer points from a list of points inputPoints."
+
+CountSquares::usage = "CountSquares[inputPoints] counts the number of squares that can be formed on a rectangular grid with integer points from a list of points inputPoints."
+
 CountSquares[inputPoints_ ? (ListQ[#]&)] :=
   Module[{count = 0, n = Length[inputPoints], pointA, pointB, pointC,
      pointD, sameDistancePoints},
@@ -36,6 +38,9 @@ CountSquares[inputPoints_ ? (ListQ[#]&)] :=
     (count / 2) / 4
             (*Since we count each square twice,
 we need to divide the total count by 2*)]
+
+CountSquares[args___] :=
+  Null /; CheckArguments[CountSquares[args], 1]
 
 End[]; (* End `Private` *)
 

@@ -8,7 +8,7 @@ Begin["`Private`"];
 
 (* Define your public and private symbols here. *)
 
-ThreeFive[n_ ? (PositiveIntegerQ[#]&)] :=
+ThreeFive[n_ ? (Function[{x}, PositiveIntegerQ[x], {}])] :=
     Quotient[n, 15](*also \[LeftFloor]n/15\[RightFloor] will work.*)
 
 End[]; (* End `Private` *)

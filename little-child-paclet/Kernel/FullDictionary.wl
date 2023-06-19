@@ -14,10 +14,10 @@ Begin["`Private`"];
 
 ClearAll[FullDictionary]
 
-FullDictionary[] = Union[WordData[], DictionaryLookup[], WordList[]];
+(* FullDictionary[] = Union[WordData[], DictionaryLookup[], WordList[]];
 
 FullDictionary[s_ ? (StringPatternQ[#]&)] :=
-     Select[StringMatchQ[s][#]&][FullDictionary[]]
+     Select[StringMatchQ[s][#]&][FullDictionary[]] *)
 
 End[]; (* End `Private` *)
 

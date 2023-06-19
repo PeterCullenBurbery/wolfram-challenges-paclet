@@ -12,10 +12,10 @@ AliquotSequence // ClearAll
 
 AliquotSequence::usage = "AliquotSequence[num] returns the aliquot sequence of num."
 
-AliquotSequence[num_?(PositiveIntegerQ[#]&)] :=
-  Catenate[FindTransientRepeat[NestWhileList[DivisorSigma[1, #] - #&,
-     num, DivisorSigma[1, #] - # != #&, 1, 99] /. {list___, 0} -> {list},
-     2]]
+AliquotSequence[num_ ? (Function[{x}, PositiveIntegerQ[x], {}])] :=
+  Catenate[Replace[{{list___, 0} -> {list}}][FindTransientRepeat[NestWhileList[
+    DivisorSigma[1, #] - #&, num, DivisorSigma[1, #] - # != #&, 1, 99], 2
+    ]]]
 
 AliquotSequence[args___] :=
   Null /; CheckArguments[AliquotSequence[args], 1]

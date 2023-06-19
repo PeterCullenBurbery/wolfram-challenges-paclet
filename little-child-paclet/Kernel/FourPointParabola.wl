@@ -10,7 +10,10 @@ Begin["`Private`"];
 
 FourPointParabolas // ClearAll
 
-FourPointParabolas[pts_] :=
+FourPointParabolas::usage = "FourPointParabolas[pts,{x,y}] returns equations in the variables x and y for the parabolas that go through four given 2D points pts. FourPointParabolas[pts] uses the formal variables \[FormalX] and \[FormalY]."
+
+FourPointParabolas[pts_ ? (Function[{x}, MatrixQ[x, Function[{z}, RealValuedNumericQ[
+   z], {}]] && Dimensions[x] === {4, 2}, {}])] :=
    FourPointParabolas[pts, {\[FormalX], \[FormalY]}]
 
 FourPointParabolas[pts_?MatrixQ, {x_, y_}] /; Dimensions[pts] === {4,

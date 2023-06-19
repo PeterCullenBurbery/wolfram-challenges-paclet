@@ -14,7 +14,7 @@ CollatzLength::usage = "CollatzLength[n] gives the number of steps required to r
 
 SetAttributes[CollatzLength, Listable];
 
-CollatzLength[n_ ? (PositiveIntegerQ[#]&)] :=
+CollatzLength[n_ ? (Function[{x}, PositiveIntegerQ[x], {}])] :=
   Length @ Collatz[n]
 
 CollatzLength[args___] :=

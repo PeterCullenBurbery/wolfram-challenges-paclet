@@ -16,14 +16,15 @@ TakeLargestElements[list_ ? (ListQ[#]&)] :=
     Extract[list, List /@ positionLargest]
   ]
 
-TakeLargestElements[list_ ? (ListQ[#]&), n_ ? (PositiveIntegerQ[#]&)] :=
+TakeLargestElements[list_ ? (ListQ[#]&), n_ ? (Function[{x}, PositiveIntegerQ[
+  x], {}])] :=
   Module[{positionLargest},
     positionLargest = PositionLargest[list, n];
     Extract[list, List /@ positionLargest]
   ]
 
-TakeLargestElements[list_ ? (ListQ[#]&), n_ ? (PositiveIntegerQ[#]&),
-   orderfun_] :=
+TakeLargestElements[list_ ? (ListQ[#]&), n_ ? (Function[{x}, PositiveIntegerQ[
+  x], {}]), orderfun_] :=
   Module[{positionLargest},
     positionLargest = PositionLargest[list, n, orderfun];
     Extract[list, List /@ positionLargest]

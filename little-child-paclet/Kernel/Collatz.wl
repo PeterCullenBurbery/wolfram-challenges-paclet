@@ -14,8 +14,8 @@ Collatz::usage = "Collatz[n] gives the Collatz sequence starting with a given va
 
 SetAttributes[Collatz, Listable];
 
-Collatz[n_ ? (PositiveIntegerQ[#]&), maxits : _ ? (PositiveIntegerQ[#
-    ]&) | Infinity : 1000] :=
+Collatz[n_ ? (Function[{x}, PositiveIntegerQ[x], {}]), maxits : _ ? (
+    PositiveIntegerQ[#]&) | Infinity : 1000] :=
     NestWhileList[
         If[EvenQ[#],
             Quotient[#, 2]

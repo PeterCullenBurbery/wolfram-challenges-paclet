@@ -10,7 +10,7 @@ Begin["`Private`"];
 
 FlipPrimeQ // ClearAll
 
-FlipPrimeQ[n_ ? (PositiveIntegerQ[#]&)] :=
+FlipPrimeQ[n_ ? (Function[{x}, PositiveIntegerQ[x], {}])] :=
   ContainsNone[{4, 6, 7, 9}][IntegerDigits[n]] && PrimeQ[FromDigits[IntegerDigits[
     n] /. {2 -> 5, 5 -> 2}]]
 

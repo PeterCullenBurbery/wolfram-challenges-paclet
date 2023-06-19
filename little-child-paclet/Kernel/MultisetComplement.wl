@@ -22,7 +22,8 @@ expr :
   Catch[
     Module[{p},
       p = First[FirstPosition[Values /@ {a}, v_ /; !MatchQ[v, {___ ? 
-        (NonNegativeIntegerQ[#]&)}], {Null}, {1}, Heads -> False]];
+        (Function[{x}, NonNegativeIntegerQ[x], {}])}], {Null}, {1}, Heads -> 
+        False]];
       If[MatchQ[p, _ ? (IntegerQ[#]&)],
         Message[MultisetComplement::nocnt, p, HoldForm[expr]];
         Throw[HoldForm[expr]]
