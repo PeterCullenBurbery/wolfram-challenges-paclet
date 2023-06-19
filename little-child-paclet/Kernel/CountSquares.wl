@@ -9,7 +9,7 @@ Begin["`Private`"];
 (* Define your public and private symbols here. *)
 
 CountSquares // ClearAll
-
+CountSquares::usage="CountSquares[inputPoints] counts the number of squares that can be formed on a rectangular grid with integer points from a list of points inputPoints."
 CountSquares[inputPoints_ ? (ListQ[#]&)] :=
   Module[{count = 0, n = Length[inputPoints], pointA, pointB, pointC,
      pointD, sameDistancePoints},
