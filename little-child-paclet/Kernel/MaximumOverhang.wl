@@ -10,6 +10,8 @@ Begin["`Private`"];
 
 MaximumOverhang // ClearAll
 
+SetAttributes[MaximumOverhang, {Listable}]
+
 MaximumOverhang::usage = "MaximumOverhang[n] gives the maximum overhang of a stack of n blocks.";
 
 MaximumOverhang[n_ ? (Function[{x}, PositiveIntegerQ[x], {}])] :=
