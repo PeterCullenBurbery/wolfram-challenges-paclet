@@ -10,7 +10,7 @@ Begin["`Private`"];
 
 MaximumOverhang // ClearAll
 
-MaximumOverhang::usage = "MaximumOverhang[n] gives the maximum overhang of a stack of n blocks."
+MaximumOverhang::usage = "MaximumOverhang[n] gives the maximum overhang of a stack of n blocks.";
 
 MaximumOverhang[n_ ? (Function[{x}, PositiveIntegerQ[x], {}])] :=
     HarmonicNumber[n] / 2
